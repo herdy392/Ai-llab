@@ -76,11 +76,11 @@ in questa esecuzione: **4**.
 | GLiNER (zero-shot NER) | entity | gliner | 0.342 | 0.329 | 0.355 | 7 | estrazione entita' zero-shot (Arch. A/B), nessun training |
 
 
-![Confronto modelli — P/R/F1](benchmark_model_comparison.png)
+![Confronto modelli — P/R/F1](Results%20Data/06_benchmark_report/benchmark_model_comparison.png)
 
-![Tabella comparativa](benchmark_comparison_table.png)
+![Tabella comparativa](Results%20Data/06_benchmark_report/benchmark_comparison_table.png)
 
-![F1 per categoria di frase (per modello)](benchmark_tier_f1.png)
+![F1 per categoria di frase (per modello)](Results%20Data/06_benchmark_report/benchmark_tier_f1.png)
 
 
 ### F1 per livello di complessita' (Slide 5)
