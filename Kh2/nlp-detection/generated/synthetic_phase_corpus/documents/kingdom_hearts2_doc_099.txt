@@ -1,0 +1,10 @@
+Typically a fight takes place in a given worlds.
+In general a org13 member is a member of some organization.
+A summon is a kind of action.
+A heartless is a kind of enemy.
+In general a fight is won by some party.
+A non playable character is a kind of character.
+Each protagonist has the drive form a drive form.
+A keyblade has attack power value.
+Every consumable is also a items.
+Every party is also a entity.

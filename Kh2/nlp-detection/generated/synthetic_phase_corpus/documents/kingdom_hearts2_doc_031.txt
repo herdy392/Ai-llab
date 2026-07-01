@@ -1,0 +1,9 @@
+A secondary weapon is a kind of non consumable.
+In general a protagonist has in the inventory some items.
+Every munny is also a consumable.
+A entity has hit points value.
+A keyblade is a kind of non consumable.
+A entity is friends with a entity.
+Every gems is also a consumable.
+Each entity comes from a worlds.
+A organization is a kind of entity.

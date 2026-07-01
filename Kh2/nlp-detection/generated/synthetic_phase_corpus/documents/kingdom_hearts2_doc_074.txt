@@ -1,0 +1,10 @@
+Every combat action is also a action.
+A sword attack is a kind of combat action.
+Every gems is also a consumable.
+A character is a kind of entity.
+Every item use is also a action.
+A enemy is a kind of non playable character.
+A playable character is a kind of character.
+Every summon is also a action.
+Often a entity participates in another party.
+Every support is also a action.

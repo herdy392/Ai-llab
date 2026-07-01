@@ -1,0 +1,10 @@
+Each armored core stores a special flag as a literal value.
+Each major event can be led by a boss.
+Every place can host a major event.
+Each armored core stores its AC name as text.
+An entity participates in a major event.
+An entity is friendly towards another entity.
+Each character record links to the aliases they use.
+A major event takes place in a place.
+A character records whether it is the player buddy as a literal value.
+Each society stores its official name as text.

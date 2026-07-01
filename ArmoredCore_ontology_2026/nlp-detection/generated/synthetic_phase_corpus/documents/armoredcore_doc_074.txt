@@ -1,0 +1,11 @@
+The schema gives a character a rank.
+Society is modeled as a subclass of entity.
+Every society can employ characters.
+The schema marks a society Rubicon origin with a literal value.
+A society has a name stored as a literal value.
+An entity is hostile toward another entity.
+A character can be known by one or more aliases.
+The schema marks an armored core as special with a literal value.
+An entity participates in a major event.
+Each character stores a buddy flag as a literal value.
+The record notes when one character kills another.

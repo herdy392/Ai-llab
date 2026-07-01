@@ -1,0 +1,9 @@
+A character works for a society.
+The schema gives a character a rank.
+The schema records a major event chronological order as a literal value.
+The schema records a society name as a literal value.
+A rank is the rank of a character.
+A major event takes place in a place.
+Allies are entities friendly towards each other.
+Each character stores a buddy flag as a literal value.
+The schema records that a character pilots an armored core.

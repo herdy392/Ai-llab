@@ -1,0 +1,12 @@
+A magic attack is a kind of combat action.
+Every sword attack is also a combat action.
+A summon is a kind of action.
+Every keyblade is also a non consumable.
+A disney antagonist is a kind of enemy.
+Every character is also a entity.
+A item use is a kind of action.
+A entity participates in a party.
+A heartless is a kind of enemy.
+Every support is also a action.
+Every org13 member is also a nobody.
+A entity comes from a worlds.

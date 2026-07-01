@@ -1,0 +1,11 @@
+A heartless is a kind of enemy.
+Every protagonist is also a playable character.
+A gems is a kind of consumable.
+A disney antagonist is a kind of enemy.
+Every munny is also a consumable.
+Typically a fight is won by a given party.
+Every organization is also a entity.
+Typically a entity participates in a given party.
+Often a entity is friends with another entity.
+In general a fight takes place in some worlds.
+Every support is also a action.

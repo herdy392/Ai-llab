@@ -1,0 +1,27 @@
+{
+  "confusion_matrix": {
+    "tn": 949,
+    "fp": 243,
+    "fn": 0,
+    "tp": 519,
+    "total": 1711
+  },
+  "metrics": {
+    "accuracy": 0.8579777907656342,
+    "precision": 0.6811023622047244,
+    "recall_sensitivity": 1.0,
+    "specificity": 0.7961409395973155,
+    "f1_score": 0.8103044496487118,
+    "negative_predictive_value": 1.0,
+    "false_positive_rate": 0.20385906040268456,
+    "false_negative_rate": 0.0,
+    "balanced_accuracy": 0.8980704697986577,
+    "matthews_corrcoef": 0.7363786217752525
+  },
+  "task_type": "binary_classification",
+  "expected_layout": "[[TN, FP], [FN, TP]]",
+  "evaluated_on": "kh2_verifier_test.jsonl",
+  "classifier": "rule: domain/range (no GPU)",
+  "applicable_object_property_rows": 1711,
+  "skipped_rows_no_domain_range": 0
+}

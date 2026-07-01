@@ -1,0 +1,9 @@
+Each armored core stores its AC name as text.
+Each character can be assigned a rank.
+A society records whether it originates on Rubicon as a literal value.
+The schema records that an entity is friendly towards an entity.
+The schema records that a character works for a society.
+A character kills another character.
+A major event has a chronological order stored as a literal value.
+The schema records that a major event takes place in a place.
+Each character record links to the aliases they use.

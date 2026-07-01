@@ -1,0 +1,9 @@
+A fight takes place in a worlds.
+Every heartless is also a enemy.
+A keyblade is a kind of non consumable.
+A summon is a kind of action.
+A entity comes from a worlds.
+A magic attack is a kind of combat action.
+Often a protagonist has the drive form another drive form.
+A gems is a kind of consumable.
+A common nobody is a kind of nobody.

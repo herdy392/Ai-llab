@@ -1,0 +1,12 @@
+An armored core has a name stored as a literal value.
+Each society stores an origin-on-Rubicon flag as a literal value.
+A major event has a chronological order stored as a literal value.
+An entity is friendly towards another entity.
+A rank is the rank of a character.
+Each major event can be led by a boss.
+The schema records that a character works for a society.
+The schema marks an armored core as special with a literal value.
+The schema gives a character a rank.
+Every society can employ characters.
+The schema records a society name as a literal value.
+A character can be known by one or more aliases.

@@ -1,0 +1,72 @@
+@prefix ex: <http://www.semanticweb.org/andrea/ontologies/2026/4/Kingdom_hearts_2#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+ex:EntityShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Items ;
+            sh:message "drops must point to a Items" ;
+            sh:path ex:drops ],
+        [ sh:class ex:Worlds ;
+            sh:message "appearsIn must point to a Worlds" ;
+            sh:path ex:appearsIn ],
+        [ sh:class ex:Action ;
+            sh:message "hasAction must point to a Action" ;
+            sh:path ex:hasAction ],
+        [ sh:class ex:Entity ;
+            sh:message "defeats must point to a Entity" ;
+            sh:path ex:defeats ],
+        [ sh:class ex:Entity ;
+            sh:message "hasFriend must point to a Entity" ;
+            sh:path ex:hasFriend ],
+        [ sh:class ex:Keyblade ;
+            sh:message "ownsKeyblade must point to a Keyblade" ;
+            sh:path ex:ownsKeyblade ],
+        [ sh:class ex:Party ;
+            sh:message "participatesIn must point to a Party" ;
+            sh:path ex:participatesIn ],
+        [ sh:class ex:Worlds ;
+            sh:message "comesFrom must point to a Worlds" ;
+            sh:path ex:comesFrom ] ;
+    sh:targetClass ex:Entity .
+
+ex:FightShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Party ;
+            sh:message "winner must point to a Party" ;
+            sh:path ex:winner ],
+        [ sh:class ex:Worlds ;
+            sh:message "takesPlaceIn must point to a Worlds" ;
+            sh:path ex:takesPlaceIn ] ;
+    sh:targetClass ex:Fight .
+
+ex:Org13MemberShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Organization ;
+            sh:message "isMemberOf must point to a Organization" ;
+            sh:path ex:isMemberOf ] ;
+    sh:targetClass ex:Org13Member .
+
+ex:PartyShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Fight ;
+            sh:message "engagesInFight must point to a Fight" ;
+            sh:path ex:engagesInFight ],
+        [ sh:class ex:Entity ;
+            sh:message "hasPartyMember must point to a Entity" ;
+            sh:path ex:hasPartyMember ] ;
+    sh:targetClass ex:Party .
+
+ex:ProtagonistShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Items ;
+            sh:message "hasInInventory must point to a Items" ;
+            sh:path ex:hasInInventory ],
+        [ sh:class ex:DriveForm ;
+            sh:message "hasDriveForm must point to a DriveForm" ;
+            sh:path ex:hasDriveForm ],
+        [ sh:class ex:Summon ;
+            sh:message "canSummon must point to a Summon" ;
+            sh:path ex:canSummon ] ;
+    sh:targetClass ex:Protagonist .
+
+ex:RecruitableAllyShape a sh:NodeShape ;
+    sh:property [ sh:class ex:SecondaryWeapon ;
+            sh:message "hasSecondaryWeapon must point to a SecondaryWeapon" ;
+            sh:path ex:hasSecondaryWeapon ] ;
+    sh:targetClass ex:RecruitableAlly .
+

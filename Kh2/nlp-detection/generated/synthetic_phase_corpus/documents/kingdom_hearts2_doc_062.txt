@@ -1,0 +1,11 @@
+A protagonist has the drive form a drive form.
+A consumable is a kind of items.
+Each entity can perform a action.
+A fight takes place in a worlds.
+A potion is a kind of consumable.
+In general a party has as party member some entity.
+Every heartless is also a enemy.
+Every character is also a entity.
+Each keyblade records its attack power.
+Every disney antagonist is also a enemy.
+A protagonist is a kind of playable character.

@@ -1,0 +1,12 @@
+An armored core has a name stored as a literal value.
+A character can be known by one or more aliases.
+The schema records that a major event takes place in a place.
+Each character stores a buddy flag as a literal value.
+Each armored core stores a special flag as a literal value.
+Each character can be affiliated with a society.
+The model records that an alias belongs to a character.
+An entity participates in a major event.
+In the schema, every boss is a character.
+A character is a kind of entity.
+The model states that a place hosts a major event.
+Allies are entities friendly towards each other.

@@ -1,0 +1,11 @@
+Every heartless is also a enemy.
+A non consumable is a kind of items.
+Every organization is also a entity.
+A secondary weapon is a kind of non consumable.
+Every sword attack is also a combat action.
+Every item use is also a action.
+Each entity is friends with a entity.
+A party is a kind of entity.
+A boss is a kind of enemy.
+Often a entity defeats another entity.
+Every keyblade is also a non consumable.

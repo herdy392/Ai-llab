@@ -1,0 +1,12 @@
+A party is a kind of entity.
+Each entity records its hit points.
+A fight is won by a party.
+A enemy is a kind of non playable character.
+Every combat action is also a action.
+Each keyblade records its attack power.
+Often a party has as party member another entity.
+A item use is a kind of action.
+Every sword attack is also a combat action.
+A recruitable ally has the secondary weapon a secondary weapon.
+Every magic attack is also a combat action.
+Often a entity drops another items.

@@ -1,0 +1,12 @@
+Each character record links to the aliases they use.
+A major event has a boss.
+A society has a name stored as a literal value.
+A human is a kind of character.
+An entity is hostile toward another entity.
+The schema marks an armored core as special with a literal value.
+The schema records that an entity participates in a major event.
+A character kills another character.
+A major event has a chronological order stored as a literal value.
+The schema records an armored core name as a literal value.
+Every place can host a major event.
+A character works for a society.

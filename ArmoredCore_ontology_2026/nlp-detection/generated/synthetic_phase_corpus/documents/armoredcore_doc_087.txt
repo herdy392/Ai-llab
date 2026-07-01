@@ -1,0 +1,10 @@
+Every rank grade is held by a character.
+An armored core has a name stored as a literal value.
+A character pilots an armored core.
+A character holds a rank in the Arena ranking.
+Each society stores its official name as text.
+An entity is hostile toward another entity.
+Each character can be affiliated with a society.
+The schema records a major event chronological order as a literal value.
+The schema records that an entity participates in a major event.
+Each character stores a buddy flag as a literal value.

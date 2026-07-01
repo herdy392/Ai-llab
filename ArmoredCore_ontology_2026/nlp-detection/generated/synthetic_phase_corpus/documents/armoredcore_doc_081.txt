@@ -1,0 +1,10 @@
+AI is modeled as a subclass of character.
+Each armored core is operated by a character.
+The schema records a society name as a literal value.
+Each character stores a buddy flag as a literal value.
+The schema records that a boss is boss of a major event.
+Each character can be affiliated with a society.
+The schema records that an entity is hostile toward an entity.
+A character kills another character.
+Each major event stores its timeline position as a literal value.
+A society records whether it originates on Rubicon as a literal value.

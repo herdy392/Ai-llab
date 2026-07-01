@@ -1,0 +1,9 @@
+An armored core has a name stored as a literal value.
+Rubiconian is modeled as a subclass of character.
+Each major event lists the entities that take part in it.
+Each character record links to the aliases they use.
+A character holds a rank in the Arena ranking.
+The schema records that a major event takes place in a place.
+A character records whether it is the player buddy as a literal value.
+An entity is friendly towards another entity.
+The schema records that a character works for a society.

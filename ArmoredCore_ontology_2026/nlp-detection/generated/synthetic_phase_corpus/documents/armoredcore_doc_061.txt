@@ -1,0 +1,10 @@
+An entity participates in a major event.
+The model links a rank back to its character.
+Each armored core stores a special flag as a literal value.
+Each society stores its official name as text.
+In the schema, a character has an alias.
+The schema records that a major event takes place in a place.
+The schema records that a character works for a society.
+An entity is friendly towards another entity.
+A character records whether it is the player buddy as a literal value.
+Each society stores an origin-on-Rubicon flag as a literal value.

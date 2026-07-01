@@ -1,0 +1,11 @@
+Each major event stores its timeline position as a literal value.
+The schema records that a character pilots an armored core.
+An armored core has a name stored as a literal value.
+The model links an armored core to its pilot character.
+A character records whether it is the player buddy as a literal value.
+A society records whether it originates on Rubicon as a literal value.
+Every place can host a major event.
+The schema records that an entity is friendly towards an entity.
+Each major event is located in a place on Rubicon 3.
+In the schema, every AI is a character.
+Each society stores its official name as text.

@@ -1,0 +1,10 @@
+Each character record links to the aliases they use.
+Each armored core is operated by a character.
+Each character stores a buddy flag as a literal value.
+A major event takes place in a place.
+Every major event involves one or more entities.
+A society records whether it originates on Rubicon as a literal value.
+Enemies are entities hostile toward each other.
+Each character can be affiliated with a society.
+A society has a name stored as a literal value.
+The record notes when one character kills another.

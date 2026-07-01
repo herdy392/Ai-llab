@@ -1,0 +1,10 @@
+Each character can be affiliated with a society.
+An entity participates in a major event.
+Each major event can be led by a boss.
+Each society stores its official name as text.
+Rubiconian is modeled as a subclass of character.
+Each armored core stores its AC name as text.
+An armored core records whether it is special as a literal value.
+Each character can be assigned a rank.
+The schema records that an entity is hostile toward an entity.
+A character can be known by one or more aliases.

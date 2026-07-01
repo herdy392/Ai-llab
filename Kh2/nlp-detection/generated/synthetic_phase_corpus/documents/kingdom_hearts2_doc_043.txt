@@ -1,0 +1,11 @@
+A org13 member is a kind of nobody.
+A entity owns the keyblade a keyblade.
+A entity comes from a worlds.
+Often a fight takes place in another worlds.
+Every sword attack is also a combat action.
+A combat action is a kind of action.
+A keyblade is a kind of non consumable.
+In general a fight is won by some party.
+Every magic attack is also a combat action.
+A entity appears in a worlds.
+A playable character is a kind of character.

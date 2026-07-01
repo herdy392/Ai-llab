@@ -1,0 +1,12 @@
+A place hosts a major event.
+An entity is friendly towards another entity.
+In the schema, every boss is a character.
+The schema records that a character works for a society.
+A character records whether it is the player buddy as a literal value.
+The schema records that a character pilots an armored core.
+Each armored core stores a special flag as a literal value.
+An entity participates in a major event.
+Society is modeled as a subclass of entity.
+Each major event stores its timeline position as a literal value.
+Every alias points back to the character it identifies.
+A character can be known by one or more aliases.

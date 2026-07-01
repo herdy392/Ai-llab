@@ -1,0 +1,11 @@
+The schema records that an entity is hostile toward an entity.
+A character records whether it is the player buddy as a literal value.
+The schema records that a character kills a character.
+An armored core has a name stored as a literal value.
+In the schema, every Rubiconian is a character.
+Each armored core stores a special flag as a literal value.
+A society has a name stored as a literal value.
+The schema records a major event chronological order as a literal value.
+A character is a kind of entity.
+A character holds a rank in the Arena ranking.
+The schema records that a character works for a society.

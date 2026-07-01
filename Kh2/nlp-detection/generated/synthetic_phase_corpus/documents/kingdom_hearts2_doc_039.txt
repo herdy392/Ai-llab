@@ -1,0 +1,10 @@
+A movement action is a kind of action.
+Typically a org13 member is a member of a given organization.
+Each protagonist has in the inventory a items.
+A non consumable is a kind of items.
+Every support is also a action.
+A potion is a kind of consumable.
+In general a entity drops some items.
+Every keyblade is also a non consumable.
+A nobody is a kind of enemy.
+A disney antagonist is a kind of enemy.

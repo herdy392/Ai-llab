@@ -1,0 +1,9 @@
+Every magic attack is also a combat action.
+Every potion is also a consumable.
+In general a entity owns the keyblade some keyblade.
+A combat action is a kind of action.
+A entity comes from a worlds.
+In general a party has as party member some entity.
+Often a party engages in the fight another fight.
+Every disney antagonist is also a enemy.
+Each protagonist has the drive form a drive form.

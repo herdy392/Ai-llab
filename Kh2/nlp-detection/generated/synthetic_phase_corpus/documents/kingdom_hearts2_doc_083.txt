@@ -1,0 +1,12 @@
+A support is a kind of action.
+Every gems is also a consumable.
+Often a entity is friends with another entity.
+A entity drops a items.
+Every consumable is also a items.
+A organization is a kind of entity.
+Every org13 member is also a nobody.
+Every potion is also a consumable.
+Each entity can perform a action.
+In general a party has as party member some entity.
+Every boss is also a enemy.
+A secondary weapon is a kind of non consumable.

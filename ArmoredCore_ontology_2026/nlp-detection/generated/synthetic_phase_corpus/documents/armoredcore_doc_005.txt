@@ -1,0 +1,12 @@
+An armored core is piloted by a character.
+A character records whether it is the player buddy as a literal value.
+A character pilots an armored core.
+The schema records that a character works for a society.
+A society has a name stored as a literal value.
+A character kills another character.
+In the schema, every character is an entity.
+An entity is hostile toward another entity.
+In the schema, every society is an entity.
+Each major event lists the entities that take part in it.
+Each character record links to the aliases they use.
+The schema records that a boss is boss of a major event.

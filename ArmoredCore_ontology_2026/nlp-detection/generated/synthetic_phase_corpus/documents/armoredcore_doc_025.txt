@@ -1,0 +1,10 @@
+Each society stores an origin-on-Rubicon flag as a literal value.
+The schema records a society name as a literal value.
+A character records whether it is the player buddy as a literal value.
+An entity participates in a major event.
+An armored core has a name stored as a literal value.
+A character works for a society.
+Allies are entities friendly towards each other.
+The schema records that a boss is boss of a major event.
+A character kills another character.
+A character can be known by one or more aliases.

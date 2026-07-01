@@ -1,0 +1,12 @@
+A org13 member is a kind of nobody.
+Each protagonist can summon a summon.
+Every npc is also a non playable character.
+Every summon is also a action.
+Every item use is also a action.
+Typically a entity appears in a given worlds.
+Every non consumable is also a items.
+A gems is a kind of consumable.
+A drive form is a kind of action.
+Each entity comes from a worlds.
+Typically a entity participates in a given party.
+Often a recruitable ally has the secondary weapon another secondary weapon.

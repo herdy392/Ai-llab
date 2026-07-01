@@ -1,0 +1,9 @@
+An entity is friendly towards another entity.
+The schema records a society name as a literal value.
+Each character can be assigned a rank.
+An armored core records whether it is special as a literal value.
+The schema records that a character pilots an armored core.
+Each major event stores its timeline position as a literal value.
+Each character can be affiliated with a society.
+In the schema, a character has an alias.
+An entity participates in a major event.

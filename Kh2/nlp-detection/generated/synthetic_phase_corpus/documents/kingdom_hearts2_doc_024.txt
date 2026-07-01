@@ -1,0 +1,10 @@
+Often a party has as party member another entity.
+A protagonist is a kind of playable character.
+A disney antagonist is a kind of enemy.
+A munny is a kind of consumable.
+Often a entity drops another items.
+Each fight takes place in a worlds.
+A nobody is a kind of enemy.
+Every heartless is also a enemy.
+A combat action is a kind of action.
+A consumable is a kind of items.

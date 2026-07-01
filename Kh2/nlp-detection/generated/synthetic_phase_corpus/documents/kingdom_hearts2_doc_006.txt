@@ -1,0 +1,9 @@
+Typically a entity can perform a given action.
+Every protagonist is also a playable character.
+A potion is a kind of consumable.
+A fight takes place in a worlds.
+A item use is a kind of action.
+Every org13 member is also a nobody.
+Every movement action is also a action.
+Typically a recruitable ally has the secondary weapon a given secondary weapon.
+In general a protagonist has the drive form some drive form.

@@ -1,0 +1,9 @@
+Often a org13 member is a member of another organization.
+A combat action is a kind of action.
+Each entity records its hit points.
+Every movement action is also a action.
+A recruitable ally is a kind of playable character.
+Every munny is also a consumable.
+A org13 member is a kind of nobody.
+A common nobody is a kind of nobody.
+Each protagonist has the drive form a drive form.

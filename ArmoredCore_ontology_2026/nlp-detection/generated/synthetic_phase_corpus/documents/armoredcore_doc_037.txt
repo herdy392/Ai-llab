@@ -1,0 +1,12 @@
+In the schema, a character has an alias.
+A major event has a boss.
+A major event involves an entity.
+The schema records that a character works for a society.
+Character is modeled as a subclass of entity.
+The schema records an armored core name as a literal value.
+Each major event is located in a place on Rubicon 3.
+A society records whether it originates on Rubicon as a literal value.
+A character kills another character.
+Each character stores a buddy flag as a literal value.
+The schema records a society name as a literal value.
+An entity is hostile toward another entity.

@@ -1,0 +1,19 @@
+{
+  "ontology_file": "nlp-detection/ontology/armoredcore.owx",
+  "counts": {
+    "classes": 12,
+    "object_properties": 18,
+    "data_properties": 6,
+    "individuals": 98
+  },
+  "object_properties_with_domain_and_range": "18/18",
+  "inverse_pairs_consistent": "8/8",
+  "abox_object_assertions_checked": 180,
+  "abox_violations": 0,
+  "descriptions_rdfs_comment": {
+    "classes": "12/12",
+    "object_properties": "18/18",
+    "data_properties": "6/6"
+  },
+  "hard_inconsistencies": 0
+}

@@ -1,0 +1,11 @@
+A secondary weapon is a kind of non consumable.
+Each protagonist has the drive form a drive form.
+Each entity records its hit points.
+A nobody is a kind of enemy.
+Every recruitable ally is also a playable character.
+Typically a recruitable ally has the secondary weapon a given secondary weapon.
+Each keyblade records its attack power.
+A entity drops a items.
+Each fight takes place in a worlds.
+Every org13 member is also a nobody.
+In general a entity owns the keyblade some keyblade.

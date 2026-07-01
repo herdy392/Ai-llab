@@ -1,0 +1,154 @@
+===== query1 =====
+(24 rows)
+a=Donald | b=Goofy
+a=Donald | b=KingMickey
+a=Donald | b=Sora
+a=Goofy | b=KingMickey
+a=Goofy | b=Sora
+a=Hayner | b=Olette
+a=Hayner | b=Pence
+a=Hayner | b=Roxas
+a=Kairi | b=Riku
+a=Kairi | b=Sora
+a=KingMickey | b=Kairi
+a=KingMickey | b=Riku
+a=KingMickey | b=Sora
+a=KingMickey | b=YenSid
+a=Leon | b=Merlin
+a=Leon | b=Sora
+a=Merlin | b=Cloud
+a=Merlin | b=Sora
+a=Naminé | b=Roxas
+a=Olette | b=Roxas
+a=Pence | b=Olette
+a=Pence | b=Roxas
+a=Riku | b=Sora
+a=Roxas | b=Axel
+
+===== query2 =====
+(109 rows)
+char=ArmoredKnight | keyblade=None | driveform=None | world=None
+char=Assassin | keyblade=None | driveform=None | world=None
+char=Axel | keyblade=None | driveform=None | world=None
+char=Basic | keyblade=None | driveform=None | world=None
+char=Cloud | keyblade=None | driveform=None | world=None
+char=Dancer | keyblade=None | driveform=None | world=None
+char=Demyx | keyblade=None | driveform=None | world=None
+char=Donald | keyblade=None | driveform=None | world=DisneyCastle
+char=Gambler | keyblade=None | driveform=None | world=None
+char=GhostPirate | keyblade=None | driveform=None | world=None
+char=Goofy | keyblade=None | driveform=None | world=DisneyCastle
+char=Groundshaker | keyblade=None | driveform=None | world=None
+char=Hayner | keyblade=None | driveform=None | world=TwilightTown
+char=Kairi | keyblade=KingdomChain | driveform=None | world=DestinyIslands
+char=KingMickey | keyblade=StarSeeker | driveform=None | world=DisneyCastle
+char=Larxene | keyblade=None | driveform=None | world=None
+char=Leon | keyblade=None | driveform=None | world=None
+char=Lexaeus | keyblade=None | driveform=None | world=None
+char=Luxord | keyblade=None | driveform=None | world=None
+char=Marluxia | keyblade=None | driveform=None | world=None
+char=Merlin | keyblade=None | driveform=None | world=DisneyCastle
+char=MulanDragon | keyblade=None | driveform=None | world=None
+char=Naminé | keyblade=None | driveform=None | world=CastleOblivion
+char=Neoshadow | keyblade=None | driveform=None | world=None
+char=Olette | keyblade=None | driveform=None | world=TwilightTown
+char=OutlawMoon | keyblade=None | driveform=None | world=None
+char=Pence | keyblade=None | driveform=None | world=TwilightTown
+char=Riku | keyblade=WayToDawn | driveform=None | world=DestinyIslands
+char=Roxas | keyblade=KingdomChain | driveform=None | world=TwilightTown
+char=Roxas | keyblade=LuckyCharm | driveform=None | world=TwilightTown
+char=Roxas | keyblade=MemorySkyscraper | driveform=None | world=TwilightTown
+char=Saïx | keyblade=None | driveform=None | world=None
+char=Sephiroth | keyblade=None | driveform=None | world=RadiantGarden
+char=Shadow | keyblade=None | driveform=None | world=None
+char=Sniper | keyblade=None | driveform=None | world=None
+char=Sora | keyblade=2BecomeOne | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=2BecomeOne | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=2BecomeOne | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=2BecomeOne | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=2BecomeOne | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=2BecomeOne | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=CircleOfLife | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=CircleOfLife | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=CircleOfLife | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=CircleOfLife | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=CircleOfLife | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=CircleOfLife | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=Fenrir | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=Fenrir | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=Fenrir | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=Fenrir | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=Fenrir | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=Fenrir | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=FollowTheWind | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=FollowTheWind | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=FollowTheWind | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=FollowTheWind | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=FollowTheWind | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=FollowTheWind | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=KingdomChain | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=KingdomChain | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=KingdomChain | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=KingdomChain | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=KingdomChain | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=KingdomChain | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=LuckyCharm | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=LuckyCharm | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=LuckyCharm | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=LuckyCharm | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=LuckyCharm | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=LuckyCharm | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=PhotonicDebugger | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=PhotonicDebugger | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=PhotonicDebugger | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=PhotonicDebugger | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=PhotonicDebugger | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=PhotonicDebugger | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=SeagullWing | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=SeagullWing | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=SeagullWing | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=SeagullWing | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=SeagullWing | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=SeagullWing | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=StarSeeker | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=StarSeeker | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=StarSeeker | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=StarSeeker | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=StarSeeker | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=StarSeeker | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=SweetMemories | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=SweetMemories | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=SweetMemories | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=SweetMemories | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=SweetMemories | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=SweetMemories | driveform=WisdomForm | world=DestinyIslands
+char=Sora | keyblade=UltimaWeapon | driveform=AntiFusion | world=DestinyIslands
+char=Sora | keyblade=UltimaWeapon | driveform=FinalForm | world=DestinyIslands
+char=Sora | keyblade=UltimaWeapon | driveform=LimitForm | world=DestinyIslands
+char=Sora | keyblade=UltimaWeapon | driveform=MasterForm | world=DestinyIslands
+char=Sora | keyblade=UltimaWeapon | driveform=ValorForm | world=DestinyIslands
+char=Sora | keyblade=UltimaWeapon | driveform=WisdomForm | world=DestinyIslands
+char=TwilightThorn | keyblade=None | driveform=None | world=None
+char=Vexen | keyblade=None | driveform=None | world=None
+char=Xaldin | keyblade=None | driveform=None | world=None
+char=Xemnas | keyblade=None | driveform=None | world=None
+char=XemnasFinalForm | keyblade=None | driveform=None | world=None
+char=Xigbar | keyblade=None | driveform=None | world=None
+char=YenSid | keyblade=None | driveform=None | world=None
+char=Zexion | keyblade=None | driveform=None | world=None
+
+===== query3 =====
+(13 rows)
+fight=FightRoxasVsAxel | world=TwilightTown | winner=PartyRoxas
+fight=FightRoxasVsTwilightThorn | world=TwilightTown | winner=PartyRoxas
+fight=FightSoraVsAxel | world=RadiantGarden | winner=PartySora
+fight=FightSoraVsDemyx | world=RadiantGarden | winner=PartySora
+fight=FightSoraVsGhostPirate | world=PortRoyal | winner=PartySora
+fight=FightSoraVsGroundshaker | world=PrideLands | winner=PartySora
+fight=FightSoraVsLuxord | world=CastleOblivion | winner=PartySora
+fight=FightSoraVsMulanDragon | world=LandOfDragons | winner=PartySora
+fight=FightSoraVsSaix | world=CastleOblivion | winner=PartySora
+fight=FightSoraVsSephiroth | world=RadiantGarden | winner=PartySora
+fight=FightSoraVsXaldin | world=BeastCastle | winner=PartySora
+fight=FightSoraVsXemnas | world=CastleOblivion | winner=PartySora
+fight=FightSoraVsXigbar | world=CastleOblivion | winner=PartySora

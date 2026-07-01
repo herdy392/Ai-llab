@@ -1,0 +1,16 @@
+ONTOLOGY COHERENCE REPORT - armoredcore.owx
+========================================================
+classes ............ 12
+object properties .. 18
+data properties .... 6
+individuals ........ 98
+
+object props with domain+range ... 18/18
+inverse pairs consistent ......... 8/8
+ABox assertions checked .......... 180
+ABox violations .................. 0
+descriptions (classes) ........... 12/12
+descriptions (object props) ...... 18/18
+descriptions (data props) ........ 6/6
+
+HARD INCONSISTENCIES: none - coherent.

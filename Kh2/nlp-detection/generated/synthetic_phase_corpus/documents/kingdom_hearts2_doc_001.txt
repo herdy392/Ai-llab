@@ -1,0 +1,11 @@
+Every potion is also a consumable.
+In general a protagonist can summon some summon.
+Every drive form is also a action.
+In general a entity appears in some worlds.
+A disney antagonist is a kind of enemy.
+In general a entity defeats some entity.
+Every magic attack is also a combat action.
+In general a entity is friends with some entity.
+Every munny is also a consumable.
+A entity has hit points value.
+A fight takes place in a worlds.

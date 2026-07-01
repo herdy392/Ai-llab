@@ -1,0 +1,9 @@
+Each armored core is operated by a character.
+Enemies are entities hostile toward each other.
+Each character can be assigned a rank.
+Each major event is located in a place on Rubicon 3.
+The schema records that an entity participates in a major event.
+A character records whether it is the player buddy as a literal value.
+A society has a name stored as a literal value.
+Each character record links to the aliases they use.
+The model links a rank back to its character.

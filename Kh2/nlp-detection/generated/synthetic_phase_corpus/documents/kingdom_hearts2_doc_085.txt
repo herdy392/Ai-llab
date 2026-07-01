@@ -1,0 +1,11 @@
+A sword attack is a kind of combat action.
+Every playable character is also a character.
+Typically a recruitable ally has the secondary weapon a given secondary weapon.
+A party is a kind of entity.
+A nobody is a kind of enemy.
+A keyblade has attack power value.
+A enemy is a kind of non playable character.
+Each entity participates in a party.
+Every munny is also a consumable.
+Each party engages in the fight a fight.
+A common nobody is a kind of nobody.

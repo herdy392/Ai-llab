@@ -1,0 +1,9 @@
+Every non consumable is also a items.
+A party has as party member a entity.
+Typically a entity is friends with a given entity.
+Every item use is also a action.
+Every nobody is also a enemy.
+Every keyblade is also a non consumable.
+In general a entity owns the keyblade some keyblade.
+Each fight takes place in a worlds.
+A disney antagonist is a kind of enemy.

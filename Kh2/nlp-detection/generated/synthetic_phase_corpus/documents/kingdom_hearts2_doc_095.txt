@@ -1,0 +1,12 @@
+A common nobody is a kind of nobody.
+Each entity is friends with a entity.
+Every recruitable ally is also a playable character.
+A potion is a kind of consumable.
+A party is a kind of entity.
+Every gems is also a consumable.
+A protagonist is a kind of playable character.
+Typically a recruitable ally has the secondary weapon a given secondary weapon.
+In general a fight is won by some party.
+In general a entity comes from some worlds.
+Each protagonist has the drive form a drive form.
+Every item use is also a action.

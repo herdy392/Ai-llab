@@ -1,0 +1,9 @@
+Each character stores a buddy flag as a literal value.
+In the schema, a character has an alias.
+The schema records a major event chronological order as a literal value.
+Every alias points back to the character it identifies.
+The schema marks an armored core as special with a literal value.
+Each armored core is operated by a character.
+The schema records that a character kills a character.
+The schema records that an entity is hostile toward an entity.
+A character holds a rank in the Arena ranking.

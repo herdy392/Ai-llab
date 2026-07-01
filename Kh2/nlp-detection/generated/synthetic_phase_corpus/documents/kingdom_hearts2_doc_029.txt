@@ -1,0 +1,12 @@
+Typically a entity owns the keyblade a given keyblade.
+Every sword attack is also a combat action.
+A non playable character is a kind of character.
+Every nobody is also a enemy.
+In general a protagonist has the drive form some drive form.
+Every summon is also a action.
+A character is a kind of entity.
+Each entity is friends with a entity.
+A munny is a kind of consumable.
+Every gems is also a consumable.
+Every potion is also a consumable.
+A drive form is a kind of action.

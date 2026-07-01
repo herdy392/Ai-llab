@@ -1,0 +1,10 @@
+The schema records that a character pilots an armored core.
+Each character record links to the aliases they use.
+An armored core has a name stored as a literal value.
+A character kills another character.
+An entity is friendly towards another entity.
+Each society stores an origin-on-Rubicon flag as a literal value.
+Every armored core is piloted by a character.
+In the schema, every character is an entity.
+A character works for a society.
+The schema records that a boss is boss of a major event.

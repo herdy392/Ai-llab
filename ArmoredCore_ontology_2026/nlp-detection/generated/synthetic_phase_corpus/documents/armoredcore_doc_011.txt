@@ -1,0 +1,9 @@
+An entity is friendly towards another entity.
+The schema records that a major event takes place in a place.
+The schema marks a society Rubicon origin with a literal value.
+The schema gives a character a rank.
+The schema records that a character works for a society.
+Rubiconian is modeled as a subclass of character.
+A character records whether it is the player buddy as a literal value.
+An armored core has a name stored as a literal value.
+The schema records that an entity participates in a major event.

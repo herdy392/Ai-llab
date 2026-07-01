@@ -1,0 +1,832 @@
+{
+  "query1": {
+    "rows": 24,
+    "data": [
+      {
+        "a": "Donald",
+        "b": "Goofy"
+      },
+      {
+        "a": "Donald",
+        "b": "KingMickey"
+      },
+      {
+        "a": "Donald",
+        "b": "Sora"
+      },
+      {
+        "a": "Goofy",
+        "b": "KingMickey"
+      },
+      {
+        "a": "Goofy",
+        "b": "Sora"
+      },
+      {
+        "a": "Hayner",
+        "b": "Olette"
+      },
+      {
+        "a": "Hayner",
+        "b": "Pence"
+      },
+      {
+        "a": "Hayner",
+        "b": "Roxas"
+      },
+      {
+        "a": "Kairi",
+        "b": "Riku"
+      },
+      {
+        "a": "Kairi",
+        "b": "Sora"
+      },
+      {
+        "a": "KingMickey",
+        "b": "Kairi"
+      },
+      {
+        "a": "KingMickey",
+        "b": "Riku"
+      },
+      {
+        "a": "KingMickey",
+        "b": "Sora"
+      },
+      {
+        "a": "KingMickey",
+        "b": "YenSid"
+      },
+      {
+        "a": "Leon",
+        "b": "Merlin"
+      },
+      {
+        "a": "Leon",
+        "b": "Sora"
+      },
+      {
+        "a": "Merlin",
+        "b": "Cloud"
+      },
+      {
+        "a": "Merlin",
+        "b": "Sora"
+      },
+      {
+        "a": "Naminé",
+        "b": "Roxas"
+      },
+      {
+        "a": "Olette",
+        "b": "Roxas"
+      },
+      {
+        "a": "Pence",
+        "b": "Olette"
+      },
+      {
+        "a": "Pence",
+        "b": "Roxas"
+      },
+      {
+        "a": "Riku",
+        "b": "Sora"
+      },
+      {
+        "a": "Roxas",
+        "b": "Axel"
+      }
+    ]
+  },
+  "query2": {
+    "rows": 109,
+    "data": [
+      {
+        "char": "ArmoredKnight",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Assassin",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Axel",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Basic",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Cloud",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Dancer",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Demyx",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Donald",
+        "keyblade": null,
+        "driveform": null,
+        "world": "DisneyCastle"
+      },
+      {
+        "char": "Gambler",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "GhostPirate",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Goofy",
+        "keyblade": null,
+        "driveform": null,
+        "world": "DisneyCastle"
+      },
+      {
+        "char": "Groundshaker",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Hayner",
+        "keyblade": null,
+        "driveform": null,
+        "world": "TwilightTown"
+      },
+      {
+        "char": "Kairi",
+        "keyblade": "KingdomChain",
+        "driveform": null,
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "KingMickey",
+        "keyblade": "StarSeeker",
+        "driveform": null,
+        "world": "DisneyCastle"
+      },
+      {
+        "char": "Larxene",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Leon",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Lexaeus",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Luxord",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Marluxia",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Merlin",
+        "keyblade": null,
+        "driveform": null,
+        "world": "DisneyCastle"
+      },
+      {
+        "char": "MulanDragon",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Naminé",
+        "keyblade": null,
+        "driveform": null,
+        "world": "CastleOblivion"
+      },
+      {
+        "char": "Neoshadow",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Olette",
+        "keyblade": null,
+        "driveform": null,
+        "world": "TwilightTown"
+      },
+      {
+        "char": "OutlawMoon",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Pence",
+        "keyblade": null,
+        "driveform": null,
+        "world": "TwilightTown"
+      },
+      {
+        "char": "Riku",
+        "keyblade": "WayToDawn",
+        "driveform": null,
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Roxas",
+        "keyblade": "KingdomChain",
+        "driveform": null,
+        "world": "TwilightTown"
+      },
+      {
+        "char": "Roxas",
+        "keyblade": "LuckyCharm",
+        "driveform": null,
+        "world": "TwilightTown"
+      },
+      {
+        "char": "Roxas",
+        "keyblade": "MemorySkyscraper",
+        "driveform": null,
+        "world": "TwilightTown"
+      },
+      {
+        "char": "Saïx",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Sephiroth",
+        "keyblade": null,
+        "driveform": null,
+        "world": "RadiantGarden"
+      },
+      {
+        "char": "Shadow",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Sniper",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Sora",
+        "keyblade": "2BecomeOne",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "2BecomeOne",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "2BecomeOne",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "2BecomeOne",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "2BecomeOne",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "2BecomeOne",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "CircleOfLife",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "CircleOfLife",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "CircleOfLife",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "CircleOfLife",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "CircleOfLife",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "CircleOfLife",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "Fenrir",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "Fenrir",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "Fenrir",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "Fenrir",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "Fenrir",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "Fenrir",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "FollowTheWind",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "FollowTheWind",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "FollowTheWind",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "FollowTheWind",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "FollowTheWind",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "FollowTheWind",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "KingdomChain",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "KingdomChain",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "KingdomChain",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "KingdomChain",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "KingdomChain",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "KingdomChain",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "LuckyCharm",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "LuckyCharm",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "LuckyCharm",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "LuckyCharm",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "LuckyCharm",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "LuckyCharm",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "PhotonicDebugger",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "PhotonicDebugger",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "PhotonicDebugger",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "PhotonicDebugger",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "PhotonicDebugger",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "PhotonicDebugger",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SeagullWing",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SeagullWing",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SeagullWing",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SeagullWing",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SeagullWing",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SeagullWing",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "StarSeeker",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "StarSeeker",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "StarSeeker",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "StarSeeker",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "StarSeeker",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "StarSeeker",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SweetMemories",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SweetMemories",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SweetMemories",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SweetMemories",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SweetMemories",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "SweetMemories",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "UltimaWeapon",
+        "driveform": "AntiFusion",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "UltimaWeapon",
+        "driveform": "FinalForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "UltimaWeapon",
+        "driveform": "LimitForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "UltimaWeapon",
+        "driveform": "MasterForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "UltimaWeapon",
+        "driveform": "ValorForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "Sora",
+        "keyblade": "UltimaWeapon",
+        "driveform": "WisdomForm",
+        "world": "DestinyIslands"
+      },
+      {
+        "char": "TwilightThorn",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Vexen",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Xaldin",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Xemnas",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "XemnasFinalForm",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Xigbar",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "YenSid",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      },
+      {
+        "char": "Zexion",
+        "keyblade": null,
+        "driveform": null,
+        "world": null
+      }
+    ]
+  },
+  "query3": {
+    "rows": 13,
+    "data": [
+      {
+        "fight": "FightRoxasVsAxel",
+        "world": "TwilightTown",
+        "winner": "PartyRoxas"
+      },
+      {
+        "fight": "FightRoxasVsTwilightThorn",
+        "world": "TwilightTown",
+        "winner": "PartyRoxas"
+      },
+      {
+        "fight": "FightSoraVsAxel",
+        "world": "RadiantGarden",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsDemyx",
+        "world": "RadiantGarden",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsGhostPirate",
+        "world": "PortRoyal",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsGroundshaker",
+        "world": "PrideLands",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsLuxord",
+        "world": "CastleOblivion",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsMulanDragon",
+        "world": "LandOfDragons",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsSaix",
+        "world": "CastleOblivion",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsSephiroth",
+        "world": "RadiantGarden",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsXaldin",
+        "world": "BeastCastle",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsXemnas",
+        "world": "CastleOblivion",
+        "winner": "PartySora"
+      },
+      {
+        "fight": "FightSoraVsXigbar",
+        "world": "CastleOblivion",
+        "winner": "PartySora"
+      }
+    ]
+  }
+}

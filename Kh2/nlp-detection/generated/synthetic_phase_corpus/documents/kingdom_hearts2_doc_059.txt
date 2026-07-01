@@ -1,0 +1,12 @@
+Every secondary weapon is also a non consumable.
+A character is a kind of entity.
+A keyblade is a kind of non consumable.
+In general a protagonist has the drive form some drive form.
+In general a protagonist can summon some summon.
+Typically a entity comes from a given worlds.
+A munny is a kind of consumable.
+A org13 member is a member of a organization.
+A consumable is a kind of items.
+Typically a entity participates in a given party.
+A non consumable is a kind of items.
+Every summon is also a action.

@@ -1,0 +1,9 @@
+A org13 member is a kind of nobody.
+Every sword attack is also a combat action.
+Every nobody is also a enemy.
+Typically a fight takes place in a given worlds.
+A common nobody is a kind of nobody.
+Every non playable character is also a character.
+Every keyblade is also a non consumable.
+Each party engages in the fight a fight.
+Every enemy is also a non playable character.

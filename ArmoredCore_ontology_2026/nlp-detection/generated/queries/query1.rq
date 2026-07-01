@@ -1,0 +1,9 @@
+PREFIX ac: <http://example.org/armoredcore#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Q1 - FILTER: pairs of entities that are hostile to each other, dropping self-loops
+SELECT ?a ?b WHERE {
+  ?a ac:isHostileToward ?b .
+  FILTER (?a != ?b)
+}
+ORDER BY ?a ?b

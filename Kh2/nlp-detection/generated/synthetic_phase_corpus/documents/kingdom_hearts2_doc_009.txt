@@ -1,0 +1,10 @@
+A movement action is a kind of action.
+Often a entity drops another items.
+Every enemy is also a non playable character.
+A summon is a kind of action.
+Often a entity defeats another entity.
+Every potion is also a consumable.
+Typically a entity participates in a given party.
+A heartless is a kind of enemy.
+A combat action is a kind of action.
+Every drive form is also a action.

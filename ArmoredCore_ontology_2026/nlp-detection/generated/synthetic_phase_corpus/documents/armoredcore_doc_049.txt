@@ -1,0 +1,9 @@
+An entity is friendly towards another entity.
+The schema records that a boss is boss of a major event.
+A character can be known by one or more aliases.
+A boss is a kind of character.
+Each character can be affiliated with a society.
+Each character stores a buddy flag as a literal value.
+Each major event is located in a place on Rubicon 3.
+The schema records an armored core name as a literal value.
+Each armored core is operated by a character.

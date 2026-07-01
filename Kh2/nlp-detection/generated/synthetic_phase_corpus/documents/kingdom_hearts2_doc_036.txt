@@ -1,0 +1,9 @@
+Every item use is also a action.
+Every character is also a entity.
+In general a fight takes place in some worlds.
+Every party is also a entity.
+Each org13 member is a member of a organization.
+Often a entity defeats another entity.
+Every organization is also a entity.
+A entity comes from a worlds.
+Each keyblade records its attack power.

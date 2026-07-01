@@ -1,0 +1,12 @@
+A character holds a rank in the Arena ranking.
+The schema records a society name as a literal value.
+The schema records an armored core name as a literal value.
+An entity is friendly towards another entity.
+Each character can be affiliated with a society.
+In the schema, every human is a character.
+The record notes when one character kills another.
+Each character record links to the aliases they use.
+A boss is the boss of a major event.
+The schema records a major event chronological order as a literal value.
+A society records whether it originates on Rubicon as a literal value.
+A character is killed by another character.

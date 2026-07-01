@@ -1,0 +1,8 @@
+system,slug,level,arch,f1,precision,recall,throughput_examples_per_sec,note
+distilbert-base-uncased,distilbert,verifier,encoder,0.8303,0.9823,0.7190,671.2,leggero/veloce
+bert-base-uncased,bert,verifier,encoder,0.8312,0.9848,0.7190,341.2,BERT 'ontology-compiled model' (generatore/baseline encoder)
+roberta-base,roberta,verifier,encoder,0.8776,0.9795,0.7948,344.2,Supervised RoBERTa (validatore binario VALID/INVALID)
+t5-base,t5,verifier,seq2seq,0.8695,0.8836,0.8558,131.5,encoder-decoder (text-to-text)
+rule (domain/range),rule,verifier,symbolic,0.8916,0.8043,1.0000,299060.6,surface-invariant: cade sui negativi type_identical
+SpaCy baseline (generator),spacy,triple,rule/parse,0.8438,0.8438,0.8438,,"estrazione fragile, niente gate semantico (Slide 7)"
+GLiNER (zero-shot NER),gliner,entity,gliner,0.3418,0.3293,0.3553,6.8,"estrazione entita' zero-shot (Arch. A/B), nessun training"

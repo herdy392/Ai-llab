@@ -1,0 +1,10 @@
+The schema records a society name as a literal value.
+Each character record links to the aliases they use.
+A major event takes place in a place.
+An entity is friendly towards another entity.
+Each character can be assigned a rank.
+Each major event stores its timeline position as a literal value.
+A rank is the rank of a character.
+In the schema, every Rubiconian is a character.
+Each armored core is operated by a character.
+Each character can be affiliated with a society.

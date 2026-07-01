@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1782830805089" name="http://example.org/armoredcore" uri="armoredcore.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1782830805089" name="http://www.semanticweb.org/andrea/ontologies/2026/4/Kingdom_hearts_2" uri="Kh2%20Final%20Mix.owl"/>
+    </group>
+</catalog>

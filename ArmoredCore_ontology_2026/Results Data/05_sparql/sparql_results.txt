@@ -1,0 +1,86 @@
+===== query1 =====
+(10 rows)
+a=Balam | b=Arquebus
+a=C4_621 | b=ALLMIND
+a=C4_621 | b=Ayre
+a=C4_621 | b=G5_Iguazu
+a=C4_621 | b=V_II_Snail
+a=C4_621 | b=V_IV_Rusty
+a=G5_Iguazu | b=Ayre
+a=G5_Iguazu | b=Balam
+a=RLF | b=Arquebus
+a=RLF | b=Balam
+
+===== query2 =====
+(30 rows)
+char=ALLMIND | alias=Alias_ALLMIND | rank=None | buddy=false
+char=Ayre | alias=Alias_AFriend | rank=None | buddy=false
+char=Ayre | alias=Alias_Ayre | rank=None | buddy=false
+char=Ayre | alias=Alias_WavelengthForm | rank=None | buddy=false
+char=Balteus | alias=Alias_Balteus | rank=None | buddy=false
+char=C4_621 | alias=Alias_Ashbringer | rank=None | buddy=false
+char=C4_621 | alias=Alias_Buddy | rank=None | buddy=false
+char=C4_621 | alias=Alias_C4_621 | rank=None | buddy=false
+char=C4_621 | alias=Alias_Freelancer | rank=None | buddy=false
+char=C4_621 | alias=Alias_Gun13 | rank=None | buddy=false
+char=C4_621 | alias=Alias_Hound | rank=None | buddy=false
+char=C4_621 | alias=Alias_Raven | rank=None | buddy=false
+char=C4_621 | alias=Alias_SymbolOfResolve | rank=None | buddy=false
+char=C4_621 | alias=Alias_Tourist | rank=None | buddy=false
+char=C4_621 | alias=Alias_Wallclimber | rank=None | buddy=false
+char=C4_621 | alias=Alias_Wormkiller | rank=None | buddy=false
+char=CEL240 | alias=Alias_CEL240 | rank=None | buddy=false
+char=Cataphract | alias=Alias_Cataphract | rank=None | buddy=false
+char=CinderCarla | alias=Alias_CinderCarla | rank=B | buddy=false
+char=Enforcer | alias=Alias_Enforcer | rank=None | buddy=false
+char=G1_Michigan | alias=Alias_G1_Michigan | rank=S | buddy=false
+char=G5_Iguazu | alias=Alias_G5_Iguazu | rank=D | buddy=false
+char=IceWorm | alias=Alias_IceWorm | rank=None | buddy=false
+char=Juggernaut | alias=Alias_Juggernaut | rank=None | buddy=false
+char=Raven | alias=Alias_Raven | rank=None | buddy=false
+char=ThumbDolmayan | alias=Alias_ThumbDolmayan | rank=A | buddy=false
+char=V_II_Snail | alias=Alias_Snail_Arquebus | rank=A | buddy=false
+char=V_II_Snail | alias=Alias_V_II_Snail | rank=A | buddy=false
+char=V_IV_Rusty | alias=Alias_V_IV_Rusty | rank=B | buddy=true
+char=Walter | alias=Alias_Walter | rank=None | buddy=false
+
+===== query3 =====
+(38 rows)
+pilot=Ayre | ac=ECHO | event=cataphract_fight
+pilot=Ayre | ac=ECHO | event=depth_exploration
+pilot=Ayre | ac=ECHO | event=fires_of_raven
+pilot=Ayre | ac=ECHO | event=karman_line
+pilot=Ayre | ac=ECHO | event=operation_wormkiller
+pilot=Ayre | ac=ECHO | event=pca_siege
+pilot=Ayre | ac=ECHO | event=vascular_plant_event
+pilot=Ayre | ac=ECHO | event=xylem_takeoff
+pilot=Ayre | ac=IB_07_SOL_644 | event=cataphract_fight
+pilot=Ayre | ac=IB_07_SOL_644 | event=depth_exploration
+pilot=Ayre | ac=IB_07_SOL_644 | event=fires_of_raven
+pilot=Ayre | ac=IB_07_SOL_644 | event=karman_line
+pilot=Ayre | ac=IB_07_SOL_644 | event=operation_wormkiller
+pilot=Ayre | ac=IB_07_SOL_644 | event=pca_siege
+pilot=Ayre | ac=IB_07_SOL_644 | event=vascular_plant_event
+pilot=Ayre | ac=IB_07_SOL_644 | event=xylem_takeoff
+pilot=Balteus | ac=AC_AAP07_BALTEUS | event=None
+pilot=Cataphract | ac=AC_AAS02_CATAPHRACT | event=None
+pilot=CinderCarla | ac=FULL_COURSE | event=fires_of_ibis
+pilot=CinderCarla | ac=FULL_COURSE | event=operation_wormkiller
+pilot=CinderCarla | ac=FULL_COURSE | event=xylem_takeoff
+pilot=Enforcer | ac=AC_AAP03_ENFORCER | event=None
+pilot=IceWorm | ac=AC_IA_02_ICE_WORM | event=None
+pilot=Juggernaut | ac=AC_HA_T_102_JUGGERNAUT | event=None
+pilot=Raven | ac=NIGHTFALL | event=None
+pilot=ThumbDolmayan | ac=ASTGHIK | event=None
+pilot=V_II_Snail | ac=OPEN_FAITH | event=operation_wormkiller
+pilot=V_II_Snail | ac=OPEN_FAITH | event=vascular_plant_event
+pilot=V_IV_Rusty | ac=STEEL_HAZE | event=depth_exploration
+pilot=V_IV_Rusty | ac=STEEL_HAZE | event=karman_line
+pilot=V_IV_Rusty | ac=STEEL_HAZE | event=operation_wallclimber
+pilot=V_IV_Rusty | ac=STEEL_HAZE | event=operation_wormkiller
+pilot=V_IV_Rusty | ac=STEEL_HAZE_ORTUS | event=depth_exploration
+pilot=V_IV_Rusty | ac=STEEL_HAZE_ORTUS | event=karman_line
+pilot=V_IV_Rusty | ac=STEEL_HAZE_ORTUS | event=operation_wallclimber
+pilot=V_IV_Rusty | ac=STEEL_HAZE_ORTUS | event=operation_wormkiller
+pilot=Walter | ac=IB_C03_HAL_826 | event=fires_of_ibis
+pilot=Walter | ac=IB_C03_HAL_826 | event=xylem_takeoff

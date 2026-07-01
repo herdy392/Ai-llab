@@ -1,0 +1,9 @@
+In general a protagonist has in the inventory some items.
+Every disney antagonist is also a enemy.
+Every sword attack is also a combat action.
+Every secondary weapon is also a non consumable.
+Every npc is also a non playable character.
+A combat action is a kind of action.
+Every gems is also a consumable.
+A summon is a kind of action.
+Each org13 member is a member of a organization.

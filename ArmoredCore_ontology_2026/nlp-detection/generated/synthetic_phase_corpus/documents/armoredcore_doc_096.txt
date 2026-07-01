@@ -1,0 +1,11 @@
+A character records whether it is the player buddy as a literal value.
+The model links an armored core to its pilot character.
+A society records whether it originates on Rubicon as a literal value.
+A character works for a society.
+A boss is a kind of character.
+An armored core has a name stored as a literal value.
+Each major event is located in a place on Rubicon 3.
+Each armored core stores a special flag as a literal value.
+The schema records that a character kills a character.
+An entity is hostile toward another entity.
+Each armored core is operated by a character.

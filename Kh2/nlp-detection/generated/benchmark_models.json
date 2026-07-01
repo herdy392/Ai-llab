@@ -1,0 +1,480 @@
+{
+  "systems": [
+    {
+      "system": "distilbert-base-uncased",
+      "slug": "distilbert",
+      "level": "verifier",
+      "arch": "encoder",
+      "f1": 0.9236947791164659,
+      "precision": 0.9643605870020965,
+      "recall": 0.8863198458574181,
+      "throughput_examples_per_sec": 838.4305188310465,
+      "f1_by_complexity_tier": {
+        "nested": {
+          "precision": 0.9819819819819819,
+          "recall": 1.0,
+          "f1": 0.9909090909090909,
+          "n": 387
+        },
+        "explicit": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n": 430
+        },
+        "implicit": {
+          "precision": 0.851063829787234,
+          "recall": 0.5755395683453237,
+          "f1": 0.6866952789699571,
+          "n": 428
+        },
+        "long_distance": {
+          "precision": 0.9936305732484076,
+          "recall": 1.0,
+          "f1": 0.9968051118210862,
+          "n": 466
+        }
+      },
+      "note": "leggero/veloce"
+    },
+    {
+      "system": "bert-base-uncased",
+      "slug": "bert",
+      "level": "verifier",
+      "arch": "encoder",
+      "f1": 0.931237721021611,
+      "precision": 0.9498997995991983,
+      "recall": 0.9132947976878613,
+      "throughput_examples_per_sec": 421.84143574517367,
+      "f1_by_complexity_tier": {
+        "nested": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n": 387
+        },
+        "explicit": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n": 430
+        },
+        "implicit": {
+          "precision": 0.7899159663865546,
+          "recall": 0.6762589928057554,
+          "f1": 0.7286821705426356,
+          "n": 428
+        },
+        "long_distance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n": 466
+        }
+      },
+      "note": "BERT 'ontology-compiled model' (generatore/baseline encoder)"
+    },
+    {
+      "system": "roberta-base",
+      "slug": "roberta",
+      "level": "verifier",
+      "arch": "encoder",
+      "f1": 0.90234375,
+      "precision": 0.9148514851485149,
+      "recall": 0.8901734104046243,
+      "throughput_examples_per_sec": 419.7020248064544,
+      "f1_by_complexity_tier": {
+        "nested": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n": 387
+        },
+        "explicit": {
+          "precision": 0.9583333333333334,
+          "recall": 1.0,
+          "f1": 0.9787234042553191,
+          "n": 430
+        },
+        "implicit": {
+          "precision": 0.6949152542372882,
+          "recall": 0.5899280575539568,
+          "f1": 0.6381322957198443,
+          "n": 428
+        },
+        "long_distance": {
+          "precision": 0.9873417721518988,
+          "recall": 1.0,
+          "f1": 0.9936305732484078,
+          "n": 466
+        }
+      },
+      "note": "Supervised RoBERTa (validatore binario VALID/INVALID)"
+    },
+    {
+      "system": "t5-base",
+      "slug": "t5",
+      "level": "verifier",
+      "arch": "seq2seq",
+      "f1": 0.8718466195761857,
+      "precision": 0.9152542372881356,
+      "recall": 0.8323699421965318,
+      "throughput_examples_per_sec": 55.36870406747734,
+      "f1_by_complexity_tier": {
+        "nested": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n": 387
+        },
+        "explicit": {
+          "precision": 0.9913793103448276,
+          "recall": 1.0,
+          "f1": 0.9956709956709957,
+          "n": 430
+        },
+        "implicit": {
+          "precision": 0.5777777777777777,
+          "recall": 0.37410071942446044,
+          "f1": 0.45414847161572053,
+          "n": 428
+        },
+        "long_distance": {
+          "precision": 0.9936305732484076,
+          "recall": 1.0,
+          "f1": 0.9968051118210862,
+          "n": 466
+        }
+      },
+      "note": "encoder-decoder (text-to-text)"
+    },
+    {
+      "system": "rule (domain/range)",
+      "slug": "rule",
+      "level": "verifier",
+      "arch": "symbolic",
+      "f1": 0.8103044496487118,
+      "precision": 0.6811023622047244,
+      "recall": 1.0,
+      "throughput_examples_per_sec": 262314.68499603687,
+      "f1_by_complexity_tier": {
+        "nested": {
+          "precision": 0.6449704142011834,
+          "recall": 1.0,
+          "f1": 0.7841726618705036,
+          "n": 387
+        },
+        "explicit": {
+          "precision": 0.6318681318681318,
+          "recall": 1.0,
+          "f1": 0.7744107744107744,
+          "n": 430
+        },
+        "implicit": {
+          "precision": 0.6984924623115578,
+          "recall": 1.0,
+          "f1": 0.8224852071005917,
+          "n": 428
+        },
+        "long_distance": {
+          "precision": 0.7358490566037735,
+          "recall": 1.0,
+          "f1": 0.8478260869565216,
+          "n": 466
+        }
+      },
+      "reject_accuracy_by_neg_type": {
+        "type_incompatible": {
+          "reject_accuracy": 0.9719438877755511,
+          "n": 499
+        },
+        "partial_overlap": {
+          "reject_accuracy": 0.9317269076305221,
+          "n": 498
+        },
+        "type_identical": {
+          "reject_accuracy": 0.0,
+          "n": 195
+        }
+      },
+      "per_split": {
+        "train": {
+          "accuracy": 0.8523815151873301,
+          "precision": 0.6750780437044746,
+          "recall": 1.0,
+          "f1": 0.8060257804006834,
+          "confusion_matrix": [
+            [
+              4617,
+              1249
+            ],
+            [
+              0,
+              2595
+            ]
+          ],
+          "f1_by_complexity_tier": {
+            "implicit": {
+              "precision": 0.6656151419558359,
+              "recall": 1.0,
+              "f1": 0.7992424242424243,
+              "n": 2135
+            },
+            "nested": {
+              "precision": 0.6916076845298281,
+              "recall": 1.0,
+              "f1": 0.8176927674835625,
+              "n": 2160
+            },
+            "explicit": {
+              "precision": 0.6690796277145812,
+              "recall": 1.0,
+              "f1": 0.8017348203221809,
+              "n": 2100
+            },
+            "long_distance": {
+              "precision": 0.6734258271077909,
+              "recall": 1.0,
+              "f1": 0.8048469387755103,
+              "n": 2066
+            }
+          },
+          "reject_accuracy_by_neg_type": {
+            "type_identical": {
+              "reject_accuracy": 0.0,
+              "n": 973
+            },
+            "partial_overlap": {
+              "reject_accuracy": 0.9095541401273886,
+              "n": 2355
+            },
+            "type_incompatible": {
+              "reject_accuracy": 0.975177304964539,
+              "n": 2538
+            }
+          }
+        },
+        "val": {
+          "accuracy": 0.8602409638554217,
+          "precision": 0.6713881019830028,
+          "recall": 1.0,
+          "f1": 0.8033898305084746,
+          "confusion_matrix": [
+            [
+              954,
+              232
+            ],
+            [
+              0,
+              474
+            ]
+          ],
+          "f1_by_complexity_tier": {
+            "explicit": {
+              "precision": 0.7541899441340782,
+              "recall": 1.0,
+              "f1": 0.8598726114649682,
+              "n": 428
+            },
+            "nested": {
+              "precision": 0.611764705882353,
+              "recall": 1.0,
+              "f1": 0.759124087591241,
+              "n": 411
+            },
+            "implicit": {
+              "precision": 0.702247191011236,
+              "recall": 1.0,
+              "f1": 0.8250825082508251,
+              "n": 395
+            },
+            "long_distance": {
+              "precision": 0.6145251396648045,
+              "recall": 1.0,
+              "f1": 0.7612456747404844,
+              "n": 426
+            }
+          },
+          "reject_accuracy_by_neg_type": {
+            "type_incompatible": {
+              "reject_accuracy": 0.9727767695099818,
+              "n": 551
+            },
+            "partial_overlap": {
+              "reject_accuracy": 0.926829268292683,
+              "n": 451
+            },
+            "type_identical": {
+              "reject_accuracy": 0.0,
+              "n": 184
+            }
+          }
+        },
+        "test": {
+          "accuracy": 0.8579777907656342,
+          "precision": 0.6811023622047244,
+          "recall": 1.0,
+          "f1": 0.8103044496487118,
+          "confusion_matrix": [
+            [
+              949,
+              243
+            ],
+            [
+              0,
+              519
+            ]
+          ],
+          "f1_by_complexity_tier": {
+            "nested": {
+              "precision": 0.6449704142011834,
+              "recall": 1.0,
+              "f1": 0.7841726618705036,
+              "n": 387
+            },
+            "explicit": {
+              "precision": 0.6318681318681318,
+              "recall": 1.0,
+              "f1": 0.7744107744107744,
+              "n": 430
+            },
+            "implicit": {
+              "precision": 0.6984924623115578,
+              "recall": 1.0,
+              "f1": 0.8224852071005917,
+              "n": 428
+            },
+            "long_distance": {
+              "precision": 0.7358490566037735,
+              "recall": 1.0,
+              "f1": 0.8478260869565216,
+              "n": 466
+            }
+          },
+          "reject_accuracy_by_neg_type": {
+            "type_incompatible": {
+              "reject_accuracy": 0.9719438877755511,
+              "n": 499
+            },
+            "partial_overlap": {
+              "reject_accuracy": 0.9317269076305221,
+              "n": 498
+            },
+            "type_identical": {
+              "reject_accuracy": 0.0,
+              "n": 195
+            }
+          }
+        }
+      },
+      "note": "surface-invariant: cade sui negativi type_identical"
+    },
+    {
+      "system": "SpaCy baseline (generator)",
+      "slug": "spacy",
+      "level": "triple",
+      "arch": "rule/parse",
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "throughput_examples_per_sec": null,
+      "note": "estrazione fragile, niente gate semantico (Slide 7)"
+    },
+    {
+      "system": "GLiNER (zero-shot NER)",
+      "slug": "gliner",
+      "level": "entity",
+      "arch": "gliner",
+      "f1": 0.2796610169491525,
+      "precision": 0.21153846153846154,
+      "recall": 0.4125,
+      "throughput_examples_per_sec": 11.272677495830624,
+      "note": "estrazione entita' zero-shot (Arch. A/B), nessun training"
+    }
+  ],
+  "extraction_per_story": [
+    {
+      "system": "rule",
+      "stories": 254,
+      "perfect_stories": 254,
+      "micro_precision": 1.0,
+      "micro_recall": 1.0,
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "TP": 254,
+      "FP": 0,
+      "FN": 0
+    },
+    {
+      "system": "spacy",
+      "stories": 254,
+      "perfect_stories": 254,
+      "micro_precision": 1.0,
+      "micro_recall": 1.0,
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "TP": 254,
+      "FP": 0,
+      "FN": 0
+    },
+    {
+      "system": "bert",
+      "stories": 254,
+      "perfect_stories": 254,
+      "micro_precision": 1.0,
+      "micro_recall": 1.0,
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "TP": 254,
+      "FP": 0,
+      "FN": 0
+    },
+    {
+      "system": "distilbert",
+      "stories": 254,
+      "perfect_stories": 254,
+      "micro_precision": 1.0,
+      "micro_recall": 1.0,
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "TP": 254,
+      "FP": 0,
+      "FN": 0
+    },
+    {
+      "system": "roberta",
+      "stories": 254,
+      "perfect_stories": 254,
+      "micro_precision": 1.0,
+      "micro_recall": 1.0,
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "TP": 254,
+      "FP": 0,
+      "FN": 0
+    },
+    {
+      "system": "t5",
+      "stories": 254,
+      "perfect_stories": 254,
+      "micro_precision": 1.0,
+      "micro_recall": 1.0,
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "TP": 254,
+      "FP": 0,
+      "FN": 0
+    }
+  ],
+  "notes": [
+    "deberta-v3 (microsoft/deberta-v3-base): training/eval fallito -> Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.\nSee the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434",
+    "xlnet (xlnet-base-cased): training/eval fallito -> Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.\nSee the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434",
+    "bigbird (google/bigbird-roberta-base): training/eval fallito -> Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.\nSee the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434",
+    "GLiREL saltato: caricamento modello fallito (GLiREL._from_pretrained() missing 2 required keyword-only arguments: 'proxies' and 'resume_download')."
+  ],
+  "axes": {
+    "x": "throughput_examples_per_sec",
+    "y": "f1"
+  },
+  "transformer_count": 4
+}

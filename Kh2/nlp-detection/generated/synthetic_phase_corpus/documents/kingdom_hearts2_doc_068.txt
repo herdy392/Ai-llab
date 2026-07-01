@@ -1,0 +1,12 @@
+A common nobody is a kind of nobody.
+Each protagonist can summon a summon.
+A non consumable is a kind of items.
+Every secondary weapon is also a non consumable.
+Every playable character is also a character.
+A entity has hit points value.
+Every munny is also a consumable.
+A item use is a kind of action.
+Every organization is also a entity.
+Every keyblade is also a non consumable.
+Each keyblade records its attack power.
+A entity drops a items.

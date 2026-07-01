@@ -1,0 +1,11 @@
+A character works for a society.
+The schema records an armored core name as a literal value.
+An entity participates in a major event.
+A character kills another character.
+The schema marks a society Rubicon origin with a literal value.
+Each society stores its official name as text.
+In the schema, a character has an alias.
+A society is a kind of entity.
+In the schema, every AI is a character.
+Allies are entities friendly towards each other.
+Human is modeled as a subclass of character.

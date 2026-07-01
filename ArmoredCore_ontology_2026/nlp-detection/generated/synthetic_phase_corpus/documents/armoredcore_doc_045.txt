@@ -1,0 +1,12 @@
+Each character stores a buddy flag as a literal value.
+Each major event is located in a place on Rubicon 3.
+A character is a kind of entity.
+A character pilots an armored core.
+Each society stores its official name as text.
+Enemies are entities hostile toward each other.
+A character works for a society.
+A boss is the boss of a major event.
+Each armored core stores its AC name as text.
+Every place can host a major event.
+An armored core records whether it is special as a literal value.
+Each society stores an origin-on-Rubicon flag as a literal value.

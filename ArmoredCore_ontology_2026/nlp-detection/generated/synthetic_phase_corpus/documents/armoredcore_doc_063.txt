@@ -1,0 +1,11 @@
+The schema records an armored core name as a literal value.
+The schema marks a society Rubicon origin with a literal value.
+Allies are entities friendly towards each other.
+A society has a name stored as a literal value.
+A rank is the rank of a character.
+An armored core is piloted by a character.
+Each major event lists the entities that take part in it.
+The model states that a major event involves an entity.
+The schema records a major event chronological order as a literal value.
+A character records whether it is the player buddy as a literal value.
+A character works for a society.

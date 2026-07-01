@@ -1,0 +1,81 @@
+{"sentence_id": "ac6_corpus_s010", "split": "val", "tokens": ["G5", "Iguazu", "is", "involved", "in", "Operation", "Wormkiller", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s011", "split": "val", "tokens": ["Rubicon", "Liberation", "Front", "is", "an", "enemy", "of", "Balam", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s021", "split": "val", "tokens": ["C4", "-", "621", "takes", "part", "in", "Karman", "Line", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s026", "split": "val", "tokens": ["V", ".", "II", "Snail", "is", "also", "known", "as", "V", ".", "II", "Snail", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s041", "split": "val", "tokens": ["Ayre", "is", "fought", "as", "the", "boss", "in", "Fires", "of", "Raven", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s047", "split": "val", "tokens": ["Cinder", "\"", "Carla", "takes", "part", "in", "Fires", "of", "Ibis", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s062", "split": "val", "tokens": ["PCA", "Siege", "is", "set", "in", "PCA", "Outpost", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s066", "split": "val", "tokens": ["Vascular", "Plant", "is", "set", "in", "Vascular", "Plant", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s072", "split": "val", "tokens": ["C4", "-", "621", "is", "also", "known", "as", "Buddy", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s106", "split": "val", "tokens": ["G1", "Michigan", "is", "fought", "as", "the", "boss", "in", "Depth", "Exploration", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s124", "split": "val", "tokens": ["V", ".", "IV", "Rusty", "works", "for", "Arquebus", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s141", "split": "val", "tokens": ["G1", "Michigan", "is", "the", "boss", "of", "Depth", "Exploration", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s144", "split": "val", "tokens": ["C4", "-", "621", "destroys", "HA", "-", "T", "-", "102", "JUGGERNAUT", "in", "battle", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s178", "split": "val", "tokens": ["Rubicon", "Liberation", "Front", "is", "an", "enemy", "of", "Arquebus", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s181", "split": "val", "tokens": ["Fires", "of", "Raven", "is", "set", "in", "Rubicon", "3", "–", "Orbit", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s187", "split": "val", "tokens": ["C4", "-", "621", "destroys", "AAP07", ":", "BALTEUS", "in", "battle", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s193", "split": "val", "tokens": ["C4", "-", "621", "is", "an", "enemy", "of", "V", ".", "IV", "Rusty", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s198", "split": "val", "tokens": ["V", ".", "IV", "Rusty", "goes", "by", "the", "alias", "V", ".", "IV", "Rusty", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s203", "split": "val", "tokens": ["Cataphract", "goes", "into", "battle", "in", "the", "AAS02", ":", "CATAPHRACT", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s210", "split": "val", "tokens": ["PCA", "takes", "part", "in", "Operation", "Wormkiller", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s212", "split": "val", "tokens": ["G5", "Iguazu", "goes", "by", "the", "alias", "G5", "Iguazu", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s213", "split": "val", "tokens": ["G5", "Iguazu", "is", "involved", "in", "Depth", "Exploration", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s234", "split": "val", "tokens": ["Thumb", "Dolmayan", "is", "ranked", "A", "in", "the", "Arena", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s236", "split": "val", "tokens": ["Walker", "Destruction", "takes", "place", "in", "Bona", "Dea", "Dunes", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s239", "split": "val", "tokens": ["Xylem", "Takeoff", "is", "set", "in", "Xylem", ",", "the", "Floating", "City", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s274", "split": "val", "tokens": ["PCA", "is", "involved", "in", "Operation", "Wormkiller", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s280", "split": "val", "tokens": ["C4", "-", "621", "fights", "alongside", "Ayre", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s288", "split": "val", "tokens": ["G5", "Iguazu", "is", "friendly", "towards", "Balam", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s297", "split": "val", "tokens": ["Handler", "Walter", "is", "friendly", "towards", "G1", "Michigan", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s299", "split": "val", "tokens": ["Cinder", "\"", "Carla", "is", "also", "known", "as", "Cinder", "\"", "Carla", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s300", "split": "val", "tokens": ["C4", "-", "621", "is", "involved", "in", "Operation", "Wallclimber", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s301", "split": "val", "tokens": ["IA", "-", "02", ":", "ICE", "WORM", "is", "also", "known", "as", "IA", "-", "02", ":", "ICE", "WORM", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s303", "split": "val", "tokens": ["Handler", "Walter", "pilots", "the", "IB", "-", "C03", ":", "HAL", "826", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "ac6_corpus_s308", "split": "val", "tokens": ["V", ".", "II", "Snail", "takes", "part", "in", "Vascular", "Plant", "."], "ner_tags": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"sentence_id": "kh2_corpus_s018", "split": "val", "tokens": ["naminé", "is", "friends", "with", "roxas", "."], "ner_tags": ["B-Character", "O", "O", "O", "B-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s023", "split": "val", "tokens": ["sora", "has", "in", "the", "inventory", "ether", "."], "ner_tags": ["B-Character", "O", "O", "O", "O", "B-Items", "O"]}
+{"sentence_id": "kh2_corpus_s027", "split": "val", "tokens": ["fight", "sora", "vs", "saix", "is", "won", "by", "party", "sora", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Party", "I-Party", "O"]}
+{"sentence_id": "kh2_corpus_s030", "split": "val", "tokens": ["saïx", "is", "a", "member", "of", "organization13", "."], "ner_tags": ["B-Enemy", "O", "O", "O", "O", "B-Organization", "O"]}
+{"sentence_id": "kh2_corpus_s034", "split": "val", "tokens": ["fight", "sora", "vs", "groundshaker", "is", "won", "by", "party", "sora", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Party", "I-Party", "O"]}
+{"sentence_id": "kh2_corpus_s039", "split": "val", "tokens": ["sora", "defeats", "gambler", "."], "ner_tags": ["B-Character", "O", "B-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s041", "split": "val", "tokens": ["donald", "appears", "in", "port", "royal", "."], "ner_tags": ["B-Character", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s042", "split": "val", "tokens": ["sora", "has", "in", "the", "inventory", "mega", "potion", "."], "ner_tags": ["B-Character", "O", "O", "O", "O", "B-Items", "I-Items", "O"]}
+{"sentence_id": "kh2_corpus_s052", "split": "val", "tokens": ["fight", "sora", "vs", "xigbar", "is", "won", "by", "party", "sora", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Party", "I-Party", "O"]}
+{"sentence_id": "kh2_corpus_s056", "split": "val", "tokens": ["sora", "can", "perform", "magnet", "."], "ner_tags": ["B-Character", "O", "O", "B-Action", "O"]}
+{"sentence_id": "kh2_corpus_s062", "split": "val", "tokens": ["donald", "is", "friends", "with", "goofy", "."], "ner_tags": ["B-Character", "O", "O", "O", "B-Character", "O"]}
+{"sentence_id": "kh2_corpus_s063", "split": "val", "tokens": ["fight", "sora", "riku", "vs", "xemnas", "final", "takes", "place", "in", "castle", "oblivion", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s077", "split": "val", "tokens": ["sora", "appears", "in", "disney", "castle", "."], "ner_tags": ["B-Character", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s078", "split": "val", "tokens": ["goofy", "appears", "in", "timeless", "river", "."], "ner_tags": ["B-Character", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s091", "split": "val", "tokens": ["party", "xemnas", "has", "as", "party", "member", "xemnas", "."], "ner_tags": ["B-Party", "I-Party", "O", "O", "O", "O", "B-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s092", "split": "val", "tokens": ["party", "saix", "engages", "in", "the", "fight", "fight", "sora", "vs", "saix", "."], "ner_tags": ["B-Party", "I-Party", "O", "O", "O", "O", "B-Fight", "I-Fight", "I-Fight", "I-Fight", "O"]}
+{"sentence_id": "kh2_corpus_s094", "split": "val", "tokens": ["olette", "comes", "from", "twilight", "town", "."], "ner_tags": ["B-Character", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s095", "split": "val", "tokens": ["sora", "can", "perform", "aerial", "dodge", "."], "ner_tags": ["B-Character", "O", "O", "B-Action", "I-Action", "O"]}
+{"sentence_id": "kh2_corpus_s104", "split": "val", "tokens": ["sora", "can", "perform", "reflect", "."], "ner_tags": ["B-Character", "O", "O", "B-Action", "O"]}
+{"sentence_id": "kh2_corpus_s108", "split": "val", "tokens": ["party", "xemnas", "engages", "in", "the", "fight", "fight", "sora", "vs", "xemnas", "."], "ner_tags": ["B-Party", "I-Party", "O", "O", "O", "O", "B-Fight", "I-Fight", "I-Fight", "I-Fight", "O"]}
+{"sentence_id": "kh2_corpus_s120", "split": "val", "tokens": ["fight", "sora", "vs", "groundshaker", "takes", "place", "in", "pride", "lands", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s121", "split": "val", "tokens": ["sora", "defeats", "lexaeus", "."], "ner_tags": ["B-Character", "O", "B-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s123", "split": "val", "tokens": ["sora", "defeats", "armored", "knight", "."], "ner_tags": ["B-Character", "O", "B-Enemy", "I-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s124", "split": "val", "tokens": ["luxord", "is", "a", "member", "of", "organization13", "."], "ner_tags": ["B-Enemy", "O", "O", "O", "O", "B-Organization", "O"]}
+{"sentence_id": "kh2_corpus_s133", "split": "val", "tokens": ["sora", "has", "the", "drive", "form", "wisdom", "form", "."], "ner_tags": ["B-Character", "O", "O", "O", "O", "B-DriveForm", "I-DriveForm", "O"]}
+{"sentence_id": "kh2_corpus_s141", "split": "val", "tokens": ["riku", "appears", "in", "castle", "oblivion", "."], "ner_tags": ["B-Character", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s146", "split": "val", "tokens": ["fight", "sora", "vs", "ghost", "pirate", "is", "won", "by", "party", "sora", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Party", "I-Party", "O"]}
+{"sentence_id": "kh2_corpus_s147", "split": "val", "tokens": ["sora", "defeats", "groundshaker", "."], "ner_tags": ["B-Character", "O", "B-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s155", "split": "val", "tokens": ["fight", "sora", "vs", "axel", "takes", "place", "in", "radiant", "garden", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s157", "split": "val", "tokens": ["donald", "is", "friends", "with", "sora", "."], "ner_tags": ["B-Character", "O", "O", "O", "B-Character", "O"]}
+{"sentence_id": "kh2_corpus_s160", "split": "val", "tokens": ["party", "roxas", "engages", "in", "the", "fight", "fight", "roxas", "vs", "axel", "."], "ner_tags": ["B-Party", "I-Party", "O", "O", "O", "O", "B-Fight", "I-Fight", "I-Fight", "I-Fight", "O"]}
+{"sentence_id": "kh2_corpus_s173", "split": "val", "tokens": ["sora", "defeats", "zexion", "."], "ner_tags": ["B-Character", "O", "B-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s190", "split": "val", "tokens": ["riku", "comes", "from", "destiny", "islands", "."], "ner_tags": ["B-Character", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s196", "split": "val", "tokens": ["sora", "defeats", "luxord", "."], "ner_tags": ["B-Character", "O", "B-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s200", "split": "val", "tokens": ["goofy", "comes", "from", "disney", "castle", "."], "ner_tags": ["B-Character", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s203", "split": "val", "tokens": ["fight", "sora", "vs", "xaldin", "takes", "place", "in", "beast", "castle", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s204", "split": "val", "tokens": ["party", "sora", "engages", "in", "the", "fight", "fight", "sora", "vs", "ghost", "pirate", "."], "ner_tags": ["B-Party", "I-Party", "O", "O", "O", "O", "B-Fight", "I-Fight", "I-Fight", "I-Fight", "I-Fight", "O"]}
+{"sentence_id": "kh2_corpus_s207", "split": "val", "tokens": ["sora", "can", "perform", "emergency", "."], "ner_tags": ["B-Character", "O", "O", "B-Action", "O"]}
+{"sentence_id": "kh2_corpus_s224", "split": "val", "tokens": ["larxene", "is", "a", "member", "of", "organization13", "."], "ner_tags": ["B-Enemy", "O", "O", "O", "O", "B-Organization", "O"]}
+{"sentence_id": "kh2_corpus_s231", "split": "val", "tokens": ["sora", "owns", "the", "keyblade", "kingdom", "chain", "."], "ner_tags": ["B-Character", "O", "O", "O", "B-Keyblade", "I-Keyblade", "O"]}
+{"sentence_id": "kh2_corpus_s232", "split": "val", "tokens": ["hayner", "is", "friends", "with", "olette", "."], "ner_tags": ["B-Character", "O", "O", "O", "B-Character", "O"]}
+{"sentence_id": "kh2_corpus_s242", "split": "val", "tokens": ["party", "sora", "has", "as", "party", "member", "goofy", "."], "ner_tags": ["B-Party", "I-Party", "O", "O", "O", "O", "B-Character", "O"]}
+{"sentence_id": "kh2_corpus_s244", "split": "val", "tokens": ["sora", "owns", "the", "keyblade", "photonic", "debugger", "."], "ner_tags": ["B-Character", "O", "O", "O", "B-Keyblade", "I-Keyblade", "O"]}
+{"sentence_id": "kh2_corpus_s245", "split": "val", "tokens": ["fight", "sora", "vs", "demyx", "is", "won", "by", "party", "sora", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Party", "I-Party", "O"]}
+{"sentence_id": "kh2_corpus_s246", "split": "val", "tokens": ["sora", "defeats", "xemnas", "final", "form", "."], "ner_tags": ["B-Character", "O", "B-Enemy", "I-Enemy", "I-Enemy", "O"]}
+{"sentence_id": "kh2_corpus_s249", "split": "val", "tokens": ["sephiroth", "comes", "from", "radiant", "garden", "."], "ner_tags": ["B-Enemy", "O", "O", "B-Worlds", "I-Worlds", "O"]}
+{"sentence_id": "kh2_corpus_s250", "split": "val", "tokens": ["fight", "roxas", "vs", "axel", "takes", "place", "in", "twilight", "town", "."], "ner_tags": ["B-Fight", "I-Fight", "I-Fight", "I-Fight", "O", "O", "O", "B-Worlds", "I-Worlds", "O"]}

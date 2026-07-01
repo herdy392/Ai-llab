@@ -1,0 +1,320 @@
+{"subject_short": "CinderCarla", "predicate": "hasRank", "object_short": "B", "sentence_id": "ac6_corpus_s001", "sentence": "Cinder\" Carla holds the rank B."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s002", "sentence": "C4-621 is involved in Depth Exploration."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "Ayre", "sentence_id": "ac6_corpus_s003", "sentence": "C4-621 fights alongside Ayre."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "V_IV_Rusty", "sentence_id": "ac6_corpus_s004", "sentence": "C4-621 is an enemy of V.IV Rusty."}
+{"subject_short": "V_IV_Rusty", "predicate": "pilots", "object_short": "STEEL_HAZE", "sentence_id": "ac6_corpus_s005", "sentence": "V.IV Rusty goes into battle in the STEEL HAZE."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s006", "sentence": "V.IV Rusty takes part in Depth Exploration."}
+{"subject_short": "Walter", "predicate": "worksFor", "object_short": "Overseer", "sentence_id": "ac6_corpus_s007", "sentence": "Handler Walter is affiliated with Overseer."}
+{"subject_short": "Ayre", "predicate": "hasAlias", "object_short": "Alias_WavelengthForm", "sentence_id": "ac6_corpus_s008", "sentence": "Ayre goes by the alias Wavelength Form."}
+{"subject_short": "G5_Iguazu", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s009", "sentence": "G5 Iguazu is involved in Operation Wormkiller."}
+{"subject_short": "IceWorm", "predicate": "pilots", "object_short": "IceWorm", "sentence_id": "ac6_corpus_s010", "sentence": "IA-02: ICE WORM goes into battle in the IA-02: ICE WORM."}
+{"subject_short": "V_IV_Rusty", "predicate": "isBossOf", "object_short": "karman_line", "sentence_id": "ac6_corpus_s011", "sentence": "V.IV Rusty is fought as the boss in Karman Line."}
+{"subject_short": "G1_Michigan", "predicate": "isBossOf", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s012", "sentence": "G1 Michigan is the boss of Depth Exploration."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_SymbolOfResolve", "sentence_id": "ac6_corpus_s013", "sentence": "C4-621 goes by the alias Symbol of Resolve."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "Juggernaut", "sentence_id": "ac6_corpus_s014", "sentence": "C4-621 kills HA-T-102 JUGGERNAUT."}
+{"subject_short": "Walter", "predicate": "isFriendlyTowards", "object_short": "G1_Michigan", "sentence_id": "ac6_corpus_s015", "sentence": "Handler Walter fights alongside G1 Michigan."}
+{"subject_short": "RLF", "predicate": "isHostileToward", "object_short": "Balam", "sentence_id": "ac6_corpus_s016", "sentence": "Rubicon Liberation Front is hostile toward Balam."}
+{"subject_short": "fires_of_raven", "predicate": "takesPlaceIn", "object_short": "rubicon_orbit", "sentence_id": "ac6_corpus_s017", "sentence": "Fires of Raven is set in Rubicon 3 – Orbit."}
+{"subject_short": "IceWorm", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s018", "sentence": "IA-02: ICE WORM works for PCA."}
+{"subject_short": "Walter", "predicate": "isFriendlyTowards", "object_short": "CinderCarla", "sentence_id": "ac6_corpus_s019", "sentence": "Handler Walter fights alongside Cinder\" Carla."}
+{"subject_short": "karman_line", "predicate": "takesPlaceIn", "object_short": "rubicon_sky", "sentence_id": "ac6_corpus_s020", "sentence": "Karman Line is set in Rubicon 3 – Upper Atmosphere."}
+{"subject_short": "RLF", "predicate": "participatesIn", "object_short": "walker_destruction", "sentence_id": "ac6_corpus_s021", "sentence": "Rubicon Liberation Front is involved in Walker Destruction."}
+{"subject_short": "Walter", "predicate": "participatesIn", "object_short": "fires_of_ibis", "sentence_id": "ac6_corpus_s022", "sentence": "Handler Walter takes part in Fires of Ibis."}
+{"subject_short": "G5_Iguazu", "predicate": "isFriendlyTowards", "object_short": "ALLMIND", "sentence_id": "ac6_corpus_s023", "sentence": "G5 Iguazu fights alongside ALLMIND."}
+{"subject_short": "CinderCarla", "predicate": "worksFor", "object_short": "Dozer", "sentence_id": "ac6_corpus_s024", "sentence": "Cinder\" Carla is affiliated with Dozer."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Raven", "sentence_id": "ac6_corpus_s025", "sentence": "C4-621 is also known as Raven."}
+{"subject_short": "V_IV_Rusty", "predicate": "isFriendlyTowards", "object_short": "RLF", "sentence_id": "ac6_corpus_s026", "sentence": "V.IV Rusty fights alongside Rubicon Liberation Front."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s027", "sentence": "PCA is involved in PCA Siege."}
+{"subject_short": "V_IV_Rusty", "predicate": "worksFor", "object_short": "RLF", "sentence_id": "ac6_corpus_s028", "sentence": "V.IV Rusty works for Rubicon Liberation Front."}
+{"subject_short": "G5_Iguazu", "predicate": "isHostileToward", "object_short": "Balam", "sentence_id": "ac6_corpus_s029", "sentence": "G5 Iguazu is hostile toward Balam."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Tourist", "sentence_id": "ac6_corpus_s030", "sentence": "C4-621 is also known as Tourist."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Wormkiller", "sentence_id": "ac6_corpus_s031", "sentence": "C4-621 goes by the alias Wormkiller."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "Cataphract", "sentence_id": "ac6_corpus_s032", "sentence": "C4-621 kills Cataphract."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "Balteus", "sentence_id": "ac6_corpus_s033", "sentence": "C4-621 destroys AAP07: BALTEUS in battle."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Tourist", "sentence_id": "ac6_corpus_s034", "sentence": "C4-621 goes by the alias Tourist."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "C4_621", "sentence_id": "ac6_corpus_s035", "sentence": "C4-621 goes by the alias C4-621."}
+{"subject_short": "V_IV_Rusty", "predicate": "hasRank", "object_short": "B", "sentence_id": "ac6_corpus_s036", "sentence": "V.IV Rusty is ranked B in the Arena."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Buddy", "sentence_id": "ac6_corpus_s037", "sentence": "C4-621 goes by the alias Buddy."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s038", "sentence": "Ayre takes part in Fires of Raven."}
+{"subject_short": "Ayre", "predicate": "hasAlias", "object_short": "Ayre", "sentence_id": "ac6_corpus_s039", "sentence": "Ayre goes by the alias Ayre."}
+{"subject_short": "Balteus", "predicate": "pilots", "object_short": "Balteus", "sentence_id": "ac6_corpus_s040", "sentence": "AAP07: BALTEUS goes into battle in the AAP07: BALTEUS."}
+{"subject_short": "cataphract_fight", "predicate": "takesPlaceIn", "object_short": "cataphract_plant", "sentence_id": "ac6_corpus_s041", "sentence": "Cataphract Fight takes place in Coral Collection Plant."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s042", "sentence": "V.IV Rusty is involved in Operation Wormkiller."}
+{"subject_short": "Juggernaut", "predicate": "worksFor", "object_short": "RLF", "sentence_id": "ac6_corpus_s043", "sentence": "HA-T-102 JUGGERNAUT works for Rubicon Liberation Front."}
+{"subject_short": "Cataphract", "predicate": "pilots", "object_short": "AC_AAS02_CATAPHRACT", "sentence_id": "ac6_corpus_s044", "sentence": "Cataphract pilots the AAS02: CATAPHRACT."}
+{"subject_short": "Enforcer", "predicate": "pilots", "object_short": "Enforcer", "sentence_id": "ac6_corpus_s045", "sentence": "AAP03: ENFORCER goes into battle in the AAP03: ENFORCER."}
+{"subject_short": "G1_Michigan", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s046", "sentence": "G1 Michigan takes part in Operation Wormkiller."}
+{"subject_short": "V_IV_Rusty", "predicate": "isBossOf", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s047", "sentence": "V.IV Rusty is the boss of Depth Exploration."}
+{"subject_short": "IceWorm", "predicate": "hasAlias", "object_short": "IceWorm", "sentence_id": "ac6_corpus_s048", "sentence": "IA-02: ICE WORM is also known as IA-02: ICE WORM."}
+{"subject_short": "V_IV_Rusty", "predicate": "isBossOf", "object_short": "karman_line", "sentence_id": "ac6_corpus_s049", "sentence": "V.IV Rusty is the boss of Karman Line."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "G1_Michigan", "sentence_id": "ac6_corpus_s050", "sentence": "C4-621 fights alongside G1 Michigan."}
+{"subject_short": "depth_exploration", "predicate": "takesPlaceIn", "object_short": "underground_entrance", "sentence_id": "ac6_corpus_s051", "sentence": "Depth Exploration is set in Watchpoint Alpha – Underground Entrance."}
+{"subject_short": "Arquebus", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s052", "sentence": "Arquebus is involved in PCA Siege."}
+{"subject_short": "Cataphract", "predicate": "isBossOf", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s053", "sentence": "Cataphract is fought as the boss in Cataphract Fight."}
+{"subject_short": "V_II_Snail", "predicate": "participatesIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s054", "sentence": "V.II Snail takes part in Vascular Plant."}
+{"subject_short": "RLF", "predicate": "isHostileToward", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s055", "sentence": "Rubicon Liberation Front is hostile toward Arquebus."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s056", "sentence": "C4-621 takes part in Depth Exploration."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s057", "sentence": "Ayre is involved in PCA Siege."}
+{"subject_short": "V_II_Snail", "predicate": "hasAlias", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s058", "sentence": "V.II Snail goes by the alias Arquebus."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "operation_wallclimber", "sentence_id": "ac6_corpus_s059", "sentence": "V.IV Rusty takes part in Operation Wallclimber."}
+{"subject_short": "Walter", "predicate": "participatesIn", "object_short": "fires_of_ibis", "sentence_id": "ac6_corpus_s060", "sentence": "Handler Walter is involved in Fires of Ibis."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s061", "sentence": "C4-621 is involved in Fires of Raven."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s062", "sentence": "Ayre is involved in Depth Exploration."}
+{"subject_short": "xylem_takeoff", "predicate": "takesPlaceIn", "object_short": "xylem", "sentence_id": "ac6_corpus_s063", "sentence": "Xylem Takeoff takes place in Xylem, the Floating City."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s064", "sentence": "C4-621 takes part in Xylem Takeoff."}
+{"subject_short": "RLF", "predicate": "isHostileToward", "object_short": "Balam", "sentence_id": "ac6_corpus_s065", "sentence": "Rubicon Liberation Front is an enemy of Balam."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s066", "sentence": "C4-621 takes part in Vascular Plant."}
+{"subject_short": "V_II_Snail", "predicate": "pilots", "object_short": "OPEN_FAITH", "sentence_id": "ac6_corpus_s067", "sentence": "V.II Snail pilots the OPEN FAITH."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s068", "sentence": "Ayre takes part in Vascular Plant."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s069", "sentence": "Ayre takes part in PCA Siege."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Ashbringer", "sentence_id": "ac6_corpus_s070", "sentence": "C4-621 is also known as Ashbringer."}
+{"subject_short": "G5_Iguazu", "predicate": "isHostileToward", "object_short": "Ayre", "sentence_id": "ac6_corpus_s071", "sentence": "G5 Iguazu is an enemy of Ayre."}
+{"subject_short": "Juggernaut", "predicate": "worksFor", "object_short": "RLF", "sentence_id": "ac6_corpus_s072", "sentence": "HA-T-102 JUGGERNAUT is affiliated with Rubicon Liberation Front."}
+{"subject_short": "G1_Michigan", "predicate": "hasAlias", "object_short": "G1_Michigan", "sentence_id": "ac6_corpus_s073", "sentence": "G1 Michigan goes by the alias G1 Michigan."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s074", "sentence": "PCA takes part in Cataphract Fight."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s075", "sentence": "Ayre is involved in Karman Line."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s076", "sentence": "Ayre is involved in Operation Wormkiller."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s077", "sentence": "PCA is involved in Operation Wormkiller."}
+{"subject_short": "ThumbDolmayan", "predicate": "worksFor", "object_short": "RLF", "sentence_id": "ac6_corpus_s078", "sentence": "Thumb Dolmayan works for Rubicon Liberation Front."}
+{"subject_short": "Walter", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s079", "sentence": "Handler Walter is involved in Xylem Takeoff."}
+{"subject_short": "V_II_Snail", "predicate": "isBossOf", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s080", "sentence": "V.II Snail is fought as the boss in Xylem Takeoff."}
+{"subject_short": "CEL240", "predicate": "pilots", "object_short": "CEL240", "sentence_id": "ac6_corpus_s081", "sentence": "IB-01: CEL 240 goes into battle in the IB-01: CEL 240."}
+{"subject_short": "G1_Michigan", "predicate": "hasRank", "object_short": "S", "sentence_id": "ac6_corpus_s082", "sentence": "G1 Michigan is ranked S in the Arena."}
+{"subject_short": "V_II_Snail", "predicate": "hasAlias", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s083", "sentence": "V.II Snail is also known as Arquebus."}
+{"subject_short": "Raven", "predicate": "pilots", "object_short": "NIGHTFALL", "sentence_id": "ac6_corpus_s084", "sentence": "Raven pilots the NIGHTFALL."}
+{"subject_short": "walker_destruction", "predicate": "takesPlaceIn", "object_short": "bona_dea_dunes", "sentence_id": "ac6_corpus_s085", "sentence": "Walker Destruction takes place in Bona Dea Dunes."}
+{"subject_short": "operation_wallclimber", "predicate": "takesPlaceIn", "object_short": "wall", "sentence_id": "ac6_corpus_s086", "sentence": "Operation Wallclimber takes place in The Wall, Belius – RLF Stronghold."}
+{"subject_short": "G1_Michigan", "predicate": "hasAlias", "object_short": "G1_Michigan", "sentence_id": "ac6_corpus_s087", "sentence": "G1 Michigan is also known as G1 Michigan."}
+{"subject_short": "Balam", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s088", "sentence": "Balam takes part in PCA Siege."}
+{"subject_short": "V_IV_Rusty", "predicate": "pilots", "object_short": "STEEL_HAZE", "sentence_id": "ac6_corpus_s089", "sentence": "V.IV Rusty pilots the STEEL HAZE."}
+{"subject_short": "V_II_Snail", "predicate": "pilots", "object_short": "OPEN_FAITH", "sentence_id": "ac6_corpus_s090", "sentence": "V.II Snail goes into battle in the OPEN FAITH."}
+{"subject_short": "fires_of_ibis", "predicate": "takesPlaceIn", "object_short": "rubicon_sky", "sentence_id": "ac6_corpus_s091", "sentence": "Fires of Ibis takes place in Rubicon 3 – Upper Atmosphere."}
+{"subject_short": "Enforcer", "predicate": "hasAlias", "object_short": "Enforcer", "sentence_id": "ac6_corpus_s092", "sentence": "AAP03: ENFORCER is also known as AAP03: ENFORCER."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "V_IV_Rusty", "sentence_id": "ac6_corpus_s093", "sentence": "C4-621 is friendly towards V.IV Rusty."}
+{"subject_short": "G5_Iguazu", "predicate": "worksFor", "object_short": "Balam", "sentence_id": "ac6_corpus_s094", "sentence": "G5 Iguazu is affiliated with Balam."}
+{"subject_short": "G1_Michigan", "predicate": "pilots", "object_short": "LIGER_TAIL", "sentence_id": "ac6_corpus_s095", "sentence": "G1 Michigan goes into battle in the LIGER TAIL."}
+{"subject_short": "IceWorm", "predicate": "hasAlias", "object_short": "IceWorm", "sentence_id": "ac6_corpus_s096", "sentence": "IA-02: ICE WORM goes by the alias IA-02: ICE WORM."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s097", "sentence": "V.IV Rusty takes part in Karman Line."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Raven", "sentence_id": "ac6_corpus_s098", "sentence": "C4-621 goes by the alias Raven."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "CinderCarla", "sentence_id": "ac6_corpus_s099", "sentence": "C4-621 is friendly towards Cinder\" Carla."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Hound", "sentence_id": "ac6_corpus_s100", "sentence": "C4-621 goes by the alias Hound."}
+{"subject_short": "Cataphract", "predicate": "hasAlias", "object_short": "Cataphract", "sentence_id": "ac6_corpus_s101", "sentence": "Cataphract is also known as Cataphract."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s102", "sentence": "C4-621 is involved in Cataphract Fight."}
+{"subject_short": "Walter", "predicate": "pilots", "object_short": "IB_C03_HAL_826", "sentence_id": "ac6_corpus_s103", "sentence": "Handler Walter pilots the IB-C03: HAL 826."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Buddy", "sentence_id": "ac6_corpus_s104", "sentence": "C4-621 is also known as Buddy."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "IceWorm", "sentence_id": "ac6_corpus_s105", "sentence": "C4-621 kills IA-02: ICE WORM."}
+{"subject_short": "Enforcer", "predicate": "pilots", "object_short": "Enforcer", "sentence_id": "ac6_corpus_s106", "sentence": "AAP03: ENFORCER pilots the AAP03: ENFORCER."}
+{"subject_short": "V_IV_Rusty", "predicate": "isFriendlyTowards", "object_short": "RLF", "sentence_id": "ac6_corpus_s107", "sentence": "V.IV Rusty is friendly towards Rubicon Liberation Front."}
+{"subject_short": "vascular_plant_event", "predicate": "takesPlaceIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s108", "sentence": "Vascular Plant is set in Vascular Plant."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "operation_wallclimber", "sentence_id": "ac6_corpus_s109", "sentence": "C4-621 takes part in Operation Wallclimber."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Gun13", "sentence_id": "ac6_corpus_s110", "sentence": "C4-621 is also known as Gun13."}
+{"subject_short": "G5_Iguazu", "predicate": "isFriendlyTowards", "object_short": "Balam", "sentence_id": "ac6_corpus_s111", "sentence": "G5 Iguazu fights alongside Balam."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "G5_Iguazu", "sentence_id": "ac6_corpus_s112", "sentence": "C4-621 is hostile toward G5 Iguazu."}
+{"subject_short": "V_II_Snail", "predicate": "hasRank", "object_short": "A", "sentence_id": "ac6_corpus_s113", "sentence": "V.II Snail is ranked A in the Arena."}
+{"subject_short": "V_IV_Rusty", "predicate": "pilots", "object_short": "STEEL_HAZE_ORTUS", "sentence_id": "ac6_corpus_s114", "sentence": "V.IV Rusty goes into battle in the STEEL HAZE ORTUS."}
+{"subject_short": "Ayre", "predicate": "pilots", "object_short": "IB_07_SOL_644", "sentence_id": "ac6_corpus_s115", "sentence": "Ayre pilots the IB-07: SOL 644."}
+{"subject_short": "vascular_plant_event", "predicate": "takesPlaceIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s116", "sentence": "Vascular Plant takes place in Vascular Plant."}
+{"subject_short": "CinderCarla", "predicate": "hasRank", "object_short": "B", "sentence_id": "ac6_corpus_s117", "sentence": "Cinder\" Carla is ranked B in the Arena."}
+{"subject_short": "Balam", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s118", "sentence": "Balam is involved in PCA Siege."}
+{"subject_short": "Balteus", "predicate": "isBossOf", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s119", "sentence": "AAP07: BALTEUS is the boss of PCA Arrival."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s120", "sentence": "PCA takes part in Karman Line."}
+{"subject_short": "V_IV_Rusty", "predicate": "pilots", "object_short": "STEEL_HAZE_ORTUS", "sentence_id": "ac6_corpus_s121", "sentence": "V.IV Rusty pilots the STEEL HAZE ORTUS."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s122", "sentence": "Ayre takes part in Cataphract Fight."}
+{"subject_short": "CinderCarla", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s123", "sentence": "Cinder\" Carla is involved in Operation Wormkiller."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s124", "sentence": "C4-621 is involved in Karman Line."}
+{"subject_short": "operation_wormkiller", "predicate": "takesPlaceIn", "object_short": "iceworm_field", "sentence_id": "ac6_corpus_s125", "sentence": "Operation Wormkiller is set in Central Ice Field."}
+{"subject_short": "pca_siege", "predicate": "takesPlaceIn", "object_short": "outpost_pca", "sentence_id": "ac6_corpus_s126", "sentence": "PCA Siege takes place in PCA Outpost."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "Balteus", "sentence_id": "ac6_corpus_s127", "sentence": "C4-621 kills AAP07: BALTEUS."}
+{"subject_short": "CinderCarla", "predicate": "participatesIn", "object_short": "fires_of_ibis", "sentence_id": "ac6_corpus_s128", "sentence": "Cinder\" Carla is involved in Fires of Ibis."}
+{"subject_short": "G1_Michigan", "predicate": "isBossOf", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s129", "sentence": "G1 Michigan is fought as the boss in Depth Exploration."}
+{"subject_short": "IceWorm", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s130", "sentence": "IA-02: ICE WORM is affiliated with PCA."}
+{"subject_short": "V_IV_Rusty", "predicate": "worksFor", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s131", "sentence": "V.IV Rusty is affiliated with Arquebus."}
+{"subject_short": "ThumbDolmayan", "predicate": "hasAlias", "object_short": "ThumbDolmayan", "sentence_id": "ac6_corpus_s132", "sentence": "Thumb Dolmayan is also known as Thumb Dolmayan."}
+{"subject_short": "V_II_Snail", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s133", "sentence": "V.II Snail is involved in Operation Wormkiller."}
+{"subject_short": "ThumbDolmayan", "predicate": "pilots", "object_short": "ASTGHIK", "sentence_id": "ac6_corpus_s134", "sentence": "Thumb Dolmayan goes into battle in the ASTGHIK."}
+{"subject_short": "Walter", "predicate": "isFriendlyTowards", "object_short": "G1_Michigan", "sentence_id": "ac6_corpus_s135", "sentence": "Handler Walter is friendly towards G1 Michigan."}
+{"subject_short": "G5_Iguazu", "predicate": "hasAlias", "object_short": "G5_Iguazu", "sentence_id": "ac6_corpus_s136", "sentence": "G5 Iguazu goes by the alias G5 Iguazu."}
+{"subject_short": "Balteus", "predicate": "hasAlias", "object_short": "Balteus", "sentence_id": "ac6_corpus_s137", "sentence": "AAP07: BALTEUS goes by the alias AAP07: BALTEUS."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s138", "sentence": "C4-621 takes part in PCA Arrival."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "IceWorm", "sentence_id": "ac6_corpus_s139", "sentence": "C4-621 destroys IA-02: ICE WORM in battle."}
+{"subject_short": "pca_arrival", "predicate": "takesPlaceIn", "object_short": "outpost_pca", "sentence_id": "ac6_corpus_s140", "sentence": "PCA Arrival is set in PCA Outpost."}
+{"subject_short": "Overseer", "predicate": "participatesIn", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s141", "sentence": "Overseer is involved in Fires of Raven."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "ALLMIND", "sentence_id": "ac6_corpus_s142", "sentence": "C4-621 is hostile toward ALLMIND."}
+{"subject_short": "Walter", "predicate": "worksFor", "object_short": "Overseer", "sentence_id": "ac6_corpus_s143", "sentence": "Handler Walter works for Overseer."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Hound", "sentence_id": "ac6_corpus_s144", "sentence": "C4-621 is also known as Hound."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s145", "sentence": "PCA takes part in Operation Wormkiller."}
+{"subject_short": "V_IV_Rusty", "predicate": "hasRank", "object_short": "B", "sentence_id": "ac6_corpus_s146", "sentence": "V.IV Rusty holds the rank B."}
+{"subject_short": "Ayre", "predicate": "isBossOf", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s147", "sentence": "Ayre is the boss of Fires of Raven."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "operation_wallclimber", "sentence_id": "ac6_corpus_s148", "sentence": "V.IV Rusty is involved in Operation Wallclimber."}
+{"subject_short": "cataphract_fight", "predicate": "takesPlaceIn", "object_short": "cataphract_plant", "sentence_id": "ac6_corpus_s149", "sentence": "Cataphract Fight is set in Coral Collection Plant."}
+{"subject_short": "RLF", "predicate": "isHostileToward", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s150", "sentence": "Rubicon Liberation Front is an enemy of Arquebus."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "Cataphract", "sentence_id": "ac6_corpus_s151", "sentence": "C4-621 destroys Cataphract in battle."}
+{"subject_short": "G5_Iguazu", "predicate": "pilots", "object_short": "HEAD_BRINGER", "sentence_id": "ac6_corpus_s152", "sentence": "G5 Iguazu goes into battle in the HEAD BRINGER."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "CEL240", "sentence_id": "ac6_corpus_s153", "sentence": "C4-621 kills IB-01: CEL 240."}
+{"subject_short": "Juggernaut", "predicate": "hasAlias", "object_short": "Juggernaut", "sentence_id": "ac6_corpus_s154", "sentence": "HA-T-102 JUGGERNAUT goes by the alias HA-T-102 JUGGERNAUT."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s155", "sentence": "C4-621 takes part in Karman Line."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s156", "sentence": "Ayre is involved in Vascular Plant."}
+{"subject_short": "ALLMIND", "predicate": "participatesIn", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s157", "sentence": "ALLMIND takes part in PCA Arrival."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Freelancer", "sentence_id": "ac6_corpus_s158", "sentence": "C4-621 is also known as Freelancer."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s159", "sentence": "C4-621 is involved in PCA Arrival."}
+{"subject_short": "ThumbDolmayan", "predicate": "hasAlias", "object_short": "ThumbDolmayan", "sentence_id": "ac6_corpus_s160", "sentence": "Thumb Dolmayan goes by the alias Thumb Dolmayan."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "V_II_Snail", "sentence_id": "ac6_corpus_s161", "sentence": "C4-621 is an enemy of V.II Snail."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "V_IV_Rusty", "sentence_id": "ac6_corpus_s162", "sentence": "C4-621 is hostile toward V.IV Rusty."}
+{"subject_short": "Enforcer", "predicate": "hasAlias", "object_short": "Enforcer", "sentence_id": "ac6_corpus_s163", "sentence": "AAP03: ENFORCER goes by the alias AAP03: ENFORCER."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s164", "sentence": "C4-621 is involved in Vascular Plant."}
+{"subject_short": "G1_Michigan", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s165", "sentence": "G1 Michigan is involved in Depth Exploration."}
+{"subject_short": "CinderCarla", "predicate": "hasAlias", "object_short": "CinderCarla", "sentence_id": "ac6_corpus_s166", "sentence": "Cinder\" Carla goes by the alias Cinder\" Carla."}
+{"subject_short": "G1_Michigan", "predicate": "worksFor", "object_short": "Balam", "sentence_id": "ac6_corpus_s167", "sentence": "G1 Michigan is affiliated with Balam."}
+{"subject_short": "Balteus", "predicate": "hasAlias", "object_short": "Balteus", "sentence_id": "ac6_corpus_s168", "sentence": "AAP07: BALTEUS is also known as AAP07: BALTEUS."}
+{"subject_short": "G5_Iguazu", "predicate": "isFriendlyTowards", "object_short": "Balam", "sentence_id": "ac6_corpus_s169", "sentence": "G5 Iguazu is friendly towards Balam."}
+{"subject_short": "Juggernaut", "predicate": "isBossOf", "object_short": "operation_wallclimber", "sentence_id": "ac6_corpus_s170", "sentence": "HA-T-102 JUGGERNAUT is the boss of Operation Wallclimber."}
+{"subject_short": "Ayre", "predicate": "hasAlias", "object_short": "Ayre", "sentence_id": "ac6_corpus_s171", "sentence": "Ayre is also known as Ayre."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "Walter", "sentence_id": "ac6_corpus_s172", "sentence": "C4-621 is friendly towards Handler Walter."}
+{"subject_short": "karman_line", "predicate": "takesPlaceIn", "object_short": "rubicon_sky", "sentence_id": "ac6_corpus_s173", "sentence": "Karman Line takes place in Rubicon 3 – Upper Atmosphere."}
+{"subject_short": "Balam", "predicate": "isHostileToward", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s174", "sentence": "Balam is an enemy of Arquebus."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "Juggernaut", "sentence_id": "ac6_corpus_s175", "sentence": "C4-621 destroys HA-T-102 JUGGERNAUT in battle."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s176", "sentence": "PCA takes part in PCA Arrival."}
+{"subject_short": "V_IV_Rusty", "predicate": "hasAlias", "object_short": "V_IV_Rusty", "sentence_id": "ac6_corpus_s177", "sentence": "V.IV Rusty is also known as V.IV Rusty."}
+{"subject_short": "Cataphract", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s178", "sentence": "Cataphract is affiliated with PCA."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "G5_Iguazu", "sentence_id": "ac6_corpus_s179", "sentence": "C4-621 is an enemy of G5 Iguazu."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Wallclimber", "sentence_id": "ac6_corpus_s180", "sentence": "C4-621 is also known as Wallclimber."}
+{"subject_short": "Juggernaut", "predicate": "isBossOf", "object_short": "operation_wallclimber", "sentence_id": "ac6_corpus_s181", "sentence": "HA-T-102 JUGGERNAUT is fought as the boss in Operation Wallclimber."}
+{"subject_short": "Arquebus", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s182", "sentence": "Arquebus takes part in PCA Siege."}
+{"subject_short": "IceWorm", "predicate": "pilots", "object_short": "IceWorm", "sentence_id": "ac6_corpus_s183", "sentence": "IA-02: ICE WORM pilots the IA-02: ICE WORM."}
+{"subject_short": "Cataphract", "predicate": "pilots", "object_short": "AC_AAS02_CATAPHRACT", "sentence_id": "ac6_corpus_s184", "sentence": "Cataphract goes into battle in the AAS02: CATAPHRACT."}
+{"subject_short": "Balam", "predicate": "isHostileToward", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s185", "sentence": "Balam is hostile toward Arquebus."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s186", "sentence": "Ayre takes part in Operation Wormkiller."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "C4_621", "sentence_id": "ac6_corpus_s187", "sentence": "C4-621 is also known as C4-621."}
+{"subject_short": "Overseer", "predicate": "participatesIn", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s188", "sentence": "Overseer takes part in Fires of Raven."}
+{"subject_short": "Raven", "predicate": "hasAlias", "object_short": "Raven", "sentence_id": "ac6_corpus_s189", "sentence": "Raven is also known as Raven."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s190", "sentence": "C4-621 is involved in PCA Siege."}
+{"subject_short": "C4_621", "predicate": "kills", "object_short": "CEL240", "sentence_id": "ac6_corpus_s191", "sentence": "C4-621 destroys IB-01: CEL 240 in battle."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s192", "sentence": "Ayre is involved in Cataphract Fight."}
+{"subject_short": "V_IV_Rusty", "predicate": "hasAlias", "object_short": "V_IV_Rusty", "sentence_id": "ac6_corpus_s193", "sentence": "V.IV Rusty goes by the alias V.IV Rusty."}
+{"subject_short": "depth_exploration", "predicate": "takesPlaceIn", "object_short": "underground_entrance", "sentence_id": "ac6_corpus_s194", "sentence": "Depth Exploration takes place in Watchpoint Alpha – Underground Entrance."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s195", "sentence": "C4-621 takes part in Operation Wormkiller."}
+{"subject_short": "V_II_Snail", "predicate": "worksFor", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s196", "sentence": "V.II Snail works for Arquebus."}
+{"subject_short": "G5_Iguazu", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s197", "sentence": "G5 Iguazu is involved in Depth Exploration."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s198", "sentence": "C4-621 takes part in Fires of Raven."}
+{"subject_short": "Enforcer", "predicate": "isBossOf", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s199", "sentence": "AAP03: ENFORCER is the boss of Depth Exploration."}
+{"subject_short": "Ayre", "predicate": "pilots", "object_short": "ECHO", "sentence_id": "ac6_corpus_s200", "sentence": "Ayre goes into battle in the ECHO."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Wallclimber", "sentence_id": "ac6_corpus_s201", "sentence": "C4-621 goes by the alias Wallclimber."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s202", "sentence": "PCA takes part in PCA Siege."}
+{"subject_short": "Walter", "predicate": "isFriendlyTowards", "object_short": "CinderCarla", "sentence_id": "ac6_corpus_s203", "sentence": "Handler Walter is friendly towards Cinder\" Carla."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Freelancer", "sentence_id": "ac6_corpus_s204", "sentence": "C4-621 goes by the alias Freelancer."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s205", "sentence": "PCA is involved in Cataphract Fight."}
+{"subject_short": "G5_Iguazu", "predicate": "hasRank", "object_short": "D", "sentence_id": "ac6_corpus_s206", "sentence": "G5 Iguazu holds the rank D."}
+{"subject_short": "fires_of_ibis", "predicate": "takesPlaceIn", "object_short": "rubicon_sky", "sentence_id": "ac6_corpus_s207", "sentence": "Fires of Ibis is set in Rubicon 3 – Upper Atmosphere."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "Ayre", "sentence_id": "ac6_corpus_s208", "sentence": "C4-621 is an enemy of Ayre."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s209", "sentence": "C4-621 is involved in Xylem Takeoff."}
+{"subject_short": "ALLMIND", "predicate": "hasAlias", "object_short": "ALLMIND", "sentence_id": "ac6_corpus_s210", "sentence": "ALLMIND goes by the alias ALLMIND."}
+{"subject_short": "CEL240", "predicate": "hasAlias", "object_short": "CEL240", "sentence_id": "ac6_corpus_s211", "sentence": "IB-01: CEL 240 is also known as IB-01: CEL 240."}
+{"subject_short": "Walter", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s212", "sentence": "Handler Walter takes part in Xylem Takeoff."}
+{"subject_short": "ALLMIND", "predicate": "participatesIn", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s213", "sentence": "ALLMIND is involved in PCA Arrival."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "operation_wallclimber", "sentence_id": "ac6_corpus_s214", "sentence": "C4-621 is involved in Operation Wallclimber."}
+{"subject_short": "Walter", "predicate": "hasAlias", "object_short": "Walter", "sentence_id": "ac6_corpus_s215", "sentence": "Handler Walter goes by the alias Handler Walter."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "Walter", "sentence_id": "ac6_corpus_s216", "sentence": "C4-621 fights alongside Handler Walter."}
+{"subject_short": "CinderCarla", "predicate": "participatesIn", "object_short": "fires_of_ibis", "sentence_id": "ac6_corpus_s217", "sentence": "Cinder\" Carla takes part in Fires of Ibis."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s218", "sentence": "Ayre takes part in Depth Exploration."}
+{"subject_short": "G1_Michigan", "predicate": "pilots", "object_short": "LIGER_TAIL", "sentence_id": "ac6_corpus_s219", "sentence": "G1 Michigan pilots the LIGER TAIL."}
+{"subject_short": "operation_wallclimber", "predicate": "takesPlaceIn", "object_short": "wall", "sentence_id": "ac6_corpus_s220", "sentence": "Operation Wallclimber is set in The Wall, Belius – RLF Stronghold."}
+{"subject_short": "G1_Michigan", "predicate": "hasRank", "object_short": "S", "sentence_id": "ac6_corpus_s221", "sentence": "G1 Michigan holds the rank S."}
+{"subject_short": "Juggernaut", "predicate": "pilots", "object_short": "Juggernaut", "sentence_id": "ac6_corpus_s222", "sentence": "HA-T-102 JUGGERNAUT pilots the HA-T-102 JUGGERNAUT."}
+{"subject_short": "G5_Iguazu", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s223", "sentence": "G5 Iguazu takes part in Operation Wormkiller."}
+{"subject_short": "ThumbDolmayan", "predicate": "hasRank", "object_short": "A", "sentence_id": "ac6_corpus_s224", "sentence": "Thumb Dolmayan is ranked A in the Arena."}
+{"subject_short": "G1_Michigan", "predicate": "worksFor", "object_short": "Balam", "sentence_id": "ac6_corpus_s225", "sentence": "G1 Michigan works for Balam."}
+{"subject_short": "CEL240", "predicate": "pilots", "object_short": "CEL240", "sentence_id": "ac6_corpus_s226", "sentence": "IB-01: CEL 240 pilots the IB-01: CEL 240."}
+{"subject_short": "CinderCarla", "predicate": "worksFor", "object_short": "Overseer", "sentence_id": "ac6_corpus_s227", "sentence": "Cinder\" Carla works for Overseer."}
+{"subject_short": "Ayre", "predicate": "isBossOf", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s228", "sentence": "Ayre is fought as the boss in Fires of Raven."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Gun13", "sentence_id": "ac6_corpus_s229", "sentence": "C4-621 goes by the alias Gun13."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s230", "sentence": "V.IV Rusty is involved in Karman Line."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s231", "sentence": "PCA is involved in Karman Line."}
+{"subject_short": "Ayre", "predicate": "hasAlias", "object_short": "Alias_AFriend", "sentence_id": "ac6_corpus_s232", "sentence": "Ayre is also known as A Friend."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "ALLMIND", "sentence_id": "ac6_corpus_s233", "sentence": "C4-621 is an enemy of ALLMIND."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s234", "sentence": "V.IV Rusty is involved in Depth Exploration."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "pca_siege", "sentence_id": "ac6_corpus_s235", "sentence": "C4-621 takes part in PCA Siege."}
+{"subject_short": "V_II_Snail", "predicate": "isBossOf", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s236", "sentence": "V.II Snail is the boss of Xylem Takeoff."}
+{"subject_short": "V_II_Snail", "predicate": "hasRank", "object_short": "A", "sentence_id": "ac6_corpus_s237", "sentence": "V.II Snail holds the rank A."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "Ayre", "sentence_id": "ac6_corpus_s238", "sentence": "C4-621 is hostile toward Ayre."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "walker_destruction", "sentence_id": "ac6_corpus_s239", "sentence": "C4-621 is involved in Walker Destruction."}
+{"subject_short": "Cataphract", "predicate": "isBossOf", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s240", "sentence": "Cataphract is the boss of Cataphract Fight."}
+{"subject_short": "G5_Iguazu", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s241", "sentence": "G5 Iguazu takes part in Depth Exploration."}
+{"subject_short": "Cataphract", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s242", "sentence": "Cataphract works for PCA."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Wormkiller", "sentence_id": "ac6_corpus_s243", "sentence": "C4-621 is also known as Wormkiller."}
+{"subject_short": "Balteus", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s244", "sentence": "AAP07: BALTEUS works for PCA."}
+{"subject_short": "Raven", "predicate": "hasAlias", "object_short": "Raven", "sentence_id": "ac6_corpus_s245", "sentence": "Raven goes by the alias Raven."}
+{"subject_short": "Raven", "predicate": "pilots", "object_short": "NIGHTFALL", "sentence_id": "ac6_corpus_s246", "sentence": "Raven goes into battle in the NIGHTFALL."}
+{"subject_short": "Juggernaut", "predicate": "hasAlias", "object_short": "Juggernaut", "sentence_id": "ac6_corpus_s247", "sentence": "HA-T-102 JUGGERNAUT is also known as HA-T-102 JUGGERNAUT."}
+{"subject_short": "ThumbDolmayan", "predicate": "hasRank", "object_short": "A", "sentence_id": "ac6_corpus_s248", "sentence": "Thumb Dolmayan holds the rank A."}
+{"subject_short": "G1_Michigan", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s249", "sentence": "G1 Michigan is involved in Operation Wormkiller."}
+{"subject_short": "CinderCarla", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s250", "sentence": "Cinder\" Carla is involved in Xylem Takeoff."}
+{"subject_short": "G5_Iguazu", "predicate": "isHostileToward", "object_short": "Ayre", "sentence_id": "ac6_corpus_s251", "sentence": "G5 Iguazu is hostile toward Ayre."}
+{"subject_short": "Cataphract", "predicate": "hasAlias", "object_short": "Cataphract", "sentence_id": "ac6_corpus_s252", "sentence": "Cataphract goes by the alias Cataphract."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "walker_destruction", "sentence_id": "ac6_corpus_s253", "sentence": "C4-621 takes part in Walker Destruction."}
+{"subject_short": "Walter", "predicate": "pilots", "object_short": "IB_C03_HAL_826", "sentence_id": "ac6_corpus_s254", "sentence": "Handler Walter goes into battle in the IB-C03: HAL 826."}
+{"subject_short": "Enforcer", "predicate": "isBossOf", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s255", "sentence": "AAP03: ENFORCER is fought as the boss in Depth Exploration."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s256", "sentence": "PCA is involved in PCA Arrival."}
+{"subject_short": "IceWorm", "predicate": "isBossOf", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s257", "sentence": "IA-02: ICE WORM is fought as the boss in Operation Wormkiller."}
+{"subject_short": "CinderCarla", "predicate": "worksFor", "object_short": "Overseer", "sentence_id": "ac6_corpus_s258", "sentence": "Cinder\" Carla is affiliated with Overseer."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s259", "sentence": "PCA takes part in Depth Exploration."}
+{"subject_short": "pca_siege", "predicate": "takesPlaceIn", "object_short": "outpost_pca", "sentence_id": "ac6_corpus_s260", "sentence": "PCA Siege is set in PCA Outpost."}
+{"subject_short": "CEL240", "predicate": "isBossOf", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s261", "sentence": "IB-01: CEL 240 is the boss of Vascular Plant."}
+{"subject_short": "Juggernaut", "predicate": "pilots", "object_short": "Juggernaut", "sentence_id": "ac6_corpus_s262", "sentence": "HA-T-102 JUGGERNAUT goes into battle in the HA-T-102 JUGGERNAUT."}
+{"subject_short": "CinderCarla", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s263", "sentence": "Cinder\" Carla takes part in Operation Wormkiller."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s264", "sentence": "Ayre takes part in Xylem Takeoff."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "cataphract_fight", "sentence_id": "ac6_corpus_s265", "sentence": "C4-621 takes part in Cataphract Fight."}
+{"subject_short": "G5_Iguazu", "predicate": "worksFor", "object_short": "Balam", "sentence_id": "ac6_corpus_s266", "sentence": "G5 Iguazu works for Balam."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "CinderCarla", "sentence_id": "ac6_corpus_s267", "sentence": "C4-621 fights alongside Cinder\" Carla."}
+{"subject_short": "C4_621", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s268", "sentence": "C4-621 is involved in Operation Wormkiller."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "karman_line", "sentence_id": "ac6_corpus_s269", "sentence": "Ayre takes part in Karman Line."}
+{"subject_short": "pca_arrival", "predicate": "takesPlaceIn", "object_short": "outpost_pca", "sentence_id": "ac6_corpus_s270", "sentence": "PCA Arrival takes place in PCA Outpost."}
+{"subject_short": "V_II_Snail", "predicate": "hasAlias", "object_short": "V_II_Snail", "sentence_id": "ac6_corpus_s271", "sentence": "V.II Snail is also known as V.II Snail."}
+{"subject_short": "Enforcer", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s272", "sentence": "AAP03: ENFORCER works for PCA."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "G1_Michigan", "sentence_id": "ac6_corpus_s273", "sentence": "C4-621 is friendly towards G1 Michigan."}
+{"subject_short": "V_II_Snail", "predicate": "hasAlias", "object_short": "V_II_Snail", "sentence_id": "ac6_corpus_s274", "sentence": "V.II Snail goes by the alias V.II Snail."}
+{"subject_short": "Walter", "predicate": "hasAlias", "object_short": "Walter", "sentence_id": "ac6_corpus_s275", "sentence": "Handler Walter is also known as Handler Walter."}
+{"subject_short": "CinderCarla", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s276", "sentence": "Cinder\" Carla takes part in Xylem Takeoff."}
+{"subject_short": "CinderCarla", "predicate": "pilots", "object_short": "FULL_COURSE", "sentence_id": "ac6_corpus_s277", "sentence": "Cinder\" Carla pilots the FULL COURSE."}
+{"subject_short": "Enforcer", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s278", "sentence": "AAP03: ENFORCER is affiliated with PCA."}
+{"subject_short": "Ayre", "predicate": "hasAlias", "object_short": "Alias_AFriend", "sentence_id": "ac6_corpus_s279", "sentence": "Ayre goes by the alias A Friend."}
+{"subject_short": "ThumbDolmayan", "predicate": "worksFor", "object_short": "RLF", "sentence_id": "ac6_corpus_s280", "sentence": "Thumb Dolmayan is affiliated with Rubicon Liberation Front."}
+{"subject_short": "G1_Michigan", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s281", "sentence": "G1 Michigan takes part in Depth Exploration."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "V_IV_Rusty", "sentence_id": "ac6_corpus_s282", "sentence": "C4-621 fights alongside V.IV Rusty."}
+{"subject_short": "operation_wormkiller", "predicate": "takesPlaceIn", "object_short": "iceworm_field", "sentence_id": "ac6_corpus_s283", "sentence": "Operation Wormkiller takes place in Central Ice Field."}
+{"subject_short": "Ayre", "predicate": "pilots", "object_short": "ECHO", "sentence_id": "ac6_corpus_s284", "sentence": "Ayre pilots the ECHO."}
+{"subject_short": "CEL240", "predicate": "hasAlias", "object_short": "CEL240", "sentence_id": "ac6_corpus_s285", "sentence": "IB-01: CEL 240 goes by the alias IB-01: CEL 240."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_SymbolOfResolve", "sentence_id": "ac6_corpus_s286", "sentence": "C4-621 is also known as Symbol of Resolve."}
+{"subject_short": "ALLMIND", "predicate": "hasAlias", "object_short": "ALLMIND", "sentence_id": "ac6_corpus_s287", "sentence": "ALLMIND is also known as ALLMIND."}
+{"subject_short": "C4_621", "predicate": "hasAlias", "object_short": "Alias_Ashbringer", "sentence_id": "ac6_corpus_s288", "sentence": "C4-621 goes by the alias Ashbringer."}
+{"subject_short": "CinderCarla", "predicate": "worksFor", "object_short": "Dozer", "sentence_id": "ac6_corpus_s289", "sentence": "Cinder\" Carla works for Dozer."}
+{"subject_short": "PCA", "predicate": "participatesIn", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s290", "sentence": "PCA is involved in Depth Exploration."}
+{"subject_short": "fires_of_raven", "predicate": "takesPlaceIn", "object_short": "rubicon_orbit", "sentence_id": "ac6_corpus_s291", "sentence": "Fires of Raven takes place in Rubicon 3 – Orbit."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "fires_of_raven", "sentence_id": "ac6_corpus_s292", "sentence": "Ayre is involved in Fires of Raven."}
+{"subject_short": "C4_621", "predicate": "isHostileToward", "object_short": "V_II_Snail", "sentence_id": "ac6_corpus_s293", "sentence": "C4-621 is hostile toward V.II Snail."}
+{"subject_short": "G5_Iguazu", "predicate": "hasRank", "object_short": "D", "sentence_id": "ac6_corpus_s294", "sentence": "G5 Iguazu is ranked D in the Arena."}
+{"subject_short": "Balteus", "predicate": "isBossOf", "object_short": "pca_arrival", "sentence_id": "ac6_corpus_s295", "sentence": "AAP07: BALTEUS is fought as the boss in PCA Arrival."}
+{"subject_short": "G5_Iguazu", "predicate": "isFriendlyTowards", "object_short": "ALLMIND", "sentence_id": "ac6_corpus_s296", "sentence": "G5 Iguazu is friendly towards ALLMIND."}
+{"subject_short": "RLF", "predicate": "participatesIn", "object_short": "walker_destruction", "sentence_id": "ac6_corpus_s297", "sentence": "Rubicon Liberation Front takes part in Walker Destruction."}
+{"subject_short": "V_IV_Rusty", "predicate": "worksFor", "object_short": "RLF", "sentence_id": "ac6_corpus_s298", "sentence": "V.IV Rusty is affiliated with Rubicon Liberation Front."}
+{"subject_short": "Ayre", "predicate": "pilots", "object_short": "IB_07_SOL_644", "sentence_id": "ac6_corpus_s299", "sentence": "Ayre goes into battle in the IB-07: SOL 644."}
+{"subject_short": "V_II_Snail", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s300", "sentence": "V.II Snail takes part in Operation Wormkiller."}
+{"subject_short": "Ayre", "predicate": "participatesIn", "object_short": "xylem_takeoff", "sentence_id": "ac6_corpus_s301", "sentence": "Ayre is involved in Xylem Takeoff."}
+{"subject_short": "G5_Iguazu", "predicate": "pilots", "object_short": "HEAD_BRINGER", "sentence_id": "ac6_corpus_s302", "sentence": "G5 Iguazu pilots the HEAD BRINGER."}
+{"subject_short": "V_II_Snail", "predicate": "worksFor", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s303", "sentence": "V.II Snail is affiliated with Arquebus."}
+{"subject_short": "CinderCarla", "predicate": "hasAlias", "object_short": "CinderCarla", "sentence_id": "ac6_corpus_s304", "sentence": "Cinder\" Carla is also known as Cinder\" Carla."}
+{"subject_short": "CinderCarla", "predicate": "pilots", "object_short": "FULL_COURSE", "sentence_id": "ac6_corpus_s305", "sentence": "Cinder\" Carla goes into battle in the FULL COURSE."}
+{"subject_short": "walker_destruction", "predicate": "takesPlaceIn", "object_short": "bona_dea_dunes", "sentence_id": "ac6_corpus_s306", "sentence": "Walker Destruction is set in Bona Dea Dunes."}
+{"subject_short": "CEL240", "predicate": "isBossOf", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s307", "sentence": "IB-01: CEL 240 is fought as the boss in Vascular Plant."}
+{"subject_short": "Ayre", "predicate": "hasAlias", "object_short": "Alias_WavelengthForm", "sentence_id": "ac6_corpus_s308", "sentence": "Ayre is also known as Wavelength Form."}
+{"subject_short": "V_II_Snail", "predicate": "participatesIn", "object_short": "vascular_plant_event", "sentence_id": "ac6_corpus_s309", "sentence": "V.II Snail is involved in Vascular Plant."}
+{"subject_short": "ThumbDolmayan", "predicate": "pilots", "object_short": "ASTGHIK", "sentence_id": "ac6_corpus_s310", "sentence": "Thumb Dolmayan pilots the ASTGHIK."}
+{"subject_short": "Balteus", "predicate": "pilots", "object_short": "Balteus", "sentence_id": "ac6_corpus_s311", "sentence": "AAP07: BALTEUS pilots the AAP07: BALTEUS."}
+{"subject_short": "IceWorm", "predicate": "isBossOf", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s312", "sentence": "IA-02: ICE WORM is the boss of Operation Wormkiller."}
+{"subject_short": "xylem_takeoff", "predicate": "takesPlaceIn", "object_short": "xylem", "sentence_id": "ac6_corpus_s313", "sentence": "Xylem Takeoff is set in Xylem, the Floating City."}
+{"subject_short": "C4_621", "predicate": "isFriendlyTowards", "object_short": "Ayre", "sentence_id": "ac6_corpus_s314", "sentence": "C4-621 is friendly towards Ayre."}
+{"subject_short": "V_IV_Rusty", "predicate": "participatesIn", "object_short": "operation_wormkiller", "sentence_id": "ac6_corpus_s315", "sentence": "V.IV Rusty takes part in Operation Wormkiller."}
+{"subject_short": "V_IV_Rusty", "predicate": "worksFor", "object_short": "Arquebus", "sentence_id": "ac6_corpus_s316", "sentence": "V.IV Rusty works for Arquebus."}
+{"subject_short": "Balteus", "predicate": "worksFor", "object_short": "PCA", "sentence_id": "ac6_corpus_s317", "sentence": "AAP07: BALTEUS is affiliated with PCA."}
+{"subject_short": "G5_Iguazu", "predicate": "hasAlias", "object_short": "G5_Iguazu", "sentence_id": "ac6_corpus_s318", "sentence": "G5 Iguazu is also known as G5 Iguazu."}
+{"subject_short": "V_IV_Rusty", "predicate": "isBossOf", "object_short": "depth_exploration", "sentence_id": "ac6_corpus_s319", "sentence": "V.IV Rusty is fought as the boss in Depth Exploration."}
+{"subject_short": "G5_Iguazu", "predicate": "isHostileToward", "object_short": "Balam", "sentence_id": "ac6_corpus_s320", "sentence": "G5 Iguazu is an enemy of Balam."}

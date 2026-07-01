@@ -1,0 +1,12 @@
+A boss is the boss of a major event.
+A character holds a rank in the Arena ranking.
+Character is modeled as a subclass of entity.
+The model states that a place hosts a major event.
+An armored core has a name stored as a literal value.
+Each major event is located in a place on Rubicon 3.
+The schema marks an armored core as special with a literal value.
+An alias is an alias of a character.
+A character records whether it is the player buddy as a literal value.
+The schema records a major event chronological order as a literal value.
+An entity is friendly towards another entity.
+The schema records a society name as a literal value.

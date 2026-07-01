@@ -1,0 +1,46 @@
+{
+  "generator": "offline-deterministic",
+  "tiers": [
+    "explicit",
+    "implicit",
+    "long_distance",
+    "nested"
+  ],
+  "counts": {
+    "explicit": {
+      "train": 2100,
+      "val": 428,
+      "test": 430
+    },
+    "implicit": {
+      "train": 2135,
+      "val": 395,
+      "test": 428
+    },
+    "long_distance": {
+      "train": 2066,
+      "val": 426,
+      "test": 466
+    },
+    "nested": {
+      "train": 2160,
+      "val": 411,
+      "test": 387
+    }
+  },
+  "split_sizes": {
+    "train": 8461,
+    "val": 1660,
+    "test": 1711
+  },
+  "split_percent": {
+    "train": 71.5,
+    "val": 14.0,
+    "test": 14.5
+  },
+  "leakage_val_test": {
+    "val_in_train": 0,
+    "test_in_train": 0
+  },
+  "total": 11832
+}

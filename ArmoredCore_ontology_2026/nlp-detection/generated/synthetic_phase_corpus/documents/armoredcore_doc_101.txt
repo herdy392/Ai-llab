@@ -1,0 +1,9 @@
+The schema records that a character pilots an armored core.
+Each character can be assigned a rank.
+A character records whether it is the player buddy as a literal value.
+The schema records that a boss is boss of a major event.
+The schema records that an entity is friendly towards an entity.
+Each armored core stores its AC name as text.
+Each armored core stores a special flag as a literal value.
+Each society stores an origin-on-Rubicon flag as a literal value.
+Each major event lists the entities that take part in it.

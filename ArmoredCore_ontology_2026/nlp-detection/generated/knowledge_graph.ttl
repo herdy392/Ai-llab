@@ -1,0 +1,586 @@
+@prefix ex: <http://example.org/armoredcore#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:C4_621 a ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "C4-621" ;
+    ex:hasAlias ex:Alias_Ashbringer,
+        ex:Alias_Buddy,
+        ex:Alias_C4_621,
+        ex:Alias_Freelancer,
+        ex:Alias_Gun13,
+        ex:Alias_Hound,
+        ex:Alias_Raven,
+        ex:Alias_SymbolOfResolve,
+        ex:Alias_Tourist,
+        ex:Alias_Wallclimber,
+        ex:Alias_Wormkiller ;
+    ex:isBuddy false ;
+    ex:isFriendlyTowards ex:Ayre,
+        ex:CinderCarla,
+        ex:G1_Michigan,
+        ex:V_IV_Rusty,
+        ex:Walter ;
+    ex:isHostileToward ex:ALLMIND,
+        ex:Ayre,
+        ex:G5_Iguazu,
+        ex:V_II_Snail,
+        ex:V_IV_Rusty ;
+    ex:kills ex:Balteus,
+        ex:CEL240,
+        ex:Cataphract,
+        ex:IceWorm,
+        ex:Juggernaut ;
+    ex:participatesIn ex:cataphract_fight,
+        ex:depth_exploration,
+        ex:fires_of_raven,
+        ex:karman_line,
+        ex:operation_wallclimber,
+        ex:operation_wormkiller,
+        ex:pca_arrival,
+        ex:pca_siege,
+        ex:vascular_plant_event,
+        ex:walker_destruction,
+        ex:xylem_takeoff .
+
+ex:Enforcer a ex:AI,
+        ex:Boss,
+        ex:Character,
+        ex:Entity ;
+    rdfs:label "AAP03: ENFORCER" ;
+    ex:hasAlias ex:Alias_Enforcer ;
+    ex:isBossOf ex:depth_exploration ;
+    ex:isBuddy false ;
+    ex:pilots ex:AC_AAP03_ENFORCER ;
+    ex:worksFor ex:PCA .
+
+ex:Raven a ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "Raven (original)" ;
+    ex:hasAlias ex:Alias_Raven ;
+    ex:isBuddy false ;
+    ex:pilots ex:NIGHTFALL .
+
+ex:ThumbDolmayan a ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "Thumb Dolmayan" ;
+    ex:hasAlias ex:Alias_ThumbDolmayan ;
+    ex:hasRank ex:A ;
+    ex:isBuddy false ;
+    ex:pilots ex:ASTGHIK ;
+    ex:worksFor ex:RLF .
+
+ex:AC_AAP03_ENFORCER a ex:ArmoredCore ;
+    rdfs:label "AAP03: ENFORCER" ;
+    ex:acName "AAP03: ENFORCER" ;
+    ex:isSpecial true .
+
+ex:AC_AAP07_BALTEUS a ex:ArmoredCore ;
+    rdfs:label "AAP07: BALTEUS" ;
+    ex:acName "AAP07: BALTEUS" ;
+    ex:isSpecial true .
+
+ex:AC_AAS02_CATAPHRACT a ex:ArmoredCore ;
+    rdfs:label "AAS02: CATAPHRACT" ;
+    ex:acName "AAS02: CATAPHRACT" ;
+    ex:isSpecial true .
+
+ex:AC_HA_T_102_JUGGERNAUT a ex:ArmoredCore ;
+    rdfs:label "HA-T-102 JUGGERNAUT" ;
+    ex:acName "HA-T-102 JUGGERNAUT" ;
+    ex:isSpecial true .
+
+ex:AC_IA_02_ICE_WORM a ex:ArmoredCore ;
+    rdfs:label "IA-02: ICE WORM" ;
+    ex:acName "IA-02: ICE WORM" ;
+    ex:isSpecial true .
+
+ex:AC_IB_01_CEL_240 a ex:ArmoredCore ;
+    rdfs:label "IB-01: CEL 240" ;
+    ex:acName "IB-01: CEL 240" ;
+    ex:isSpecial true .
+
+ex:ASTGHIK a ex:ArmoredCore ;
+    rdfs:label "ASTGHIK" ;
+    ex:acName "ASTGHIK" ;
+    ex:isSpecial false .
+
+ex:Alias_AFriend a ex:Alias ;
+    rdfs:label "A Friend" .
+
+ex:Alias_ALLMIND a ex:Alias ;
+    rdfs:label "ALLMIND" .
+
+ex:Alias_Ashbringer a ex:Alias ;
+    rdfs:label "Ashbringer" .
+
+ex:Alias_Ayre a ex:Alias ;
+    rdfs:label "Ayre" .
+
+ex:Alias_Balteus a ex:Alias ;
+    rdfs:label "AAP07: BALTEUS" .
+
+ex:Alias_Buddy a ex:Alias ;
+    rdfs:label "Buddy" .
+
+ex:Alias_C4_621 a ex:Alias ;
+    rdfs:label "C4-621" .
+
+ex:Alias_CEL240 a ex:Alias ;
+    rdfs:label "IB-01: CEL 240" .
+
+ex:Alias_Cataphract a ex:Alias ;
+    rdfs:label "Cataphract" .
+
+ex:Alias_CinderCarla a ex:Alias ;
+    rdfs:label "\"Cinder\" Carla" .
+
+ex:Alias_Enforcer a ex:Alias ;
+    rdfs:label "AAP03: ENFORCER" .
+
+ex:Alias_Freelancer a ex:Alias ;
+    rdfs:label "Freelancer" .
+
+ex:Alias_G1_Michigan a ex:Alias ;
+    rdfs:label "G1 Michigan" .
+
+ex:Alias_G5_Iguazu a ex:Alias ;
+    rdfs:label "G5 Iguazu" .
+
+ex:Alias_Gun13 a ex:Alias ;
+    rdfs:label "Gun13" .
+
+ex:Alias_Hound a ex:Alias ;
+    rdfs:label "Hound" .
+
+ex:Alias_IceWorm a ex:Alias ;
+    rdfs:label "IA-02: ICE WORM" .
+
+ex:Alias_Juggernaut a ex:Alias ;
+    rdfs:label "HA-T-102 JUGGERNAUT" .
+
+ex:Alias_Snail_Arquebus a ex:Alias ;
+    rdfs:label "Arquebus" .
+
+ex:Alias_SymbolOfResolve a ex:Alias ;
+    rdfs:label "Symbol of Resolve" .
+
+ex:Alias_ThumbDolmayan a ex:Alias ;
+    rdfs:label "Thumb Dolmayan" .
+
+ex:Alias_Tourist a ex:Alias ;
+    rdfs:label "Tourist" .
+
+ex:Alias_V_II_Snail a ex:Alias ;
+    rdfs:label "V.II Snail" .
+
+ex:Alias_V_IV_Rusty a ex:Alias ;
+    rdfs:label "V.IV Rusty" .
+
+ex:Alias_Wallclimber a ex:Alias ;
+    rdfs:label "Wallclimber" .
+
+ex:Alias_Walter a ex:Alias ;
+    rdfs:label "Handler Walter" .
+
+ex:Alias_WavelengthForm a ex:Alias ;
+    rdfs:label "Wavelength Form" .
+
+ex:Alias_Wormkiller a ex:Alias ;
+    rdfs:label "Wormkiller" .
+
+ex:Balteus a ex:AI,
+        ex:Boss,
+        ex:Character,
+        ex:Entity ;
+    rdfs:label "AAP07: BALTEUS" ;
+    ex:hasAlias ex:Alias_Balteus ;
+    ex:isBossOf ex:pca_arrival ;
+    ex:isBuddy false ;
+    ex:pilots ex:AC_AAP07_BALTEUS ;
+    ex:worksFor ex:PCA .
+
+ex:CEL240 a ex:AI,
+        ex:Boss,
+        ex:Character,
+        ex:Entity ;
+    rdfs:label "IB-01: CEL 240" ;
+    ex:hasAlias ex:Alias_CEL240 ;
+    ex:isBossOf ex:vascular_plant_event ;
+    ex:isBuddy false ;
+    ex:pilots ex:AC_IB_01_CEL_240 .
+
+ex:Cataphract a ex:Boss,
+        ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "Cataphract (PCA SP Captain)" ;
+    ex:hasAlias ex:Alias_Cataphract ;
+    ex:isBossOf ex:cataphract_fight ;
+    ex:isBuddy false ;
+    ex:pilots ex:AC_AAS02_CATAPHRACT ;
+    ex:worksFor ex:PCA .
+
+ex:D a ex:Rank ;
+    rdfs:label "D" .
+
+ex:Dozer a ex:Entity,
+        ex:Society ;
+    rdfs:label "Dozer" ;
+    ex:name "Dozer" ;
+    ex:originatesOnRubicon true .
+
+ex:ECHO a ex:ArmoredCore ;
+    rdfs:label "ECHO" ;
+    ex:acName "ECHO" ;
+    ex:isSpecial false .
+
+ex:FULL_COURSE a ex:ArmoredCore ;
+    rdfs:label "FULL COURSE" ;
+    ex:acName "FULL COURSE" ;
+    ex:isSpecial false .
+
+ex:G5_Iguazu a ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "G5 Iguazu" ;
+    ex:hasAlias ex:Alias_G5_Iguazu ;
+    ex:hasRank ex:D ;
+    ex:isBuddy false ;
+    ex:isFriendlyTowards ex:ALLMIND,
+        ex:Balam ;
+    ex:isHostileToward ex:Ayre,
+        ex:Balam ;
+    ex:participatesIn ex:depth_exploration,
+        ex:operation_wormkiller ;
+    ex:pilots ex:HEAD_BRINGER ;
+    ex:worksFor ex:Balam .
+
+ex:HEAD_BRINGER a ex:ArmoredCore ;
+    rdfs:label "HEAD BRINGER" ;
+    ex:acName "HEAD BRINGER" ;
+    ex:isSpecial false .
+
+ex:IB_07_SOL_644 a ex:ArmoredCore ;
+    rdfs:label "IB-07: SOL 644" ;
+    ex:acName "IB-07: SOL 644" ;
+    ex:isSpecial true .
+
+ex:IB_C03_HAL_826 a ex:ArmoredCore ;
+    rdfs:label "IB-C03: HAL 826" ;
+    ex:acName "IB-C03: HAL 826" ;
+    ex:isSpecial true .
+
+ex:IceWorm a ex:AI,
+        ex:Boss,
+        ex:Character,
+        ex:Entity ;
+    rdfs:label "IA-02: ICE WORM" ;
+    ex:hasAlias ex:Alias_IceWorm ;
+    ex:isBossOf ex:operation_wormkiller ;
+    ex:isBuddy false ;
+    ex:pilots ex:AC_IA_02_ICE_WORM ;
+    ex:worksFor ex:PCA .
+
+ex:Juggernaut a ex:AI,
+        ex:Boss,
+        ex:Character,
+        ex:Entity ;
+    rdfs:label "HA-T-102 JUGGERNAUT" ;
+    ex:hasAlias ex:Alias_Juggernaut ;
+    ex:isBossOf ex:operation_wallclimber ;
+    ex:isBuddy false ;
+    ex:pilots ex:AC_HA_T_102_JUGGERNAUT ;
+    ex:worksFor ex:RLF .
+
+ex:LIGER_TAIL a ex:ArmoredCore ;
+    rdfs:label "LIGER TAIL" ;
+    ex:acName "LIGER TAIL" ;
+    ex:isSpecial false .
+
+ex:NIGHTFALL a ex:ArmoredCore ;
+    rdfs:label "NIGHTFALL" ;
+    ex:acName "NIGHTFALL" ;
+    ex:isSpecial false .
+
+ex:OPEN_FAITH a ex:ArmoredCore ;
+    rdfs:label "OPEN FAITH" ;
+    ex:acName "OPEN FAITH" ;
+    ex:isSpecial false .
+
+ex:Rubiconian rdfs:subClassOf ex:Character .
+
+ex:S a ex:Rank ;
+    rdfs:label "S" .
+
+ex:STEEL_HAZE a ex:ArmoredCore ;
+    rdfs:label "STEEL HAZE" ;
+    ex:acName "STEEL HAZE" ;
+    ex:isSpecial false .
+
+ex:STEEL_HAZE_ORTUS a ex:ArmoredCore ;
+    rdfs:label "STEEL HAZE ORTUS" ;
+    ex:acName "STEEL HAZE ORTUS" ;
+    ex:isSpecial false .
+
+ex:V_II_Snail a ex:Boss,
+        ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "V.II Snail" ;
+    ex:hasAlias ex:Alias_Snail_Arquebus,
+        ex:Alias_V_II_Snail ;
+    ex:hasRank ex:A ;
+    ex:isBossOf ex:xylem_takeoff ;
+    ex:isBuddy false ;
+    ex:participatesIn ex:operation_wormkiller,
+        ex:vascular_plant_event ;
+    ex:pilots ex:OPEN_FAITH ;
+    ex:worksFor ex:Arquebus .
+
+ex:Walter a ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "Handler Walter" ;
+    ex:hasAlias ex:Alias_Walter ;
+    ex:isBuddy false ;
+    ex:isFriendlyTowards ex:CinderCarla,
+        ex:G1_Michigan ;
+    ex:participatesIn ex:fires_of_ibis,
+        ex:xylem_takeoff ;
+    ex:pilots ex:IB_C03_HAL_826 ;
+    ex:worksFor ex:Overseer .
+
+ex:bona_dea_dunes a ex:Place ;
+    rdfs:label "Bona Dea Dunes (Southern Belius)" .
+
+ex:cataphract_plant a ex:Place ;
+    rdfs:label "Coral Collection Plant (Belius)" .
+
+ex:iceworm_field a ex:Place ;
+    rdfs:label "Central Ice Field (Ice Worm battlefield)" .
+
+ex:rubicon_orbit a ex:Place ;
+    rdfs:label "Rubicon 3 – Orbit" .
+
+ex:underground_entrance a ex:Place ;
+    rdfs:label "Watchpoint Alpha – Underground Entrance" .
+
+ex:vascular_plant_place a ex:Place ;
+    rdfs:label "Vascular Plant (Arquebus-controlled deep facility)" .
+
+ex:wall a ex:Place ;
+    rdfs:label "The Wall, Belius – RLF Stronghold" .
+
+ex:xylem a ex:Place ;
+    rdfs:label "Xylem, the Floating City" .
+
+ex:A a ex:Rank ;
+    rdfs:label "A" .
+
+ex:ALLMIND a ex:AI,
+        ex:Character,
+        ex:Entity ;
+    rdfs:label "ALLMIND" ;
+    ex:hasAlias ex:Alias_ALLMIND ;
+    ex:isBuddy false ;
+    ex:participatesIn ex:pca_arrival .
+
+ex:Alias_Raven a ex:Alias ;
+    rdfs:label "Raven" .
+
+ex:B a ex:Rank ;
+    rdfs:label "B" .
+
+ex:CinderCarla a ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "\"Cinder\" Carla" ;
+    ex:hasAlias ex:Alias_CinderCarla ;
+    ex:hasRank ex:B ;
+    ex:isBuddy false ;
+    ex:participatesIn ex:fires_of_ibis,
+        ex:operation_wormkiller,
+        ex:xylem_takeoff ;
+    ex:pilots ex:FULL_COURSE ;
+    ex:worksFor ex:Dozer,
+        ex:Overseer .
+
+ex:G1_Michigan a ex:Boss,
+        ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "G1 Michigan" ;
+    ex:hasAlias ex:Alias_G1_Michigan ;
+    ex:hasRank ex:S ;
+    ex:isBossOf ex:depth_exploration ;
+    ex:isBuddy false ;
+    ex:participatesIn ex:depth_exploration,
+        ex:operation_wormkiller ;
+    ex:pilots ex:LIGER_TAIL ;
+    ex:worksFor ex:Balam .
+
+ex:Overseer a ex:Entity,
+        ex:Society ;
+    rdfs:label "Overseer" ;
+    ex:name "Overseer" ;
+    ex:originatesOnRubicon false ;
+    ex:participatesIn ex:fires_of_raven .
+
+ex:V_IV_Rusty a ex:Boss,
+        ex:Character,
+        ex:Entity,
+        ex:Human ;
+    rdfs:label "V.IV Rusty" ;
+    ex:hasAlias ex:Alias_V_IV_Rusty ;
+    ex:hasRank ex:B ;
+    ex:isBossOf ex:depth_exploration,
+        ex:karman_line ;
+    ex:isBuddy true ;
+    ex:isFriendlyTowards ex:RLF ;
+    ex:participatesIn ex:depth_exploration,
+        ex:karman_line,
+        ex:operation_wallclimber,
+        ex:operation_wormkiller ;
+    ex:pilots ex:STEEL_HAZE,
+        ex:STEEL_HAZE_ORTUS ;
+    ex:worksFor ex:Arquebus,
+        ex:RLF .
+
+ex:fires_of_ibis a ex:MajorEvent ;
+    rdfs:label "Fires of Ibis" ;
+    ex:chronologicalOrder 1 ;
+    ex:takesPlaceIn ex:rubicon_sky .
+
+ex:outpost_pca a ex:Place ;
+    rdfs:label "PCA Outpost (Belius frontline)" .
+
+ex:rubicon_sky a ex:Place ;
+    rdfs:label "Rubicon 3 – Upper Atmosphere" .
+
+ex:walker_destruction a ex:MajorEvent ;
+    rdfs:label "Walker Destruction" ;
+    ex:chronologicalOrder 2 ;
+    ex:takesPlaceIn ex:bona_dea_dunes .
+
+ex:Ayre a ex:Boss,
+        ex:Character,
+        ex:Entity,
+        ex:Rubiconian ;
+    rdfs:label "Ayre" ;
+    ex:hasAlias ex:Alias_AFriend,
+        ex:Alias_Ayre,
+        ex:Alias_WavelengthForm ;
+    ex:isBossOf ex:fires_of_raven ;
+    ex:isBuddy false ;
+    ex:participatesIn ex:cataphract_fight,
+        ex:depth_exploration,
+        ex:fires_of_raven,
+        ex:karman_line,
+        ex:operation_wormkiller,
+        ex:pca_siege,
+        ex:vascular_plant_event,
+        ex:xylem_takeoff ;
+    ex:pilots ex:ECHO,
+        ex:IB_07_SOL_644 .
+
+ex:operation_wallclimber a ex:MajorEvent ;
+    rdfs:label "Operation Wallclimber" ;
+    ex:chronologicalOrder 3 ;
+    ex:takesPlaceIn ex:wall .
+
+ex:Arquebus a ex:Entity,
+        ex:Society ;
+    rdfs:label "Arquebus" ;
+    ex:name "Arquebus Corporation" ;
+    ex:originatesOnRubicon false ;
+    ex:participatesIn ex:pca_siege .
+
+ex:PCA a ex:Entity,
+        ex:Society ;
+    rdfs:label "PCA" ;
+    ex:name "Planetary Closure Administration" ;
+    ex:originatesOnRubicon false ;
+    ex:participatesIn ex:cataphract_fight,
+        ex:depth_exploration,
+        ex:karman_line,
+        ex:operation_wormkiller,
+        ex:pca_arrival,
+        ex:pca_siege .
+
+ex:RLF a ex:Entity,
+        ex:Society ;
+    rdfs:label "Rubicon Liberation Front" ;
+    ex:isHostileToward ex:Arquebus,
+        ex:Balam ;
+    ex:name "Rubicon Liberation Front" ;
+    ex:originatesOnRubicon true ;
+    ex:participatesIn ex:walker_destruction .
+
+ex:cataphract_fight a ex:MajorEvent ;
+    rdfs:label "Cataphract Fight" ;
+    ex:chronologicalOrder 5 ;
+    ex:takesPlaceIn ex:cataphract_plant .
+
+ex:fires_of_raven a ex:MajorEvent ;
+    rdfs:label "Fires of Raven" ;
+    ex:chronologicalOrder 12 ;
+    ex:takesPlaceIn ex:rubicon_orbit .
+
+ex:pca_arrival a ex:MajorEvent ;
+    rdfs:label "PCA Arrival" ;
+    ex:chronologicalOrder 4 ;
+    ex:takesPlaceIn ex:outpost_pca .
+
+ex:vascular_plant_event a ex:MajorEvent ;
+    rdfs:label "Vascular Plant" ;
+    ex:chronologicalOrder 9 ;
+    ex:takesPlaceIn ex:vascular_plant_place .
+
+ex:Balam a ex:Entity,
+        ex:Society ;
+    rdfs:label "Balam" ;
+    ex:isHostileToward ex:Arquebus ;
+    ex:name "Balam Industries" ;
+    ex:originatesOnRubicon false ;
+    ex:participatesIn ex:pca_siege .
+
+ex:karman_line a ex:MajorEvent ;
+    rdfs:label "Karman Line" ;
+    ex:chronologicalOrder 11 ;
+    ex:takesPlaceIn ex:rubicon_sky .
+
+ex:pca_siege a ex:MajorEvent ;
+    rdfs:label "PCA Siege" ;
+    ex:chronologicalOrder 6 ;
+    ex:takesPlaceIn ex:outpost_pca .
+
+ex:xylem_takeoff a ex:MajorEvent ;
+    rdfs:label "Xylem Takeoff" ;
+    ex:chronologicalOrder 10 ;
+    ex:takesPlaceIn ex:xylem .
+
+ex:AI rdfs:subClassOf ex:Character .
+
+ex:Society rdfs:subClassOf ex:Entity .
+
+ex:depth_exploration a ex:MajorEvent ;
+    rdfs:label "Depth Exploration" ;
+    ex:chronologicalOrder 8 ;
+    ex:takesPlaceIn ex:underground_entrance .
+
+ex:operation_wormkiller a ex:MajorEvent ;
+    rdfs:label "Operation Wormkiller" ;
+    ex:chronologicalOrder 7 ;
+    ex:takesPlaceIn ex:iceworm_field .
+
+ex:Boss rdfs:subClassOf ex:Character .
+
+ex:Human rdfs:subClassOf ex:Character .
+
+ex:Character rdfs:subClassOf ex:Entity .
+

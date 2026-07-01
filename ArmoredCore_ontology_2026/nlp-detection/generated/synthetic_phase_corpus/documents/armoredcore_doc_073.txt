@@ -1,0 +1,9 @@
+The schema records that a character kills a character.
+AI is modeled as a subclass of character.
+Each character record links to the aliases they use.
+Each character stores a buddy flag as a literal value.
+The schema records that a character pilots an armored core.
+A character works for a society.
+An entity is friendly towards another entity.
+An armored core has a name stored as a literal value.
+The schema records a major event chronological order as a literal value.

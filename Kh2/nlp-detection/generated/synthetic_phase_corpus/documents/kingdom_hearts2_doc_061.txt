@@ -1,0 +1,12 @@
+A org13 member is a kind of nobody.
+Typically a entity drops a given items.
+A potion is a kind of consumable.
+Typically a recruitable ally has the secondary weapon a given secondary weapon.
+Every item use is also a action.
+In general a entity is friends with some entity.
+A magic attack is a kind of combat action.
+In general a entity appears in some worlds.
+Often a entity comes from another worlds.
+Every party is also a entity.
+A combat action is a kind of action.
+Every movement action is also a action.

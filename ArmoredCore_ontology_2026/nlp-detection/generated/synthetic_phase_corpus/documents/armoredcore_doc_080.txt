@@ -1,0 +1,9 @@
+The schema records that a boss is boss of a major event.
+The model links a rank back to its character.
+The schema records that a character works for a society.
+Each society stores its official name as text.
+A character holds a rank in the Arena ranking.
+An armored core records whether it is special as a literal value.
+The schema records that an entity is hostile toward an entity.
+The schema records a major event chronological order as a literal value.
+A character records whether it is the player buddy as a literal value.

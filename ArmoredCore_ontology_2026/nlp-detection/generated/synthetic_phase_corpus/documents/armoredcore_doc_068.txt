@@ -1,0 +1,10 @@
+A character holds a rank in the Arena ranking.
+A character kills another character.
+A character pilots an armored core.
+Each major event stores its timeline position as a literal value.
+In the schema, a character has an alias.
+An armored core records whether it is special as a literal value.
+The schema records that an entity participates in a major event.
+A society records whether it originates on Rubicon as a literal value.
+A character works for a society.
+Enemies are entities hostile toward each other.

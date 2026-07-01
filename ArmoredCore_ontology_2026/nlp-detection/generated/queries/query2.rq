@@ -1,0 +1,11 @@
+PREFIX ac: <http://example.org/armoredcore#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Q2 - OPTIONAL: every Character, with alias, rank and buddy flag only IF asserted
+SELECT ?char ?alias ?rank ?buddy WHERE {
+  ?char a ac:Character .
+  OPTIONAL { ?char ac:hasAlias ?alias . }
+  OPTIONAL { ?char ac:hasRank  ?rank . }
+  OPTIONAL { ?char ac:isBuddy  ?buddy . }
+}
+ORDER BY ?char

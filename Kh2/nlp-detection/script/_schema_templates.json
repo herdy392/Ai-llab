@@ -1,0 +1,151 @@
+{
+  "Character|hasAlias|Alias": [
+    "A character can be known by one or more aliases.",
+    "Each character record links to the aliases they use.",
+    "In the schema, a character has an alias."
+  ],
+  "Alias|isAliasOf|Character": [
+    "An alias is an alias of a character.",
+    "Every alias points back to the character it identifies.",
+    "The model records that an alias belongs to a character."
+  ],
+  "Character|hasRank|Rank": [
+    "A character holds a rank in the Arena ranking.",
+    "Each character can be assigned a rank.",
+    "The schema gives a character a rank."
+  ],
+  "Rank|isRankOf|Character": [
+    "A rank is the rank of a character.",
+    "Every rank grade is held by a character.",
+    "The model links a rank back to its character."
+  ],
+  "Entity|participatesIn|MajorEvent": [
+    "An entity participates in a major event.",
+    "Each major event lists the entities that take part in it.",
+    "The schema records that an entity participates in a major event."
+  ],
+  "MajorEvent|involvesEntity|Entity": [
+    "A major event involves an entity.",
+    "Every major event involves one or more entities.",
+    "The model states that a major event involves an entity."
+  ],
+  "Boss|isBossOf|MajorEvent": [
+    "A boss is the boss of a major event.",
+    "Each major event can be led by a boss.",
+    "The schema records that a boss is boss of a major event."
+  ],
+  "MajorEvent|hasBoss|Boss": [
+    "A major event has a boss.",
+    "Every major event can have a boss.",
+    "The model links a major event to its boss."
+  ],
+  "MajorEvent|takesPlaceIn|Place": [
+    "A major event takes place in a place.",
+    "Each major event is located in a place on Rubicon 3.",
+    "The schema records that a major event takes place in a place."
+  ],
+  "Place|hostsEvent|MajorEvent": [
+    "A place hosts a major event.",
+    "Every place can host a major event.",
+    "The model states that a place hosts a major event."
+  ],
+  "Character|pilots|ArmoredCore": [
+    "A character pilots an armored core.",
+    "Each armored core is operated by a character.",
+    "The schema records that a character pilots an armored core."
+  ],
+  "ArmoredCore|isPilotedBy|Character": [
+    "An armored core is piloted by a character.",
+    "Every armored core is piloted by a character.",
+    "The model links an armored core to its pilot character."
+  ],
+  "Character|kills|Character": [
+    "A character kills another character.",
+    "The record notes when one character kills another.",
+    "The schema records that a character kills a character."
+  ],
+  "Character|isKilledBy|Character": [
+    "A character is killed by another character.",
+    "The model records that a character is killed by a character.",
+    "Each defeated character is killed by a character."
+  ],
+  "Character|worksFor|Society": [
+    "A character works for a society.",
+    "Each character can be affiliated with a society.",
+    "The schema records that a character works for a society."
+  ],
+  "Society|employs|Character": [
+    "A society employs a character.",
+    "Every society can employ characters.",
+    "The model links a society to the characters it employs."
+  ],
+  "Entity|isFriendlyTowards|Entity": [
+    "An entity is friendly towards another entity.",
+    "Allies are entities friendly towards each other.",
+    "The schema records that an entity is friendly towards an entity."
+  ],
+  "Entity|isHostileToward|Entity": [
+    "An entity is hostile toward another entity.",
+    "Enemies are entities hostile toward each other.",
+    "The schema records that an entity is hostile toward an entity."
+  ],
+  "ArmoredCore|acName|LiteralValue": [
+    "An armored core has a name stored as a literal value.",
+    "Each armored core stores its AC name as text.",
+    "The schema records an armored core name as a literal value."
+  ],
+  "ArmoredCore|isSpecial|LiteralValue": [
+    "An armored core records whether it is special as a literal value.",
+    "Each armored core stores a special flag as a literal value.",
+    "The schema marks an armored core as special with a literal value."
+  ],
+  "Society|name|LiteralValue": [
+    "A society has a name stored as a literal value.",
+    "Each society stores its official name as text.",
+    "The schema records a society name as a literal value."
+  ],
+  "Society|originatesOnRubicon|LiteralValue": [
+    "A society records whether it originates on Rubicon as a literal value.",
+    "Each society stores an origin-on-Rubicon flag as a literal value.",
+    "The schema marks a society Rubicon origin with a literal value."
+  ],
+  "MajorEvent|chronologicalOrder|LiteralValue": [
+    "A major event has a chronological order stored as a literal value.",
+    "Each major event stores its timeline position as a literal value.",
+    "The schema records a major event chronological order as a literal value."
+  ],
+  "Boss|rdfs:subClassOf|Character": [
+    "A boss is a kind of character.",
+    "In the schema, every boss is a character.",
+    "Boss is modeled as a subclass of character."
+  ],
+  "Character|rdfs:subClassOf|Entity": [
+    "A character is a kind of entity.",
+    "In the schema, every character is an entity.",
+    "Character is modeled as a subclass of entity."
+  ],
+  "Human|rdfs:subClassOf|Character": [
+    "A human is a kind of character.",
+    "In the schema, every human is a character.",
+    "Human is modeled as a subclass of character."
+  ],
+  "AI|rdfs:subClassOf|Character": [
+    "An AI is a kind of character.",
+    "In the schema, every AI is a character.",
+    "AI is modeled as a subclass of character."
+  ],
+  "Rubiconian|rdfs:subClassOf|Character": [
+    "A Rubiconian is a kind of character.",
+    "In the schema, every Rubiconian is a character.",
+    "Rubiconian is modeled as a subclass of character."
+  ],
+  "Society|rdfs:subClassOf|Entity": [
+    "A society is a kind of entity.",
+    "In the schema, every society is an entity.",
+    "Society is modeled as a subclass of entity."
+  ],
+  "Character|isBuddy|LiteralValue": [
+    "A character records whether it is the player buddy as a literal value.",
+    "Each character stores a buddy flag as a literal value."
+  ]
+}

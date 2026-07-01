@@ -1,0 +1,9 @@
+The schema records that an entity participates in a major event.
+A character pilots an armored core.
+The schema records a society name as a literal value.
+Allies are entities friendly towards each other.
+Each society stores an origin-on-Rubicon flag as a literal value.
+Each character stores a buddy flag as a literal value.
+Each major event stores its timeline position as a literal value.
+In the schema, every Rubiconian is a character.
+An armored core records whether it is special as a literal value.

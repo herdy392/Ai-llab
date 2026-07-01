@@ -1,0 +1,10 @@
+A npc is a kind of non playable character.
+A secondary weapon is a kind of non consumable.
+Typically a protagonist has the drive form a given drive form.
+Often a org13 member is a member of another organization.
+Typically a entity defeats a given entity.
+A drive form is a kind of action.
+In general a recruitable ally has the secondary weapon some secondary weapon.
+Typically a protagonist has in the inventory a given items.
+In general a entity is friends with some entity.
+Often a entity drops another items.

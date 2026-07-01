@@ -1,0 +1,11 @@
+A common nobody is a kind of nobody.
+A protagonist is a kind of playable character.
+Each entity participates in a party.
+A keyblade has attack power value.
+Typically a entity owns the keyblade a given keyblade.
+Every disney antagonist is also a enemy.
+A organization is a kind of entity.
+A keyblade is a kind of non consumable.
+Every movement action is also a action.
+Each fight takes place in a worlds.
+Every magic attack is also a combat action.

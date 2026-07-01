@@ -1,0 +1,10 @@
+Often a entity comes from another worlds.
+Each entity defeats a entity.
+In general a entity owns the keyblade some keyblade.
+Every movement action is also a action.
+A boss is a kind of enemy.
+Every character is also a entity.
+Often a party engages in the fight another fight.
+A secondary weapon is a kind of non consumable.
+A keyblade is a kind of non consumable.
+A organization is a kind of entity.

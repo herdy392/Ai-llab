@@ -1,0 +1,12 @@
+Each keyblade records its attack power.
+A character is a kind of entity.
+A org13 member is a kind of nobody.
+Each entity is friends with a entity.
+Typically a fight is won by a given party.
+A drive form is a kind of action.
+Typically a entity participates in a given party.
+Every protagonist is also a playable character.
+A magic attack is a kind of combat action.
+A entity owns the keyblade a keyblade.
+Every gems is also a consumable.
+Often a party has as party member another entity.

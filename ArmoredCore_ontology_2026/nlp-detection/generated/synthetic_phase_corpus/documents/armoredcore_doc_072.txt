@@ -1,0 +1,9 @@
+An armored core has a name stored as a literal value.
+The schema records that an entity is friendly towards an entity.
+A character can be known by one or more aliases.
+A character holds a rank in the Arena ranking.
+The schema records that a major event takes place in a place.
+An armored core records whether it is special as a literal value.
+An entity participates in a major event.
+Every major event can have a boss.
+A character records whether it is the player buddy as a literal value.

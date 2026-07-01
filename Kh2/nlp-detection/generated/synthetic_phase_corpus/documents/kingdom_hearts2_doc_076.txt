@@ -1,0 +1,12 @@
+Typically a entity appears in a given worlds.
+Every non consumable is also a items.
+Each entity can perform a action.
+Every org13 member is also a nobody.
+Every disney antagonist is also a enemy.
+A entity has hit points value.
+Often a entity drops another items.
+A drive form is a kind of action.
+Every sword attack is also a combat action.
+Every keyblade is also a non consumable.
+A npc is a kind of non playable character.
+Typically a entity comes from a given worlds.

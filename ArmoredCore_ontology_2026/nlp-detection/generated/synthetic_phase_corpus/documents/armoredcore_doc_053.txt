@@ -1,0 +1,12 @@
+The model states that a major event involves an entity.
+Each character stores a buddy flag as a literal value.
+Each society stores an origin-on-Rubicon flag as a literal value.
+The schema records that a character pilots an armored core.
+Each character record links to the aliases they use.
+The schema records that a boss is boss of a major event.
+Every rank grade is held by a character.
+A character works for a society.
+The schema records a major event chronological order as a literal value.
+Enemies are entities hostile toward each other.
+The schema records an armored core name as a literal value.
+An armored core records whether it is special as a literal value.

@@ -1,0 +1,12 @@
+The model links a society to the characters it employs.
+Every major event can have a boss.
+An entity is friendly towards another entity.
+The record notes when one character kills another.
+Each society stores an origin-on-Rubicon flag as a literal value.
+Every rank grade is held by a character.
+The schema records a society name as a literal value.
+Each character record links to the aliases they use.
+Each armored core stores a special flag as a literal value.
+Each major event is located in a place on Rubicon 3.
+A character pilots an armored core.
+The schema records that an entity participates in a major event.

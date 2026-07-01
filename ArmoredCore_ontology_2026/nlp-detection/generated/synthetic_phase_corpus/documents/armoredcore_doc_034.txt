@@ -1,0 +1,9 @@
+The schema records that a character pilots an armored core.
+Each armored core stores a special flag as a literal value.
+Each society stores its official name as text.
+An entity participates in a major event.
+Rubiconian is modeled as a subclass of character.
+An entity is friendly towards another entity.
+In the schema, a character has an alias.
+A society records whether it originates on Rubicon as a literal value.
+Each major event can be led by a boss.

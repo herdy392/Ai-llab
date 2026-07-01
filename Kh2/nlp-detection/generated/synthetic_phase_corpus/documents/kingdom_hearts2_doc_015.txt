@@ -1,0 +1,12 @@
+Every drive form is also a action.
+A playable character is a kind of character.
+Typically a entity comes from a given worlds.
+A org13 member is a kind of nobody.
+A party has as party member a entity.
+Every secondary weapon is also a non consumable.
+A common nobody is a kind of nobody.
+Every munny is also a consumable.
+In general a party engages in the fight some fight.
+Every support is also a action.
+A disney antagonist is a kind of enemy.
+A boss is a kind of enemy.

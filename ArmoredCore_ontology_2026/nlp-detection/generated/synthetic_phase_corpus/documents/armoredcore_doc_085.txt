@@ -1,0 +1,12 @@
+Each society stores its official name as text.
+An entity is friendly towards another entity.
+The schema marks a society Rubicon origin with a literal value.
+The schema marks an armored core as special with a literal value.
+The model links an armored core to its pilot character.
+In the schema, every AI is a character.
+Each character stores a buddy flag as a literal value.
+Human is modeled as a subclass of character.
+An armored core has a name stored as a literal value.
+An entity participates in a major event.
+A character pilots an armored core.
+The schema records that a boss is boss of a major event.

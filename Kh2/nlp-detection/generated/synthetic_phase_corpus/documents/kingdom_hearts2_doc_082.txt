@@ -1,0 +1,10 @@
+Every support is also a action.
+Often a fight takes place in another worlds.
+A secondary weapon is a kind of non consumable.
+Often a entity defeats another entity.
+Each entity is friends with a entity.
+Often a entity participates in another party.
+A entity drops a items.
+A nobody is a kind of enemy.
+Often a party has as party member another entity.
+A recruitable ally is a kind of playable character.

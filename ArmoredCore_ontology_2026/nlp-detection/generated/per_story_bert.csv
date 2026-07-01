@@ -1,0 +1,321 @@
+story,sentence,TP,FP,FN,precision,recall,f1
+story_001,AAP03: ENFORCER goes by the alias AAP03: ENFORCER.,0,1,1,0.0,0.0,0.0
+story_002,AAP03: ENFORCER goes into battle in the AAP03: ENFORCER.,0,1,1,0.0,0.0,0.0
+story_003,AAP03: ENFORCER is affiliated with PCA.,1,0,0,1.0,1.0,1.0
+story_004,AAP03: ENFORCER is also known as AAP03: ENFORCER.,0,1,1,0.0,0.0,0.0
+story_005,AAP03: ENFORCER is fought as the boss in Depth Exploration.,0,0,1,0.0,0.0,0.0
+story_006,AAP03: ENFORCER is the boss of Depth Exploration.,0,0,1,0.0,0.0,0.0
+story_007,AAP03: ENFORCER pilots the AAP03: ENFORCER.,0,1,1,0.0,0.0,0.0
+story_008,AAP03: ENFORCER works for PCA.,1,0,0,1.0,1.0,1.0
+story_009,AAP07: BALTEUS goes by the alias AAP07: BALTEUS.,0,1,1,0.0,0.0,0.0
+story_010,AAP07: BALTEUS goes into battle in the AAP07: BALTEUS.,0,1,1,0.0,0.0,0.0
+story_011,AAP07: BALTEUS is affiliated with PCA.,1,0,0,1.0,1.0,1.0
+story_012,AAP07: BALTEUS is also known as AAP07: BALTEUS.,0,1,1,0.0,0.0,0.0
+story_013,AAP07: BALTEUS is fought as the boss in PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_014,AAP07: BALTEUS is the boss of PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_015,AAP07: BALTEUS pilots the AAP07: BALTEUS.,0,1,1,0.0,0.0,0.0
+story_016,AAP07: BALTEUS works for PCA.,1,0,0,1.0,1.0,1.0
+story_017,ALLMIND goes by the alias ALLMIND.,0,1,1,0.0,0.0,0.0
+story_018,ALLMIND is also known as ALLMIND.,0,1,1,0.0,0.0,0.0
+story_019,ALLMIND is involved in PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_020,ALLMIND takes part in PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_021,Arquebus is involved in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_022,Arquebus takes part in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_023,Ayre goes by the alias A Friend.,1,0,0,1.0,1.0,1.0
+story_024,Ayre goes by the alias Ayre.,0,1,1,0.0,0.0,0.0
+story_025,Ayre goes by the alias Wavelength Form.,1,0,0,1.0,1.0,1.0
+story_026,Ayre goes into battle in the ECHO.,1,0,0,1.0,1.0,1.0
+story_027,Ayre goes into battle in the IB-07: SOL 644.,1,0,0,1.0,1.0,1.0
+story_028,Ayre is also known as A Friend.,1,0,0,1.0,1.0,1.0
+story_029,Ayre is also known as Ayre.,0,1,1,0.0,0.0,0.0
+story_030,Ayre is also known as Wavelength Form.,1,0,0,1.0,1.0,1.0
+story_031,Ayre is fought as the boss in Fires of Raven.,0,0,1,0.0,0.0,0.0
+story_032,Ayre is involved in Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_033,Ayre is involved in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_034,Ayre is involved in Fires of Raven.,1,0,0,1.0,1.0,1.0
+story_035,Ayre is involved in Karman Line.,1,0,0,1.0,1.0,1.0
+story_036,Ayre is involved in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_037,Ayre is involved in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_038,Ayre is involved in Vascular Plant.,1,0,0,1.0,1.0,1.0
+story_039,Ayre is involved in Xylem Takeoff.,1,0,0,1.0,1.0,1.0
+story_040,Ayre is the boss of Fires of Raven.,0,0,1,0.0,0.0,0.0
+story_041,Ayre pilots the ECHO.,1,0,0,1.0,1.0,1.0
+story_042,Ayre pilots the IB-07: SOL 644.,1,0,0,1.0,1.0,1.0
+story_043,Ayre takes part in Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_044,Ayre takes part in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_045,Ayre takes part in Fires of Raven.,1,0,0,1.0,1.0,1.0
+story_046,Ayre takes part in Karman Line.,1,0,0,1.0,1.0,1.0
+story_047,Ayre takes part in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_048,Ayre takes part in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_049,Ayre takes part in Vascular Plant.,1,0,0,1.0,1.0,1.0
+story_050,Ayre takes part in Xylem Takeoff.,1,0,0,1.0,1.0,1.0
+story_051,Balam is an enemy of Arquebus.,1,0,0,1.0,1.0,1.0
+story_052,Balam is hostile toward Arquebus.,1,0,0,1.0,1.0,1.0
+story_053,Balam is involved in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_054,Balam takes part in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_055,C4-621 destroys AAP07: BALTEUS in battle.,1,0,0,1.0,1.0,1.0
+story_056,C4-621 destroys Cataphract in battle.,1,0,0,1.0,1.0,1.0
+story_057,C4-621 destroys HA-T-102 JUGGERNAUT in battle.,1,0,0,1.0,1.0,1.0
+story_058,C4-621 destroys IA-02: ICE WORM in battle.,1,0,0,1.0,1.0,1.0
+story_059,C4-621 destroys IB-01: CEL 240 in battle.,1,0,0,1.0,1.0,1.0
+story_060,C4-621 fights alongside Ayre.,1,0,0,1.0,1.0,1.0
+story_061,"C4-621 fights alongside Cinder"" Carla.",1,0,0,1.0,1.0,1.0
+story_062,C4-621 fights alongside G1 Michigan.,1,0,0,1.0,1.0,1.0
+story_063,C4-621 fights alongside Handler Walter.,1,0,0,1.0,1.0,1.0
+story_064,C4-621 fights alongside V.IV Rusty.,1,0,0,1.0,1.0,1.0
+story_065,C4-621 goes by the alias Ashbringer.,1,0,0,1.0,1.0,1.0
+story_066,C4-621 goes by the alias Buddy.,1,0,0,1.0,1.0,1.0
+story_067,C4-621 goes by the alias C4-621.,0,1,1,0.0,0.0,0.0
+story_068,C4-621 goes by the alias Freelancer.,1,0,0,1.0,1.0,1.0
+story_069,C4-621 goes by the alias Gun13.,1,0,0,1.0,1.0,1.0
+story_070,C4-621 goes by the alias Hound.,1,0,0,1.0,1.0,1.0
+story_071,C4-621 goes by the alias Raven.,0,1,1,0.0,0.0,0.0
+story_072,C4-621 goes by the alias Symbol of Resolve.,1,0,0,1.0,1.0,1.0
+story_073,C4-621 goes by the alias Tourist.,1,0,0,1.0,1.0,1.0
+story_074,C4-621 goes by the alias Wallclimber.,1,0,0,1.0,1.0,1.0
+story_075,C4-621 goes by the alias Wormkiller.,1,0,0,1.0,1.0,1.0
+story_076,C4-621 is also known as Ashbringer.,1,0,0,1.0,1.0,1.0
+story_077,C4-621 is also known as Buddy.,1,0,0,1.0,1.0,1.0
+story_078,C4-621 is also known as C4-621.,0,1,1,0.0,0.0,0.0
+story_079,C4-621 is also known as Freelancer.,1,0,0,1.0,1.0,1.0
+story_080,C4-621 is also known as Gun13.,1,0,0,1.0,1.0,1.0
+story_081,C4-621 is also known as Hound.,1,0,0,1.0,1.0,1.0
+story_082,C4-621 is also known as Raven.,0,1,1,0.0,0.0,0.0
+story_083,C4-621 is also known as Symbol of Resolve.,1,0,0,1.0,1.0,1.0
+story_084,C4-621 is also known as Tourist.,1,0,0,1.0,1.0,1.0
+story_085,C4-621 is also known as Wallclimber.,1,0,0,1.0,1.0,1.0
+story_086,C4-621 is also known as Wormkiller.,1,0,0,1.0,1.0,1.0
+story_087,C4-621 is an enemy of ALLMIND.,1,0,0,1.0,1.0,1.0
+story_088,C4-621 is an enemy of Ayre.,1,0,0,1.0,1.0,1.0
+story_089,C4-621 is an enemy of G5 Iguazu.,1,0,0,1.0,1.0,1.0
+story_090,C4-621 is an enemy of V.II Snail.,1,0,0,1.0,1.0,1.0
+story_091,C4-621 is an enemy of V.IV Rusty.,1,0,0,1.0,1.0,1.0
+story_092,C4-621 is friendly towards Ayre.,1,0,0,1.0,1.0,1.0
+story_093,"C4-621 is friendly towards Cinder"" Carla.",1,0,0,1.0,1.0,1.0
+story_094,C4-621 is friendly towards G1 Michigan.,1,0,0,1.0,1.0,1.0
+story_095,C4-621 is friendly towards Handler Walter.,1,0,0,1.0,1.0,1.0
+story_096,C4-621 is friendly towards V.IV Rusty.,1,0,0,1.0,1.0,1.0
+story_097,C4-621 is hostile toward ALLMIND.,1,0,0,1.0,1.0,1.0
+story_098,C4-621 is hostile toward Ayre.,1,0,0,1.0,1.0,1.0
+story_099,C4-621 is hostile toward G5 Iguazu.,1,0,0,1.0,1.0,1.0
+story_100,C4-621 is hostile toward V.II Snail.,1,0,0,1.0,1.0,1.0
+story_101,C4-621 is hostile toward V.IV Rusty.,1,0,0,1.0,1.0,1.0
+story_102,C4-621 is involved in Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_103,C4-621 is involved in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_104,C4-621 is involved in Fires of Raven.,1,0,0,1.0,1.0,1.0
+story_105,C4-621 is involved in Karman Line.,1,0,0,1.0,1.0,1.0
+story_106,C4-621 is involved in Operation Wallclimber.,1,0,0,1.0,1.0,1.0
+story_107,C4-621 is involved in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_108,C4-621 is involved in PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_109,C4-621 is involved in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_110,C4-621 is involved in Vascular Plant.,1,0,0,1.0,1.0,1.0
+story_111,C4-621 is involved in Walker Destruction.,1,0,0,1.0,1.0,1.0
+story_112,C4-621 is involved in Xylem Takeoff.,1,0,0,1.0,1.0,1.0
+story_113,C4-621 kills AAP07: BALTEUS.,1,0,0,1.0,1.0,1.0
+story_114,C4-621 kills Cataphract.,1,0,0,1.0,1.0,1.0
+story_115,C4-621 kills HA-T-102 JUGGERNAUT.,1,0,0,1.0,1.0,1.0
+story_116,C4-621 kills IA-02: ICE WORM.,1,0,0,1.0,1.0,1.0
+story_117,C4-621 kills IB-01: CEL 240.,1,0,0,1.0,1.0,1.0
+story_118,C4-621 takes part in Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_119,C4-621 takes part in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_120,C4-621 takes part in Fires of Raven.,1,0,0,1.0,1.0,1.0
+story_121,C4-621 takes part in Karman Line.,1,0,0,1.0,1.0,1.0
+story_122,C4-621 takes part in Operation Wallclimber.,1,0,0,1.0,1.0,1.0
+story_123,C4-621 takes part in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_124,C4-621 takes part in PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_125,C4-621 takes part in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_126,C4-621 takes part in Vascular Plant.,1,0,0,1.0,1.0,1.0
+story_127,C4-621 takes part in Walker Destruction.,1,0,0,1.0,1.0,1.0
+story_128,C4-621 takes part in Xylem Takeoff.,1,0,0,1.0,1.0,1.0
+story_129,Cataphract Fight is set in Coral Collection Plant.,1,0,0,1.0,1.0,1.0
+story_130,Cataphract Fight takes place in Coral Collection Plant.,1,0,0,1.0,1.0,1.0
+story_131,Cataphract goes by the alias Cataphract.,0,1,1,0.0,0.0,0.0
+story_132,Cataphract goes into battle in the AAS02: CATAPHRACT.,1,0,0,1.0,1.0,1.0
+story_133,Cataphract is affiliated with PCA.,1,0,0,1.0,1.0,1.0
+story_134,Cataphract is also known as Cataphract.,0,1,1,0.0,0.0,0.0
+story_135,Cataphract is fought as the boss in Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_136,Cataphract is the boss of Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_137,Cataphract pilots the AAS02: CATAPHRACT.,1,0,0,1.0,1.0,1.0
+story_138,Cataphract works for PCA.,1,0,0,1.0,1.0,1.0
+story_139,"Cinder"" Carla goes by the alias Cinder"" Carla.",0,1,1,0.0,0.0,0.0
+story_140,"Cinder"" Carla goes into battle in the FULL COURSE.",1,0,0,1.0,1.0,1.0
+story_141,"Cinder"" Carla holds the rank B.",1,0,0,1.0,1.0,1.0
+story_142,"Cinder"" Carla is affiliated with Dozer.",1,0,0,1.0,1.0,1.0
+story_143,"Cinder"" Carla is affiliated with Overseer.",1,0,0,1.0,1.0,1.0
+story_144,"Cinder"" Carla is also known as Cinder"" Carla.",0,1,1,0.0,0.0,0.0
+story_145,"Cinder"" Carla is involved in Fires of Ibis.",1,0,0,1.0,1.0,1.0
+story_146,"Cinder"" Carla is involved in Operation Wormkiller.",1,0,0,1.0,1.0,1.0
+story_147,"Cinder"" Carla is involved in Xylem Takeoff.",1,0,0,1.0,1.0,1.0
+story_148,"Cinder"" Carla is ranked B in the Arena.",1,0,0,1.0,1.0,1.0
+story_149,"Cinder"" Carla pilots the FULL COURSE.",1,0,0,1.0,1.0,1.0
+story_150,"Cinder"" Carla takes part in Fires of Ibis.",1,0,0,1.0,1.0,1.0
+story_151,"Cinder"" Carla takes part in Operation Wormkiller.",1,0,0,1.0,1.0,1.0
+story_152,"Cinder"" Carla takes part in Xylem Takeoff.",1,0,0,1.0,1.0,1.0
+story_153,"Cinder"" Carla works for Dozer.",1,0,0,1.0,1.0,1.0
+story_154,"Cinder"" Carla works for Overseer.",1,0,0,1.0,1.0,1.0
+story_155,Depth Exploration is set in Watchpoint Alpha – Underground Entrance.,1,0,0,1.0,1.0,1.0
+story_156,Depth Exploration takes place in Watchpoint Alpha – Underground Entrance.,1,0,0,1.0,1.0,1.0
+story_157,Fires of Ibis is set in Rubicon 3 – Upper Atmosphere.,1,0,0,1.0,1.0,1.0
+story_158,Fires of Ibis takes place in Rubicon 3 – Upper Atmosphere.,1,0,0,1.0,1.0,1.0
+story_159,Fires of Raven is set in Rubicon 3 – Orbit.,1,0,0,1.0,1.0,1.0
+story_160,Fires of Raven takes place in Rubicon 3 – Orbit.,1,0,0,1.0,1.0,1.0
+story_161,G1 Michigan goes by the alias G1 Michigan.,0,1,1,0.0,0.0,0.0
+story_162,G1 Michigan goes into battle in the LIGER TAIL.,1,0,0,1.0,1.0,1.0
+story_163,G1 Michigan holds the rank S.,1,0,0,1.0,1.0,1.0
+story_164,G1 Michigan is affiliated with Balam.,1,0,0,1.0,1.0,1.0
+story_165,G1 Michigan is also known as G1 Michigan.,0,1,1,0.0,0.0,0.0
+story_166,G1 Michigan is fought as the boss in Depth Exploration.,0,0,1,0.0,0.0,0.0
+story_167,G1 Michigan is involved in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_168,G1 Michigan is involved in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_169,G1 Michigan is ranked S in the Arena.,1,0,0,1.0,1.0,1.0
+story_170,G1 Michigan is the boss of Depth Exploration.,0,0,1,0.0,0.0,0.0
+story_171,G1 Michigan pilots the LIGER TAIL.,1,0,0,1.0,1.0,1.0
+story_172,G1 Michigan takes part in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_173,G1 Michigan takes part in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_174,G1 Michigan works for Balam.,1,0,0,1.0,1.0,1.0
+story_175,G5 Iguazu fights alongside ALLMIND.,1,0,0,1.0,1.0,1.0
+story_176,G5 Iguazu fights alongside Balam.,1,0,0,1.0,1.0,1.0
+story_177,G5 Iguazu goes by the alias G5 Iguazu.,0,1,1,0.0,0.0,0.0
+story_178,G5 Iguazu goes into battle in the HEAD BRINGER.,1,0,0,1.0,1.0,1.0
+story_179,G5 Iguazu holds the rank D.,1,0,0,1.0,1.0,1.0
+story_180,G5 Iguazu is affiliated with Balam.,1,0,0,1.0,1.0,1.0
+story_181,G5 Iguazu is also known as G5 Iguazu.,0,1,1,0.0,0.0,0.0
+story_182,G5 Iguazu is an enemy of Ayre.,1,0,0,1.0,1.0,1.0
+story_183,G5 Iguazu is an enemy of Balam.,1,0,0,1.0,1.0,1.0
+story_184,G5 Iguazu is friendly towards ALLMIND.,1,0,0,1.0,1.0,1.0
+story_185,G5 Iguazu is friendly towards Balam.,1,0,0,1.0,1.0,1.0
+story_186,G5 Iguazu is hostile toward Ayre.,1,0,0,1.0,1.0,1.0
+story_187,G5 Iguazu is hostile toward Balam.,1,0,0,1.0,1.0,1.0
+story_188,G5 Iguazu is involved in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_189,G5 Iguazu is involved in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_190,G5 Iguazu is ranked D in the Arena.,1,0,0,1.0,1.0,1.0
+story_191,G5 Iguazu pilots the HEAD BRINGER.,1,0,0,1.0,1.0,1.0
+story_192,G5 Iguazu takes part in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_193,G5 Iguazu takes part in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_194,G5 Iguazu works for Balam.,1,0,0,1.0,1.0,1.0
+story_195,HA-T-102 JUGGERNAUT goes by the alias HA-T-102 JUGGERNAUT.,0,1,1,0.0,0.0,0.0
+story_196,HA-T-102 JUGGERNAUT goes into battle in the HA-T-102 JUGGERNAUT.,0,1,1,0.0,0.0,0.0
+story_197,HA-T-102 JUGGERNAUT is affiliated with Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_198,HA-T-102 JUGGERNAUT is also known as HA-T-102 JUGGERNAUT.,0,1,1,0.0,0.0,0.0
+story_199,HA-T-102 JUGGERNAUT is fought as the boss in Operation Wallclimber.,0,0,1,0.0,0.0,0.0
+story_200,HA-T-102 JUGGERNAUT is the boss of Operation Wallclimber.,0,0,1,0.0,0.0,0.0
+story_201,HA-T-102 JUGGERNAUT pilots the HA-T-102 JUGGERNAUT.,0,1,1,0.0,0.0,0.0
+story_202,HA-T-102 JUGGERNAUT works for Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_203,"Handler Walter fights alongside Cinder"" Carla.",1,0,0,1.0,1.0,1.0
+story_204,Handler Walter fights alongside G1 Michigan.,1,0,0,1.0,1.0,1.0
+story_205,Handler Walter goes by the alias Handler Walter.,0,1,1,0.0,0.0,0.0
+story_206,Handler Walter goes into battle in the IB-C03: HAL 826.,1,0,0,1.0,1.0,1.0
+story_207,Handler Walter is affiliated with Overseer.,1,0,0,1.0,1.0,1.0
+story_208,Handler Walter is also known as Handler Walter.,0,1,1,0.0,0.0,0.0
+story_209,"Handler Walter is friendly towards Cinder"" Carla.",1,0,0,1.0,1.0,1.0
+story_210,Handler Walter is friendly towards G1 Michigan.,1,0,0,1.0,1.0,1.0
+story_211,Handler Walter is involved in Fires of Ibis.,1,0,0,1.0,1.0,1.0
+story_212,Handler Walter is involved in Xylem Takeoff.,1,0,0,1.0,1.0,1.0
+story_213,Handler Walter pilots the IB-C03: HAL 826.,1,0,0,1.0,1.0,1.0
+story_214,Handler Walter takes part in Fires of Ibis.,1,0,0,1.0,1.0,1.0
+story_215,Handler Walter takes part in Xylem Takeoff.,1,0,0,1.0,1.0,1.0
+story_216,Handler Walter works for Overseer.,1,0,0,1.0,1.0,1.0
+story_217,IA-02: ICE WORM goes by the alias IA-02: ICE WORM.,0,1,1,0.0,0.0,0.0
+story_218,IA-02: ICE WORM goes into battle in the IA-02: ICE WORM.,0,1,1,0.0,0.0,0.0
+story_219,IA-02: ICE WORM is affiliated with PCA.,1,0,0,1.0,1.0,1.0
+story_220,IA-02: ICE WORM is also known as IA-02: ICE WORM.,0,1,1,0.0,0.0,0.0
+story_221,IA-02: ICE WORM is fought as the boss in Operation Wormkiller.,0,0,1,0.0,0.0,0.0
+story_222,IA-02: ICE WORM is the boss of Operation Wormkiller.,0,0,1,0.0,0.0,0.0
+story_223,IA-02: ICE WORM pilots the IA-02: ICE WORM.,0,1,1,0.0,0.0,0.0
+story_224,IA-02: ICE WORM works for PCA.,1,0,0,1.0,1.0,1.0
+story_225,IB-01: CEL 240 goes by the alias IB-01: CEL 240.,0,1,1,0.0,0.0,0.0
+story_226,IB-01: CEL 240 goes into battle in the IB-01: CEL 240.,0,1,1,0.0,0.0,0.0
+story_227,IB-01: CEL 240 is also known as IB-01: CEL 240.,0,1,1,0.0,0.0,0.0
+story_228,IB-01: CEL 240 is fought as the boss in Vascular Plant.,0,0,1,0.0,0.0,0.0
+story_229,IB-01: CEL 240 is the boss of Vascular Plant.,0,0,1,0.0,0.0,0.0
+story_230,IB-01: CEL 240 pilots the IB-01: CEL 240.,0,1,1,0.0,0.0,0.0
+story_231,Karman Line is set in Rubicon 3 – Upper Atmosphere.,1,0,0,1.0,1.0,1.0
+story_232,Karman Line takes place in Rubicon 3 – Upper Atmosphere.,1,0,0,1.0,1.0,1.0
+story_233,"Operation Wallclimber is set in The Wall, Belius – RLF Stronghold.",1,0,0,1.0,1.0,1.0
+story_234,"Operation Wallclimber takes place in The Wall, Belius – RLF Stronghold.",1,0,0,1.0,1.0,1.0
+story_235,Operation Wormkiller is set in Central Ice Field.,1,0,0,1.0,1.0,1.0
+story_236,Operation Wormkiller takes place in Central Ice Field.,1,0,0,1.0,1.0,1.0
+story_237,Overseer is involved in Fires of Raven.,1,0,0,1.0,1.0,1.0
+story_238,Overseer takes part in Fires of Raven.,1,0,0,1.0,1.0,1.0
+story_239,PCA Arrival is set in PCA Outpost.,1,0,0,1.0,1.0,1.0
+story_240,PCA Arrival takes place in PCA Outpost.,1,0,0,1.0,1.0,1.0
+story_241,PCA Siege is set in PCA Outpost.,1,0,0,1.0,1.0,1.0
+story_242,PCA Siege takes place in PCA Outpost.,1,0,0,1.0,1.0,1.0
+story_243,PCA is involved in Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_244,PCA is involved in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_245,PCA is involved in Karman Line.,1,0,0,1.0,1.0,1.0
+story_246,PCA is involved in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_247,PCA is involved in PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_248,PCA is involved in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_249,PCA takes part in Cataphract Fight.,1,0,0,1.0,1.0,1.0
+story_250,PCA takes part in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_251,PCA takes part in Karman Line.,1,0,0,1.0,1.0,1.0
+story_252,PCA takes part in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_253,PCA takes part in PCA Arrival.,1,0,0,1.0,1.0,1.0
+story_254,PCA takes part in PCA Siege.,1,0,0,1.0,1.0,1.0
+story_255,Raven goes by the alias Raven.,0,1,1,0.0,0.0,0.0
+story_256,Raven goes into battle in the NIGHTFALL.,1,0,0,1.0,1.0,1.0
+story_257,Raven is also known as Raven.,0,1,1,0.0,0.0,0.0
+story_258,Raven pilots the NIGHTFALL.,1,0,0,1.0,1.0,1.0
+story_259,Rubicon Liberation Front is an enemy of Arquebus.,1,0,0,1.0,1.0,1.0
+story_260,Rubicon Liberation Front is an enemy of Balam.,1,0,0,1.0,1.0,1.0
+story_261,Rubicon Liberation Front is hostile toward Arquebus.,1,0,0,1.0,1.0,1.0
+story_262,Rubicon Liberation Front is hostile toward Balam.,1,0,0,1.0,1.0,1.0
+story_263,Rubicon Liberation Front is involved in Walker Destruction.,1,0,0,1.0,1.0,1.0
+story_264,Rubicon Liberation Front takes part in Walker Destruction.,1,0,0,1.0,1.0,1.0
+story_265,Thumb Dolmayan goes by the alias Thumb Dolmayan.,0,1,1,0.0,0.0,0.0
+story_266,Thumb Dolmayan goes into battle in the ASTGHIK.,1,0,0,1.0,1.0,1.0
+story_267,Thumb Dolmayan holds the rank A.,1,0,0,1.0,1.0,1.0
+story_268,Thumb Dolmayan is affiliated with Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_269,Thumb Dolmayan is also known as Thumb Dolmayan.,0,1,1,0.0,0.0,0.0
+story_270,Thumb Dolmayan is ranked A in the Arena.,1,0,0,1.0,1.0,1.0
+story_271,Thumb Dolmayan pilots the ASTGHIK.,1,0,0,1.0,1.0,1.0
+story_272,Thumb Dolmayan works for Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_273,V.II Snail goes by the alias Arquebus.,0,1,1,0.0,0.0,0.0
+story_274,V.II Snail goes by the alias V.II Snail.,0,1,1,0.0,0.0,0.0
+story_275,V.II Snail goes into battle in the OPEN FAITH.,1,0,0,1.0,1.0,1.0
+story_276,V.II Snail holds the rank A.,1,0,0,1.0,1.0,1.0
+story_277,V.II Snail is affiliated with Arquebus.,1,0,0,1.0,1.0,1.0
+story_278,V.II Snail is also known as Arquebus.,0,1,1,0.0,0.0,0.0
+story_279,V.II Snail is also known as V.II Snail.,0,1,1,0.0,0.0,0.0
+story_280,V.II Snail is fought as the boss in Xylem Takeoff.,0,0,1,0.0,0.0,0.0
+story_281,V.II Snail is involved in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_282,V.II Snail is involved in Vascular Plant.,1,0,0,1.0,1.0,1.0
+story_283,V.II Snail is ranked A in the Arena.,1,0,0,1.0,1.0,1.0
+story_284,V.II Snail is the boss of Xylem Takeoff.,0,0,1,0.0,0.0,0.0
+story_285,V.II Snail pilots the OPEN FAITH.,1,0,0,1.0,1.0,1.0
+story_286,V.II Snail takes part in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_287,V.II Snail takes part in Vascular Plant.,1,0,0,1.0,1.0,1.0
+story_288,V.II Snail works for Arquebus.,1,0,0,1.0,1.0,1.0
+story_289,V.IV Rusty fights alongside Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_290,V.IV Rusty goes by the alias V.IV Rusty.,0,1,1,0.0,0.0,0.0
+story_291,V.IV Rusty goes into battle in the STEEL HAZE ORTUS.,1,0,0,1.0,1.0,1.0
+story_292,V.IV Rusty goes into battle in the STEEL HAZE.,1,0,0,1.0,1.0,1.0
+story_293,V.IV Rusty holds the rank B.,1,0,0,1.0,1.0,1.0
+story_294,V.IV Rusty is affiliated with Arquebus.,1,0,0,1.0,1.0,1.0
+story_295,V.IV Rusty is affiliated with Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_296,V.IV Rusty is also known as V.IV Rusty.,0,1,1,0.0,0.0,0.0
+story_297,V.IV Rusty is fought as the boss in Depth Exploration.,0,0,1,0.0,0.0,0.0
+story_298,V.IV Rusty is fought as the boss in Karman Line.,1,0,0,1.0,1.0,1.0
+story_299,V.IV Rusty is friendly towards Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_300,V.IV Rusty is involved in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_301,V.IV Rusty is involved in Karman Line.,1,0,0,1.0,1.0,1.0
+story_302,V.IV Rusty is involved in Operation Wallclimber.,1,0,0,1.0,1.0,1.0
+story_303,V.IV Rusty is involved in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_304,V.IV Rusty is ranked B in the Arena.,1,0,0,1.0,1.0,1.0
+story_305,V.IV Rusty is the boss of Depth Exploration.,0,0,1,0.0,0.0,0.0
+story_306,V.IV Rusty is the boss of Karman Line.,1,0,0,1.0,1.0,1.0
+story_307,V.IV Rusty pilots the STEEL HAZE ORTUS.,1,0,0,1.0,1.0,1.0
+story_308,V.IV Rusty pilots the STEEL HAZE.,1,0,0,1.0,1.0,1.0
+story_309,V.IV Rusty takes part in Depth Exploration.,1,0,0,1.0,1.0,1.0
+story_310,V.IV Rusty takes part in Karman Line.,1,0,0,1.0,1.0,1.0
+story_311,V.IV Rusty takes part in Operation Wallclimber.,1,0,0,1.0,1.0,1.0
+story_312,V.IV Rusty takes part in Operation Wormkiller.,1,0,0,1.0,1.0,1.0
+story_313,V.IV Rusty works for Arquebus.,1,0,0,1.0,1.0,1.0
+story_314,V.IV Rusty works for Rubicon Liberation Front.,1,0,0,1.0,1.0,1.0
+story_315,Vascular Plant is set in Vascular Plant.,0,1,1,0.0,0.0,0.0
+story_316,Vascular Plant takes place in Vascular Plant.,0,1,1,0.0,0.0,0.0
+story_317,Walker Destruction is set in Bona Dea Dunes.,1,0,0,1.0,1.0,1.0
+story_318,Walker Destruction takes place in Bona Dea Dunes.,1,0,0,1.0,1.0,1.0
+story_319,"Xylem Takeoff is set in Xylem, the Floating City.",1,0,0,1.0,1.0,1.0
+story_320,"Xylem Takeoff takes place in Xylem, the Floating City.",1,0,0,1.0,1.0,1.0

@@ -1,0 +1,10 @@
+In general a entity appears in some worlds.
+Every non playable character is also a character.
+A item use is a kind of action.
+A combat action is a kind of action.
+Every non consumable is also a items.
+A protagonist is a kind of playable character.
+Every npc is also a non playable character.
+Often a entity drops another items.
+Every org13 member is also a nobody.
+A movement action is a kind of action.

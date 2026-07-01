@@ -1,0 +1,10 @@
+In general a protagonist can summon some summon.
+A common nobody is a kind of nobody.
+A org13 member is a kind of nobody.
+Every non consumable is also a items.
+Every drive form is also a action.
+A recruitable ally is a kind of playable character.
+A boss is a kind of enemy.
+Every munny is also a consumable.
+A combat action is a kind of action.
+Every consumable is also a items.

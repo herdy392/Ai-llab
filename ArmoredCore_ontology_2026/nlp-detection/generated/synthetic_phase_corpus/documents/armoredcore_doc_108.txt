@@ -1,0 +1,10 @@
+Character is modeled as a subclass of entity.
+The schema gives a character a rank.
+The schema records that an entity participates in a major event.
+The schema records an armored core name as a literal value.
+Each character can be affiliated with a society.
+An entity is friendly towards another entity.
+Each armored core is operated by a character.
+A boss is the boss of a major event.
+Each armored core stores a special flag as a literal value.
+The schema records that a major event takes place in a place.

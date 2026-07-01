@@ -1,0 +1,11 @@
+A character holds a rank in the Arena ranking.
+An entity participates in a major event.
+Each major event stores its timeline position as a literal value.
+The schema records that an entity is friendly towards an entity.
+The record notes when one character kills another.
+An armored core records whether it is special as a literal value.
+Each character stores a buddy flag as a literal value.
+The model links an armored core to its pilot character.
+A character pilots an armored core.
+Each armored core stores its AC name as text.
+The schema marks a society Rubicon origin with a literal value.

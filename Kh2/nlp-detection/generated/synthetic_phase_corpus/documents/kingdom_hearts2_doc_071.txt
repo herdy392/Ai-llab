@@ -1,0 +1,11 @@
+A entity comes from a worlds.
+In general a party engages in the fight some fight.
+A movement action is a kind of action.
+A entity drops a items.
+In general a org13 member is a member of some organization.
+Every party is also a entity.
+Each entity records its hit points.
+A party has as party member a entity.
+A consumable is a kind of items.
+In general a entity can perform some action.
+Every sword attack is also a combat action.

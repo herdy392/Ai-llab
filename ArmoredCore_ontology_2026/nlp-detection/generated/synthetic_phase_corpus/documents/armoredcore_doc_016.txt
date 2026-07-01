@@ -1,0 +1,10 @@
+The schema records a major event chronological order as a literal value.
+Each major event is located in a place on Rubicon 3.
+Each character can be assigned a rank.
+A character works for a society.
+Each character record links to the aliases they use.
+The schema records an armored core name as a literal value.
+An alias is an alias of a character.
+Each society stores an origin-on-Rubicon flag as a literal value.
+An entity is hostile toward another entity.
+An armored core records whether it is special as a literal value.

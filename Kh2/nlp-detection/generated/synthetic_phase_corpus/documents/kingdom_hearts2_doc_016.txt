@@ -1,0 +1,12 @@
+A munny is a kind of consumable.
+A non playable character is a kind of character.
+A playable character is a kind of character.
+A drive form is a kind of action.
+Each org13 member is a member of a organization.
+Each fight takes place in a worlds.
+A entity has hit points value.
+Often a entity is friends with another entity.
+A keyblade has attack power value.
+A magic attack is a kind of combat action.
+A summon is a kind of action.
+Every enemy is also a non playable character.

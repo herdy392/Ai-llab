@@ -1,0 +1,11 @@
+A movement action is a kind of action.
+A non consumable is a kind of items.
+Often a entity is friends with another entity.
+Each protagonist can summon a summon.
+A potion is a kind of consumable.
+A munny is a kind of consumable.
+Often a entity drops another items.
+Every consumable is also a items.
+Often a entity can perform another action.
+A keyblade has attack power value.
+Every secondary weapon is also a non consumable.

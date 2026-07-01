@@ -1,0 +1,10 @@
+Each armored core is operated by a character.
+An entity participates in a major event.
+A rank is the rank of a character.
+The record notes when one character kills another.
+Allies are entities friendly towards each other.
+Each society stores an origin-on-Rubicon flag as a literal value.
+The schema records a major event chronological order as a literal value.
+A character holds a rank in the Arena ranking.
+The schema records that a character works for a society.
+An armored core has a name stored as a literal value.

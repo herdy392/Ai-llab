@@ -1,0 +1,9 @@
+The schema records that a major event takes place in a place.
+An armored core records whether it is special as a literal value.
+Each character can be assigned a rank.
+Each character stores a buddy flag as a literal value.
+An armored core is piloted by a character.
+The schema records a major event chronological order as a literal value.
+An armored core has a name stored as a literal value.
+The schema records that an entity is friendly towards an entity.
+A society records whether it originates on Rubicon as a literal value.

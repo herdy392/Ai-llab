@@ -1,0 +1,9 @@
+Each character record links to the aliases they use.
+Society is modeled as a subclass of entity.
+The schema records that a major event takes place in a place.
+Each character can be assigned a rank.
+The schema records a society name as a literal value.
+The schema marks an armored core as special with a literal value.
+A society records whether it originates on Rubicon as a literal value.
+The record notes when one character kills another.
+Allies are entities friendly towards each other.

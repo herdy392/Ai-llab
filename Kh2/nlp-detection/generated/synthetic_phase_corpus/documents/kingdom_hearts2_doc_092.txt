@@ -1,0 +1,12 @@
+A secondary weapon is a kind of non consumable.
+Often a recruitable ally has the secondary weapon another secondary weapon.
+Typically a entity can perform a given action.
+A boss is a kind of enemy.
+Every recruitable ally is also a playable character.
+Typically a entity defeats a given entity.
+Every gems is also a consumable.
+Often a entity is friends with another entity.
+Typically a entity appears in a given worlds.
+A party is a kind of entity.
+In general a protagonist can summon some summon.
+Typically a entity drops a given items.

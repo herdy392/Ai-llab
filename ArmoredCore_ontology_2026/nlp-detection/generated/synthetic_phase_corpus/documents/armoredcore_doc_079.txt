@@ -1,0 +1,11 @@
+The schema records that a boss is boss of a major event.
+Each armored core stores a special flag as a literal value.
+The schema gives a character a rank.
+The record notes when one character kills another.
+The schema records that a major event takes place in a place.
+Each society stores an origin-on-Rubicon flag as a literal value.
+The schema records that a character works for a society.
+A character records whether it is the player buddy as a literal value.
+The model links a major event to its boss.
+Every alias points back to the character it identifies.
+The schema records that an entity is hostile toward an entity.

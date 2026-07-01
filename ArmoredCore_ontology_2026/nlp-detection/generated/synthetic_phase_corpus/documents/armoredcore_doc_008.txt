@@ -1,0 +1,9 @@
+The schema records an armored core name as a literal value.
+The schema marks a society Rubicon origin with a literal value.
+The schema gives a character a rank.
+The schema records that a character works for a society.
+Allies are entities friendly towards each other.
+Each character stores a buddy flag as a literal value.
+An entity participates in a major event.
+The schema marks an armored core as special with a literal value.
+A major event has a chronological order stored as a literal value.

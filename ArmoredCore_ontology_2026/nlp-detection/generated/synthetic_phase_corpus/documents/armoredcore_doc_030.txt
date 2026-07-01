@@ -1,0 +1,12 @@
+A rank is the rank of a character.
+A major event takes place in a place.
+Each major event stores its timeline position as a literal value.
+Each armored core is operated by a character.
+The schema records that an entity is hostile toward an entity.
+Each character can be assigned a rank.
+A character is a kind of entity.
+In the schema, a character has an alias.
+The schema records a society name as a literal value.
+Each armored core stores its AC name as text.
+A human is a kind of character.
+The schema marks an armored core as special with a literal value.

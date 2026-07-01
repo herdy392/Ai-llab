@@ -1,0 +1,9 @@
+Every org13 member is also a nobody.
+Every organization is also a entity.
+Every playable character is also a character.
+Typically a entity drops a given items.
+Often a protagonist can summon another summon.
+A recruitable ally is a kind of playable character.
+A party has as party member a entity.
+Every movement action is also a action.
+Every munny is also a consumable.

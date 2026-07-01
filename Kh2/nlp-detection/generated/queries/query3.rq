@@ -1,0 +1,11 @@
+PREFIX kh: <http://www.semanticweb.org/andrea/ontologies/2026/4/Kingdom_hearts_2#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Q3 - OPTIONAL + FILTER: fights and the world they take place in, with the winning
+# party (optional); keep only fights whose name does not contain "Final".
+SELECT ?fight ?world ?winner WHERE {
+  ?fight kh:takesPlaceIn ?world .
+  OPTIONAL { ?fight kh:winner ?winner . }
+  FILTER (!regex(str(?fight), "Final"))
+}
+ORDER BY ?fight ?world

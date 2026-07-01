@@ -1,0 +1,11 @@
+Typically a protagonist can summon a given summon.
+Typically a party engages in the fight a given fight.
+Every secondary weapon is also a non consumable.
+Every sword attack is also a combat action.
+Every item use is also a action.
+Often a entity drops another items.
+A consumable is a kind of items.
+Every keyblade is also a non consumable.
+A protagonist is a kind of playable character.
+A org13 member is a member of a organization.
+A support is a kind of action.

@@ -1,0 +1,10 @@
+Each fight takes place in a worlds.
+Every magic attack is also a combat action.
+Every nobody is also a enemy.
+Typically a entity drops a given items.
+In general a entity comes from some worlds.
+Every drive form is also a action.
+A organization is a kind of entity.
+Every recruitable ally is also a playable character.
+A character is a kind of entity.
+Every secondary weapon is also a non consumable.

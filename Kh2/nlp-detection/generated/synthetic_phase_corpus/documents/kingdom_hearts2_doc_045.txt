@@ -1,0 +1,12 @@
+Every party is also a entity.
+Each entity appears in a worlds.
+Often a party has as party member another entity.
+Each protagonist can summon a summon.
+Often a org13 member is a member of another organization.
+A playable character is a kind of character.
+Often a recruitable ally has the secondary weapon another secondary weapon.
+Every enemy is also a non playable character.
+A party engages in the fight a fight.
+A consumable is a kind of items.
+A entity can perform a action.
+Every protagonist is also a playable character.

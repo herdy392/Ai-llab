@@ -1,0 +1,2915 @@
+{
+  "ontology": "ontology/kingdom_hearts2.owx",
+  "entity_dictionary": {
+    "action": [
+      {
+        "uri": "#Action",
+        "short": "Action",
+        "kind": "class",
+        "canonical_label": "action"
+      }
+    ],
+    "boss": [
+      {
+        "uri": "#Boss",
+        "short": "Boss",
+        "kind": "class",
+        "canonical_label": "boss"
+      }
+    ],
+    "character": [
+      {
+        "uri": "#Character",
+        "short": "Character",
+        "kind": "class",
+        "canonical_label": "character"
+      }
+    ],
+    "combat action": [
+      {
+        "uri": "#CombatAction",
+        "short": "CombatAction",
+        "kind": "class",
+        "canonical_label": "combat action"
+      }
+    ],
+    "combataction": [
+      {
+        "uri": "#CombatAction",
+        "short": "CombatAction",
+        "kind": "class",
+        "canonical_label": "combat action"
+      }
+    ],
+    "commonnobody": [
+      {
+        "uri": "#CommonNobody",
+        "short": "CommonNobody",
+        "kind": "class",
+        "canonical_label": "common nobody"
+      }
+    ],
+    "common nobody": [
+      {
+        "uri": "#CommonNobody",
+        "short": "CommonNobody",
+        "kind": "class",
+        "canonical_label": "common nobody"
+      }
+    ],
+    "consumable": [
+      {
+        "uri": "#Consumable",
+        "short": "Consumable",
+        "kind": "class",
+        "canonical_label": "consumable"
+      }
+    ],
+    "disneyantagonist": [
+      {
+        "uri": "#DisneyAntagonist",
+        "short": "DisneyAntagonist",
+        "kind": "class",
+        "canonical_label": "disney antagonist"
+      }
+    ],
+    "disney antagonist": [
+      {
+        "uri": "#DisneyAntagonist",
+        "short": "DisneyAntagonist",
+        "kind": "class",
+        "canonical_label": "disney antagonist"
+      }
+    ],
+    "drive form": [
+      {
+        "uri": "#DriveForm",
+        "short": "DriveForm",
+        "kind": "class",
+        "canonical_label": "drive form"
+      }
+    ],
+    "driveform": [
+      {
+        "uri": "#DriveForm",
+        "short": "DriveForm",
+        "kind": "class",
+        "canonical_label": "drive form"
+      }
+    ],
+    "enemy": [
+      {
+        "uri": "#Enemy",
+        "short": "Enemy",
+        "kind": "class",
+        "canonical_label": "enemy"
+      }
+    ],
+    "entity": [
+      {
+        "uri": "#Entity",
+        "short": "Entity",
+        "kind": "class",
+        "canonical_label": "entity"
+      }
+    ],
+    "fight": [
+      {
+        "uri": "#Fight",
+        "short": "Fight",
+        "kind": "class",
+        "canonical_label": "fight"
+      }
+    ],
+    "gems": [
+      {
+        "uri": "#Gems",
+        "short": "Gems",
+        "kind": "class",
+        "canonical_label": "gems"
+      }
+    ],
+    "heartless": [
+      {
+        "uri": "#Heartless",
+        "short": "Heartless",
+        "kind": "class",
+        "canonical_label": "heartless"
+      }
+    ],
+    "itemuse": [
+      {
+        "uri": "#ItemUse",
+        "short": "ItemUse",
+        "kind": "class",
+        "canonical_label": "item use"
+      }
+    ],
+    "item use": [
+      {
+        "uri": "#ItemUse",
+        "short": "ItemUse",
+        "kind": "class",
+        "canonical_label": "item use"
+      }
+    ],
+    "items": [
+      {
+        "uri": "#Items",
+        "short": "Items",
+        "kind": "class",
+        "canonical_label": "items"
+      }
+    ],
+    "keyblade": [
+      {
+        "uri": "#Keyblade",
+        "short": "Keyblade",
+        "kind": "class",
+        "canonical_label": "keyblade"
+      }
+    ],
+    "magic attack": [
+      {
+        "uri": "#MagicAttack",
+        "short": "MagicAttack",
+        "kind": "class",
+        "canonical_label": "magic attack"
+      }
+    ],
+    "magicattack": [
+      {
+        "uri": "#MagicAttack",
+        "short": "MagicAttack",
+        "kind": "class",
+        "canonical_label": "magic attack"
+      }
+    ],
+    "movementaction": [
+      {
+        "uri": "#MovementAction",
+        "short": "MovementAction",
+        "kind": "class",
+        "canonical_label": "movement action"
+      }
+    ],
+    "movement action": [
+      {
+        "uri": "#MovementAction",
+        "short": "MovementAction",
+        "kind": "class",
+        "canonical_label": "movement action"
+      }
+    ],
+    "munny": [
+      {
+        "uri": "#Munny",
+        "short": "Munny",
+        "kind": "class",
+        "canonical_label": "munny"
+      }
+    ],
+    "npc": [
+      {
+        "uri": "#NPC",
+        "short": "NPC",
+        "kind": "class",
+        "canonical_label": "npc"
+      }
+    ],
+    "nobody": [
+      {
+        "uri": "#Nobody",
+        "short": "Nobody",
+        "kind": "class",
+        "canonical_label": "nobody"
+      }
+    ],
+    "nonconsumable": [
+      {
+        "uri": "#NonConsumable",
+        "short": "NonConsumable",
+        "kind": "class",
+        "canonical_label": "non consumable"
+      }
+    ],
+    "non consumable": [
+      {
+        "uri": "#NonConsumable",
+        "short": "NonConsumable",
+        "kind": "class",
+        "canonical_label": "non consumable"
+      }
+    ],
+    "nonplayablecharacter": [
+      {
+        "uri": "#NonPlayableCharacter",
+        "short": "NonPlayableCharacter",
+        "kind": "class",
+        "canonical_label": "non playable character"
+      }
+    ],
+    "non playable character": [
+      {
+        "uri": "#NonPlayableCharacter",
+        "short": "NonPlayableCharacter",
+        "kind": "class",
+        "canonical_label": "non playable character"
+      }
+    ],
+    "org13 member": [
+      {
+        "uri": "#Org13Member",
+        "short": "Org13Member",
+        "kind": "class",
+        "canonical_label": "org13 member"
+      }
+    ],
+    "org13member": [
+      {
+        "uri": "#Org13Member",
+        "short": "Org13Member",
+        "kind": "class",
+        "canonical_label": "org13 member"
+      }
+    ],
+    "organization": [
+      {
+        "uri": "#Organization",
+        "short": "Organization",
+        "kind": "class",
+        "canonical_label": "organization"
+      }
+    ],
+    "party": [
+      {
+        "uri": "#Party",
+        "short": "Party",
+        "kind": "class",
+        "canonical_label": "party"
+      }
+    ],
+    "playablecharacter": [
+      {
+        "uri": "#PlayableCharacter",
+        "short": "PlayableCharacter",
+        "kind": "class",
+        "canonical_label": "playable character"
+      }
+    ],
+    "playable character": [
+      {
+        "uri": "#PlayableCharacter",
+        "short": "PlayableCharacter",
+        "kind": "class",
+        "canonical_label": "playable character"
+      }
+    ],
+    "potion": [
+      {
+        "uri": "#Potion",
+        "short": "Potion",
+        "kind": "class",
+        "canonical_label": "potion"
+      },
+      {
+        "uri": "#Potion",
+        "short": "Potion",
+        "kind": "individual",
+        "canonical_label": "potion"
+      }
+    ],
+    "protagonist": [
+      {
+        "uri": "#Protagonist",
+        "short": "Protagonist",
+        "kind": "class",
+        "canonical_label": "protagonist"
+      }
+    ],
+    "recruitable ally": [
+      {
+        "uri": "#RecruitableAlly",
+        "short": "RecruitableAlly",
+        "kind": "class",
+        "canonical_label": "recruitable ally"
+      }
+    ],
+    "recruitableally": [
+      {
+        "uri": "#RecruitableAlly",
+        "short": "RecruitableAlly",
+        "kind": "class",
+        "canonical_label": "recruitable ally"
+      }
+    ],
+    "secondary weapon": [
+      {
+        "uri": "#SecondaryWeapon",
+        "short": "SecondaryWeapon",
+        "kind": "class",
+        "canonical_label": "secondary weapon"
+      }
+    ],
+    "secondaryweapon": [
+      {
+        "uri": "#SecondaryWeapon",
+        "short": "SecondaryWeapon",
+        "kind": "class",
+        "canonical_label": "secondary weapon"
+      }
+    ],
+    "summon": [
+      {
+        "uri": "#Summon",
+        "short": "Summon",
+        "kind": "class",
+        "canonical_label": "summon"
+      }
+    ],
+    "support": [
+      {
+        "uri": "#Support",
+        "short": "Support",
+        "kind": "class",
+        "canonical_label": "support"
+      }
+    ],
+    "swordattack": [
+      {
+        "uri": "#SwordAttack",
+        "short": "SwordAttack",
+        "kind": "class",
+        "canonical_label": "sword attack"
+      }
+    ],
+    "sword attack": [
+      {
+        "uri": "#SwordAttack",
+        "short": "SwordAttack",
+        "kind": "class",
+        "canonical_label": "sword attack"
+      }
+    ],
+    "worlds": [
+      {
+        "uri": "#Worlds",
+        "short": "Worlds",
+        "kind": "class",
+        "canonical_label": "worlds"
+      }
+    ],
+    "appears in": [
+      {
+        "uri": "#appearsIn",
+        "short": "appearsIn",
+        "kind": "object_property",
+        "canonical_label": "appears in"
+      }
+    ],
+    "appearsin": [
+      {
+        "uri": "#appearsIn",
+        "short": "appearsIn",
+        "kind": "object_property",
+        "canonical_label": "appears in"
+      }
+    ],
+    "cansummon": [
+      {
+        "uri": "#canSummon",
+        "short": "canSummon",
+        "kind": "object_property",
+        "canonical_label": "can summon"
+      }
+    ],
+    "can summon": [
+      {
+        "uri": "#canSummon",
+        "short": "canSummon",
+        "kind": "object_property",
+        "canonical_label": "can summon"
+      }
+    ],
+    "comes from": [
+      {
+        "uri": "#comesFrom",
+        "short": "comesFrom",
+        "kind": "object_property",
+        "canonical_label": "comes from"
+      }
+    ],
+    "comesfrom": [
+      {
+        "uri": "#comesFrom",
+        "short": "comesFrom",
+        "kind": "object_property",
+        "canonical_label": "comes from"
+      }
+    ],
+    "defeats": [
+      {
+        "uri": "#defeats",
+        "short": "defeats",
+        "kind": "object_property",
+        "canonical_label": "defeats"
+      }
+    ],
+    "drops": [
+      {
+        "uri": "#drops",
+        "short": "drops",
+        "kind": "object_property",
+        "canonical_label": "drops"
+      }
+    ],
+    "engages in fight": [
+      {
+        "uri": "#engagesInFight",
+        "short": "engagesInFight",
+        "kind": "object_property",
+        "canonical_label": "engages in fight"
+      }
+    ],
+    "engagesinfight": [
+      {
+        "uri": "#engagesInFight",
+        "short": "engagesInFight",
+        "kind": "object_property",
+        "canonical_label": "engages in fight"
+      }
+    ],
+    "hasaction": [
+      {
+        "uri": "#hasAction",
+        "short": "hasAction",
+        "kind": "object_property",
+        "canonical_label": "has action"
+      }
+    ],
+    "has action": [
+      {
+        "uri": "#hasAction",
+        "short": "hasAction",
+        "kind": "object_property",
+        "canonical_label": "has action"
+      }
+    ],
+    "has drive form": [
+      {
+        "uri": "#hasDriveForm",
+        "short": "hasDriveForm",
+        "kind": "object_property",
+        "canonical_label": "has drive form"
+      }
+    ],
+    "hasdriveform": [
+      {
+        "uri": "#hasDriveForm",
+        "short": "hasDriveForm",
+        "kind": "object_property",
+        "canonical_label": "has drive form"
+      }
+    ],
+    "has friend": [
+      {
+        "uri": "#hasFriend",
+        "short": "hasFriend",
+        "kind": "object_property",
+        "canonical_label": "has friend"
+      }
+    ],
+    "hasfriend": [
+      {
+        "uri": "#hasFriend",
+        "short": "hasFriend",
+        "kind": "object_property",
+        "canonical_label": "has friend"
+      }
+    ],
+    "hasininventory": [
+      {
+        "uri": "#hasInInventory",
+        "short": "hasInInventory",
+        "kind": "object_property",
+        "canonical_label": "has in inventory"
+      }
+    ],
+    "has in inventory": [
+      {
+        "uri": "#hasInInventory",
+        "short": "hasInInventory",
+        "kind": "object_property",
+        "canonical_label": "has in inventory"
+      }
+    ],
+    "haspartymember": [
+      {
+        "uri": "#hasPartyMember",
+        "short": "hasPartyMember",
+        "kind": "object_property",
+        "canonical_label": "has party member"
+      }
+    ],
+    "has party member": [
+      {
+        "uri": "#hasPartyMember",
+        "short": "hasPartyMember",
+        "kind": "object_property",
+        "canonical_label": "has party member"
+      }
+    ],
+    "has secondary weapon": [
+      {
+        "uri": "#hasSecondaryWeapon",
+        "short": "hasSecondaryWeapon",
+        "kind": "object_property",
+        "canonical_label": "has secondary weapon"
+      }
+    ],
+    "hassecondaryweapon": [
+      {
+        "uri": "#hasSecondaryWeapon",
+        "short": "hasSecondaryWeapon",
+        "kind": "object_property",
+        "canonical_label": "has secondary weapon"
+      }
+    ],
+    "is enemy of": [
+      {
+        "uri": "#isEnemyOf",
+        "short": "isEnemyOf",
+        "kind": "object_property",
+        "canonical_label": "is enemy of"
+      }
+    ],
+    "isenemyof": [
+      {
+        "uri": "#isEnemyOf",
+        "short": "isEnemyOf",
+        "kind": "object_property",
+        "canonical_label": "is enemy of"
+      }
+    ],
+    "is member of": [
+      {
+        "uri": "#isMemberOf",
+        "short": "isMemberOf",
+        "kind": "object_property",
+        "canonical_label": "is member of"
+      }
+    ],
+    "ismemberof": [
+      {
+        "uri": "#isMemberOf",
+        "short": "isMemberOf",
+        "kind": "object_property",
+        "canonical_label": "is member of"
+      }
+    ],
+    "ownskeyblade": [
+      {
+        "uri": "#ownsKeyblade",
+        "short": "ownsKeyblade",
+        "kind": "object_property",
+        "canonical_label": "owns keyblade"
+      }
+    ],
+    "owns keyblade": [
+      {
+        "uri": "#ownsKeyblade",
+        "short": "ownsKeyblade",
+        "kind": "object_property",
+        "canonical_label": "owns keyblade"
+      }
+    ],
+    "participatesin": [
+      {
+        "uri": "#participatesIn",
+        "short": "participatesIn",
+        "kind": "object_property",
+        "canonical_label": "participates in"
+      }
+    ],
+    "participates in": [
+      {
+        "uri": "#participatesIn",
+        "short": "participatesIn",
+        "kind": "object_property",
+        "canonical_label": "participates in"
+      }
+    ],
+    "takes place in": [
+      {
+        "uri": "#takesPlaceIn",
+        "short": "takesPlaceIn",
+        "kind": "object_property",
+        "canonical_label": "takes place in"
+      }
+    ],
+    "takesplacein": [
+      {
+        "uri": "#takesPlaceIn",
+        "short": "takesPlaceIn",
+        "kind": "object_property",
+        "canonical_label": "takes place in"
+      }
+    ],
+    "winner": [
+      {
+        "uri": "#winner",
+        "short": "winner",
+        "kind": "object_property",
+        "canonical_label": "winner"
+      }
+    ],
+    "attack power": [
+      {
+        "uri": "#attackPower",
+        "short": "attackPower",
+        "kind": "datatype_property",
+        "canonical_label": "attack power"
+      }
+    ],
+    "attackpower": [
+      {
+        "uri": "#attackPower",
+        "short": "attackPower",
+        "kind": "datatype_property",
+        "canonical_label": "attack power"
+      }
+    ],
+    "description": [
+      {
+        "uri": "#description",
+        "short": "description",
+        "kind": "datatype_property",
+        "canonical_label": "description"
+      }
+    ],
+    "element": [
+      {
+        "uri": "#element",
+        "short": "element",
+        "kind": "datatype_property",
+        "canonical_label": "element"
+      }
+    ],
+    "hitpoints": [
+      {
+        "uri": "#hitPoints",
+        "short": "hitPoints",
+        "kind": "datatype_property",
+        "canonical_label": "hit points"
+      }
+    ],
+    "hit points": [
+      {
+        "uri": "#hitPoints",
+        "short": "hitPoints",
+        "kind": "datatype_property",
+        "canonical_label": "hit points"
+      }
+    ],
+    "name": [
+      {
+        "uri": "#name",
+        "short": "name",
+        "kind": "datatype_property",
+        "canonical_label": "name"
+      }
+    ],
+    "2 become one": [
+      {
+        "uri": "#2BecomeOne",
+        "short": "2BecomeOne",
+        "kind": "individual",
+        "canonical_label": "2 become one"
+      }
+    ],
+    "2becomeone": [
+      {
+        "uri": "#2BecomeOne",
+        "short": "2BecomeOne",
+        "kind": "individual",
+        "canonical_label": "2 become one"
+      }
+    ],
+    "aerialdodge": [
+      {
+        "uri": "#AerialDodge",
+        "short": "AerialDodge",
+        "kind": "individual",
+        "canonical_label": "aerial dodge"
+      }
+    ],
+    "aerial dodge": [
+      {
+        "uri": "#AerialDodge",
+        "short": "AerialDodge",
+        "kind": "individual",
+        "canonical_label": "aerial dodge"
+      }
+    ],
+    "aerialrecovery": [
+      {
+        "uri": "#AerialRecovery",
+        "short": "AerialRecovery",
+        "kind": "individual",
+        "canonical_label": "aerial recovery"
+      }
+    ],
+    "aerial recovery": [
+      {
+        "uri": "#AerialRecovery",
+        "short": "AerialRecovery",
+        "kind": "individual",
+        "canonical_label": "aerial recovery"
+      }
+    ],
+    "agrabah": [
+      {
+        "uri": "#Agrabah",
+        "short": "Agrabah",
+        "kind": "individual",
+        "canonical_label": "agrabah"
+      }
+    ],
+    "anti fusion": [
+      {
+        "uri": "#AntiFusion",
+        "short": "AntiFusion",
+        "kind": "individual",
+        "canonical_label": "anti fusion"
+      }
+    ],
+    "antifusion": [
+      {
+        "uri": "#AntiFusion",
+        "short": "AntiFusion",
+        "kind": "individual",
+        "canonical_label": "anti fusion"
+      }
+    ],
+    "armoredknight": [
+      {
+        "uri": "#ArmoredKnight",
+        "short": "ArmoredKnight",
+        "kind": "individual",
+        "canonical_label": "armored knight"
+      }
+    ],
+    "armored knight": [
+      {
+        "uri": "#ArmoredKnight",
+        "short": "ArmoredKnight",
+        "kind": "individual",
+        "canonical_label": "armored knight"
+      }
+    ],
+    "assassin": [
+      {
+        "uri": "#Assassin",
+        "short": "Assassin",
+        "kind": "individual",
+        "canonical_label": "assassin"
+      }
+    ],
+    "axel": [
+      {
+        "uri": "#Axel",
+        "short": "Axel",
+        "kind": "individual",
+        "canonical_label": "axel"
+      }
+    ],
+    "basic": [
+      {
+        "uri": "#Basic",
+        "short": "Basic",
+        "kind": "individual",
+        "canonical_label": "basic"
+      }
+    ],
+    "beastcastle": [
+      {
+        "uri": "#BeastCastle",
+        "short": "BeastCastle",
+        "kind": "individual",
+        "canonical_label": "beast castle"
+      }
+    ],
+    "beast castle": [
+      {
+        "uri": "#BeastCastle",
+        "short": "BeastCastle",
+        "kind": "individual",
+        "canonical_label": "beast castle"
+      }
+    ],
+    "berserker": [
+      {
+        "uri": "#Berserker",
+        "short": "Berserker",
+        "kind": "individual",
+        "canonical_label": "berserker"
+      }
+    ],
+    "blizzard": [
+      {
+        "uri": "#Blizzard",
+        "short": "Blizzard",
+        "kind": "individual",
+        "canonical_label": "blizzard"
+      }
+    ],
+    "brightgem": [
+      {
+        "uri": "#BrightGem",
+        "short": "BrightGem",
+        "kind": "individual",
+        "canonical_label": "bright gem"
+      }
+    ],
+    "bright gem": [
+      {
+        "uri": "#BrightGem",
+        "short": "BrightGem",
+        "kind": "individual",
+        "canonical_label": "bright gem"
+      }
+    ],
+    "castle oblivion": [
+      {
+        "uri": "#CastleOblivion",
+        "short": "CastleOblivion",
+        "kind": "individual",
+        "canonical_label": "castle oblivion"
+      }
+    ],
+    "castleoblivion": [
+      {
+        "uri": "#CastleOblivion",
+        "short": "CastleOblivion",
+        "kind": "individual",
+        "canonical_label": "castle oblivion"
+      }
+    ],
+    "chicken little": [
+      {
+        "uri": "#ChickenLittle",
+        "short": "ChickenLittle",
+        "kind": "individual",
+        "canonical_label": "chicken little"
+      }
+    ],
+    "chickenlittle": [
+      {
+        "uri": "#ChickenLittle",
+        "short": "ChickenLittle",
+        "kind": "individual",
+        "canonical_label": "chicken little"
+      }
+    ],
+    "circle of life": [
+      {
+        "uri": "#CircleOfLife",
+        "short": "CircleOfLife",
+        "kind": "individual",
+        "canonical_label": "circle of life"
+      }
+    ],
+    "circleoflife": [
+      {
+        "uri": "#CircleOfLife",
+        "short": "CircleOfLife",
+        "kind": "individual",
+        "canonical_label": "circle of life"
+      }
+    ],
+    "cloud": [
+      {
+        "uri": "#Cloud",
+        "short": "Cloud",
+        "kind": "individual",
+        "canonical_label": "cloud"
+      }
+    ],
+    "comboplus": [
+      {
+        "uri": "#ComboPlus",
+        "short": "ComboPlus",
+        "kind": "individual",
+        "canonical_label": "combo plus"
+      }
+    ],
+    "combo plus": [
+      {
+        "uri": "#ComboPlus",
+        "short": "ComboPlus",
+        "kind": "individual",
+        "canonical_label": "combo plus"
+      }
+    ],
+    "cure": [
+      {
+        "uri": "#Cure",
+        "short": "Cure",
+        "kind": "individual",
+        "canonical_label": "cure"
+      }
+    ],
+    "dancer": [
+      {
+        "uri": "#Dancer",
+        "short": "Dancer",
+        "kind": "individual",
+        "canonical_label": "dancer"
+      }
+    ],
+    "darkgem": [
+      {
+        "uri": "#DarkGem",
+        "short": "DarkGem",
+        "kind": "individual",
+        "canonical_label": "dark gem"
+      }
+    ],
+    "dark gem": [
+      {
+        "uri": "#DarkGem",
+        "short": "DarkGem",
+        "kind": "individual",
+        "canonical_label": "dark gem"
+      }
+    ],
+    "demyx": [
+      {
+        "uri": "#Demyx",
+        "short": "Demyx",
+        "kind": "individual",
+        "canonical_label": "demyx"
+      }
+    ],
+    "destiny islands": [
+      {
+        "uri": "#DestinyIslands",
+        "short": "DestinyIslands",
+        "kind": "individual",
+        "canonical_label": "destiny islands"
+      }
+    ],
+    "destinyislands": [
+      {
+        "uri": "#DestinyIslands",
+        "short": "DestinyIslands",
+        "kind": "individual",
+        "canonical_label": "destiny islands"
+      }
+    ],
+    "disney castle": [
+      {
+        "uri": "#DisneyCastle",
+        "short": "DisneyCastle",
+        "kind": "individual",
+        "canonical_label": "disney castle"
+      }
+    ],
+    "disneycastle": [
+      {
+        "uri": "#DisneyCastle",
+        "short": "DisneyCastle",
+        "kind": "individual",
+        "canonical_label": "disney castle"
+      }
+    ],
+    "dodge roll": [
+      {
+        "uri": "#DodgeRoll",
+        "short": "DodgeRoll",
+        "kind": "individual",
+        "canonical_label": "dodge roll"
+      }
+    ],
+    "dodgeroll": [
+      {
+        "uri": "#DodgeRoll",
+        "short": "DodgeRoll",
+        "kind": "individual",
+        "canonical_label": "dodge roll"
+      }
+    ],
+    "donald": [
+      {
+        "uri": "#Donald",
+        "short": "Donald",
+        "kind": "individual",
+        "canonical_label": "donald"
+      }
+    ],
+    "donald staff": [
+      {
+        "uri": "#DonaldStaff",
+        "short": "DonaldStaff",
+        "kind": "individual",
+        "canonical_label": "donald staff"
+      }
+    ],
+    "donaldstaff": [
+      {
+        "uri": "#DonaldStaff",
+        "short": "DonaldStaff",
+        "kind": "individual",
+        "canonical_label": "donald staff"
+      }
+    ],
+    "elixir": [
+      {
+        "uri": "#Elixir",
+        "short": "Elixir",
+        "kind": "individual",
+        "canonical_label": "elixir"
+      }
+    ],
+    "emergency": [
+      {
+        "uri": "#Emergency",
+        "short": "Emergency",
+        "kind": "individual",
+        "canonical_label": "emergency"
+      }
+    ],
+    "ether": [
+      {
+        "uri": "#Ether",
+        "short": "Ether",
+        "kind": "individual",
+        "canonical_label": "ether"
+      }
+    ],
+    "fat blue": [
+      {
+        "uri": "#FatBlue",
+        "short": "FatBlue",
+        "kind": "individual",
+        "canonical_label": "fat blue"
+      }
+    ],
+    "fatblue": [
+      {
+        "uri": "#FatBlue",
+        "short": "FatBlue",
+        "kind": "individual",
+        "canonical_label": "fat blue"
+      }
+    ],
+    "fenrir": [
+      {
+        "uri": "#Fenrir",
+        "short": "Fenrir",
+        "kind": "individual",
+        "canonical_label": "fenrir"
+      }
+    ],
+    "fight roxas vs axel": [
+      {
+        "uri": "#FightRoxasVsAxel",
+        "short": "FightRoxasVsAxel",
+        "kind": "individual",
+        "canonical_label": "fight roxas vs axel"
+      }
+    ],
+    "fightroxasvsaxel": [
+      {
+        "uri": "#FightRoxasVsAxel",
+        "short": "FightRoxasVsAxel",
+        "kind": "individual",
+        "canonical_label": "fight roxas vs axel"
+      }
+    ],
+    "fight roxas vs twilight thorn": [
+      {
+        "uri": "#FightRoxasVsTwilightThorn",
+        "short": "FightRoxasVsTwilightThorn",
+        "kind": "individual",
+        "canonical_label": "fight roxas vs twilight thorn"
+      }
+    ],
+    "fightroxasvstwilightthorn": [
+      {
+        "uri": "#FightRoxasVsTwilightThorn",
+        "short": "FightRoxasVsTwilightThorn",
+        "kind": "individual",
+        "canonical_label": "fight roxas vs twilight thorn"
+      }
+    ],
+    "fight sora riku vs xemnas final": [
+      {
+        "uri": "#FightSoraRikuVsXemnasFinal",
+        "short": "FightSoraRikuVsXemnasFinal",
+        "kind": "individual",
+        "canonical_label": "fight sora riku vs xemnas final"
+      }
+    ],
+    "fightsorarikuvsxemnasfinal": [
+      {
+        "uri": "#FightSoraRikuVsXemnasFinal",
+        "short": "FightSoraRikuVsXemnasFinal",
+        "kind": "individual",
+        "canonical_label": "fight sora riku vs xemnas final"
+      }
+    ],
+    "fight sora vs axel": [
+      {
+        "uri": "#FightSoraVsAxel",
+        "short": "FightSoraVsAxel",
+        "kind": "individual",
+        "canonical_label": "fight sora vs axel"
+      }
+    ],
+    "fightsoravsaxel": [
+      {
+        "uri": "#FightSoraVsAxel",
+        "short": "FightSoraVsAxel",
+        "kind": "individual",
+        "canonical_label": "fight sora vs axel"
+      }
+    ],
+    "fight sora vs demyx": [
+      {
+        "uri": "#FightSoraVsDemyx",
+        "short": "FightSoraVsDemyx",
+        "kind": "individual",
+        "canonical_label": "fight sora vs demyx"
+      }
+    ],
+    "fightsoravsdemyx": [
+      {
+        "uri": "#FightSoraVsDemyx",
+        "short": "FightSoraVsDemyx",
+        "kind": "individual",
+        "canonical_label": "fight sora vs demyx"
+      }
+    ],
+    "fightsoravsghostpirate": [
+      {
+        "uri": "#FightSoraVsGhostPirate",
+        "short": "FightSoraVsGhostPirate",
+        "kind": "individual",
+        "canonical_label": "fight sora vs ghost pirate"
+      }
+    ],
+    "fight sora vs ghost pirate": [
+      {
+        "uri": "#FightSoraVsGhostPirate",
+        "short": "FightSoraVsGhostPirate",
+        "kind": "individual",
+        "canonical_label": "fight sora vs ghost pirate"
+      }
+    ],
+    "fight sora vs groundshaker": [
+      {
+        "uri": "#FightSoraVsGroundshaker",
+        "short": "FightSoraVsGroundshaker",
+        "kind": "individual",
+        "canonical_label": "fight sora vs groundshaker"
+      }
+    ],
+    "fightsoravsgroundshaker": [
+      {
+        "uri": "#FightSoraVsGroundshaker",
+        "short": "FightSoraVsGroundshaker",
+        "kind": "individual",
+        "canonical_label": "fight sora vs groundshaker"
+      }
+    ],
+    "fight sora vs luxord": [
+      {
+        "uri": "#FightSoraVsLuxord",
+        "short": "FightSoraVsLuxord",
+        "kind": "individual",
+        "canonical_label": "fight sora vs luxord"
+      }
+    ],
+    "fightsoravsluxord": [
+      {
+        "uri": "#FightSoraVsLuxord",
+        "short": "FightSoraVsLuxord",
+        "kind": "individual",
+        "canonical_label": "fight sora vs luxord"
+      }
+    ],
+    "fightsoravsmulandragon": [
+      {
+        "uri": "#FightSoraVsMulanDragon",
+        "short": "FightSoraVsMulanDragon",
+        "kind": "individual",
+        "canonical_label": "fight sora vs mulan dragon"
+      }
+    ],
+    "fight sora vs mulan dragon": [
+      {
+        "uri": "#FightSoraVsMulanDragon",
+        "short": "FightSoraVsMulanDragon",
+        "kind": "individual",
+        "canonical_label": "fight sora vs mulan dragon"
+      }
+    ],
+    "fightsoravssaix": [
+      {
+        "uri": "#FightSoraVsSaix",
+        "short": "FightSoraVsSaix",
+        "kind": "individual",
+        "canonical_label": "fight sora vs saix"
+      }
+    ],
+    "fight sora vs saix": [
+      {
+        "uri": "#FightSoraVsSaix",
+        "short": "FightSoraVsSaix",
+        "kind": "individual",
+        "canonical_label": "fight sora vs saix"
+      }
+    ],
+    "fightsoravssephiroth": [
+      {
+        "uri": "#FightSoraVsSephiroth",
+        "short": "FightSoraVsSephiroth",
+        "kind": "individual",
+        "canonical_label": "fight sora vs sephiroth"
+      }
+    ],
+    "fight sora vs sephiroth": [
+      {
+        "uri": "#FightSoraVsSephiroth",
+        "short": "FightSoraVsSephiroth",
+        "kind": "individual",
+        "canonical_label": "fight sora vs sephiroth"
+      }
+    ],
+    "fight sora vs xaldin": [
+      {
+        "uri": "#FightSoraVsXaldin",
+        "short": "FightSoraVsXaldin",
+        "kind": "individual",
+        "canonical_label": "fight sora vs xaldin"
+      }
+    ],
+    "fightsoravsxaldin": [
+      {
+        "uri": "#FightSoraVsXaldin",
+        "short": "FightSoraVsXaldin",
+        "kind": "individual",
+        "canonical_label": "fight sora vs xaldin"
+      }
+    ],
+    "fight sora vs xemnas": [
+      {
+        "uri": "#FightSoraVsXemnas",
+        "short": "FightSoraVsXemnas",
+        "kind": "individual",
+        "canonical_label": "fight sora vs xemnas"
+      }
+    ],
+    "fightsoravsxemnas": [
+      {
+        "uri": "#FightSoraVsXemnas",
+        "short": "FightSoraVsXemnas",
+        "kind": "individual",
+        "canonical_label": "fight sora vs xemnas"
+      }
+    ],
+    "fightsoravsxigbar": [
+      {
+        "uri": "#FightSoraVsXigbar",
+        "short": "FightSoraVsXigbar",
+        "kind": "individual",
+        "canonical_label": "fight sora vs xigbar"
+      }
+    ],
+    "fight sora vs xigbar": [
+      {
+        "uri": "#FightSoraVsXigbar",
+        "short": "FightSoraVsXigbar",
+        "kind": "individual",
+        "canonical_label": "fight sora vs xigbar"
+      }
+    ],
+    "finalform": [
+      {
+        "uri": "#FinalForm",
+        "short": "FinalForm",
+        "kind": "individual",
+        "canonical_label": "final form"
+      }
+    ],
+    "final form": [
+      {
+        "uri": "#FinalForm",
+        "short": "FinalForm",
+        "kind": "individual",
+        "canonical_label": "final form"
+      }
+    ],
+    "fire": [
+      {
+        "uri": "#Fire",
+        "short": "Fire",
+        "kind": "individual",
+        "canonical_label": "fire"
+      }
+    ],
+    "follow the wind": [
+      {
+        "uri": "#FollowTheWind",
+        "short": "FollowTheWind",
+        "kind": "individual",
+        "canonical_label": "follow the wind"
+      }
+    ],
+    "followthewind": [
+      {
+        "uri": "#FollowTheWind",
+        "short": "FollowTheWind",
+        "kind": "individual",
+        "canonical_label": "follow the wind"
+      }
+    ],
+    "gambler": [
+      {
+        "uri": "#Gambler",
+        "short": "Gambler",
+        "kind": "individual",
+        "canonical_label": "gambler"
+      }
+    ],
+    "genie": [
+      {
+        "uri": "#Genie",
+        "short": "Genie",
+        "kind": "individual",
+        "canonical_label": "genie"
+      }
+    ],
+    "ghostpirate": [
+      {
+        "uri": "#GhostPirate",
+        "short": "GhostPirate",
+        "kind": "individual",
+        "canonical_label": "ghost pirate"
+      }
+    ],
+    "ghost pirate": [
+      {
+        "uri": "#GhostPirate",
+        "short": "GhostPirate",
+        "kind": "individual",
+        "canonical_label": "ghost pirate"
+      }
+    ],
+    "glide": [
+      {
+        "uri": "#Glide",
+        "short": "Glide",
+        "kind": "individual",
+        "canonical_label": "glide"
+      }
+    ],
+    "goofy": [
+      {
+        "uri": "#Goofy",
+        "short": "Goofy",
+        "kind": "individual",
+        "canonical_label": "goofy"
+      }
+    ],
+    "goofy shield": [
+      {
+        "uri": "#GoofyShield",
+        "short": "GoofyShield",
+        "kind": "individual",
+        "canonical_label": "goofy shield"
+      }
+    ],
+    "goofyshield": [
+      {
+        "uri": "#GoofyShield",
+        "short": "GoofyShield",
+        "kind": "individual",
+        "canonical_label": "goofy shield"
+      }
+    ],
+    "groundshaker": [
+      {
+        "uri": "#Groundshaker",
+        "short": "Groundshaker",
+        "kind": "individual",
+        "canonical_label": "groundshaker"
+      }
+    ],
+    "guard": [
+      {
+        "uri": "#Guard",
+        "short": "Guard",
+        "kind": "individual",
+        "canonical_label": "guard"
+      }
+    ],
+    "guard break": [
+      {
+        "uri": "#GuardBreak",
+        "short": "GuardBreak",
+        "kind": "individual",
+        "canonical_label": "guard break"
+      }
+    ],
+    "guardbreak": [
+      {
+        "uri": "#GuardBreak",
+        "short": "GuardBreak",
+        "kind": "individual",
+        "canonical_label": "guard break"
+      }
+    ],
+    "halloween town": [
+      {
+        "uri": "#HalloweenTown",
+        "short": "HalloweenTown",
+        "kind": "individual",
+        "canonical_label": "halloween town"
+      }
+    ],
+    "halloweentown": [
+      {
+        "uri": "#HalloweenTown",
+        "short": "HalloweenTown",
+        "kind": "individual",
+        "canonical_label": "halloween town"
+      }
+    ],
+    "hayner": [
+      {
+        "uri": "#Hayner",
+        "short": "Hayner",
+        "kind": "individual",
+        "canonical_label": "hayner"
+      }
+    ],
+    "hi potion item": [
+      {
+        "uri": "#HiPotionItem",
+        "short": "HiPotionItem",
+        "kind": "individual",
+        "canonical_label": "hi potion item"
+      }
+    ],
+    "hipotionitem": [
+      {
+        "uri": "#HiPotionItem",
+        "short": "HiPotionItem",
+        "kind": "individual",
+        "canonical_label": "hi potion item"
+      }
+    ],
+    "hiddendragon": [
+      {
+        "uri": "#HiddenDragon",
+        "short": "HiddenDragon",
+        "kind": "individual",
+        "canonical_label": "hidden dragon"
+      }
+    ],
+    "hidden dragon": [
+      {
+        "uri": "#HiddenDragon",
+        "short": "HiddenDragon",
+        "kind": "individual",
+        "canonical_label": "hidden dragon"
+      }
+    ],
+    "high jump": [
+      {
+        "uri": "#HighJump",
+        "short": "HighJump",
+        "kind": "individual",
+        "canonical_label": "high jump"
+      }
+    ],
+    "highjump": [
+      {
+        "uri": "#HighJump",
+        "short": "HighJump",
+        "kind": "individual",
+        "canonical_label": "high jump"
+      }
+    ],
+    "kairi": [
+      {
+        "uri": "#Kairi",
+        "short": "Kairi",
+        "kind": "individual",
+        "canonical_label": "kairi"
+      }
+    ],
+    "kingmickey": [
+      {
+        "uri": "#KingMickey",
+        "short": "KingMickey",
+        "kind": "individual",
+        "canonical_label": "king mickey"
+      }
+    ],
+    "king mickey": [
+      {
+        "uri": "#KingMickey",
+        "short": "KingMickey",
+        "kind": "individual",
+        "canonical_label": "king mickey"
+      }
+    ],
+    "kingdomchain": [
+      {
+        "uri": "#KingdomChain",
+        "short": "KingdomChain",
+        "kind": "individual",
+        "canonical_label": "kingdom chain"
+      }
+    ],
+    "kingdom chain": [
+      {
+        "uri": "#KingdomChain",
+        "short": "KingdomChain",
+        "kind": "individual",
+        "canonical_label": "kingdom chain"
+      }
+    ],
+    "kingdom key d": [
+      {
+        "uri": "#KingdomKeyD",
+        "short": "KingdomKeyD",
+        "kind": "individual",
+        "canonical_label": "kingdom key d"
+      }
+    ],
+    "kingdomkeyd": [
+      {
+        "uri": "#KingdomKeyD",
+        "short": "KingdomKeyD",
+        "kind": "individual",
+        "canonical_label": "kingdom key d"
+      }
+    ],
+    "landofdragons": [
+      {
+        "uri": "#LandOfDragons",
+        "short": "LandOfDragons",
+        "kind": "individual",
+        "canonical_label": "land of dragons"
+      }
+    ],
+    "land of dragons": [
+      {
+        "uri": "#LandOfDragons",
+        "short": "LandOfDragons",
+        "kind": "individual",
+        "canonical_label": "land of dragons"
+      }
+    ],
+    "larxene": [
+      {
+        "uri": "#Larxene",
+        "short": "Larxene",
+        "kind": "individual",
+        "canonical_label": "larxene"
+      }
+    ],
+    "leon": [
+      {
+        "uri": "#Leon",
+        "short": "Leon",
+        "kind": "individual",
+        "canonical_label": "leon"
+      }
+    ],
+    "lexaeus": [
+      {
+        "uri": "#Lexaeus",
+        "short": "Lexaeus",
+        "kind": "individual",
+        "canonical_label": "lexaeus"
+      }
+    ],
+    "limit form": [
+      {
+        "uri": "#LimitForm",
+        "short": "LimitForm",
+        "kind": "individual",
+        "canonical_label": "limit form"
+      }
+    ],
+    "limitform": [
+      {
+        "uri": "#LimitForm",
+        "short": "LimitForm",
+        "kind": "individual",
+        "canonical_label": "limit form"
+      }
+    ],
+    "lucky charm": [
+      {
+        "uri": "#LuckyCharm",
+        "short": "LuckyCharm",
+        "kind": "individual",
+        "canonical_label": "lucky charm"
+      }
+    ],
+    "luckycharm": [
+      {
+        "uri": "#LuckyCharm",
+        "short": "LuckyCharm",
+        "kind": "individual",
+        "canonical_label": "lucky charm"
+      }
+    ],
+    "lunargem": [
+      {
+        "uri": "#LunarGem",
+        "short": "LunarGem",
+        "kind": "individual",
+        "canonical_label": "lunar gem"
+      }
+    ],
+    "lunar gem": [
+      {
+        "uri": "#LunarGem",
+        "short": "LunarGem",
+        "kind": "individual",
+        "canonical_label": "lunar gem"
+      }
+    ],
+    "luxord": [
+      {
+        "uri": "#Luxord",
+        "short": "Luxord",
+        "kind": "individual",
+        "canonical_label": "luxord"
+      }
+    ],
+    "mprage": [
+      {
+        "uri": "#MPRage",
+        "short": "MPRage",
+        "kind": "individual",
+        "canonical_label": "mprage"
+      }
+    ],
+    "magnet": [
+      {
+        "uri": "#Magnet",
+        "short": "Magnet",
+        "kind": "individual",
+        "canonical_label": "magnet"
+      }
+    ],
+    "maleficent": [
+      {
+        "uri": "#Maleficent",
+        "short": "Maleficent",
+        "kind": "individual",
+        "canonical_label": "maleficent"
+      }
+    ],
+    "marluxia": [
+      {
+        "uri": "#Marluxia",
+        "short": "Marluxia",
+        "kind": "individual",
+        "canonical_label": "marluxia"
+      }
+    ],
+    "master form": [
+      {
+        "uri": "#MasterForm",
+        "short": "MasterForm",
+        "kind": "individual",
+        "canonical_label": "master form"
+      }
+    ],
+    "masterform": [
+      {
+        "uri": "#MasterForm",
+        "short": "MasterForm",
+        "kind": "individual",
+        "canonical_label": "master form"
+      }
+    ],
+    "megaelixir": [
+      {
+        "uri": "#MegaElixir",
+        "short": "MegaElixir",
+        "kind": "individual",
+        "canonical_label": "mega elixir"
+      }
+    ],
+    "mega elixir": [
+      {
+        "uri": "#MegaElixir",
+        "short": "MegaElixir",
+        "kind": "individual",
+        "canonical_label": "mega elixir"
+      }
+    ],
+    "mega ether": [
+      {
+        "uri": "#MegaEther",
+        "short": "MegaEther",
+        "kind": "individual",
+        "canonical_label": "mega ether"
+      }
+    ],
+    "megaether": [
+      {
+        "uri": "#MegaEther",
+        "short": "MegaEther",
+        "kind": "individual",
+        "canonical_label": "mega ether"
+      }
+    ],
+    "megapotion": [
+      {
+        "uri": "#MegaPotion",
+        "short": "MegaPotion",
+        "kind": "individual",
+        "canonical_label": "mega potion"
+      }
+    ],
+    "mega potion": [
+      {
+        "uri": "#MegaPotion",
+        "short": "MegaPotion",
+        "kind": "individual",
+        "canonical_label": "mega potion"
+      }
+    ],
+    "memory skyscraper": [
+      {
+        "uri": "#MemorySkyscraper",
+        "short": "MemorySkyscraper",
+        "kind": "individual",
+        "canonical_label": "memory skyscraper"
+      }
+    ],
+    "memoryskyscraper": [
+      {
+        "uri": "#MemorySkyscraper",
+        "short": "MemorySkyscraper",
+        "kind": "individual",
+        "canonical_label": "memory skyscraper"
+      }
+    ],
+    "merlin": [
+      {
+        "uri": "#Merlin",
+        "short": "Merlin",
+        "kind": "individual",
+        "canonical_label": "merlin"
+      }
+    ],
+    "monochrome": [
+      {
+        "uri": "#Monochrome",
+        "short": "Monochrome",
+        "kind": "individual",
+        "canonical_label": "monochrome"
+      }
+    ],
+    "mulandragon": [
+      {
+        "uri": "#MulanDragon",
+        "short": "MulanDragon",
+        "kind": "individual",
+        "canonical_label": "mulan dragon"
+      }
+    ],
+    "mulan dragon": [
+      {
+        "uri": "#MulanDragon",
+        "short": "MulanDragon",
+        "kind": "individual",
+        "canonical_label": "mulan dragon"
+      }
+    ],
+    "naminé": [
+      {
+        "uri": "#Naminé",
+        "short": "Naminé",
+        "kind": "individual",
+        "canonical_label": "naminé"
+      }
+    ],
+    "neoshadow": [
+      {
+        "uri": "#Neoshadow",
+        "short": "Neoshadow",
+        "kind": "individual",
+        "canonical_label": "neoshadow"
+      }
+    ],
+    "olette": [
+      {
+        "uri": "#Olette",
+        "short": "Olette",
+        "kind": "individual",
+        "canonical_label": "olette"
+      }
+    ],
+    "organization13": [
+      {
+        "uri": "#Organization13",
+        "short": "Organization13",
+        "kind": "individual",
+        "canonical_label": "organization13"
+      }
+    ],
+    "outlaw moon": [
+      {
+        "uri": "#OutlawMoon",
+        "short": "OutlawMoon",
+        "kind": "individual",
+        "canonical_label": "outlaw moon"
+      }
+    ],
+    "outlawmoon": [
+      {
+        "uri": "#OutlawMoon",
+        "short": "OutlawMoon",
+        "kind": "individual",
+        "canonical_label": "outlaw moon"
+      }
+    ],
+    "party axel": [
+      {
+        "uri": "#PartyAxel",
+        "short": "PartyAxel",
+        "kind": "individual",
+        "canonical_label": "party axel"
+      }
+    ],
+    "partyaxel": [
+      {
+        "uri": "#PartyAxel",
+        "short": "PartyAxel",
+        "kind": "individual",
+        "canonical_label": "party axel"
+      }
+    ],
+    "partydemyx": [
+      {
+        "uri": "#PartyDemyx",
+        "short": "PartyDemyx",
+        "kind": "individual",
+        "canonical_label": "party demyx"
+      }
+    ],
+    "party demyx": [
+      {
+        "uri": "#PartyDemyx",
+        "short": "PartyDemyx",
+        "kind": "individual",
+        "canonical_label": "party demyx"
+      }
+    ],
+    "partyghostpirate": [
+      {
+        "uri": "#PartyGhostPirate",
+        "short": "PartyGhostPirate",
+        "kind": "individual",
+        "canonical_label": "party ghost pirate"
+      }
+    ],
+    "party ghost pirate": [
+      {
+        "uri": "#PartyGhostPirate",
+        "short": "PartyGhostPirate",
+        "kind": "individual",
+        "canonical_label": "party ghost pirate"
+      }
+    ],
+    "partygroundshaker": [
+      {
+        "uri": "#PartyGroundshaker",
+        "short": "PartyGroundshaker",
+        "kind": "individual",
+        "canonical_label": "party groundshaker"
+      }
+    ],
+    "party groundshaker": [
+      {
+        "uri": "#PartyGroundshaker",
+        "short": "PartyGroundshaker",
+        "kind": "individual",
+        "canonical_label": "party groundshaker"
+      }
+    ],
+    "party luxord": [
+      {
+        "uri": "#PartyLuxord",
+        "short": "PartyLuxord",
+        "kind": "individual",
+        "canonical_label": "party luxord"
+      }
+    ],
+    "partyluxord": [
+      {
+        "uri": "#PartyLuxord",
+        "short": "PartyLuxord",
+        "kind": "individual",
+        "canonical_label": "party luxord"
+      }
+    ],
+    "partymulandragon": [
+      {
+        "uri": "#PartyMulanDragon",
+        "short": "PartyMulanDragon",
+        "kind": "individual",
+        "canonical_label": "party mulan dragon"
+      }
+    ],
+    "party mulan dragon": [
+      {
+        "uri": "#PartyMulanDragon",
+        "short": "PartyMulanDragon",
+        "kind": "individual",
+        "canonical_label": "party mulan dragon"
+      }
+    ],
+    "partyroxas": [
+      {
+        "uri": "#PartyRoxas",
+        "short": "PartyRoxas",
+        "kind": "individual",
+        "canonical_label": "party roxas"
+      }
+    ],
+    "party roxas": [
+      {
+        "uri": "#PartyRoxas",
+        "short": "PartyRoxas",
+        "kind": "individual",
+        "canonical_label": "party roxas"
+      }
+    ],
+    "party saix": [
+      {
+        "uri": "#PartySaix",
+        "short": "PartySaix",
+        "kind": "individual",
+        "canonical_label": "party saix"
+      }
+    ],
+    "partysaix": [
+      {
+        "uri": "#PartySaix",
+        "short": "PartySaix",
+        "kind": "individual",
+        "canonical_label": "party saix"
+      }
+    ],
+    "partysephiroth": [
+      {
+        "uri": "#PartySephiroth",
+        "short": "PartySephiroth",
+        "kind": "individual",
+        "canonical_label": "party sephiroth"
+      }
+    ],
+    "party sephiroth": [
+      {
+        "uri": "#PartySephiroth",
+        "short": "PartySephiroth",
+        "kind": "individual",
+        "canonical_label": "party sephiroth"
+      }
+    ],
+    "party sora": [
+      {
+        "uri": "#PartySora",
+        "short": "PartySora",
+        "kind": "individual",
+        "canonical_label": "party sora"
+      }
+    ],
+    "partysora": [
+      {
+        "uri": "#PartySora",
+        "short": "PartySora",
+        "kind": "individual",
+        "canonical_label": "party sora"
+      }
+    ],
+    "party sora riku": [
+      {
+        "uri": "#PartySoraRiku",
+        "short": "PartySoraRiku",
+        "kind": "individual",
+        "canonical_label": "party sora riku"
+      }
+    ],
+    "partysorariku": [
+      {
+        "uri": "#PartySoraRiku",
+        "short": "PartySoraRiku",
+        "kind": "individual",
+        "canonical_label": "party sora riku"
+      }
+    ],
+    "partytwilightthorn": [
+      {
+        "uri": "#PartyTwilightThorn",
+        "short": "PartyTwilightThorn",
+        "kind": "individual",
+        "canonical_label": "party twilight thorn"
+      }
+    ],
+    "party twilight thorn": [
+      {
+        "uri": "#PartyTwilightThorn",
+        "short": "PartyTwilightThorn",
+        "kind": "individual",
+        "canonical_label": "party twilight thorn"
+      }
+    ],
+    "party xaldin": [
+      {
+        "uri": "#PartyXaldin",
+        "short": "PartyXaldin",
+        "kind": "individual",
+        "canonical_label": "party xaldin"
+      }
+    ],
+    "partyxaldin": [
+      {
+        "uri": "#PartyXaldin",
+        "short": "PartyXaldin",
+        "kind": "individual",
+        "canonical_label": "party xaldin"
+      }
+    ],
+    "party xemnas": [
+      {
+        "uri": "#PartyXemnas",
+        "short": "PartyXemnas",
+        "kind": "individual",
+        "canonical_label": "party xemnas"
+      }
+    ],
+    "partyxemnas": [
+      {
+        "uri": "#PartyXemnas",
+        "short": "PartyXemnas",
+        "kind": "individual",
+        "canonical_label": "party xemnas"
+      }
+    ],
+    "partyxemnasfinal": [
+      {
+        "uri": "#PartyXemnasFinal",
+        "short": "PartyXemnasFinal",
+        "kind": "individual",
+        "canonical_label": "party xemnas final"
+      }
+    ],
+    "party xemnas final": [
+      {
+        "uri": "#PartyXemnasFinal",
+        "short": "PartyXemnasFinal",
+        "kind": "individual",
+        "canonical_label": "party xemnas final"
+      }
+    ],
+    "party xigbar": [
+      {
+        "uri": "#PartyXigbar",
+        "short": "PartyXigbar",
+        "kind": "individual",
+        "canonical_label": "party xigbar"
+      }
+    ],
+    "partyxigbar": [
+      {
+        "uri": "#PartyXigbar",
+        "short": "PartyXigbar",
+        "kind": "individual",
+        "canonical_label": "party xigbar"
+      }
+    ],
+    "pence": [
+      {
+        "uri": "#Pence",
+        "short": "Pence",
+        "kind": "individual",
+        "canonical_label": "pence"
+      }
+    ],
+    "pete": [
+      {
+        "uri": "#Pete",
+        "short": "Pete",
+        "kind": "individual",
+        "canonical_label": "pete"
+      }
+    ],
+    "peter pan": [
+      {
+        "uri": "#PeterPan",
+        "short": "PeterPan",
+        "kind": "individual",
+        "canonical_label": "peter pan"
+      }
+    ],
+    "peterpan": [
+      {
+        "uri": "#PeterPan",
+        "short": "PeterPan",
+        "kind": "individual",
+        "canonical_label": "peter pan"
+      }
+    ],
+    "photonic debugger": [
+      {
+        "uri": "#PhotonicDebugger",
+        "short": "PhotonicDebugger",
+        "kind": "individual",
+        "canonical_label": "photonic debugger"
+      }
+    ],
+    "photonicdebugger": [
+      {
+        "uri": "#PhotonicDebugger",
+        "short": "PhotonicDebugger",
+        "kind": "individual",
+        "canonical_label": "photonic debugger"
+      }
+    ],
+    "port royal": [
+      {
+        "uri": "#PortRoyal",
+        "short": "PortRoyal",
+        "kind": "individual",
+        "canonical_label": "port royal"
+      }
+    ],
+    "portroyal": [
+      {
+        "uri": "#PortRoyal",
+        "short": "PortRoyal",
+        "kind": "individual",
+        "canonical_label": "port royal"
+      }
+    ],
+    "potionitem": [
+      {
+        "uri": "#PotionItem",
+        "short": "PotionItem",
+        "kind": "individual",
+        "canonical_label": "potion item"
+      }
+    ],
+    "potion item": [
+      {
+        "uri": "#PotionItem",
+        "short": "PotionItem",
+        "kind": "individual",
+        "canonical_label": "potion item"
+      }
+    ],
+    "pridelands": [
+      {
+        "uri": "#PrideLands",
+        "short": "PrideLands",
+        "kind": "individual",
+        "canonical_label": "pride lands"
+      }
+    ],
+    "pride lands": [
+      {
+        "uri": "#PrideLands",
+        "short": "PrideLands",
+        "kind": "individual",
+        "canonical_label": "pride lands"
+      }
+    ],
+    "radiantgarden": [
+      {
+        "uri": "#RadiantGarden",
+        "short": "RadiantGarden",
+        "kind": "individual",
+        "canonical_label": "radiant garden"
+      }
+    ],
+    "radiant garden": [
+      {
+        "uri": "#RadiantGarden",
+        "short": "RadiantGarden",
+        "kind": "individual",
+        "canonical_label": "radiant garden"
+      }
+    ],
+    "reflect": [
+      {
+        "uri": "#Reflect",
+        "short": "Reflect",
+        "kind": "individual",
+        "canonical_label": "reflect"
+      }
+    ],
+    "riku": [
+      {
+        "uri": "#Riku",
+        "short": "Riku",
+        "kind": "individual",
+        "canonical_label": "riku"
+      }
+    ],
+    "roxas": [
+      {
+        "uri": "#Roxas",
+        "short": "Roxas",
+        "kind": "individual",
+        "canonical_label": "roxas"
+      }
+    ],
+    "samurai": [
+      {
+        "uri": "#Samurai",
+        "short": "Samurai",
+        "kind": "individual",
+        "canonical_label": "samurai"
+      }
+    ],
+    "saïx": [
+      {
+        "uri": "#Saïx",
+        "short": "Saïx",
+        "kind": "individual",
+        "canonical_label": "saïx"
+      }
+    ],
+    "scan": [
+      {
+        "uri": "#Scan",
+        "short": "Scan",
+        "kind": "individual",
+        "canonical_label": "scan"
+      }
+    ],
+    "seagull wing": [
+      {
+        "uri": "#SeagullWing",
+        "short": "SeagullWing",
+        "kind": "individual",
+        "canonical_label": "seagull wing"
+      }
+    ],
+    "seagullwing": [
+      {
+        "uri": "#SeagullWing",
+        "short": "SeagullWing",
+        "kind": "individual",
+        "canonical_label": "seagull wing"
+      }
+    ],
+    "second chance": [
+      {
+        "uri": "#SecondChance",
+        "short": "SecondChance",
+        "kind": "individual",
+        "canonical_label": "second chance"
+      }
+    ],
+    "secondchance": [
+      {
+        "uri": "#SecondChance",
+        "short": "SecondChance",
+        "kind": "individual",
+        "canonical_label": "second chance"
+      }
+    ],
+    "sephiroth": [
+      {
+        "uri": "#Sephiroth",
+        "short": "Sephiroth",
+        "kind": "individual",
+        "canonical_label": "sephiroth"
+      }
+    ],
+    "shadow": [
+      {
+        "uri": "#Shadow",
+        "short": "Shadow",
+        "kind": "individual",
+        "canonical_label": "shadow"
+      }
+    ],
+    "sleeping lion": [
+      {
+        "uri": "#SleepingLion",
+        "short": "SleepingLion",
+        "kind": "individual",
+        "canonical_label": "sleeping lion"
+      }
+    ],
+    "sleepinglion": [
+      {
+        "uri": "#SleepingLion",
+        "short": "SleepingLion",
+        "kind": "individual",
+        "canonical_label": "sleeping lion"
+      }
+    ],
+    "sniper": [
+      {
+        "uri": "#Sniper",
+        "short": "Sniper",
+        "kind": "individual",
+        "canonical_label": "sniper"
+      }
+    ],
+    "sora": [
+      {
+        "uri": "#Sora",
+        "short": "Sora",
+        "kind": "individual",
+        "canonical_label": "sora"
+      }
+    ],
+    "star seeker": [
+      {
+        "uri": "#StarSeeker",
+        "short": "StarSeeker",
+        "kind": "individual",
+        "canonical_label": "star seeker"
+      }
+    ],
+    "starseeker": [
+      {
+        "uri": "#StarSeeker",
+        "short": "StarSeeker",
+        "kind": "individual",
+        "canonical_label": "star seeker"
+      }
+    ],
+    "stitch": [
+      {
+        "uri": "#Stitch",
+        "short": "Stitch",
+        "kind": "individual",
+        "canonical_label": "stitch"
+      }
+    ],
+    "sweetmemories": [
+      {
+        "uri": "#SweetMemories",
+        "short": "SweetMemories",
+        "kind": "individual",
+        "canonical_label": "sweet memories"
+      }
+    ],
+    "sweet memories": [
+      {
+        "uri": "#SweetMemories",
+        "short": "SweetMemories",
+        "kind": "individual",
+        "canonical_label": "sweet memories"
+      }
+    ],
+    "thunder": [
+      {
+        "uri": "#Thunder",
+        "short": "Thunder",
+        "kind": "individual",
+        "canonical_label": "thunder"
+      }
+    ],
+    "timelessriver": [
+      {
+        "uri": "#TimelessRiver",
+        "short": "TimelessRiver",
+        "kind": "individual",
+        "canonical_label": "timeless river"
+      }
+    ],
+    "timeless river": [
+      {
+        "uri": "#TimelessRiver",
+        "short": "TimelessRiver",
+        "kind": "individual",
+        "canonical_label": "timeless river"
+      }
+    ],
+    "twilightthorn": [
+      {
+        "uri": "#TwilightThorn",
+        "short": "TwilightThorn",
+        "kind": "individual",
+        "canonical_label": "twilight thorn"
+      }
+    ],
+    "twilight thorn": [
+      {
+        "uri": "#TwilightThorn",
+        "short": "TwilightThorn",
+        "kind": "individual",
+        "canonical_label": "twilight thorn"
+      }
+    ],
+    "twilighttown": [
+      {
+        "uri": "#TwilightTown",
+        "short": "TwilightTown",
+        "kind": "individual",
+        "canonical_label": "twilight town"
+      }
+    ],
+    "twilight town": [
+      {
+        "uri": "#TwilightTown",
+        "short": "TwilightTown",
+        "kind": "individual",
+        "canonical_label": "twilight town"
+      }
+    ],
+    "ultimaweapon": [
+      {
+        "uri": "#UltimaWeapon",
+        "short": "UltimaWeapon",
+        "kind": "individual",
+        "canonical_label": "ultima weapon"
+      }
+    ],
+    "ultima weapon": [
+      {
+        "uri": "#UltimaWeapon",
+        "short": "UltimaWeapon",
+        "kind": "individual",
+        "canonical_label": "ultima weapon"
+      }
+    ],
+    "valor form": [
+      {
+        "uri": "#ValorForm",
+        "short": "ValorForm",
+        "kind": "individual",
+        "canonical_label": "valor form"
+      }
+    ],
+    "valorform": [
+      {
+        "uri": "#ValorForm",
+        "short": "ValorForm",
+        "kind": "individual",
+        "canonical_label": "valor form"
+      }
+    ],
+    "vexen": [
+      {
+        "uri": "#Vexen",
+        "short": "Vexen",
+        "kind": "individual",
+        "canonical_label": "vexen"
+      }
+    ],
+    "way to dawn": [
+      {
+        "uri": "#WayToDawn",
+        "short": "WayToDawn",
+        "kind": "individual",
+        "canonical_label": "way to dawn"
+      }
+    ],
+    "waytodawn": [
+      {
+        "uri": "#WayToDawn",
+        "short": "WayToDawn",
+        "kind": "individual",
+        "canonical_label": "way to dawn"
+      }
+    ],
+    "wisdom form": [
+      {
+        "uri": "#WisdomForm",
+        "short": "WisdomForm",
+        "kind": "individual",
+        "canonical_label": "wisdom form"
+      }
+    ],
+    "wisdomform": [
+      {
+        "uri": "#WisdomForm",
+        "short": "WisdomForm",
+        "kind": "individual",
+        "canonical_label": "wisdom form"
+      }
+    ],
+    "xaldin": [
+      {
+        "uri": "#Xaldin",
+        "short": "Xaldin",
+        "kind": "individual",
+        "canonical_label": "xaldin"
+      }
+    ],
+    "xemnas": [
+      {
+        "uri": "#Xemnas",
+        "short": "Xemnas",
+        "kind": "individual",
+        "canonical_label": "xemnas"
+      }
+    ],
+    "xemnasfinalform": [
+      {
+        "uri": "#XemnasFinalForm",
+        "short": "XemnasFinalForm",
+        "kind": "individual",
+        "canonical_label": "xemnas final form"
+      }
+    ],
+    "xemnas final form": [
+      {
+        "uri": "#XemnasFinalForm",
+        "short": "XemnasFinalForm",
+        "kind": "individual",
+        "canonical_label": "xemnas final form"
+      }
+    ],
+    "xigbar": [
+      {
+        "uri": "#Xigbar",
+        "short": "Xigbar",
+        "kind": "individual",
+        "canonical_label": "xigbar"
+      }
+    ],
+    "yen sid": [
+      {
+        "uri": "#YenSid",
+        "short": "YenSid",
+        "kind": "individual",
+        "canonical_label": "yen sid"
+      }
+    ],
+    "yensid": [
+      {
+        "uri": "#YenSid",
+        "short": "YenSid",
+        "kind": "individual",
+        "canonical_label": "yen sid"
+      }
+    ],
+    "zexion": [
+      {
+        "uri": "#Zexion",
+        "short": "Zexion",
+        "kind": "individual",
+        "canonical_label": "zexion"
+      }
+    ],
+    "engages in the fight": [
+      {
+        "uri": "#engagesInFight",
+        "short": "engagesInFight",
+        "kind": "object_property",
+        "canonical_label": "engages in fight"
+      }
+    ],
+    "can perform": [
+      {
+        "uri": "#hasAction",
+        "short": "hasAction",
+        "kind": "object_property",
+        "canonical_label": "has action"
+      }
+    ],
+    "has the drive form": [
+      {
+        "uri": "#hasDriveForm",
+        "short": "hasDriveForm",
+        "kind": "object_property",
+        "canonical_label": "has drive form"
+      }
+    ],
+    "is friends with": [
+      {
+        "uri": "#hasFriend",
+        "short": "hasFriend",
+        "kind": "object_property",
+        "canonical_label": "has friend"
+      }
+    ],
+    "has in the inventory": [
+      {
+        "uri": "#hasInInventory",
+        "short": "hasInInventory",
+        "kind": "object_property",
+        "canonical_label": "has in inventory"
+      }
+    ],
+    "has as party member": [
+      {
+        "uri": "#hasPartyMember",
+        "short": "hasPartyMember",
+        "kind": "object_property",
+        "canonical_label": "has party member"
+      }
+    ],
+    "has the secondary weapon": [
+      {
+        "uri": "#hasSecondaryWeapon",
+        "short": "hasSecondaryWeapon",
+        "kind": "object_property",
+        "canonical_label": "has secondary weapon"
+      }
+    ],
+    "is the enemy of": [
+      {
+        "uri": "#isEnemyOf",
+        "short": "isEnemyOf",
+        "kind": "object_property",
+        "canonical_label": "is enemy of"
+      }
+    ],
+    "is a member of": [
+      {
+        "uri": "#isMemberOf",
+        "short": "isMemberOf",
+        "kind": "object_property",
+        "canonical_label": "is member of"
+      }
+    ],
+    "owns the keyblade": [
+      {
+        "uri": "#ownsKeyblade",
+        "short": "ownsKeyblade",
+        "kind": "object_property",
+        "canonical_label": "owns keyblade"
+      }
+    ],
+    "is won by": [
+      {
+        "uri": "#winner",
+        "short": "winner",
+        "kind": "object_property",
+        "canonical_label": "winner"
+      }
+    ]
+  },
+  "relation_vocabulary": [
+    {
+      "uri": "#appearsIn",
+      "short": "appearsIn",
+      "label": "appears in",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#canSummon",
+      "short": "canSummon",
+      "label": "can summon",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#comesFrom",
+      "short": "comesFrom",
+      "label": "comes from",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#defeats",
+      "short": "defeats",
+      "label": "defeats",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#drops",
+      "short": "drops",
+      "label": "drops",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#engagesInFight",
+      "short": "engagesInFight",
+      "label": "engages in fight",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasAction",
+      "short": "hasAction",
+      "label": "has action",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasDriveForm",
+      "short": "hasDriveForm",
+      "label": "has drive form",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasFriend",
+      "short": "hasFriend",
+      "label": "has friend",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasInInventory",
+      "short": "hasInInventory",
+      "label": "has in inventory",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasPartyMember",
+      "short": "hasPartyMember",
+      "label": "has party member",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasSecondaryWeapon",
+      "short": "hasSecondaryWeapon",
+      "label": "has secondary weapon",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isEnemyOf",
+      "short": "isEnemyOf",
+      "label": "is enemy of",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isMemberOf",
+      "short": "isMemberOf",
+      "label": "is member of",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#ownsKeyblade",
+      "short": "ownsKeyblade",
+      "label": "owns keyblade",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#participatesIn",
+      "short": "participatesIn",
+      "label": "participates in",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#takesPlaceIn",
+      "short": "takesPlaceIn",
+      "label": "takes place in",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#winner",
+      "short": "winner",
+      "label": "winner",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#attackPower",
+      "short": "attackPower",
+      "label": "attack power",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#description",
+      "short": "description",
+      "label": "description",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#element",
+      "short": "element",
+      "label": "element",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#hitPoints",
+      "short": "hitPoints",
+      "label": "hit points",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#name",
+      "short": "name",
+      "label": "name",
+      "kind": "datatype_property"
+    }
+  ],
+  "semantic_groups": {},
+  "triggers": {
+    "appearsIn": [
+      "appears in"
+    ],
+    "canSummon": [
+      "can summon"
+    ],
+    "comesFrom": [
+      "comes from"
+    ],
+    "defeats": [
+      "defeats"
+    ],
+    "drops": [
+      "drops"
+    ],
+    "engagesInFight": [
+      "engages in fight",
+      "engages in the fight"
+    ],
+    "hasAction": [
+      "can perform",
+      "has action"
+    ],
+    "hasDriveForm": [
+      "has drive form",
+      "has the drive form"
+    ],
+    "hasFriend": [
+      "has friend",
+      "is friends with"
+    ],
+    "hasInInventory": [
+      "has in inventory",
+      "has in the inventory"
+    ],
+    "hasPartyMember": [
+      "has as party member",
+      "has party member"
+    ],
+    "hasSecondaryWeapon": [
+      "has secondary weapon",
+      "has the secondary weapon"
+    ],
+    "isEnemyOf": [
+      "is enemy of",
+      "is the enemy of"
+    ],
+    "isMemberOf": [
+      "is a member of",
+      "is member of"
+    ],
+    "ownsKeyblade": [
+      "owns keyblade",
+      "owns the keyblade"
+    ],
+    "participatesIn": [
+      "participates in"
+    ],
+    "takesPlaceIn": [
+      "takes place in"
+    ],
+    "winner": [
+      "is won by",
+      "winner"
+    ]
+  }
+}

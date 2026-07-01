@@ -1,0 +1,12 @@
+AI is modeled as a subclass of character.
+Society is modeled as a subclass of entity.
+A character records whether it is the player buddy as a literal value.
+A character holds a rank in the Arena ranking.
+A character can be known by one or more aliases.
+The schema records that a character pilots an armored core.
+A rank is the rank of a character.
+The schema records that an entity participates in a major event.
+A society records whether it originates on Rubicon as a literal value.
+Every place can host a major event.
+The schema records that an entity is friendly towards an entity.
+The schema records that a boss is boss of a major event.

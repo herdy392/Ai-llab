@@ -1,0 +1,11 @@
+A character works for a society.
+Each major event stores its timeline position as a literal value.
+Each society stores its official name as text.
+In the schema, every Rubiconian is a character.
+An armored core is piloted by a character.
+A character records whether it is the player buddy as a literal value.
+Every major event involves one or more entities.
+An armored core records whether it is special as a literal value.
+A major event takes place in a place.
+The schema records that a character pilots an armored core.
+An entity is hostile toward another entity.

@@ -1,0 +1,12 @@
+In the schema, every boss is a character.
+Each armored core stores its AC name as text.
+The model states that a major event involves an entity.
+Allies are entities friendly towards each other.
+A society records whether it originates on Rubicon as a literal value.
+Each major event can be led by a boss.
+A major event has a chronological order stored as a literal value.
+In the schema, every human is a character.
+Each armored core stores a special flag as a literal value.
+The schema records that a character works for a society.
+The schema records that an entity participates in a major event.
+Each character record links to the aliases they use.

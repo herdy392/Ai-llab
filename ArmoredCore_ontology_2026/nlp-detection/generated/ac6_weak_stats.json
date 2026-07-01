@@ -1,0 +1,47 @@
+{
+  "sentences": 320,
+  "sentences_with_mentions": 320,
+  "sentences_with_candidate_relations": 320,
+  "relation_candidate_rows": 320,
+  "ner_rows": 320,
+  "split_distribution": {
+    "test": 41,
+    "train": 245,
+    "val": 34
+  },
+  "mention_kind_distribution": {
+    "individual": 640,
+    "object_property": 320
+  },
+  "weak_signal_distribution": {
+    "property_with_grounded_domain_and_range": 320
+  },
+  "candidate_relation_distribution": {
+    "hasRank": 12,
+    "participatesIn": 90,
+    "isFriendlyTowards": 20,
+    "isHostileToward": 20,
+    "pilots": 34,
+    "worksFor": 28,
+    "hasAlias": 60,
+    "isBossOf": 22,
+    "kills": 10,
+    "takesPlaceIn": 24
+  },
+  "ner_labels": [
+    "B-Alias",
+    "B-ArmoredCore",
+    "B-Character",
+    "B-MajorEvent",
+    "B-Place",
+    "B-Rank",
+    "B-Society",
+    "I-Alias",
+    "I-ArmoredCore",
+    "I-Character",
+    "I-MajorEvent",
+    "I-Place",
+    "I-Society",
+    "O"
+  ]
+}

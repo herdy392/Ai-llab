@@ -1,0 +1,12 @@
+Rubiconian is modeled as a subclass of character.
+Enemies are entities hostile toward each other.
+A character pilots an armored core.
+Every major event involves one or more entities.
+Every rank grade is held by a character.
+The model links a society to the characters it employs.
+Each major event stores its timeline position as a literal value.
+The schema marks a society Rubicon origin with a literal value.
+The record notes when one character kills another.
+The schema records an armored core name as a literal value.
+The schema gives a character a rank.
+A character can be known by one or more aliases.

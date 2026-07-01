@@ -1,0 +1,9 @@
+A boss is a kind of enemy.
+Every recruitable ally is also a playable character.
+Every non consumable is also a items.
+Every potion is also a consumable.
+Often a protagonist has the drive form another drive form.
+Every consumable is also a items.
+A secondary weapon is a kind of non consumable.
+A fight takes place in a worlds.
+Every item use is also a action.

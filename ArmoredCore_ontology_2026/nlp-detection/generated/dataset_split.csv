@@ -1,0 +1,4 @@
+split,total,POS,NEG,NEG:type_identical,NEG:partial_overlap,NEG:type_incompatible,POS:acName,POS:chronologicalOrder,POS:employs,POS:hasAlias,POS:hasBoss,POS:hasRank,POS:hostsEvent,POS:involvesEntity,POS:isAliasOf,POS:isBossOf,POS:isBuddy,POS:isFriendlyTowards,POS:isHostileToward,POS:isKilledBy,POS:isPilotedBy,POS:isRankOf,POS:isSpecial,POS:kills,POS:name,POS:originatesOnRubicon,POS:participatesIn,POS:pilots,POS:subClassOf,POS:takesPlaceIn,POS:worksFor
+train,8064,2615,5449,435,1892,3122,148,116,43,223,35,66,36,44,25,138,133,106,152,28,56,42,63,105,155,169,196,224,143,82,87
+val,2215,988,1227,153,432,642,41,14,0,0,3,165,16,11,23,35,89,86,24,5,9,0,141,39,0,20,17,20,14,70,146
+test,1642,541,1101,80,440,581,0,29,9,33,6,33,0,5,20,19,0,64,8,3,11,14,0,48,34,15,15,0,56,64,55

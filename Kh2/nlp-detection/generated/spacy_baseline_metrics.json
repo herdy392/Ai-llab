@@ -1,0 +1,73 @@
+{
+  "system": "spacy_baseline",
+  "gold": 254,
+  "predicted": 254,
+  "tp": 254,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "per_relation_recall": {
+    "appearsIn": {
+      "hit": 45,
+      "total": 45
+    },
+    "comesFrom": {
+      "hit": 13,
+      "total": 13
+    },
+    "defeats": {
+      "hit": 27,
+      "total": 27
+    },
+    "drops": {
+      "hit": 2,
+      "total": 2
+    },
+    "engagesInFight": {
+      "hit": 28,
+      "total": 28
+    },
+    "hasAction": {
+      "hit": 22,
+      "total": 22
+    },
+    "hasDriveForm": {
+      "hit": 6,
+      "total": 6
+    },
+    "hasFriend": {
+      "hit": 24,
+      "total": 24
+    },
+    "hasInInventory": {
+      "hit": 9,
+      "total": 9
+    },
+    "hasPartyMember": {
+      "hit": 19,
+      "total": 19
+    },
+    "hasSecondaryWeapon": {
+      "hit": 2,
+      "total": 2
+    },
+    "isMemberOf": {
+      "hit": 12,
+      "total": 12
+    },
+    "ownsKeyblade": {
+      "hit": 17,
+      "total": 17
+    },
+    "takesPlaceIn": {
+      "hit": 14,
+      "total": 14
+    },
+    "winner": {
+      "hit": 14,
+      "total": 14
+    }
+  }
+}

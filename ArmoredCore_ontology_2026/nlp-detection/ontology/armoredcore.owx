@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.org/armoredcore"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://example.org/armoredcore">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation><AnnotationProperty abbreviatedIRI="rdfs:comment"/><Literal>Armored Core VI: Fires of Rubicon ontology (Fires of Raven storyline) for an entity-recognition and relation-extraction pipeline. Schema and instances. All identifiers and labels are in English.</Literal></Annotation>
+    <Annotation><AnnotationProperty abbreviatedIRI="rdfs:label"/><Literal>ArmoredCore Ontology</Literal></Annotation>
+    <Declaration><Class IRI="#Alias"/></Declaration>
+    <Declaration><Class IRI="#ArmoredCore"/></Declaration>
+    <Declaration><Class IRI="#Boss"/></Declaration>
+    <Declaration><Class IRI="#Character"/></Declaration>
+    <Declaration><Class IRI="#Entity"/></Declaration>
+    <Declaration><Class IRI="#Human"/></Declaration>
+    <Declaration><Class IRI="#AI"/></Declaration>
+    <Declaration><Class IRI="#MajorEvent"/></Declaration>
+    <Declaration><Class IRI="#Place"/></Declaration>
+    <Declaration><Class IRI="#Rank"/></Declaration>
+    <Declaration><Class IRI="#Rubiconian"/></Declaration>
+    <Declaration><Class IRI="#Society"/></Declaration>
+    <Declaration><ObjectProperty IRI="#employs"/></Declaration>
+    <Declaration><ObjectProperty IRI="#hasAlias"/></Declaration>
+    <Declaration><ObjectProperty IRI="#hasBoss"/></Declaration>
+    <Declaration><ObjectProperty IRI="#hasRank"/></Declaration>
+    <Declaration><ObjectProperty IRI="#hostsEvent"/></Declaration>
+    <Declaration><ObjectProperty IRI="#involvesEntity"/></Declaration>
+    <Declaration><ObjectProperty IRI="#isAliasOf"/></Declaration>
+    <Declaration><ObjectProperty IRI="#isBossOf"/></Declaration>
+    <Declaration><ObjectProperty IRI="#isFriendlyTowards"/></Declaration>
+    <Declaration><ObjectProperty IRI="#isHostileToward"/></Declaration>
+    <Declaration><ObjectProperty IRI="#isKilledBy"/></Declaration>
+    <Declaration><ObjectProperty IRI="#isPilotedBy"/></Declaration>
+    <Declaration><ObjectProperty IRI="#isRankOf"/></Declaration>
+    <Declaration><ObjectProperty IRI="#kills"/></Declaration>
+    <Declaration><ObjectProperty IRI="#participatesIn"/></Declaration>
+    <Declaration><ObjectProperty IRI="#pilots"/></Declaration>
+    <Declaration><ObjectProperty IRI="#takesPlaceIn"/></Declaration>
+    <Declaration><ObjectProperty IRI="#worksFor"/></Declaration>
+    <Declaration><DataProperty IRI="#acName"/></Declaration>
+    <Declaration><DataProperty IRI="#chronologicalOrder"/></Declaration>
+    <Declaration><DataProperty IRI="#isSpecial"/></Declaration>
+    <Declaration><DataProperty IRI="#name"/></Declaration>
+    <Declaration><DataProperty IRI="#originatesOnRubicon"/></Declaration>
+    <Declaration><NamedIndividual IRI="#C4_621"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Walter"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Raven"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Ayre"/></Declaration>
+    <Declaration><NamedIndividual IRI="#ALLMIND"/></Declaration>
+    <Declaration><NamedIndividual IRI="#CinderCarla"/></Declaration>
+    <Declaration><NamedIndividual IRI="#V_IV_Rusty"/></Declaration>
+    <Declaration><NamedIndividual IRI="#G5_Iguazu"/></Declaration>
+    <Declaration><NamedIndividual IRI="#V_II_Snail"/></Declaration>
+    <Declaration><NamedIndividual IRI="#G1_Michigan"/></Declaration>
+    <Declaration><NamedIndividual IRI="#ThumbDolmayan"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Balteus"/></Declaration>
+    <Declaration><NamedIndividual IRI="#CEL240"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Cataphract"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Enforcer"/></Declaration>
+    <Declaration><NamedIndividual IRI="#IceWorm"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Juggernaut"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Balam"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Arquebus"/></Declaration>
+    <Declaration><NamedIndividual IRI="#RLF"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Overseer"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Dozer"/></Declaration>
+    <Declaration><NamedIndividual IRI="#PCA"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_ALLMIND"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_AFriend"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Ayre"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_WavelengthForm"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Ashbringer"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Buddy"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_C4_621"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Freelancer"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Gun13"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Hound"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Raven"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_SymbolOfResolve"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Tourist"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Wallclimber"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Wormkiller"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_CinderCarla"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_G1_Michigan"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_G5_Iguazu"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_ThumbDolmayan"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Snail_Arquebus"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_V_II_Snail"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_V_IV_Rusty"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Walter"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Balteus"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_CEL240"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Cataphract"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Enforcer"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_IceWorm"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Alias_Juggernaut"/></Declaration>
+    <Declaration><NamedIndividual IRI="#ECHO"/></Declaration>
+    <Declaration><NamedIndividual IRI="#IB_07_SOL_644"/></Declaration>
+    <Declaration><NamedIndividual IRI="#FULL_COURSE"/></Declaration>
+    <Declaration><NamedIndividual IRI="#STEEL_HAZE"/></Declaration>
+    <Declaration><NamedIndividual IRI="#STEEL_HAZE_ORTUS"/></Declaration>
+    <Declaration><NamedIndividual IRI="#HEAD_BRINGER"/></Declaration>
+    <Declaration><NamedIndividual IRI="#OPEN_FAITH"/></Declaration>
+    <Declaration><NamedIndividual IRI="#LIGER_TAIL"/></Declaration>
+    <Declaration><NamedIndividual IRI="#ASTGHIK"/></Declaration>
+    <Declaration><NamedIndividual IRI="#IB_C03_HAL_826"/></Declaration>
+    <Declaration><NamedIndividual IRI="#NIGHTFALL"/></Declaration>
+    <Declaration><NamedIndividual IRI="#AC_AAP07_BALTEUS"/></Declaration>
+    <Declaration><NamedIndividual IRI="#AC_IB_01_CEL_240"/></Declaration>
+    <Declaration><NamedIndividual IRI="#AC_AAS02_CATAPHRACT"/></Declaration>
+    <Declaration><NamedIndividual IRI="#AC_IA_02_ICE_WORM"/></Declaration>
+    <Declaration><NamedIndividual IRI="#AC_HA_T_102_JUGGERNAUT"/></Declaration>
+    <Declaration><NamedIndividual IRI="#AC_AAP03_ENFORCER"/></Declaration>
+    <Declaration><NamedIndividual IRI="#S"/></Declaration>
+    <Declaration><NamedIndividual IRI="#A"/></Declaration>
+    <Declaration><NamedIndividual IRI="#B"/></Declaration>
+    <Declaration><NamedIndividual IRI="#C"/></Declaration>
+    <Declaration><NamedIndividual IRI="#D"/></Declaration>
+    <Declaration><NamedIndividual IRI="#E"/></Declaration>
+    <Declaration><NamedIndividual IRI="#F"/></Declaration>
+    <Declaration><NamedIndividual IRI="#fires_of_ibis"/></Declaration>
+    <Declaration><NamedIndividual IRI="#walker_destruction"/></Declaration>
+    <Declaration><NamedIndividual IRI="#operation_wallclimber"/></Declaration>
+    <Declaration><NamedIndividual IRI="#pca_arrival"/></Declaration>
+    <Declaration><NamedIndividual IRI="#cataphract_fight"/></Declaration>
+    <Declaration><NamedIndividual IRI="#pca_siege"/></Declaration>
+    <Declaration><NamedIndividual IRI="#operation_wormkiller"/></Declaration>
+    <Declaration><NamedIndividual IRI="#depth_exploration"/></Declaration>
+    <Declaration><NamedIndividual IRI="#vascular_plant_event"/></Declaration>
+    <Declaration><NamedIndividual IRI="#xylem_takeoff"/></Declaration>
+    <Declaration><NamedIndividual IRI="#karman_line"/></Declaration>
+    <Declaration><NamedIndividual IRI="#fires_of_raven"/></Declaration>
+    <Declaration><NamedIndividual IRI="#rubicon_sky"/></Declaration>
+    <Declaration><NamedIndividual IRI="#rubicon_orbit"/></Declaration>
+    <Declaration><NamedIndividual IRI="#bona_dea_dunes"/></Declaration>
+    <Declaration><NamedIndividual IRI="#wall"/></Declaration>
+    <Declaration><NamedIndividual IRI="#cataphract_plant"/></Declaration>
+    <Declaration><NamedIndividual IRI="#outpost_pca"/></Declaration>
+    <Declaration><NamedIndividual IRI="#underground_entrance"/></Declaration>
+    <Declaration><NamedIndividual IRI="#vascular_plant_place"/></Declaration>
+    <Declaration><NamedIndividual IRI="#xylem"/></Declaration>
+    <Declaration><NamedIndividual IRI="#iceworm_field"/></Declaration>
+    <SubClassOf><Class IRI="#Boss"/><Class IRI="#Character"/></SubClassOf>
+    <SubClassOf><Class IRI="#Character"/><Class IRI="#Entity"/></SubClassOf>
+    <SubClassOf><Class IRI="#Human"/><Class IRI="#Character"/></SubClassOf>
+    <SubClassOf><Class IRI="#AI"/><Class IRI="#Character"/></SubClassOf>
+    <SubClassOf><Class IRI="#Rubiconian"/><Class IRI="#Character"/></SubClassOf>
+    <SubClassOf><Class IRI="#Society"/><Class IRI="#Entity"/></SubClassOf>
+    <DisjointClasses><Class IRI="#Character"/><Class IRI="#Society"/></DisjointClasses>
+    <DisjointClasses><Class IRI="#Human"/><Class IRI="#AI"/></DisjointClasses>
+    <DisjointClasses><Class IRI="#Human"/><Class IRI="#Rubiconian"/></DisjointClasses>
+    <DisjointClasses><Class IRI="#AI"/><Class IRI="#Rubiconian"/></DisjointClasses>
+    <SymmetricObjectProperty><ObjectProperty IRI="#isFriendlyTowards"/></SymmetricObjectProperty>
+    <SymmetricObjectProperty><ObjectProperty IRI="#isHostileToward"/></SymmetricObjectProperty>
+    <ObjectPropertyDomain><ObjectProperty IRI="#hasAlias"/><Class IRI="#Character"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#isAliasOf"/><Class IRI="#Alias"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#hasRank"/><Class IRI="#Character"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#isRankOf"/><Class IRI="#Rank"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#participatesIn"/><Class IRI="#Entity"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#involvesEntity"/><Class IRI="#MajorEvent"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#isBossOf"/><Class IRI="#Boss"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#hasBoss"/><Class IRI="#MajorEvent"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#takesPlaceIn"/><Class IRI="#MajorEvent"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#hostsEvent"/><Class IRI="#Place"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#pilots"/><Class IRI="#Character"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#isPilotedBy"/><Class IRI="#ArmoredCore"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#kills"/><Class IRI="#Character"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#isKilledBy"/><Class IRI="#Character"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#worksFor"/><Class IRI="#Character"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#employs"/><Class IRI="#Society"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#isFriendlyTowards"/><Class IRI="#Entity"/></ObjectPropertyDomain>
+    <ObjectPropertyDomain><ObjectProperty IRI="#isHostileToward"/><Class IRI="#Entity"/></ObjectPropertyDomain>
+    <ObjectPropertyRange><ObjectProperty IRI="#hasAlias"/><Class IRI="#Alias"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#isAliasOf"/><Class IRI="#Character"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#hasRank"/><Class IRI="#Rank"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#isRankOf"/><Class IRI="#Character"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#participatesIn"/><Class IRI="#MajorEvent"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#involvesEntity"/><Class IRI="#Entity"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#isBossOf"/><Class IRI="#MajorEvent"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#hasBoss"/><Class IRI="#Boss"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#takesPlaceIn"/><Class IRI="#Place"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#hostsEvent"/><Class IRI="#MajorEvent"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#pilots"/><Class IRI="#ArmoredCore"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#isPilotedBy"/><Class IRI="#Character"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#kills"/><Class IRI="#Character"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#isKilledBy"/><Class IRI="#Character"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#worksFor"/><Class IRI="#Society"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#employs"/><Class IRI="#Character"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#isFriendlyTowards"/><Class IRI="#Entity"/></ObjectPropertyRange>
+    <ObjectPropertyRange><ObjectProperty IRI="#isHostileToward"/><Class IRI="#Entity"/></ObjectPropertyRange>
+    <InverseObjectProperties><ObjectProperty IRI="#hasAlias"/><ObjectProperty IRI="#isAliasOf"/></InverseObjectProperties>
+    <InverseObjectProperties><ObjectProperty IRI="#hasRank"/><ObjectProperty IRI="#isRankOf"/></InverseObjectProperties>
+    <InverseObjectProperties><ObjectProperty IRI="#participatesIn"/><ObjectProperty IRI="#involvesEntity"/></InverseObjectProperties>
+    <InverseObjectProperties><ObjectProperty IRI="#isBossOf"/><ObjectProperty IRI="#hasBoss"/></InverseObjectProperties>
+    <InverseObjectProperties><ObjectProperty IRI="#takesPlaceIn"/><ObjectProperty IRI="#hostsEvent"/></InverseObjectProperties>
+    <InverseObjectProperties><ObjectProperty IRI="#pilots"/><ObjectProperty IRI="#isPilotedBy"/></InverseObjectProperties>
+    <InverseObjectProperties><ObjectProperty IRI="#kills"/><ObjectProperty IRI="#isKilledBy"/></InverseObjectProperties>
+    <InverseObjectProperties><ObjectProperty IRI="#worksFor"/><ObjectProperty IRI="#employs"/></InverseObjectProperties>
+    <SubObjectPropertyOf><ObjectProperty IRI="#isBossOf"/><ObjectProperty IRI="#participatesIn"/></SubObjectPropertyOf>
+    <SubObjectPropertyOf><ObjectProperty IRI="#hasBoss"/><ObjectProperty IRI="#involvesEntity"/></SubObjectPropertyOf>
+    <DataPropertyDomain><DataProperty IRI="#acName"/><Class IRI="#ArmoredCore"/></DataPropertyDomain>
+    <DataPropertyDomain><DataProperty IRI="#isSpecial"/><Class IRI="#ArmoredCore"/></DataPropertyDomain>
+    <DataPropertyDomain><DataProperty IRI="#name"/><Class IRI="#Society"/></DataPropertyDomain>
+    <DataPropertyDomain><DataProperty IRI="#originatesOnRubicon"/><Class IRI="#Society"/></DataPropertyDomain>
+    <DataPropertyDomain><DataProperty IRI="#chronologicalOrder"/><Class IRI="#MajorEvent"/></DataPropertyDomain>
+    <DataPropertyRange><DataProperty IRI="#acName"/><Datatype abbreviatedIRI="xsd:string"/></DataPropertyRange>
+    <DataPropertyRange><DataProperty IRI="#isSpecial"/><Datatype abbreviatedIRI="xsd:boolean"/></DataPropertyRange>
+    <DataPropertyRange><DataProperty IRI="#name"/><Datatype abbreviatedIRI="xsd:string"/></DataPropertyRange>
+    <DataPropertyRange><DataProperty IRI="#originatesOnRubicon"/><Datatype abbreviatedIRI="xsd:boolean"/></DataPropertyRange>
+    <DataPropertyRange><DataProperty IRI="#chronologicalOrder"/><Datatype abbreviatedIRI="xsd:integer"/></DataPropertyRange>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#C4_621"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#Walter"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#Raven"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#Ayre"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rubiconian"/><NamedIndividual IRI="#Ayre"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#AI"/><NamedIndividual IRI="#ALLMIND"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#CinderCarla"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#V_IV_Rusty"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#V_IV_Rusty"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#G5_Iguazu"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#V_II_Snail"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#V_II_Snail"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#G1_Michigan"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#G1_Michigan"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#ThumbDolmayan"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#Balteus"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#AI"/><NamedIndividual IRI="#Balteus"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#CEL240"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#AI"/><NamedIndividual IRI="#CEL240"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#Cataphract"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Human"/><NamedIndividual IRI="#Cataphract"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#Enforcer"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#AI"/><NamedIndividual IRI="#Enforcer"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#IceWorm"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#AI"/><NamedIndividual IRI="#IceWorm"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Boss"/><NamedIndividual IRI="#Juggernaut"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#AI"/><NamedIndividual IRI="#Juggernaut"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Society"/><NamedIndividual IRI="#Balam"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Society"/><NamedIndividual IRI="#Arquebus"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Society"/><NamedIndividual IRI="#RLF"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Society"/><NamedIndividual IRI="#Overseer"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Society"/><NamedIndividual IRI="#Dozer"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Society"/><NamedIndividual IRI="#PCA"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_ALLMIND"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_AFriend"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Ayre"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_WavelengthForm"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Ashbringer"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Buddy"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_C4_621"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Freelancer"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Gun13"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Hound"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Raven"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_SymbolOfResolve"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Tourist"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Wallclimber"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Wormkiller"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_CinderCarla"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_G1_Michigan"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_G5_Iguazu"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_ThumbDolmayan"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Snail_Arquebus"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_V_II_Snail"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_V_IV_Rusty"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Walter"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Balteus"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_CEL240"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Cataphract"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Enforcer"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_IceWorm"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Alias"/><NamedIndividual IRI="#Alias_Juggernaut"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#ECHO"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#IB_07_SOL_644"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#FULL_COURSE"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#STEEL_HAZE"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#STEEL_HAZE_ORTUS"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#HEAD_BRINGER"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#OPEN_FAITH"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#LIGER_TAIL"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#ASTGHIK"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#IB_C03_HAL_826"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#NIGHTFALL"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#AC_AAP07_BALTEUS"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#AC_IB_01_CEL_240"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#AC_AAS02_CATAPHRACT"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#AC_IA_02_ICE_WORM"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#AC_HA_T_102_JUGGERNAUT"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#ArmoredCore"/><NamedIndividual IRI="#AC_AAP03_ENFORCER"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rank"/><NamedIndividual IRI="#S"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rank"/><NamedIndividual IRI="#A"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rank"/><NamedIndividual IRI="#B"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rank"/><NamedIndividual IRI="#C"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rank"/><NamedIndividual IRI="#D"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rank"/><NamedIndividual IRI="#E"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Rank"/><NamedIndividual IRI="#F"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#fires_of_ibis"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#walker_destruction"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#operation_wallclimber"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#pca_arrival"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#cataphract_fight"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#pca_siege"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#operation_wormkiller"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#depth_exploration"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#vascular_plant_event"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#xylem_takeoff"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#karman_line"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MajorEvent"/><NamedIndividual IRI="#fires_of_raven"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#rubicon_sky"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#rubicon_orbit"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#bona_dea_dunes"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#wall"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#cataphract_plant"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#outpost_pca"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#underground_entrance"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#vascular_plant_place"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#xylem"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Place"/><NamedIndividual IRI="#iceworm_field"/></ClassAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#ALLMIND"/><NamedIndividual IRI="#Alias_ALLMIND"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#Alias_AFriend"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#Alias_Ayre"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#Alias_WavelengthForm"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Ashbringer"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Buddy"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Freelancer"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Gun13"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Hound"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Raven"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_SymbolOfResolve"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Tourist"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Wallclimber"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Alias_Wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#Alias_CinderCarla"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#Alias_G1_Michigan"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#Alias_G5_Iguazu"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Raven"/><NamedIndividual IRI="#Alias_Raven"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#ThumbDolmayan"/><NamedIndividual IRI="#Alias_ThumbDolmayan"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#Alias_Snail_Arquebus"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#Alias_V_II_Snail"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#Alias_V_IV_Rusty"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#Alias_Walter"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Balteus"/><NamedIndividual IRI="#Alias_Balteus"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#CEL240"/><NamedIndividual IRI="#Alias_CEL240"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Cataphract"/><NamedIndividual IRI="#Alias_Cataphract"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Enforcer"/><NamedIndividual IRI="#Alias_Enforcer"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#IceWorm"/><NamedIndividual IRI="#Alias_IceWorm"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasAlias"/><NamedIndividual IRI="#Juggernaut"/><NamedIndividual IRI="#Alias_Juggernaut"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasRank"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#B"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasRank"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#S"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasRank"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#D"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasRank"/><NamedIndividual IRI="#ThumbDolmayan"/><NamedIndividual IRI="#A"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasRank"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#A"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#hasRank"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#B"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#ECHO"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#IB_07_SOL_644"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Balteus"/><NamedIndividual IRI="#AC_AAP07_BALTEUS"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#CEL240"/><NamedIndividual IRI="#AC_IB_01_CEL_240"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Cataphract"/><NamedIndividual IRI="#AC_AAS02_CATAPHRACT"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#FULL_COURSE"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Enforcer"/><NamedIndividual IRI="#AC_AAP03_ENFORCER"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#LIGER_TAIL"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#HEAD_BRINGER"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#IceWorm"/><NamedIndividual IRI="#AC_IA_02_ICE_WORM"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Juggernaut"/><NamedIndividual IRI="#AC_HA_T_102_JUGGERNAUT"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Raven"/><NamedIndividual IRI="#NIGHTFALL"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#ThumbDolmayan"/><NamedIndividual IRI="#ASTGHIK"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#OPEN_FAITH"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#STEEL_HAZE"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#STEEL_HAZE_ORTUS"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#pilots"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#IB_C03_HAL_826"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#Balam"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#Balam"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#Arquebus"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#Arquebus"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#RLF"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#ThumbDolmayan"/><NamedIndividual IRI="#RLF"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#Overseer"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#Overseer"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#Dozer"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#Cataphract"/><NamedIndividual IRI="#PCA"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#Balteus"/><NamedIndividual IRI="#PCA"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#Enforcer"/><NamedIndividual IRI="#PCA"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#IceWorm"/><NamedIndividual IRI="#PCA"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#worksFor"/><NamedIndividual IRI="#Juggernaut"/><NamedIndividual IRI="#RLF"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#kills"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Balteus"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#kills"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#CEL240"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#kills"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Cataphract"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#kills"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#IceWorm"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#kills"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Juggernaut"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#fires_of_raven"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#Balteus"/><NamedIndividual IRI="#pca_arrival"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#CEL240"/><NamedIndividual IRI="#vascular_plant_event"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#Cataphract"/><NamedIndividual IRI="#cataphract_fight"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#Enforcer"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#IceWorm"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#Juggernaut"/><NamedIndividual IRI="#operation_wallclimber"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#xylem_takeoff"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#karman_line"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isBossOf"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#walker_destruction"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#operation_wallclimber"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#pca_arrival"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#cataphract_fight"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#pca_siege"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#vascular_plant_event"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#xylem_takeoff"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#karman_line"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#fires_of_raven"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#fires_of_ibis"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#fires_of_ibis"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#xylem_takeoff"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#xylem_takeoff"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#cataphract_fight"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#pca_siege"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#vascular_plant_event"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#xylem_takeoff"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#karman_line"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#fires_of_raven"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#vascular_plant_event"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#ALLMIND"/><NamedIndividual IRI="#pca_arrival"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#operation_wallclimber"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#RLF"/><NamedIndividual IRI="#walker_destruction"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Overseer"/><NamedIndividual IRI="#fires_of_raven"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#karman_line"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#PCA"/><NamedIndividual IRI="#cataphract_fight"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#PCA"/><NamedIndividual IRI="#depth_exploration"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#PCA"/><NamedIndividual IRI="#karman_line"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#PCA"/><NamedIndividual IRI="#pca_arrival"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#PCA"/><NamedIndividual IRI="#pca_siege"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#PCA"/><NamedIndividual IRI="#operation_wormkiller"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Arquebus"/><NamedIndividual IRI="#pca_siege"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#participatesIn"/><NamedIndividual IRI="#Balam"/><NamedIndividual IRI="#pca_siege"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#cataphract_fight"/><NamedIndividual IRI="#cataphract_plant"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#depth_exploration"/><NamedIndividual IRI="#underground_entrance"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#fires_of_ibis"/><NamedIndividual IRI="#rubicon_sky"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#fires_of_raven"/><NamedIndividual IRI="#rubicon_orbit"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#karman_line"/><NamedIndividual IRI="#rubicon_sky"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#operation_wallclimber"/><NamedIndividual IRI="#wall"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#operation_wormkiller"/><NamedIndividual IRI="#iceworm_field"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#pca_arrival"/><NamedIndividual IRI="#outpost_pca"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#pca_siege"/><NamedIndividual IRI="#outpost_pca"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#vascular_plant_event"/><NamedIndividual IRI="#vascular_plant_place"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#walker_destruction"/><NamedIndividual IRI="#bona_dea_dunes"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#takesPlaceIn"/><NamedIndividual IRI="#xylem_takeoff"/><NamedIndividual IRI="#xylem"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Ayre"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Walter"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#V_IV_Rusty"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#CinderCarla"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#G1_Michigan"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#CinderCarla"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#CinderCarla"/><NamedIndividual IRI="#Walter"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#Walter"/><NamedIndividual IRI="#G1_Michigan"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#G1_Michigan"/><NamedIndividual IRI="#Walter"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#Balam"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#Balam"/><NamedIndividual IRI="#G5_Iguazu"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#ALLMIND"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#ALLMIND"/><NamedIndividual IRI="#G5_Iguazu"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#RLF"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isFriendlyTowards"/><NamedIndividual IRI="#RLF"/><NamedIndividual IRI="#V_IV_Rusty"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#G5_Iguazu"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#V_II_Snail"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#V_II_Snail"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#ALLMIND"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#ALLMIND"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#Ayre"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#C4_621"/><NamedIndividual IRI="#V_IV_Rusty"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#V_IV_Rusty"/><NamedIndividual IRI="#C4_621"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#Balam"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#Balam"/><NamedIndividual IRI="#G5_Iguazu"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#G5_Iguazu"/><NamedIndividual IRI="#Ayre"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#Ayre"/><NamedIndividual IRI="#G5_Iguazu"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#Balam"/><NamedIndividual IRI="#Arquebus"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#Arquebus"/><NamedIndividual IRI="#Balam"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#RLF"/><NamedIndividual IRI="#Balam"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#Balam"/><NamedIndividual IRI="#RLF"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#RLF"/><NamedIndividual IRI="#Arquebus"/></ObjectPropertyAssertion>
+    <ObjectPropertyAssertion><ObjectProperty IRI="#isHostileToward"/><NamedIndividual IRI="#Arquebus"/><NamedIndividual IRI="#RLF"/></ObjectPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#ECHO"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ECHO</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#ECHO"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#IB_07_SOL_644"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IB-07: SOL 644</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#IB_07_SOL_644"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#FULL_COURSE"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FULL COURSE</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#FULL_COURSE"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#STEEL_HAZE"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">STEEL HAZE</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#STEEL_HAZE"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#STEEL_HAZE_ORTUS"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">STEEL HAZE ORTUS</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#STEEL_HAZE_ORTUS"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#HEAD_BRINGER"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HEAD BRINGER</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#HEAD_BRINGER"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#OPEN_FAITH"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">OPEN FAITH</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#OPEN_FAITH"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#LIGER_TAIL"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">LIGER TAIL</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#LIGER_TAIL"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#ASTGHIK"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ASTGHIK</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#ASTGHIK"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#IB_C03_HAL_826"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IB-C03: HAL 826</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#IB_C03_HAL_826"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#NIGHTFALL"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NIGHTFALL</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#NIGHTFALL"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#AC_AAP07_BALTEUS"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AAP07: BALTEUS</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#AC_AAP07_BALTEUS"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#AC_IB_01_CEL_240"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IB-01: CEL 240</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#AC_IB_01_CEL_240"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#AC_AAS02_CATAPHRACT"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AAS02: CATAPHRACT</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#AC_AAS02_CATAPHRACT"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#AC_IA_02_ICE_WORM"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IA-02: ICE WORM</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#AC_IA_02_ICE_WORM"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#AC_HA_T_102_JUGGERNAUT"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HA-T-102 JUGGERNAUT</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#AC_HA_T_102_JUGGERNAUT"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#acName"/><NamedIndividual IRI="#AC_AAP03_ENFORCER"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AAP03: ENFORCER</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isSpecial"/><NamedIndividual IRI="#AC_AAP03_ENFORCER"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#name"/><NamedIndividual IRI="#Balam"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Balam Industries</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#originatesOnRubicon"/><NamedIndividual IRI="#Balam"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#name"/><NamedIndividual IRI="#Arquebus"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Arquebus Corporation</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#originatesOnRubicon"/><NamedIndividual IRI="#Arquebus"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#name"/><NamedIndividual IRI="#RLF"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rubicon Liberation Front</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#originatesOnRubicon"/><NamedIndividual IRI="#RLF"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#name"/><NamedIndividual IRI="#Overseer"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Overseer</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#originatesOnRubicon"/><NamedIndividual IRI="#Overseer"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#name"/><NamedIndividual IRI="#Dozer"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dozer</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#originatesOnRubicon"/><NamedIndividual IRI="#Dozer"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#name"/><NamedIndividual IRI="#PCA"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Planetary Closure Administration</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#originatesOnRubicon"/><NamedIndividual IRI="#PCA"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#fires_of_ibis"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#walker_destruction"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#operation_wallclimber"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#pca_arrival"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#cataphract_fight"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#pca_siege"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#operation_wormkiller"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#depth_exploration"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#vascular_plant_event"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#xylem_takeoff"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#karman_line"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#chronologicalOrder"/><NamedIndividual IRI="#fires_of_raven"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal></DataPropertyAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias</IRI><Literal>Alias</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#ArmoredCore</IRI><Literal>ArmoredCore</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Boss</IRI><Literal>Boss</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Character</IRI><Literal>Character</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Entity</IRI><Literal>Entity</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Human</IRI><Literal>Human</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#AI</IRI><Literal>AI</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#MajorEvent</IRI><Literal>MajorEvent</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Place</IRI><Literal>Place</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Rank</IRI><Literal>Rank</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Rubiconian</IRI><Literal>Rubiconian</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Society</IRI><Literal>Society</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Entity</IRI><Literal>Base class for all entities (characters and organizations).</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#ArmoredCore</IRI><Literal>Combat mecha (Armored Core).</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#MajorEvent</IRI><Literal>A major event in the Coral War on Rubicon 3.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Place</IRI><Literal>A location on Rubicon 3 where events take place.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Rank</IRI><Literal>Mercenary competency grade (S, A, B, C, D, E, F) in ALLMIND's Arena ranking.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#AI</IRI><Literal>Artificial Intelligence character.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Society</IRI><Literal>An organization or faction.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#employs</IRI><Literal>employs</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#hasAlias</IRI><Literal>hasAlias</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#hasBoss</IRI><Literal>hasBoss</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#hasRank</IRI><Literal>hasRank</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#hostsEvent</IRI><Literal>hostsEvent</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#involvesEntity</IRI><Literal>involvesEntity</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isAliasOf</IRI><Literal>isAliasOf</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isBossOf</IRI><Literal>isBossOf</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isFriendlyTowards</IRI><Literal>isFriendlyTowards</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isHostileToward</IRI><Literal>isHostileToward</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isKilledBy</IRI><Literal>isKilledBy</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isPilotedBy</IRI><Literal>isPilotedBy</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isRankOf</IRI><Literal>isRankOf</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#kills</IRI><Literal>kills</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#participatesIn</IRI><Literal>participatesIn</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#pilots</IRI><Literal>pilots</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#takesPlaceIn</IRI><Literal>takesPlaceIn</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#worksFor</IRI><Literal>worksFor</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isBossOf</IRI><Literal>Sub-property of participatesIn: a Boss participates in a MajorEvent as its boss/enemy.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#hasBoss</IRI><Literal>Inverse of isBossOf; sub-property of involvesEntity.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isFriendlyTowards</IRI><Literal>Allied / friendly stance between two entities (symmetric).</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isHostileToward</IRI><Literal>Adversarial / hostile stance between two entities (symmetric).</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#acName</IRI><Literal>acName</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#chronologicalOrder</IRI><Literal>chronologicalOrder</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isSpecial</IRI><Literal>isSpecial</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#name</IRI><Literal>name</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#originatesOnRubicon</IRI><Literal>originatesOnRubicon</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#originatesOnRubicon</IRI><Literal>True if the organization originates on Rubicon 3 (native), false if off-world.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#C4_621</IRI><Literal>C4-621</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Walter</IRI><Literal>Handler Walter</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Raven</IRI><Literal>Raven (original)</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Ayre</IRI><Literal>Ayre</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#ALLMIND</IRI><Literal>ALLMIND</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#CinderCarla</IRI><Literal>&quot;Cinder&quot; Carla</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#V_IV_Rusty</IRI><Literal>V.IV Rusty</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#G5_Iguazu</IRI><Literal>G5 Iguazu</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#V_II_Snail</IRI><Literal>V.II Snail</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#G1_Michigan</IRI><Literal>G1 Michigan</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#ThumbDolmayan</IRI><Literal>Thumb Dolmayan</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Balteus</IRI><Literal>AAP07: BALTEUS</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#CEL240</IRI><Literal>IB-01: CEL 240</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Cataphract</IRI><Literal>Cataphract (PCA SP Captain)</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Enforcer</IRI><Literal>AAP03: ENFORCER</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#IceWorm</IRI><Literal>IA-02: ICE WORM</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Juggernaut</IRI><Literal>HA-T-102 JUGGERNAUT</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Balam</IRI><Literal>Balam</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Arquebus</IRI><Literal>Arquebus</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#RLF</IRI><Literal>Rubicon Liberation Front</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Overseer</IRI><Literal>Overseer</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Dozer</IRI><Literal>Dozer</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#PCA</IRI><Literal>PCA</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Balam</IRI><Literal>Balam Industries – off-world mega-corporation extracting Coral on Rubicon 3.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Arquebus</IRI><Literal>Arquebus Corporation – off-world mega-corporation contesting Balam for Coral on Rubicon 3.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#RLF</IRI><Literal>Native Rubiconian resistance fighting to reclaim Rubicon 3 and protect the Coral.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Overseer</IRI><Literal>Secret organization (Carla, Walter and others) monitoring Coral growth, intent on burning it before a Collapse.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Dozer</IRI><Literal>Rubicon-based Doser groups: Coral-dependent scavenger and arms gangs.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#PCA</IRI><Literal>Planetary Closure Administration – off-world authority blockading Rubicon 3 and suppressing the Coral.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_ALLMIND</IRI><Literal>ALLMIND</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_AFriend</IRI><Literal>A Friend</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Ayre</IRI><Literal>Ayre</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_WavelengthForm</IRI><Literal>Wavelength Form</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Ashbringer</IRI><Literal>Ashbringer</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Buddy</IRI><Literal>Buddy</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_C4_621</IRI><Literal>C4-621</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Freelancer</IRI><Literal>Freelancer</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Gun13</IRI><Literal>Gun13</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Hound</IRI><Literal>Hound</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Raven</IRI><Literal>Raven</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_SymbolOfResolve</IRI><Literal>Symbol of Resolve</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Tourist</IRI><Literal>Tourist</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Wallclimber</IRI><Literal>Wallclimber</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Wormkiller</IRI><Literal>Wormkiller</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_CinderCarla</IRI><Literal>&quot;Cinder&quot; Carla</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_G1_Michigan</IRI><Literal>G1 Michigan</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_G5_Iguazu</IRI><Literal>G5 Iguazu</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_ThumbDolmayan</IRI><Literal>Thumb Dolmayan</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Snail_Arquebus</IRI><Literal>Arquebus</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_V_II_Snail</IRI><Literal>V.II Snail</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_V_IV_Rusty</IRI><Literal>V.IV Rusty</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Walter</IRI><Literal>Handler Walter</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Balteus</IRI><Literal>AAP07: BALTEUS</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_CEL240</IRI><Literal>IB-01: CEL 240</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Cataphract</IRI><Literal>Cataphract</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Enforcer</IRI><Literal>AAP03: ENFORCER</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_IceWorm</IRI><Literal>IA-02: ICE WORM</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#Alias_Juggernaut</IRI><Literal>HA-T-102 JUGGERNAUT</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#ECHO</IRI><Literal>ECHO</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#IB_07_SOL_644</IRI><Literal>IB-07: SOL 644</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#FULL_COURSE</IRI><Literal>FULL COURSE</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#STEEL_HAZE</IRI><Literal>STEEL HAZE</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#STEEL_HAZE_ORTUS</IRI><Literal>STEEL HAZE ORTUS</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#HEAD_BRINGER</IRI><Literal>HEAD BRINGER</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#OPEN_FAITH</IRI><Literal>OPEN FAITH</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#LIGER_TAIL</IRI><Literal>LIGER TAIL</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#ASTGHIK</IRI><Literal>ASTGHIK</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#IB_C03_HAL_826</IRI><Literal>IB-C03: HAL 826</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#NIGHTFALL</IRI><Literal>NIGHTFALL</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#AC_AAP07_BALTEUS</IRI><Literal>AAP07: BALTEUS</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#AC_IB_01_CEL_240</IRI><Literal>IB-01: CEL 240</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#AC_AAS02_CATAPHRACT</IRI><Literal>AAS02: CATAPHRACT</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#AC_IA_02_ICE_WORM</IRI><Literal>IA-02: ICE WORM</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#AC_HA_T_102_JUGGERNAUT</IRI><Literal>HA-T-102 JUGGERNAUT</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#AC_AAP03_ENFORCER</IRI><Literal>AAP03: ENFORCER</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#S</IRI><Literal>S</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#A</IRI><Literal>A</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#B</IRI><Literal>B</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#C</IRI><Literal>C</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#D</IRI><Literal>D</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#E</IRI><Literal>E</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#F</IRI><Literal>F</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#fires_of_ibis</IRI><Literal>Fires of Ibis</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#walker_destruction</IRI><Literal>Walker Destruction</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#operation_wallclimber</IRI><Literal>Operation Wallclimber</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#pca_arrival</IRI><Literal>PCA Arrival</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#cataphract_fight</IRI><Literal>Cataphract Fight</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#pca_siege</IRI><Literal>PCA Siege</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#operation_wormkiller</IRI><Literal>Operation Wormkiller</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#depth_exploration</IRI><Literal>Depth Exploration</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#vascular_plant_event</IRI><Literal>Vascular Plant</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#xylem_takeoff</IRI><Literal>Xylem Takeoff</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#karman_line</IRI><Literal>Karman Line</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#fires_of_raven</IRI><Literal>Fires of Raven</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#rubicon_sky</IRI><Literal>Rubicon 3 – Upper Atmosphere</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#rubicon_orbit</IRI><Literal>Rubicon 3 – Orbit</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#bona_dea_dunes</IRI><Literal>Bona Dea Dunes (Southern Belius)</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#wall</IRI><Literal>The Wall, Belius – RLF Stronghold</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#cataphract_plant</IRI><Literal>Coral Collection Plant (Belius)</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#outpost_pca</IRI><Literal>PCA Outpost (Belius frontline)</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#underground_entrance</IRI><Literal>Watchpoint Alpha – Underground Entrance</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#vascular_plant_place</IRI><Literal>Vascular Plant (Arquebus-controlled deep facility)</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#xylem</IRI><Literal>Xylem, the Floating City</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#iceworm_field</IRI><Literal>Central Ice Field (Ice Worm battlefield)</Literal></AnnotationAssertion>
+    <Declaration><DataProperty IRI="#isBuddy"/></Declaration>
+    <DataPropertyDomain><DataProperty IRI="#isBuddy"/><Class IRI="#Character"/></DataPropertyDomain>
+    <DataPropertyRange><DataProperty IRI="#isBuddy"/><Datatype abbreviatedIRI="xsd:boolean"/></DataPropertyRange>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:label"/><IRI>#isBuddy</IRI><Literal>is buddy</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isBuddy</IRI><Literal>True if the character is the player's buddy (allied AC fighting alongside 621); false otherwise.</Literal></AnnotationAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#ALLMIND"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#Ayre"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#Balteus"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#C4_621"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#CEL240"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#Cataphract"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#CinderCarla"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#Enforcer"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#G1_Michigan"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#G5_Iguazu"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#IceWorm"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#Juggernaut"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#Raven"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#ThumbDolmayan"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#V_II_Snail"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#V_IV_Rusty"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal></DataPropertyAssertion>
+    <DataPropertyAssertion><DataProperty IRI="#isBuddy"/><NamedIndividual IRI="#Walter"/><Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal></DataPropertyAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Alias</IRI><Literal>An alternative name, callsign or codename used by a character.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Boss</IRI><Literal>A character fought as a boss encounter in a major event.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Character</IRI><Literal>A person, pilot or AI that can act in the world; subclass of Entity.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Human</IRI><Literal>Human character.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#Rubiconian</IRI><Literal>Character native to Rubicon 3.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#hasAlias</IRI><Literal>Links a character to an alias it is known by; inverse of isAliasOf.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isAliasOf</IRI><Literal>Inverse of hasAlias; the character an alias refers to.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#hasRank</IRI><Literal>Links a character to its Arena competency rank; inverse of isRankOf.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isRankOf</IRI><Literal>Inverse of hasRank; the character holding a given rank.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#participatesIn</IRI><Literal>An entity takes part in a major event; inverse of involvesEntity.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#involvesEntity</IRI><Literal>Inverse of participatesIn; entities involved in a major event.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#hostsEvent</IRI><Literal>Inverse of takesPlaceIn; a place hosting a major event.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#takesPlaceIn</IRI><Literal>A major event occurs at a place; inverse of hostsEvent.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#pilots</IRI><Literal>A character pilots an Armored Core; inverse of isPilotedBy.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isPilotedBy</IRI><Literal>Inverse of pilots; the character piloting an Armored Core.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#kills</IRI><Literal>A character kills another character; inverse of isKilledBy.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isKilledBy</IRI><Literal>Inverse of kills; the character killed by another.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#worksFor</IRI><Literal>A character works for an organization; inverse of employs.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#employs</IRI><Literal>Inverse of worksFor; an organization employing a character.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#acName</IRI><Literal>The model designation / name of an Armored Core, stored as text.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#chronologicalOrder</IRI><Literal>Integer ordering of a major event in the campaign timeline.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#isSpecial</IRI><Literal>True if the Armored Core is a unique or special named unit.</Literal></AnnotationAssertion>
+    <AnnotationAssertion><AnnotationProperty abbreviatedIRI="rdfs:comment"/><IRI>#name</IRI><Literal>Display name of an organization, stored as text.</Literal></AnnotationAssertion>
+</Ontology>

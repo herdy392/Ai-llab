@@ -1,0 +1,36 @@
+# Armored Core 6 NLP pipeline — Windows 11 (and Windows 10), Python 3.10–3.12
+#
+# Lightweight stack (data generation + KG + SHACL + SPARQL + metrics charts):
+rdflib>=7.0
+pyshacl>=0.25
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+#
+# Model training + inference (BERT verifier / NER). For GPU, install the CUDA
+# build of torch from https://pytorch.org/get-started/locally/ instead of the line below.
+torch>=2.1
+transformers>=4.40
+tqdm>=4.66
+# Tokenizer SentencePiece: necessario per XLNet / DeBERTa v3 / T5 nel benchmark (12).
+sentencepiece>=0.1.99
+# Baseline SpaCy della relation extraction (Slide 7 / step 07b).
+# Dopo l'installazione scaricare il modello:  python -m spacy download en_core_web_sm
+spacy>=3.7
+#
+# Architetture A/B (Slide 9) — modelli zero-shot label-guided usati nel benchmark (12):
+#  - GLiNER  : estrazione entita' zero-shot
+#  - GLiREL  : candidate generation di relazioni zero-shot
+# Sono opzionali: se assenti, lo step 12 li salta con una nota (graceful degrade).
+gliner>=0.2
+glirel>=1.0
+#
+# OPZIONALI (la pipeline gira anche senza):
+#  - Validatore LLM/SLM (Architettura C, Slide 9-10) e generazione dati "via LLM"
+#    (Slide 5). Usato solo se ANTHROPIC_API_KEY e' impostata; altrimenti fallback offline.
+#    Il client interno usa urllib, nessun pacchetto extra obbligatorio.
+#
+# Notebooks only (graph drawing + Colab confusion matrix):
+networkx>=3.1
+seaborn>=0.12
+nbformat>=5.9

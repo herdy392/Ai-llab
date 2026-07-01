@@ -1,0 +1,11 @@
+Every item use is also a action.
+Every playable character is also a character.
+In general a fight is won by some party.
+Every org13 member is also a nobody.
+Every heartless is also a enemy.
+Each keyblade records its attack power.
+A entity owns the keyblade a keyblade.
+Every drive form is also a action.
+A non consumable is a kind of items.
+A non playable character is a kind of character.
+Every protagonist is also a playable character.

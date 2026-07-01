@@ -1,0 +1,10 @@
+A place hosts a major event.
+A society records whether it originates on Rubicon as a literal value.
+Each armored core is operated by a character.
+Character is modeled as a subclass of entity.
+A character kills another character.
+A major event has a chronological order stored as a literal value.
+A character holds a rank in the Arena ranking.
+Each character stores a buddy flag as a literal value.
+In the schema, a character has an alias.
+The schema records that an entity is friendly towards an entity.

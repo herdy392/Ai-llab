@@ -1,0 +1,12 @@
+A org13 member is a kind of nobody.
+A character is a kind of entity.
+Often a party engages in the fight another fight.
+Typically a entity owns the keyblade a given keyblade.
+Every munny is also a consumable.
+Every item use is also a action.
+A fight is won by a party.
+Each protagonist has in the inventory a items.
+A nobody is a kind of enemy.
+A movement action is a kind of action.
+A party is a kind of entity.
+Typically a recruitable ally has the secondary weapon a given secondary weapon.

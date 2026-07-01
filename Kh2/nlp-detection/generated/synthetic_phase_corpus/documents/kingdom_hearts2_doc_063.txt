@@ -1,0 +1,9 @@
+A non playable character is a kind of character.
+Every common nobody is also a nobody.
+Every movement action is also a action.
+Every gems is also a consumable.
+Every heartless is also a enemy.
+Every boss is also a enemy.
+Every summon is also a action.
+Typically a entity comes from a given worlds.
+Every secondary weapon is also a non consumable.

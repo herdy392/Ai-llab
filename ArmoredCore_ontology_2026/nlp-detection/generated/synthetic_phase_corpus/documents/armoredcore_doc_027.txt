@@ -1,0 +1,9 @@
+Each major event stores its timeline position as a literal value.
+Each armored core is operated by a character.
+Each armored core stores its AC name as text.
+The schema records that an entity is friendly towards an entity.
+A boss is the boss of a major event.
+In the schema, a character has an alias.
+Each character stores a buddy flag as a literal value.
+The model records that an alias belongs to a character.
+A character holds a rank in the Arena ranking.

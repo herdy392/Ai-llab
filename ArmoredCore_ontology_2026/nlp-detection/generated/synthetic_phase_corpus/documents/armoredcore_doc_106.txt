@@ -1,0 +1,9 @@
+The schema records that an entity is hostile toward an entity.
+An armored core records whether it is special as a literal value.
+The record notes when one character kills another.
+Each major event stores its timeline position as a literal value.
+The schema records a society name as a literal value.
+Each armored core is operated by a character.
+The schema records an armored core name as a literal value.
+A character records whether it is the player buddy as a literal value.
+The model records that a character is killed by a character.

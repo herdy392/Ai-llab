@@ -1,0 +1,11 @@
+Enemies are entities hostile toward each other.
+A major event takes place in a place.
+Each character can be assigned a rank.
+The schema records that a boss is boss of a major event.
+Every major event can have a boss.
+Each armored core stores its AC name as text.
+The model records that a character is killed by a character.
+Each character stores a buddy flag as a literal value.
+In the schema, every Rubiconian is a character.
+A society has a name stored as a literal value.
+Each armored core stores a special flag as a literal value.

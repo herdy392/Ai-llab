@@ -1,0 +1,10 @@
+The model records that a character is killed by a character.
+The schema records a society name as a literal value.
+The schema marks an armored core as special with a literal value.
+A character holds a rank in the Arena ranking.
+A character works for a society.
+In the schema, every boss is a character.
+A major event takes place in a place.
+Each major event can be led by a boss.
+Allies are entities friendly towards each other.
+The schema records that a character pilots an armored core.

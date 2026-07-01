@@ -1,0 +1,9 @@
+The schema records that a boss is boss of a major event.
+The schema marks an armored core as special with a literal value.
+An armored core has a name stored as a literal value.
+A character can be known by one or more aliases.
+An entity is hostile toward another entity.
+Every major event can have a boss.
+A major event takes place in a place.
+The schema gives a character a rank.
+A society records whether it originates on Rubicon as a literal value.

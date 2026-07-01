@@ -1,0 +1,10 @@
+Each entity can perform a action.
+Each keyblade records its attack power.
+A gems is a kind of consumable.
+A secondary weapon is a kind of non consumable.
+In general a party has as party member some entity.
+Every support is also a action.
+Typically a entity is friends with a given entity.
+Each org13 member is a member of a organization.
+Every nobody is also a enemy.
+A non playable character is a kind of character.

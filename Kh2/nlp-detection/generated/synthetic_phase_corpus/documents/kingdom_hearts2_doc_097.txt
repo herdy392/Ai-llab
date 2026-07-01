@@ -1,0 +1,11 @@
+Each protagonist has in the inventory a items.
+Every boss is also a enemy.
+A combat action is a kind of action.
+A keyblade has attack power value.
+In general a protagonist has the drive form some drive form.
+Every drive form is also a action.
+Each party engages in the fight a fight.
+A party is a kind of entity.
+Every potion is also a consumable.
+A org13 member is a kind of nobody.
+Each entity records its hit points.

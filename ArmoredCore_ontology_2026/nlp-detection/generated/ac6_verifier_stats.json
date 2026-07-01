@@ -1,0 +1,53 @@
+{
+  "source_sentences": 1151,
+  "verifier_examples": 11921,
+  "split_distribution": {
+    "train": 8064,
+    "val": 2215,
+    "test": 1642
+  },
+  "label_distribution": {
+    "VALID": 4144,
+    "INVALID": 7777
+  },
+  "negative_type_distribution": {
+    "positive": 1151,
+    "partial_overlap": 691,
+    "type_incompatible": 1151,
+    "type_identical": 167
+  },
+  "candidate_relations": [
+    "acName",
+    "chronologicalOrder",
+    "employs",
+    "hasAlias",
+    "hasBoss",
+    "hasRank",
+    "hostsEvent",
+    "involvesEntity",
+    "isAliasOf",
+    "isBossOf",
+    "isBuddy",
+    "isFriendlyTowards",
+    "isHostileToward",
+    "isKilledBy",
+    "isPilotedBy",
+    "isRankOf",
+    "isSpecial",
+    "kills",
+    "name",
+    "originatesOnRubicon",
+    "participatesIn",
+    "pilots",
+    "rdfs:subClassOf",
+    "takesPlaceIn",
+    "worksFor"
+  ],
+  "split_is_disjoint_by_sentence": true,
+  "augmented_tiers": [
+    "explicit",
+    "implicit",
+    "long_distance",
+    "nested"
+  ]
+}

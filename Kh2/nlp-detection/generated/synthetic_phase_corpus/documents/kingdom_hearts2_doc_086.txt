@@ -1,0 +1,12 @@
+Every potion is also a consumable.
+Often a protagonist has the drive form another drive form.
+Each fight takes place in a worlds.
+Often a party engages in the fight another fight.
+Every npc is also a non playable character.
+Every movement action is also a action.
+A party is a kind of entity.
+Every disney antagonist is also a enemy.
+Every recruitable ally is also a playable character.
+Every boss is also a enemy.
+A gems is a kind of consumable.
+Every consumable is also a items.

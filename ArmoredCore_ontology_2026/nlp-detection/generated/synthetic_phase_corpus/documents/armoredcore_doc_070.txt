@@ -1,0 +1,11 @@
+Allies are entities friendly towards each other.
+The schema records that an entity participates in a major event.
+Each major event stores its timeline position as a literal value.
+A society employs a character.
+Each character stores a buddy flag as a literal value.
+In the schema, a character has an alias.
+The schema records that a character pilots an armored core.
+The schema records that a boss is boss of a major event.
+The schema marks an armored core as special with a literal value.
+A major event involves an entity.
+Each armored core stores its AC name as text.

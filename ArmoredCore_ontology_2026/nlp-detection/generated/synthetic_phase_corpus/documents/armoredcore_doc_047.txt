@@ -1,0 +1,11 @@
+A society is a kind of entity.
+Enemies are entities hostile toward each other.
+The schema records a major event chronological order as a literal value.
+Each character can be affiliated with a society.
+The schema marks an armored core as special with a literal value.
+Every place can host a major event.
+Each character stores a buddy flag as a literal value.
+The schema marks a society Rubicon origin with a literal value.
+A character pilots an armored core.
+Every alias points back to the character it identifies.
+An entity participates in a major event.

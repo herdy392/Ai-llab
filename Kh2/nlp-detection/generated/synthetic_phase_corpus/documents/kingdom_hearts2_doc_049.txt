@@ -1,0 +1,10 @@
+Every item use is also a action.
+A entity defeats a entity.
+A recruitable ally is a kind of playable character.
+Typically a party has as party member a given entity.
+A entity owns the keyblade a keyblade.
+A entity has hit points value.
+Every nobody is also a enemy.
+Every sword attack is also a combat action.
+Every non playable character is also a character.
+A party is a kind of entity.

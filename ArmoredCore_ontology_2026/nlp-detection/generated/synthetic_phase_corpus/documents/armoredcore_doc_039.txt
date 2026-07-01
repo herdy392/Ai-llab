@@ -1,0 +1,12 @@
+In the schema, every society is an entity.
+The schema records a society name as a literal value.
+A character records whether it is the player buddy as a literal value.
+The schema gives a character a rank.
+An alias is an alias of a character.
+The schema records that an entity participates in a major event.
+The schema records an armored core name as a literal value.
+Each major event can be led by a boss.
+In the schema, a character has an alias.
+A character pilots an armored core.
+The record notes when one character kills another.
+The schema records that an entity is friendly towards an entity.

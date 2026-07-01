@@ -1,0 +1,4524 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/andrea/ontologies/2026/4/Kingdom_hearts_2"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/andrea/ontologies/2026/4/Kingdom_hearts_2">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CombatAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommonNobody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisneyAntagonist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DriveForm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enemy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heartless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ItemUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Items"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keyblade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MagicAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovementAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Munny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nobody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonConsumable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonPlayableCharacter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Org13Member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayableCharacter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protagonist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecruitableAlly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryWeapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SwordAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worlds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appearsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canSummon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comesFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defeats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#drops"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#engagesInFight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDriveForm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFriend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInInventory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPartyMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSecondaryWeapon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEnemyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participatesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#winner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attackPower"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#element"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hitPoints"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2BecomeOne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AerialDodge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AerialRecovery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agrabah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AntiFusion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArmoredKnight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assassin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Axel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BeastCastle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berserker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blizzard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BrightGem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChickenLittle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CircleOfLife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cloud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComboPlus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dancer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DarkGem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demyx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DodgeRoll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Donald"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DonaldStaff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elixir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emergency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ether"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FatBlue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fenrir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FinalForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FollowTheWind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gambler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GhostPirate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Goofy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoofyShield"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Groundshaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GuardBreak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HalloweenTown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hayner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HiPotionItem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HiddenDragon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighJump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kairi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KingMickey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KingdomChain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KingdomKeyD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LandOfDragons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Larxene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lexaeus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LimitForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LuckyCharm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LunarGem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luxord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPRage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maleficent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marluxia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MasterForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MegaElixir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MegaEther"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MegaPotion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MemorySkyscraper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Merlin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monochrome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MulanDragon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Naminé"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neoshadow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organization13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OutlawMoon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyAxel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyDemyx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyGhostPirate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyGroundshaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyLuxord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyMulanDragon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyRoxas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartySaix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartySephiroth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartySora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyTwilightThorn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyXaldin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyXemnas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyXemnasFinal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartyXigbar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pete"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PeterPan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhotonicDebugger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PortRoyal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Potion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PotionItem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrideLands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reflect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Riku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roxas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samurai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saïx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeagullWing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SecondChance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sephiroth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shadow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SleepingLion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sniper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StarSeeker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stitch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SweetMemories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thunder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TimelessRiver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TwilightThorn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UltimaWeapon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValorForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vexen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WayToDawn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WisdomForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xaldin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xemnas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xigbar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YenSid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zexion"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Boss"/>
+        <Class IRI="#Enemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Character"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CombatAction"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommonNobody"/>
+        <Class IRI="#Nobody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consumable"/>
+        <Class IRI="#Items"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisneyAntagonist"/>
+        <Class IRI="#Enemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DriveForm"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enemy"/>
+        <Class IRI="#NonPlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enemy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isEnemyOf"/>
+            <Class IRI="#Protagonist"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gems"/>
+        <Class IRI="#Consumable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heartless"/>
+        <Class IRI="#Enemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ItemUse"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keyblade"/>
+        <Class IRI="#NonConsumable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MagicAttack"/>
+        <Class IRI="#CombatAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovementAction"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Munny"/>
+        <Class IRI="#Consumable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NPC"/>
+        <Class IRI="#NonPlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nobody"/>
+        <Class IRI="#Enemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonConsumable"/>
+        <Class IRI="#Items"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonPlayableCharacter"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Org13Member"/>
+        <Class IRI="#Nobody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Org13Member"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isEnemyOf"/>
+            <Class IRI="#Protagonist"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPartyMember"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableCharacter"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potion"/>
+        <Class IRI="#Consumable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protagonist"/>
+        <Class IRI="#PlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecruitableAlly"/>
+        <Class IRI="#PlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryWeapon"/>
+        <Class IRI="#NonConsumable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Summon"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Support"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SwordAttack"/>
+        <Class IRI="#CombatAction"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Consumable"/>
+        <Class IRI="#NonConsumable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DisneyAntagonist"/>
+        <Class IRI="#Heartless"/>
+        <Class IRI="#Nobody"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Heartless"/>
+        <Class IRI="#Nobody"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Keyblade"/>
+        <Class IRI="#SecondaryWeapon"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonPlayableCharacter"/>
+        <Class IRI="#PlayableCharacter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Protagonist"/>
+        <Class IRI="#RecruitableAlly"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#2BecomeOne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MovementAction"/>
+        <NamedIndividual IRI="#AerialDodge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CombatAction"/>
+        <NamedIndividual IRI="#AerialRecovery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#Agrabah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DriveForm"/>
+        <NamedIndividual IRI="#AntiFusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#ArmoredKnight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommonNobody"/>
+        <NamedIndividual IRI="#Assassin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Axel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommonNobody"/>
+        <NamedIndividual IRI="#Basic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#BeastCastle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommonNobody"/>
+        <NamedIndividual IRI="#Berserker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MagicAttack"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gems"/>
+        <NamedIndividual IRI="#BrightGem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Summon"/>
+        <NamedIndividual IRI="#ChickenLittle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#CircleOfLife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#Cloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CombatAction"/>
+        <NamedIndividual IRI="#ComboPlus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MagicAttack"/>
+        <NamedIndividual IRI="#Cure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommonNobody"/>
+        <NamedIndividual IRI="#Dancer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gems"/>
+        <NamedIndividual IRI="#DarkGem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Demyx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MovementAction"/>
+        <NamedIndividual IRI="#DodgeRoll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecruitableAlly"/>
+        <NamedIndividual IRI="#Donald"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondaryWeapon"/>
+        <NamedIndividual IRI="#DonaldStaff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consumable"/>
+        <NamedIndividual IRI="#Elixir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Support"/>
+        <NamedIndividual IRI="#Emergency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consumable"/>
+        <NamedIndividual IRI="#Ether"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#FatBlue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#Fenrir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fight"/>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DriveForm"/>
+        <NamedIndividual IRI="#FinalForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MagicAttack"/>
+        <NamedIndividual IRI="#Fire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#FollowTheWind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommonNobody"/>
+        <NamedIndividual IRI="#Gambler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Summon"/>
+        <NamedIndividual IRI="#Genie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boss"/>
+        <NamedIndividual IRI="#GhostPirate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#GhostPirate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MovementAction"/>
+        <NamedIndividual IRI="#Glide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecruitableAlly"/>
+        <NamedIndividual IRI="#Goofy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondaryWeapon"/>
+        <NamedIndividual IRI="#GoofyShield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boss"/>
+        <NamedIndividual IRI="#Groundshaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#Groundshaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CombatAction"/>
+        <NamedIndividual IRI="#Guard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CombatAction"/>
+        <NamedIndividual IRI="#GuardBreak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#HalloweenTown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#Hayner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potion"/>
+        <NamedIndividual IRI="#HiPotionItem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#HiddenDragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MovementAction"/>
+        <NamedIndividual IRI="#HighJump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecruitableAlly"/>
+        <NamedIndividual IRI="#Kairi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecruitableAlly"/>
+        <NamedIndividual IRI="#KingMickey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#KingdomChain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#KingdomKeyD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#LandOfDragons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Larxene"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#Leon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Lexaeus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DriveForm"/>
+        <NamedIndividual IRI="#LimitForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#LuckyCharm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gems"/>
+        <NamedIndividual IRI="#LunarGem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Luxord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Support"/>
+        <NamedIndividual IRI="#MPRage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MagicAttack"/>
+        <NamedIndividual IRI="#Magnet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DisneyAntagonist"/>
+        <NamedIndividual IRI="#Maleficent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Marluxia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DriveForm"/>
+        <NamedIndividual IRI="#MasterForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consumable"/>
+        <NamedIndividual IRI="#MegaElixir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consumable"/>
+        <NamedIndividual IRI="#MegaEther"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consumable"/>
+        <NamedIndividual IRI="#MegaPotion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#MemorySkyscraper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#Merlin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#Monochrome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boss"/>
+        <NamedIndividual IRI="#MulanDragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#MulanDragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#Naminé"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#Neoshadow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#Olette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#OutlawMoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyAxel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyDemyx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyGhostPirate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyGroundshaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyLuxord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyMulanDragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartySaix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartySephiroth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyTwilightThorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyXaldin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyXemnas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyXemnasFinal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Party"/>
+        <NamedIndividual IRI="#PartyXigbar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#Pence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DisneyAntagonist"/>
+        <NamedIndividual IRI="#Pete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Summon"/>
+        <NamedIndividual IRI="#PeterPan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#PhotonicDebugger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#PortRoyal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consumable"/>
+        <NamedIndividual IRI="#Potion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potion"/>
+        <NamedIndividual IRI="#PotionItem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#PrideLands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MagicAttack"/>
+        <NamedIndividual IRI="#Reflect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecruitableAlly"/>
+        <NamedIndividual IRI="#Riku"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nobody"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protagonist"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommonNobody"/>
+        <NamedIndividual IRI="#Samurai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Saïx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CombatAction"/>
+        <NamedIndividual IRI="#Scan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#SeagullWing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Support"/>
+        <NamedIndividual IRI="#SecondChance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boss"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enemy"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heartless"/>
+        <NamedIndividual IRI="#Shadow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#SleepingLion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommonNobody"/>
+        <NamedIndividual IRI="#Sniper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protagonist"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#StarSeeker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Summon"/>
+        <NamedIndividual IRI="#Stitch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#SweetMemories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MagicAttack"/>
+        <NamedIndividual IRI="#Thunder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#TimelessRiver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boss"/>
+        <NamedIndividual IRI="#TwilightThorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nobody"/>
+        <NamedIndividual IRI="#TwilightThorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worlds"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#UltimaWeapon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DriveForm"/>
+        <NamedIndividual IRI="#ValorForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Vexen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyblade"/>
+        <NamedIndividual IRI="#WayToDawn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DriveForm"/>
+        <NamedIndividual IRI="#WisdomForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Xaldin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Xemnas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boss"/>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nobody"/>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Xigbar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPC"/>
+        <NamedIndividual IRI="#YenSid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Org13Member"/>
+        <NamedIndividual IRI="#Zexion"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Axel"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Demyx"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#Agrabah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#TimelessRiver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#PrideLands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#LandOfDragons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#PortRoyal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#BeastCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#HalloweenTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#Scan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#Thunder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#Goofy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#KingMickey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSecondaryWeapon"/>
+        <NamedIndividual IRI="#Donald"/>
+        <NamedIndividual IRI="#DonaldStaff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+        <NamedIndividual IRI="#PortRoyal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+        <NamedIndividual IRI="#PrideLands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+        <NamedIndividual IRI="#LandOfDragons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+        <NamedIndividual IRI="#BeastCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#winner"/>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+        <NamedIndividual IRI="#PartySora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#BeastCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#HalloweenTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#PrideLands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#Agrabah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#TimelessRiver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#LandOfDragons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#PortRoyal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#ComboPlus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#Scan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#Donald"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#KingMickey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSecondaryWeapon"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <NamedIndividual IRI="#GoofyShield"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Hayner"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Hayner"/>
+        <NamedIndividual IRI="#Olette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Hayner"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Hayner"/>
+        <NamedIndividual IRI="#Pence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <NamedIndividual IRI="#Riku"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <NamedIndividual IRI="#KingdomChain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#YenSid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#Riku"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#Donald"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#Goofy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#Kairi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <NamedIndividual IRI="#StarSeeker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Larxene"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Leon"/>
+        <NamedIndividual IRI="#Merlin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Leon"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <NamedIndividual IRI="#Leon"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Lexaeus"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Luxord"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Marluxia"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Merlin"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Merlin"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Merlin"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Merlin"/>
+        <NamedIndividual IRI="#Cloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Naminé"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Naminé"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Olette"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Olette"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drops"/>
+        <NamedIndividual IRI="#OutlawMoon"/>
+        <NamedIndividual IRI="#DarkGem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyAxel"/>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyAxel"/>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyAxel"/>
+        <NamedIndividual IRI="#Axel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyDemyx"/>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyDemyx"/>
+        <NamedIndividual IRI="#Demyx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyGhostPirate"/>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyGhostPirate"/>
+        <NamedIndividual IRI="#GhostPirate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyGroundshaker"/>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyGroundshaker"/>
+        <NamedIndividual IRI="#Groundshaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyLuxord"/>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyLuxord"/>
+        <NamedIndividual IRI="#Luxord"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyMulanDragon"/>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyMulanDragon"/>
+        <NamedIndividual IRI="#MulanDragon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySaix"/>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartySaix"/>
+        <NamedIndividual IRI="#Saïx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySephiroth"/>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartySephiroth"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#Goofy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <NamedIndividual IRI="#Donald"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+        <NamedIndividual IRI="#Riku"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyTwilightThorn"/>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyTwilightThorn"/>
+        <NamedIndividual IRI="#TwilightThorn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyXaldin"/>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyXaldin"/>
+        <NamedIndividual IRI="#Xaldin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyXemnas"/>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyXemnas"/>
+        <NamedIndividual IRI="#Xemnas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyXemnasFinal"/>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyXemnasFinal"/>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <NamedIndividual IRI="#PartyXigbar"/>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <NamedIndividual IRI="#PartyXigbar"/>
+        <NamedIndividual IRI="#Xigbar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Pence"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Pence"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Pence"/>
+        <NamedIndividual IRI="#Olette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Pence"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Pence"/>
+        <NamedIndividual IRI="#Hayner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Riku"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Riku"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Riku"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Riku"/>
+        <NamedIndividual IRI="#Kairi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Riku"/>
+        <NamedIndividual IRI="#Sora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Riku"/>
+        <NamedIndividual IRI="#WayToDawn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#TwilightThorn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#Basic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#Axel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#Olette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#Naminé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#Hayner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#Pence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#Axel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#KingdomChain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#LuckyCharm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <NamedIndividual IRI="#MemorySkyscraper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Saïx"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+        <NamedIndividual IRI="#Cloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drops"/>
+        <NamedIndividual IRI="#Shadow"/>
+        <NamedIndividual IRI="#Potion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#TimelessRiver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#BeastCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#HalloweenTown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#LandOfDragons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#PortRoyal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Agrabah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#PrideLands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFrom"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Vexen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Demyx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Xaldin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Dancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#MulanDragon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Larxene"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Groundshaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#GhostPirate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Zexion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Xemnas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#ArmoredKnight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Axel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Assassin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Neoshadow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Luxord"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Xigbar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Shadow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Roxas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Lexaeus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Sniper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Marluxia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Gambler"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Glide"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#DodgeRoll"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#HighJump"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Magnet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#SecondChance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Emergency"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#ComboPlus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#AerialRecovery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Fire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Scan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Reflect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#AerialDodge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#GuardBreak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Guard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Thunder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Cure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#MPRage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#AntiFusion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#FinalForm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#WisdomForm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#MasterForm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#LimitForm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#ValorForm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Kairi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#KingMickey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Riku"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Donald"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Goofy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Potion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#DarkGem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Ether"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#BrightGem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#MegaElixir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Elixir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#MegaPotion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#LunarGem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#MegaEther"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#KingdomChain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#LuckyCharm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#FollowTheWind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#PhotonicDebugger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#CircleOfLife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#UltimaWeapon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#SeagullWing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#2BecomeOne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#SweetMemories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#StarSeeker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <NamedIndividual IRI="#Sora"/>
+        <NamedIndividual IRI="#Fenrir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Vexen"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Xaldin"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Xemnas"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Xigbar"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#YenSid"/>
+        <NamedIndividual IRI="#KingMickey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <NamedIndividual IRI="#Zexion"/>
+        <NamedIndividual IRI="#Organization13"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#2BecomeOne"/>
+        <Literal datatypeIRI="&xsd;string">A unique Keyblade that represents the bond between Sora and Roxas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#2BecomeOne"/>
+        <Literal datatypeIRI="&xsd;string">2BecomeOne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#AerialDodge"/>
+        <Literal datatypeIRI="&xsd;string">A growth ability that allows performing a dash mid-air.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#AerialDodge"/>
+        <Literal datatypeIRI="&xsd;string">AerialDodge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#AerialRecovery"/>
+        <Literal datatypeIRI="&xsd;string">A combat ability to quickly recover after being launched into the air.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#AerialRecovery"/>
+        <Literal datatypeIRI="&xsd;string">AerialRecovery</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Agrabah"/>
+        <Literal datatypeIRI="&xsd;string">A desert city full of merchants, mysteries and magic.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Agrabah"/>
+        <Literal datatypeIRI="&xsd;string">Agrabah</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#AntiFusion"/>
+        <Literal datatypeIRI="&xsd;string">A dark and uncontrollable form of Sora born from overusing the power of Darkness.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#AntiFusion"/>
+        <Literal datatypeIRI="&xsd;string">AntiFusion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ArmoredKnight"/>
+        <Literal datatypeIRI="&xsd;string">A small pureblood Heartless protected by armor.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#ArmoredKnight"/>
+        <Literal datatypeIRI="&xsd;string">ArmoredKnight</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Assassin"/>
+        <Literal datatypeIRI="&xsd;string">A low-ranking Nobody, fast and stealthy.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Assassin"/>
+        <Literal datatypeIRI="&xsd;string">Assassin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Axel"/>
+        <Literal datatypeIRI="&xsd;string">A member of Organization XIII linked to the element of fire and a great friend of Roxas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Axel"/>
+        <Literal datatypeIRI="&xsd;string">Axel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Basic"/>
+        <Literal datatypeIRI="&xsd;string">A basic-level Nobody.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Basic"/>
+        <Literal datatypeIRI="&xsd;string">Basic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#BeastCastle"/>
+        <Literal datatypeIRI="&xsd;string">The dark and cursed castle where the Beast lives. Sora supports Belle and tries to free the castle from the influence of the Heartless and Organization XIII, while the Beast struggles with his own rage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#BeastCastle"/>
+        <Literal datatypeIRI="&xsd;string">BeastCastle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Berserker"/>
+        <Literal datatypeIRI="&xsd;string">A Nobody armed with an enormous sword, known for its brute force.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Berserker"/>
+        <Literal datatypeIRI="&xsd;string">Berserker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Blizzard"/>
+        <Literal datatypeIRI="&xsd;string">An elemental magic based on ice.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#element"/>
+        <NamedIndividual IRI="#Blizzard"/>
+        <Literal datatypeIRI="&xsd;string">Ice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Blizzard"/>
+        <Literal datatypeIRI="&xsd;string">Blizzard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#BrightGem"/>
+        <Literal datatypeIRI="&xsd;string">A material used for item synthesis in the Moogle workshop.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#BrightGem"/>
+        <Literal datatypeIRI="&xsd;string">BrightGem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+        <Literal datatypeIRI="&xsd;string">A mysterious place where memories are manipulated. In KH2 it appears as an echo of past events, linked to Naminé, the Nobodies and the past of Sora and Roxas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#CastleOblivion"/>
+        <Literal datatypeIRI="&xsd;string">CastleOblivion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ChickenLittle"/>
+        <Literal datatypeIRI="&xsd;string">A Summon in which Sora calls upon the small protagonist of the eponymous film.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#ChickenLittle"/>
+        <Literal datatypeIRI="&xsd;string">ChickenLittle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#CircleOfLife"/>
+        <Literal datatypeIRI="&xsd;string">The Keyblade obtained in the Pride Lands, linked to the cycle of life.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#CircleOfLife"/>
+        <Literal datatypeIRI="&xsd;string">CircleOfLife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Cloud"/>
+        <Literal datatypeIRI="&xsd;string">A taciturn warrior searching for Sephiroth, from the Final Fantasy saga.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Cloud"/>
+        <Literal datatypeIRI="&xsd;string">Cloud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ComboPlus"/>
+        <Literal datatypeIRI="&xsd;string">A combat ability that adds an extra hit to the combo.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#ComboPlus"/>
+        <Literal datatypeIRI="&xsd;string">ComboPlus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Cure"/>
+        <Literal datatypeIRI="&xsd;string">A healing magic capable of restoring health points.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#element"/>
+        <NamedIndividual IRI="#Cure"/>
+        <Literal datatypeIRI="&xsd;string">Light</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Cure"/>
+        <Literal datatypeIRI="&xsd;string">Cure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Dancer"/>
+        <Literal datatypeIRI="&xsd;string">A Nobody capable of performing agile and lethal movements, similar to a dancer.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Dancer"/>
+        <Literal datatypeIRI="&xsd;string">Dancer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#DarkGem"/>
+        <Literal datatypeIRI="&xsd;string">A synthesis material linked to the forces of Darkness.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#DarkGem"/>
+        <Literal datatypeIRI="&xsd;string">DarkGem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Demyx"/>
+        <Literal datatypeIRI="&xsd;string">Member of Organization XIII who fights with a sitar and commands the element of water.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Demyx"/>
+        <Literal datatypeIRI="&xsd;string">Demyx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+        <Literal datatypeIRI="&xsd;string">The home world of Sora, Riku and Kairi. In KH2 it appears briefly as a memory and symbol of their bond, representing peace, childhood and the desire to return home.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#DestinyIslands"/>
+        <Literal datatypeIRI="&xsd;string">DestinyIslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+        <Literal datatypeIRI="&xsd;string">The royal home of Mickey, Donald and Goofy. Threatened by the Heartless, it becomes a key point to protect the Light and maintain balance between worlds.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#DisneyCastle"/>
+        <Literal datatypeIRI="&xsd;string">DisneyCastle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#DodgeRoll"/>
+        <Literal datatypeIRI="&xsd;string">A fundamental growth ability for dodging attacks by rolling on the ground.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#DodgeRoll"/>
+        <Literal datatypeIRI="&xsd;string">DodgeRoll</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Donald"/>
+        <Literal datatypeIRI="&xsd;string">Donald is the court mage and the most impulsive member of the group. In KH2 he is energetic, straightforward and often comically irritable, but deeply fond of his companions. Specialized in offensive and healing magic, he is the main magical support of the team. Despite his explosive temper, he shows enormous courage and unwavering dedication to the mission.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Donald"/>
+        <Literal datatypeIRI="&xsd;string">Donald</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#DonaldStaff"/>
+        <Literal datatypeIRI="&xsd;string">The magical secondary weapon used by Donald.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#DonaldStaff"/>
+        <Literal datatypeIRI="&xsd;string">DonaldStaff</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Elixir"/>
+        <Literal datatypeIRI="&xsd;string">A consumable item that fully restores a character&apos;s HP and MP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Elixir"/>
+        <Literal datatypeIRI="&xsd;string">Elixir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Emergency"/>
+        <Literal datatypeIRI="&xsd;string">A support ability useful in critical situations.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Emergency"/>
+        <Literal datatypeIRI="&xsd;string">Emergency</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Ether"/>
+        <Literal datatypeIRI="&xsd;string">A consumable item for recovering some MP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ether"/>
+        <Literal datatypeIRI="&xsd;string">Ether</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FatBlue"/>
+        <Literal datatypeIRI="&xsd;string">A chubby and clumsy Heartless capable of overwhelming enemies with its weight.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FatBlue"/>
+        <Literal datatypeIRI="&xsd;string">FatBlue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Fenrir"/>
+        <Literal datatypeIRI="&xsd;string">The powerful Keyblade gifted by Cloud after defeating Sephiroth.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Fenrir"/>
+        <Literal datatypeIRI="&xsd;string">Fenrir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+        <Literal datatypeIRI="&xsd;string">Roxas dual-wielding Oathkeeper and Oblivion against Axel in the virtual Twilight Town. Roxas wins, ending the prologue.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightRoxasVsAxel"/>
+        <Literal datatypeIRI="&xsd;string">FightRoxasVsAxel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+        <Literal datatypeIRI="&xsd;string">Roxas&apos;s first battle against the giant Nobody Twilight Thorn in Twilight Town&apos;s Station of Serenity.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightRoxasVsTwilightThorn"/>
+        <Literal datatypeIRI="&xsd;string">FightRoxasVsTwilightThorn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+        <Literal datatypeIRI="&xsd;string">The epic final battle: Sora and Riku together defeat Xemnas in his ultimate armored form above the ruins of The World That Never Was, ending the threat of Organization XIII.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraRikuVsXemnasFinal"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraRikuVsXemnasFinal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+        <Literal datatypeIRI="&xsd;string">Sora vs Axel at Hollow Bastion. Axel sacrifices himself to destroy the surrounding Nobodies, helping Sora survive.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsAxel"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsAxel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+        <Literal datatypeIRI="&xsd;string">Sora vs Demyx at Hollow Bastion. Sora must destroy Demyx&apos;s water clones within a time limit and wins.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsDemyx"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsDemyx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+        <Literal datatypeIRI="&xsd;string">Sora and Jack Sparrow battle the cursed Grim Reaper Heartless at Port Royal harbour. Sora wins.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsGhostPirate"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsGhostPirate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+        <Literal datatypeIRI="&xsd;string">Sora and Simba defeat the colossal Heartless Groundshaker across the Pride Lands savanna.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsGroundshaker"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsGroundshaker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+        <Literal datatypeIRI="&xsd;string">Sora vs Luxord&apos;s deadly time-limit card game at The World That Never Was. Sora wins.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsLuxord"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsLuxord</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+        <Literal datatypeIRI="&xsd;string">Sora and Mulan fight the Storm Rider dragon Heartless atop the Imperial City in the Land of Dragons.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsMulanDragon"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsMulanDragon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+        <Literal datatypeIRI="&xsd;string">Sora confronts Saix the Luna Diviner, empowered by Kingdom Hearts light, at The World That Never Was. Sora wins.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsSaix"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsSaix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+        <Literal datatypeIRI="&xsd;string">Optional secret battle: Sora faces the legendary Sephiroth at Radiant Garden. An extremely difficult fight; Sora wins if the player is skilled enough.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsSephiroth"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsSephiroth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+        <Literal datatypeIRI="&xsd;string">Sora and Beast face Xaldin, the Whirlwind Lancer, at the gates of Beast&apos;s Castle. Sora wins.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsXaldin"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsXaldin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+        <Literal datatypeIRI="&xsd;string">Sora&apos;s first encounter with Xemnas at the top of Memory&apos;s Skyscraper. Sora wins with the help of Riku.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsXemnas"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsXemnas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+        <Literal datatypeIRI="&xsd;string">Sora vs Xigbar the Freeshooter in a warped-gravity arena at The World That Never Was. Sora wins.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FightSoraVsXigbar"/>
+        <Literal datatypeIRI="&xsd;string">FightSoraVsXigbar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FinalForm"/>
+        <Literal datatypeIRI="&xsd;string">Sora&apos;s ultimate Drive Form that unleashes the maximum power of light.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FinalForm"/>
+        <Literal datatypeIRI="&xsd;string">FinalForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Fire"/>
+        <Literal datatypeIRI="&xsd;string">An elemental magic based on fire.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#element"/>
+        <NamedIndividual IRI="#Fire"/>
+        <Literal datatypeIRI="&xsd;string">Fire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Fire"/>
+        <Literal datatypeIRI="&xsd;string">Fire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FollowTheWind"/>
+        <Literal datatypeIRI="&xsd;string">A fast and light Keyblade obtained after exploring Port Royal.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FollowTheWind"/>
+        <Literal datatypeIRI="&xsd;string">FollowTheWind</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Gambler"/>
+        <Literal datatypeIRI="&xsd;string">A Nobody specializing in gambling and illusions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Gambler"/>
+        <Literal datatypeIRI="&xsd;string">Gambler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Genie"/>
+        <Literal datatypeIRI="&xsd;string">The Genie of the Lamp summon, offering powerful combined magical attacks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Genie"/>
+        <Literal datatypeIRI="&xsd;string">Genie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#GhostPirate"/>
+        <Literal datatypeIRI="&xsd;string">A Port Royal boss trapped by the curse of the Aztec treasure.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#GhostPirate"/>
+        <Literal datatypeIRI="&xsd;string">GhostPirate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Glide"/>
+        <Literal datatypeIRI="&xsd;string">A growth ability that allows gliding for long distances.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Glide"/>
+        <Literal datatypeIRI="&xsd;string">Glide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <Literal datatypeIRI="&xsd;string">Goofy is the captain of the royal guard of Disney Castle and one of Sora&apos;s most faithful companions. In Kingdom Hearts II he retains his gentle, peaceful and surprisingly wise character, often more reflective than the others. He fights with a shield, which he uses both to protect his friends and to strike enemies. His absolute loyalty and pure heart make him a cornerstone of the trio.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Goofy"/>
+        <Literal datatypeIRI="&xsd;string">Goofy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#GoofyShield"/>
+        <Literal datatypeIRI="&xsd;string">The secondary weapon used by Goofy, excellent for both defense and attack.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#GoofyShield"/>
+        <Literal datatypeIRI="&xsd;string">GoofyShield</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Groundshaker"/>
+        <Literal datatypeIRI="&xsd;string">A huge Heartless boss encountered in the Pride Lands.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Groundshaker"/>
+        <Literal datatypeIRI="&xsd;string">Groundshaker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Guard"/>
+        <Literal datatypeIRI="&xsd;string">A fundamental combat ability for parrying frontal attacks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Guard"/>
+        <Literal datatypeIRI="&xsd;string">Guard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#GuardBreak"/>
+        <Literal datatypeIRI="&xsd;string">An ability to break the guard of blocking enemies.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#GuardBreak"/>
+        <Literal datatypeIRI="&xsd;string">GuardBreak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#HalloweenTown"/>
+        <Literal datatypeIRI="&xsd;string">Jack Skellington&apos;s world, full of gothic atmosphere and macabre creativity. Sora faces disguised Heartless and helps Jack with his eccentric plans, between Halloween and Christmas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#HalloweenTown"/>
+        <Literal datatypeIRI="&xsd;string">HalloweenTown</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Hayner"/>
+        <Literal datatypeIRI="&xsd;string">Roxas&apos;s friend in Twilight Town, always looking for adventures.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Hayner"/>
+        <Literal datatypeIRI="&xsd;string">Hayner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#HiPotionItem"/>
+        <Literal datatypeIRI="&xsd;string">A consumable item that restores a moderate amount of HP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#HiPotionItem"/>
+        <Literal datatypeIRI="&xsd;string">HiPotion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#HiddenDragon"/>
+        <Literal datatypeIRI="&xsd;string">The Keyblade linked to the Land of Dragons world and to Mulan.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#HiddenDragon"/>
+        <Literal datatypeIRI="&xsd;string">HiddenDragon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#HighJump"/>
+        <Literal datatypeIRI="&xsd;string">A growth ability for jumping to great heights.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#HighJump"/>
+        <Literal datatypeIRI="&xsd;string">HighJump</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <Literal datatypeIRI="&xsd;string">She lives on the Destiny Islands together with Sora and Riku, to whom she is deeply connected.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Kairi"/>
+        <Literal datatypeIRI="&xsd;string">Kairi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <Literal datatypeIRI="&xsd;string">King Mickey, ruler of Disney Castle, will help Sora liberate the various worlds from darkness.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#KingMickey"/>
+        <Literal datatypeIRI="&xsd;string">KingMickey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attackPower"/>
+        <NamedIndividual IRI="#KingdomChain"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#KingdomChain"/>
+        <Literal datatypeIRI="&xsd;string">Sora&apos;s default and most iconic Keyblade.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#KingdomChain"/>
+        <Literal datatypeIRI="&xsd;string">KingdomChain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#KingdomKeyD"/>
+        <Literal datatypeIRI="&xsd;string">The Kingdom Key of Darkness, originally wielded by King Mickey.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#KingdomKeyD"/>
+        <Literal datatypeIRI="&xsd;string">KingdomKeyD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#LandOfDragons"/>
+        <Literal datatypeIRI="&xsd;string">Inspired by Mulan&apos;s China. Sora joins the imperial army to stop the Unversed and Heartless, helping Mulan prove her worth and protect the Emperor.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#LandOfDragons"/>
+        <Literal datatypeIRI="&xsd;string">LandOfDragons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Larxene"/>
+        <Literal datatypeIRI="&xsd;string">The ruthless &apos;Savage Nymph&apos;, member of Organization XIII who commands lightning.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Larxene"/>
+        <Literal datatypeIRI="&xsd;string">Larxene</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Leon"/>
+        <Literal datatypeIRI="&xsd;string">Leader of the Hollow Bastion Restoration Committee, from Final Fantasy VIII.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Leon"/>
+        <Literal datatypeIRI="&xsd;string">Leon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Lexaeus"/>
+        <Literal datatypeIRI="&xsd;string">The Silent Hero of Organization XIII, a warrior of overwhelming strength.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Lexaeus"/>
+        <Literal datatypeIRI="&xsd;string">Lexaeus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#LimitForm"/>
+        <Literal datatypeIRI="&xsd;string">Sora&apos;s Drive Form that allows him to use the iconic moves from the first Kingdom Hearts.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#LimitForm"/>
+        <Literal datatypeIRI="&xsd;string">LimitForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#LuckyCharm"/>
+        <Literal datatypeIRI="&xsd;string">A balanced-power Keyblade associated with Kairi&apos;s memories.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#LuckyCharm"/>
+        <Literal datatypeIRI="&xsd;string">LuckyCharm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#LunarGem"/>
+        <Literal datatypeIRI="&xsd;string">A rare synthesis material infused with magical power.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#LunarGem"/>
+        <Literal datatypeIRI="&xsd;string">LunarGem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Luxord"/>
+        <Literal datatypeIRI="&xsd;string">Member of Organization XIII, a strategist who fights using cards and time.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Luxord"/>
+        <Literal datatypeIRI="&xsd;string">Luxord</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MPRage"/>
+        <Literal datatypeIRI="&xsd;string">A support ability that regenerates MP when taking damage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MPRage"/>
+        <Literal datatypeIRI="&xsd;string">MPRage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Magnet"/>
+        <Literal datatypeIRI="&xsd;string">An elemental magic capable of pulling nearby enemies together.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#element"/>
+        <NamedIndividual IRI="#Magnet"/>
+        <Literal datatypeIRI="&xsd;string">Neutral</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Magnet"/>
+        <Literal datatypeIRI="&xsd;string">Magnet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Maleficent"/>
+        <Literal datatypeIRI="&xsd;string">The infamous witch, historical leader of the Heartless army.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Maleficent"/>
+        <Literal datatypeIRI="&xsd;string">Maleficent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Marluxia"/>
+        <Literal datatypeIRI="&xsd;string">The Graceful Assassin of Organization XIII, armed with a lethal scythe and floral illusions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Marluxia"/>
+        <Literal datatypeIRI="&xsd;string">Marluxia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MasterForm"/>
+        <Literal datatypeIRI="&xsd;string">Drive Form (Master Form) that masters two Keyblades with strong aerial magical and physical attacks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MasterForm"/>
+        <Literal datatypeIRI="&xsd;string">MasterForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MegaElixir"/>
+        <Literal datatypeIRI="&xsd;string">A powerful consumable item that fully restores the entire party&apos;s HP and MP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MegaElixir"/>
+        <Literal datatypeIRI="&xsd;string">MegaElixir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MegaEther"/>
+        <Literal datatypeIRI="&xsd;string">A consumable item that restores a large amount of MP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MegaEther"/>
+        <Literal datatypeIRI="&xsd;string">MegaEther</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MegaPotion"/>
+        <Literal datatypeIRI="&xsd;string">A consumable item that restores a large amount of HP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MegaPotion"/>
+        <Literal datatypeIRI="&xsd;string">MegaPotion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attackPower"/>
+        <NamedIndividual IRI="#MemorySkyscraper"/>
+        <Literal datatypeIRI="&xsd;integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MemorySkyscraper"/>
+        <Literal datatypeIRI="&xsd;string">A dark Keyblade symbolizing the memories linked to Riku.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MemorySkyscraper"/>
+        <Literal datatypeIRI="&xsd;string">MemorySkyscraper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Merlin"/>
+        <Literal datatypeIRI="&xsd;string">The powerful wizard who provides Sora with magical support and access to the Hundred Acre Wood.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Merlin"/>
+        <Literal datatypeIRI="&xsd;string">Merlin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Monochrome"/>
+        <Literal datatypeIRI="&xsd;string">A Keyblade obtained in the Timeless River, in retro style.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Monochrome"/>
+        <Literal datatypeIRI="&xsd;string">Monochrome</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MulanDragon"/>
+        <Literal datatypeIRI="&xsd;string">The powerful dragon faced in the Land of Dragons world.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MulanDragon"/>
+        <Literal datatypeIRI="&xsd;string">MulanDragon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Naminé"/>
+        <Literal datatypeIRI="&xsd;string">A special Nobody with the power to manipulate Sora&apos;s memories.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Naminé"/>
+        <Literal datatypeIRI="&xsd;string">Naminé</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Neoshadow"/>
+        <Literal datatypeIRI="&xsd;string">An advanced pureblood Heartless that moves in the shadows.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Neoshadow"/>
+        <Literal datatypeIRI="&xsd;string">Neoshadow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Olette"/>
+        <Literal datatypeIRI="&xsd;string">Roxas&apos;s friend in Twilight Town, considered the maternal figure of the group.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Olette"/>
+        <Literal datatypeIRI="&xsd;string">Olette</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Organization13"/>
+        <Literal datatypeIRI="&xsd;string">A secret group composed of powerful Nobodies led by Xemnas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Organization13"/>
+        <Literal datatypeIRI="&xsd;string">Organization13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#OutlawMoon"/>
+        <Literal datatypeIRI="&xsd;string">A Heartless that haunts the Port Royal world.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#OutlawMoon"/>
+        <Literal datatypeIRI="&xsd;string">OutlawMoon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyAxel"/>
+        <Literal datatypeIRI="&xsd;string">Axel, sent by Organization XIII to retrieve or destroy Roxas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyAxel"/>
+        <Literal datatypeIRI="&xsd;string">PartyAxel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyDemyx"/>
+        <Literal datatypeIRI="&xsd;string">Demyx confronting Sora at Hollow Bastion with his water clones.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyDemyx"/>
+        <Literal datatypeIRI="&xsd;string">PartyDemyx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyGhostPirate"/>
+        <Literal datatypeIRI="&xsd;string">The Grim Reaper Heartless at Port Royal, protected by the Aztec curse.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyGhostPirate"/>
+        <Literal datatypeIRI="&xsd;string">PartyGhostPirate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyGroundshaker"/>
+        <Literal datatypeIRI="&xsd;string">The colossal Heartless Groundshaker rampaging through the Pride Lands.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyGroundshaker"/>
+        <Literal datatypeIRI="&xsd;string">PartyGroundshaker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyLuxord"/>
+        <Literal datatypeIRI="&xsd;string">Luxord challenging Sora to a deadly card game at The World That Never Was.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyLuxord"/>
+        <Literal datatypeIRI="&xsd;string">PartyLuxord</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyMulanDragon"/>
+        <Literal datatypeIRI="&xsd;string">The Storm Rider Heartless dragon attacking the Imperial City in the Land of Dragons.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyMulanDragon"/>
+        <Literal datatypeIRI="&xsd;string">PartyMulanDragon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+        <Literal datatypeIRI="&xsd;string">Roxas acting alone during the Twilight Town prologue.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyRoxas"/>
+        <Literal datatypeIRI="&xsd;string">PartyRoxas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartySaix"/>
+        <Literal datatypeIRI="&xsd;string">Saix, the Luna Diviner, empowered by Kingdom Hearts fighting Sora.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartySaix"/>
+        <Literal datatypeIRI="&xsd;string">PartySaix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartySephiroth"/>
+        <Literal datatypeIRI="&xsd;string">Sephiroth, the secret optional boss at Radiant Garden.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartySephiroth"/>
+        <Literal datatypeIRI="&xsd;string">PartySephiroth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <Literal datatypeIRI="&xsd;string">The main party: Sora, Donald and Goofy, travelling together across all worlds.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartySora"/>
+        <Literal datatypeIRI="&xsd;string">PartySora</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+        <Literal datatypeIRI="&xsd;string">Sora and Riku reunited for the final confrontation against Xemnas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartySoraRiku"/>
+        <Literal datatypeIRI="&xsd;string">PartySoraRiku</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyTwilightThorn"/>
+        <Literal datatypeIRI="&xsd;string">The Twilight Thorn Nobody, first boss encountered by Roxas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyTwilightThorn"/>
+        <Literal datatypeIRI="&xsd;string">PartyTwilightThorn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyXaldin"/>
+        <Literal datatypeIRI="&xsd;string">Xaldin, the Whirlwind Lancer, ambushing the heroes at Beast&apos;s Castle.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyXaldin"/>
+        <Literal datatypeIRI="&xsd;string">PartyXaldin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyXemnas"/>
+        <Literal datatypeIRI="&xsd;string">Xemnas, Superior of Organization XIII, leader of the final confrontation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyXemnas"/>
+        <Literal datatypeIRI="&xsd;string">PartyXemnas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyXemnasFinal"/>
+        <Literal datatypeIRI="&xsd;string">Xemnas in his final armored form for the ultimate battle.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyXemnasFinal"/>
+        <Literal datatypeIRI="&xsd;string">PartyXemnasFinal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PartyXigbar"/>
+        <Literal datatypeIRI="&xsd;string">Xigbar, the Freeshooter, ambushing Sora at The World That Never Was.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PartyXigbar"/>
+        <Literal datatypeIRI="&xsd;string">PartyXigbar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Pence"/>
+        <Literal datatypeIRI="&xsd;string">Roxas&apos;s friend, a computer expert always searching for the city&apos;s mysteries.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Pence"/>
+        <Literal datatypeIRI="&xsd;string">Pence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Pete"/>
+        <Literal datatypeIRI="&xsd;string">Maleficent&apos;s clumsy but cunning lackey who travels across worlds causing trouble.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Pete"/>
+        <Literal datatypeIRI="&xsd;string">Pete</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PeterPan"/>
+        <Literal datatypeIRI="&xsd;string">Summon of the boy who never wants to grow up, from Neverland.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PeterPan"/>
+        <Literal datatypeIRI="&xsd;string">PeterPan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PhotonicDebugger"/>
+        <Literal datatypeIRI="&xsd;string">The Keyblade obtained in the world of Tron (Space Paranoids).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PhotonicDebugger"/>
+        <Literal datatypeIRI="&xsd;string">PhotonicDebugger</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PortRoyal"/>
+        <Literal datatypeIRI="&xsd;string">A realistic world based on Pirates of the Caribbean. Sora collaborates with Jack Sparrow to fight cursed pirates and Heartless, in a darker and more adult setting.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PortRoyal"/>
+        <Literal datatypeIRI="&xsd;string">PortRoyal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Potion"/>
+        <Literal datatypeIRI="&xsd;string">The basic consumable item for restoring some HP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Potion"/>
+        <Literal datatypeIRI="&xsd;string">Potion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PotionItem"/>
+        <Literal datatypeIRI="&xsd;string">A consumable item that restores a small amount of HP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PotionItem"/>
+        <Literal datatypeIRI="&xsd;string">Potion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PrideLands"/>
+        <Literal datatypeIRI="&xsd;string">The Lion King world. Sora takes lion form and helps Simba reclaim the throne, facing Scar and the Heartless across vast plains and canyons.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#PrideLands"/>
+        <Literal datatypeIRI="&xsd;string">PrideLands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+        <Literal datatypeIRI="&xsd;string">Once a stronghold of Darkness, now under reconstruction. It is the operational center of Sora&apos;s old friends and the stage for crucial battles against Heartless, Nobodies and Organization XIII.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#RadiantGarden"/>
+        <Literal datatypeIRI="&xsd;string">RadiantGarden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Reflect"/>
+        <Literal datatypeIRI="&xsd;string">Magic that allows reflecting incoming attacks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#element"/>
+        <NamedIndividual IRI="#Reflect"/>
+        <Literal datatypeIRI="&xsd;string">Neutral</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Reflect"/>
+        <Literal datatypeIRI="&xsd;string">Reflect</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Riku"/>
+        <Literal datatypeIRI="&xsd;string">Riku in KH2 is a character marked by his past: more mature, tormented and determined. After struggling against Darkness, he accepts the weight of his choices and fights in the shadows to protect Sora.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Riku"/>
+        <Literal datatypeIRI="&xsd;string">Riku</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <Literal datatypeIRI="&xsd;string">Roxas is characterized by a calm, introverted and reflective temperament, very different from Sora&apos;s. Despite his nature as a Nobody, he shows a strong will and a genuine desire to understand who he truly is.
+
+Throughout the story, Roxas confronts his own identity, his bond with Sora and the fate that awaits him, becoming one of the most beloved and tragic characters in the saga.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hitPoints"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <Literal datatypeIRI="&xsd;integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Roxas"/>
+        <Literal datatypeIRI="&xsd;string">Roxas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Samurai"/>
+        <Literal datatypeIRI="&xsd;string">A powerful Nobody armed with two swords who obeys Roxas&apos;s commands.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Samurai"/>
+        <Literal datatypeIRI="&xsd;string">Samurai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Saïx"/>
+        <Literal datatypeIRI="&xsd;string">The seventh member of Organization XIII, uses a claymore and is empowered by the moon.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Saïx"/>
+        <Literal datatypeIRI="&xsd;string">Saïx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Scan"/>
+        <Literal datatypeIRI="&xsd;string">A fundamental ability that allows seeing the enemy&apos;s remaining HP.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Scan"/>
+        <Literal datatypeIRI="&xsd;string">Scan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#SeagullWing"/>
+        <Literal datatypeIRI="&xsd;string">A Keyblade gifted by the three fairies (Yuna, Rikku and Paine) in Kingdom Hearts II.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#SeagullWing"/>
+        <Literal datatypeIRI="&xsd;string">SeagullWing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#SecondChance"/>
+        <Literal datatypeIRI="&xsd;string">An essential support ability that allows surviving a fatal blow with 1 HP remaining.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#SecondChance"/>
+        <Literal datatypeIRI="&xsd;string">SecondChance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+        <Literal datatypeIRI="&xsd;string">An extremely powerful optional enemy originating from Final Fantasy VII.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Sephiroth"/>
+        <Literal datatypeIRI="&xsd;string">Sephiroth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Shadow"/>
+        <Literal datatypeIRI="&xsd;string">The most common and basic pureblood Heartless.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Shadow"/>
+        <Literal datatypeIRI="&xsd;string">Shadow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#SleepingLion"/>
+        <Literal datatypeIRI="&xsd;string">A Keyblade obtained from Leon, inspired by his Gunblade.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#SleepingLion"/>
+        <Literal datatypeIRI="&xsd;string">SleepingLion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Sniper"/>
+        <Literal datatypeIRI="&xsd;string">A Nobody capable of attacking at range by warping space, under Xigbar&apos;s orders.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Sniper"/>
+        <Literal datatypeIRI="&xsd;string">Sniper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Sora"/>
+        <Literal datatypeIRI="&xsd;string">Sora is the main protagonist of the Kingdom Hearts series. In Kingdom Hearts II he returns after sleeping in the pod created by Naminé.
+Sora is an optimistic, courageous boy deeply connected to his friends, qualities that guide every choice he makes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hitPoints"/>
+        <NamedIndividual IRI="#Sora"/>
+        <Literal datatypeIRI="&xsd;integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Sora"/>
+        <Literal datatypeIRI="&xsd;string">Sora</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#StarSeeker"/>
+        <Literal datatypeIRI="&xsd;string">King Mickey&apos;s Keyblade, capable of making light shine.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#StarSeeker"/>
+        <Literal datatypeIRI="&xsd;string">StarSeeker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Stitch"/>
+        <Literal datatypeIRI="&xsd;string">An alien summon that regenerates MP and stuns enemies by playing his ukulele.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Stitch"/>
+        <Literal datatypeIRI="&xsd;string">Stitch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#SweetMemories"/>
+        <Literal datatypeIRI="&xsd;string">An optional Keyblade obtainable by exploring the Hundred Acre Wood.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#SweetMemories"/>
+        <Literal datatypeIRI="&xsd;string">SweetMemories</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Thunder"/>
+        <Literal datatypeIRI="&xsd;string">A powerful elemental magic that strikes from above with lightning.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#element"/>
+        <NamedIndividual IRI="#Thunder"/>
+        <Literal datatypeIRI="&xsd;string">Lightning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Thunder"/>
+        <Literal datatypeIRI="&xsd;string">Thunder</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#TimelessRiver"/>
+        <Literal datatypeIRI="&xsd;string">An ancient black-and-white version of Disney Castle. Sora discovers the castle&apos;s origins and faces threats trying to alter the past.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#TimelessRiver"/>
+        <Literal datatypeIRI="&xsd;string">TimelessRiver</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#TwilightThorn"/>
+        <Literal datatypeIRI="&xsd;string">A gigantic Nobody faced by Roxas as a rite of passage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#TwilightThorn"/>
+        <Literal datatypeIRI="&xsd;string">TwilightThorn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+        <Literal datatypeIRI="&xsd;string">A city suspended between light and shadow. It is the place tied to Roxas, the Nobodies and the mysteries of Organization XIII. It serves as a fundamental narrative crossroads for KH2.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#TwilightTown"/>
+        <Literal datatypeIRI="&xsd;string">TwilightTown</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attackPower"/>
+        <NamedIndividual IRI="#UltimaWeapon"/>
+        <Literal datatypeIRI="&xsd;integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#UltimaWeapon"/>
+        <Literal datatypeIRI="&xsd;string">The most powerful Keyblade in the entire game, forgeable in the workshop.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#UltimaWeapon"/>
+        <Literal datatypeIRI="&xsd;string">UltimaWeapon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ValorForm"/>
+        <Literal datatypeIRI="&xsd;string">Sora&apos;s first Drive Form, specializing in fast running and physical attacks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#ValorForm"/>
+        <Literal datatypeIRI="&xsd;string">ValorForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Vexen"/>
+        <Literal datatypeIRI="&xsd;string">Member of Organization XIII devoted to scientific research and master of ice.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Vexen"/>
+        <Literal datatypeIRI="&xsd;string">Vexen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#WayToDawn"/>
+        <Literal datatypeIRI="&xsd;string">Riku&apos;s Keyblade, born from the balance between Light and Darkness.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#WayToDawn"/>
+        <Literal datatypeIRI="&xsd;string">WayToDawn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#WisdomForm"/>
+        <Literal datatypeIRI="&xsd;string">Sora&apos;s Drive Form specializing in long-range magical attacks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#WisdomForm"/>
+        <Literal datatypeIRI="&xsd;string">WisdomForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Xaldin"/>
+        <Literal datatypeIRI="&xsd;string">The third member of Organization XIII, master of wind armed with six lances.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Xaldin"/>
+        <Literal datatypeIRI="&xsd;string">Xaldin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Xemnas"/>
+        <Literal datatypeIRI="&xsd;string">The Superior of Organization XIII, manipulator of nothingness and the final boss of the game.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Xemnas"/>
+        <Literal datatypeIRI="&xsd;string">Xemnas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+        <Literal datatypeIRI="&xsd;string">The ultimate and all-powerful form of Xemnas before the final confrontation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#XemnasFinalForm"/>
+        <Literal datatypeIRI="&xsd;string">XemnasFinalForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Xigbar"/>
+        <Literal datatypeIRI="&xsd;string">The Freeshooter of Organization XIII, who warps space with his arrowguns.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Xigbar"/>
+        <Literal datatypeIRI="&xsd;string">Xigbar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#YenSid"/>
+        <Literal datatypeIRI="&xsd;string">King Mickey&apos;s master, a powerful sorcerer who guides Sora on his journey.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#YenSid"/>
+        <Literal datatypeIRI="&xsd;string">YenSid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Zexion"/>
+        <Literal datatypeIRI="&xsd;string">The Cloaked Schemer of Organization XIII, master of illusions wielding his Lexicon.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Zexion"/>
+        <Literal datatypeIRI="&xsd;string">Zexion</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSecondaryWeapon"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasFriend"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appearsIn"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canSummon"/>
+        <Class IRI="#Protagonist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#comesFrom"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defeats"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#drops"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAction"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <Class IRI="#Protagonist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFriend"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <Class IRI="#Protagonist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSecondaryWeapon"/>
+        <Class IRI="#RecruitableAlly"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Org13Member"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participatesIn"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <Class IRI="#Fight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#winner"/>
+        <Class IRI="#Fight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appearsIn"/>
+        <Class IRI="#Worlds"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canSummon"/>
+        <Class IRI="#Summon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#comesFrom"/>
+        <Class IRI="#Worlds"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defeats"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#drops"/>
+        <Class IRI="#Items"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#engagesInFight"/>
+        <Class IRI="#Fight"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAction"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDriveForm"/>
+        <Class IRI="#DriveForm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFriend"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInInventory"/>
+        <Class IRI="#Items"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPartyMember"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSecondaryWeapon"/>
+        <Class IRI="#SecondaryWeapon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#NPC"/>
+            <Class IRI="#Protagonist"/>
+            <Class IRI="#RecruitableAlly"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ownsKeyblade"/>
+        <Class IRI="#Keyblade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participatesIn"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#takesPlaceIn"/>
+        <Class IRI="#Worlds"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#winner"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#element"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#attackPower"/>
+        <Class IRI="#Keyblade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hitPoints"/>
+        <Class IRI="#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#attackPower"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hitPoints"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

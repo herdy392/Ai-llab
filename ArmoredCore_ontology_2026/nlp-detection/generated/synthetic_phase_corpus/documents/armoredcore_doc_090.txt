@@ -1,0 +1,10 @@
+A society records whether it originates on Rubicon as a literal value.
+Each armored core is operated by a character.
+AI is modeled as a subclass of character.
+Each character can be assigned a rank.
+A major event has a boss.
+In the schema, a character has an alias.
+The schema records that a character works for a society.
+Allies are entities friendly towards each other.
+Each major event lists the entities that take part in it.
+Each major event stores its timeline position as a literal value.

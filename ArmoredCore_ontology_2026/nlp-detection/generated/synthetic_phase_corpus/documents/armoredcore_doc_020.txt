@@ -1,0 +1,10 @@
+Enemies are entities hostile toward each other.
+Each major event is located in a place on Rubicon 3.
+A boss is a kind of character.
+Each character can be assigned a rank.
+The schema records that a character pilots an armored core.
+An entity participates in a major event.
+A character works for a society.
+An armored core records whether it is special as a literal value.
+The schema marks a society Rubicon origin with a literal value.
+In the schema, every AI is a character.

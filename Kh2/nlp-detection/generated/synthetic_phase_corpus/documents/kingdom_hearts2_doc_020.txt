@@ -1,0 +1,9 @@
+A heartless is a kind of enemy.
+A entity has hit points value.
+A boss is a kind of enemy.
+A org13 member is a member of a organization.
+Every item use is also a action.
+A sword attack is a kind of combat action.
+A gems is a kind of consumable.
+A secondary weapon is a kind of non consumable.
+A consumable is a kind of items.

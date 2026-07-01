@@ -1,0 +1,9 @@
+Often a party has as party member another entity.
+A gems is a kind of consumable.
+A boss is a kind of enemy.
+Every support is also a action.
+A keyblade is a kind of non consumable.
+Every secondary weapon is also a non consumable.
+A entity participates in a party.
+A playable character is a kind of character.
+Each entity drops a items.

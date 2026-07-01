@@ -1,0 +1,12 @@
+In the schema, every boss is a character.
+A character kills another character.
+The schema records a society name as a literal value.
+Each armored core stores a special flag as a literal value.
+An entity participates in a major event.
+Each armored core is operated by a character.
+A character works for a society.
+Each character stores a buddy flag as a literal value.
+The model states that a major event involves an entity.
+The schema records that an entity is hostile toward an entity.
+An AI is a kind of character.
+A character holds a rank in the Arena ranking.

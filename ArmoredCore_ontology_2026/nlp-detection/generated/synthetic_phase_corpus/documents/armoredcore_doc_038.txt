@@ -1,0 +1,12 @@
+In the schema, every AI is a character.
+A major event takes place in a place.
+Each armored core stores its AC name as text.
+The schema gives a character a rank.
+The model states that a major event involves an entity.
+The schema records a society name as a literal value.
+A character kills another character.
+Each character can be affiliated with a society.
+An entity participates in a major event.
+A boss is the boss of a major event.
+Enemies are entities hostile toward each other.
+The schema marks a society Rubicon origin with a literal value.

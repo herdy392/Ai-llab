@@ -1,0 +1,9 @@
+A character can be known by one or more aliases.
+The schema records that a character works for a society.
+The schema records a major event chronological order as a literal value.
+A major event involves an entity.
+A character records whether it is the player buddy as a literal value.
+The schema marks a society Rubicon origin with a literal value.
+A boss is the boss of a major event.
+An entity is hostile toward another entity.
+An armored core has a name stored as a literal value.

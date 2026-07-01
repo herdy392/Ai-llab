@@ -1,0 +1,19 @@
+{
+  "ontology_file": "nlp-detection/ontology/kingdom_hearts2.owx",
+  "counts": {
+    "classes": 35,
+    "object_properties": 18,
+    "data_properties": 5,
+    "individuals": 148
+  },
+  "object_properties_with_domain_and_range": "17/18",
+  "inverse_pairs_consistent": "0/0",
+  "abox_object_assertions_checked": 271,
+  "abox_violations": 0,
+  "descriptions_rdfs_comment": {
+    "classes": "0/35",
+    "object_properties": "0/18",
+    "data_properties": "0/5"
+  },
+  "hard_inconsistencies": 1
+}

@@ -1,0 +1,16 @@
+ONTOLOGY COHERENCE REPORT - kingdom_hearts2.owx
+========================================================
+classes ............ 35
+object properties .. 18
+data properties .... 5
+individuals ........ 148
+
+object props with domain+range ... 17/18
+inverse pairs consistent ......... 0/0
+ABox assertions checked .......... 271
+ABox violations .................. 0
+descriptions (classes) ........... 0/35
+descriptions (object props) ...... 0/18
+descriptions (data props) ........ 0/5
+
+HARD INCONSISTENCIES: 1

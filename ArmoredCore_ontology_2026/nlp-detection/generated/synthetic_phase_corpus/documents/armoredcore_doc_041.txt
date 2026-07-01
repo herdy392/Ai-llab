@@ -1,0 +1,12 @@
+A character pilots an armored core.
+An entity is hostile toward another entity.
+Each major event is located in a place on Rubicon 3.
+The model records that a character is killed by a character.
+The record notes when one character kills another.
+The schema records an armored core name as a literal value.
+Each character stores a buddy flag as a literal value.
+Each society stores its official name as text.
+In the schema, a character has an alias.
+The schema records that a character works for a society.
+A character holds a rank in the Arena ranking.
+The model links a society to the characters it employs.

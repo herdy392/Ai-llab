@@ -1,0 +1,10 @@
+Every protagonist is also a playable character.
+A entity defeats a entity.
+In general a entity comes from some worlds.
+Every gems is also a consumable.
+A disney antagonist is a kind of enemy.
+Every nobody is also a enemy.
+A enemy is a kind of non playable character.
+A non consumable is a kind of items.
+Every drive form is also a action.
+A fight is won by a party.

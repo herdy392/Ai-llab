@@ -1,0 +1,261 @@
+{
+  "documents": 100,
+  "sentences": 1042,
+  "document_split_distribution": {
+    "train": 80,
+    "val": 10,
+    "test": 10
+  },
+  "sentence_split_distribution": {
+    "train": 831,
+    "val": 103,
+    "test": 108
+  },
+  "supported_triples": [
+    {
+      "subject": "Entity",
+      "predicate": "appearsIn",
+      "object": "Worlds"
+    },
+    {
+      "subject": "Protagonist",
+      "predicate": "canSummon",
+      "object": "Summon"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "comesFrom",
+      "object": "Worlds"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "defeats",
+      "object": "Entity"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "drops",
+      "object": "Items"
+    },
+    {
+      "subject": "Party",
+      "predicate": "engagesInFight",
+      "object": "Fight"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "hasAction",
+      "object": "Action"
+    },
+    {
+      "subject": "Protagonist",
+      "predicate": "hasDriveForm",
+      "object": "DriveForm"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "hasFriend",
+      "object": "Entity"
+    },
+    {
+      "subject": "Protagonist",
+      "predicate": "hasInInventory",
+      "object": "Items"
+    },
+    {
+      "subject": "Party",
+      "predicate": "hasPartyMember",
+      "object": "Entity"
+    },
+    {
+      "subject": "RecruitableAlly",
+      "predicate": "hasSecondaryWeapon",
+      "object": "SecondaryWeapon"
+    },
+    {
+      "subject": "Org13Member",
+      "predicate": "isMemberOf",
+      "object": "Organization"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "ownsKeyblade",
+      "object": "Keyblade"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "participatesIn",
+      "object": "Party"
+    },
+    {
+      "subject": "Fight",
+      "predicate": "takesPlaceIn",
+      "object": "Worlds"
+    },
+    {
+      "subject": "Fight",
+      "predicate": "winner",
+      "object": "Party"
+    },
+    {
+      "subject": "Keyblade",
+      "predicate": "attackPower",
+      "object": "LiteralValue"
+    },
+    {
+      "subject": "Entity",
+      "predicate": "hitPoints",
+      "object": "LiteralValue"
+    },
+    {
+      "subject": "Boss",
+      "predicate": "rdfs:subClassOf",
+      "object": "Enemy"
+    },
+    {
+      "subject": "Character",
+      "predicate": "rdfs:subClassOf",
+      "object": "Entity"
+    },
+    {
+      "subject": "CombatAction",
+      "predicate": "rdfs:subClassOf",
+      "object": "Action"
+    },
+    {
+      "subject": "CommonNobody",
+      "predicate": "rdfs:subClassOf",
+      "object": "Nobody"
+    },
+    {
+      "subject": "Consumable",
+      "predicate": "rdfs:subClassOf",
+      "object": "Items"
+    },
+    {
+      "subject": "DisneyAntagonist",
+      "predicate": "rdfs:subClassOf",
+      "object": "Enemy"
+    },
+    {
+      "subject": "DriveForm",
+      "predicate": "rdfs:subClassOf",
+      "object": "Action"
+    },
+    {
+      "subject": "Enemy",
+      "predicate": "rdfs:subClassOf",
+      "object": "NonPlayableCharacter"
+    },
+    {
+      "subject": "Gems",
+      "predicate": "rdfs:subClassOf",
+      "object": "Consumable"
+    },
+    {
+      "subject": "Heartless",
+      "predicate": "rdfs:subClassOf",
+      "object": "Enemy"
+    },
+    {
+      "subject": "ItemUse",
+      "predicate": "rdfs:subClassOf",
+      "object": "Action"
+    },
+    {
+      "subject": "Keyblade",
+      "predicate": "rdfs:subClassOf",
+      "object": "NonConsumable"
+    },
+    {
+      "subject": "MagicAttack",
+      "predicate": "rdfs:subClassOf",
+      "object": "CombatAction"
+    },
+    {
+      "subject": "MovementAction",
+      "predicate": "rdfs:subClassOf",
+      "object": "Action"
+    },
+    {
+      "subject": "Munny",
+      "predicate": "rdfs:subClassOf",
+      "object": "Consumable"
+    },
+    {
+      "subject": "NPC",
+      "predicate": "rdfs:subClassOf",
+      "object": "NonPlayableCharacter"
+    },
+    {
+      "subject": "Nobody",
+      "predicate": "rdfs:subClassOf",
+      "object": "Enemy"
+    },
+    {
+      "subject": "NonConsumable",
+      "predicate": "rdfs:subClassOf",
+      "object": "Items"
+    },
+    {
+      "subject": "NonPlayableCharacter",
+      "predicate": "rdfs:subClassOf",
+      "object": "Character"
+    },
+    {
+      "subject": "Org13Member",
+      "predicate": "rdfs:subClassOf",
+      "object": "Nobody"
+    },
+    {
+      "subject": "Organization",
+      "predicate": "rdfs:subClassOf",
+      "object": "Entity"
+    },
+    {
+      "subject": "Party",
+      "predicate": "rdfs:subClassOf",
+      "object": "Entity"
+    },
+    {
+      "subject": "PlayableCharacter",
+      "predicate": "rdfs:subClassOf",
+      "object": "Character"
+    },
+    {
+      "subject": "Potion",
+      "predicate": "rdfs:subClassOf",
+      "object": "Consumable"
+    },
+    {
+      "subject": "Protagonist",
+      "predicate": "rdfs:subClassOf",
+      "object": "PlayableCharacter"
+    },
+    {
+      "subject": "RecruitableAlly",
+      "predicate": "rdfs:subClassOf",
+      "object": "PlayableCharacter"
+    },
+    {
+      "subject": "SecondaryWeapon",
+      "predicate": "rdfs:subClassOf",
+      "object": "NonConsumable"
+    },
+    {
+      "subject": "Summon",
+      "predicate": "rdfs:subClassOf",
+      "object": "Action"
+    },
+    {
+      "subject": "Support",
+      "predicate": "rdfs:subClassOf",
+      "object": "Action"
+    },
+    {
+      "subject": "SwordAttack",
+      "predicate": "rdfs:subClassOf",
+      "object": "CombatAction"
+    }
+  ]
+}

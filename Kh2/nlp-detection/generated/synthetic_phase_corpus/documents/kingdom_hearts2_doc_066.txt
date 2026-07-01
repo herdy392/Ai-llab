@@ -1,0 +1,10 @@
+In general a entity owns the keyblade some keyblade.
+A drive form is a kind of action.
+Every combat action is also a action.
+Every keyblade is also a non consumable.
+Typically a party engages in the fight a given fight.
+Each fight takes place in a worlds.
+In general a entity participates in some party.
+A protagonist is a kind of playable character.
+Often a recruitable ally has the secondary weapon another secondary weapon.
+Typically a entity appears in a given worlds.

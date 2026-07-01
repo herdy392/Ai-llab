@@ -1,0 +1,45 @@
+{
+  "source_sentences": 1042,
+  "verifier_examples": 11832,
+  "split_distribution": {
+    "train": 8461,
+    "val": 1660,
+    "test": 1711
+  },
+  "label_distribution": {
+    "INVALID": 8244,
+    "VALID": 3588
+  },
+  "negative_type_distribution": {
+    "positive": 897,
+    "partial_overlap": 826,
+    "type_incompatible": 897,
+    "type_identical": 338
+  },
+  "candidate_relations": [
+    "appearsIn",
+    "canSummon",
+    "comesFrom",
+    "defeats",
+    "drops",
+    "engagesInFight",
+    "hasAction",
+    "hasDriveForm",
+    "hasFriend",
+    "hasInInventory",
+    "hasPartyMember",
+    "hasSecondaryWeapon",
+    "isMemberOf",
+    "ownsKeyblade",
+    "participatesIn",
+    "takesPlaceIn",
+    "winner"
+  ],
+  "split_is_disjoint_by_sentence": true,
+  "augmented_tiers": [
+    "explicit",
+    "implicit",
+    "long_distance",
+    "nested"
+  ]
+}

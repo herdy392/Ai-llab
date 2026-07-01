@@ -1,0 +1,10 @@
+A keyblade has attack power value.
+Often a entity appears in another worlds.
+Often a protagonist can summon another summon.
+Every keyblade is also a non consumable.
+A org13 member is a member of a organization.
+A magic attack is a kind of combat action.
+A sword attack is a kind of combat action.
+A drive form is a kind of action.
+Every combat action is also a action.
+Every organization is also a entity.

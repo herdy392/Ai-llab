@@ -1,0 +1,4 @@
+split,total,POS,NEG,NEG:type_identical,NEG:partial_overlap,NEG:type_incompatible,POS:appearsIn,POS:canSummon,POS:comesFrom,POS:defeats,POS:drops,POS:engagesInFight,POS:hasAction,POS:hasDriveForm,POS:hasFriend,POS:hasInInventory,POS:hasPartyMember,POS:hasSecondaryWeapon,POS:isMemberOf,POS:ownsKeyblade,POS:participatesIn,POS:takesPlaceIn,POS:winner
+train,8461,2595,5866,973,2355,2538,313,50,162,205,92,232,169,96,299,112,182,63,137,133,37,176,137
+val,1660,474,1186,184,451,551,61,34,13,40,9,28,36,28,57,6,24,10,18,19,35,34,22
+test,1711,519,1192,195,498,499,66,0,37,43,23,44,43,24,56,14,26,35,21,56,0,14,17

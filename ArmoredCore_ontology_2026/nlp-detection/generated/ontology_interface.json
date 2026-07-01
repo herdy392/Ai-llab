@@ -1,0 +1,2653 @@
+{
+  "ontology": "ontology/armoredcore.owx",
+  "entity_dictionary": {
+    "alias": [
+      {
+        "uri": "#Alias",
+        "short": "Alias",
+        "kind": "class",
+        "canonical_label": "Alias"
+      }
+    ],
+    "armored core": [
+      {
+        "uri": "#ArmoredCore",
+        "short": "ArmoredCore",
+        "kind": "class",
+        "canonical_label": "ArmoredCore"
+      }
+    ],
+    "armoredcore": [
+      {
+        "uri": "#ArmoredCore",
+        "short": "ArmoredCore",
+        "kind": "class",
+        "canonical_label": "ArmoredCore"
+      }
+    ],
+    "boss": [
+      {
+        "uri": "#Boss",
+        "short": "Boss",
+        "kind": "class",
+        "canonical_label": "Boss"
+      }
+    ],
+    "character": [
+      {
+        "uri": "#Character",
+        "short": "Character",
+        "kind": "class",
+        "canonical_label": "Character"
+      }
+    ],
+    "entity": [
+      {
+        "uri": "#Entity",
+        "short": "Entity",
+        "kind": "class",
+        "canonical_label": "Entity"
+      }
+    ],
+    "human": [
+      {
+        "uri": "#Human",
+        "short": "Human",
+        "kind": "class",
+        "canonical_label": "Human"
+      }
+    ],
+    "ai": [
+      {
+        "uri": "#AI",
+        "short": "AI",
+        "kind": "class",
+        "canonical_label": "AI"
+      }
+    ],
+    "majorevent": [
+      {
+        "uri": "#MajorEvent",
+        "short": "MajorEvent",
+        "kind": "class",
+        "canonical_label": "MajorEvent"
+      }
+    ],
+    "major event": [
+      {
+        "uri": "#MajorEvent",
+        "short": "MajorEvent",
+        "kind": "class",
+        "canonical_label": "MajorEvent"
+      }
+    ],
+    "place": [
+      {
+        "uri": "#Place",
+        "short": "Place",
+        "kind": "class",
+        "canonical_label": "Place"
+      }
+    ],
+    "rank": [
+      {
+        "uri": "#Rank",
+        "short": "Rank",
+        "kind": "class",
+        "canonical_label": "Rank"
+      }
+    ],
+    "rubiconian": [
+      {
+        "uri": "#Rubiconian",
+        "short": "Rubiconian",
+        "kind": "class",
+        "canonical_label": "Rubiconian"
+      }
+    ],
+    "society": [
+      {
+        "uri": "#Society",
+        "short": "Society",
+        "kind": "class",
+        "canonical_label": "Society"
+      }
+    ],
+    "employs": [
+      {
+        "uri": "#employs",
+        "short": "employs",
+        "kind": "object_property",
+        "canonical_label": "employs"
+      }
+    ],
+    "has alias": [
+      {
+        "uri": "#hasAlias",
+        "short": "hasAlias",
+        "kind": "object_property",
+        "canonical_label": "has alias"
+      }
+    ],
+    "hasalias": [
+      {
+        "uri": "#hasAlias",
+        "short": "hasAlias",
+        "kind": "object_property",
+        "canonical_label": "has alias"
+      }
+    ],
+    "hasboss": [
+      {
+        "uri": "#hasBoss",
+        "short": "hasBoss",
+        "kind": "object_property",
+        "canonical_label": "has boss"
+      }
+    ],
+    "has boss": [
+      {
+        "uri": "#hasBoss",
+        "short": "hasBoss",
+        "kind": "object_property",
+        "canonical_label": "has boss"
+      }
+    ],
+    "hasrank": [
+      {
+        "uri": "#hasRank",
+        "short": "hasRank",
+        "kind": "object_property",
+        "canonical_label": "has rank"
+      }
+    ],
+    "has rank": [
+      {
+        "uri": "#hasRank",
+        "short": "hasRank",
+        "kind": "object_property",
+        "canonical_label": "has rank"
+      }
+    ],
+    "hosts event": [
+      {
+        "uri": "#hostsEvent",
+        "short": "hostsEvent",
+        "kind": "object_property",
+        "canonical_label": "hosts event"
+      }
+    ],
+    "hostsevent": [
+      {
+        "uri": "#hostsEvent",
+        "short": "hostsEvent",
+        "kind": "object_property",
+        "canonical_label": "hosts event"
+      }
+    ],
+    "involvesentity": [
+      {
+        "uri": "#involvesEntity",
+        "short": "involvesEntity",
+        "kind": "object_property",
+        "canonical_label": "involves entity"
+      }
+    ],
+    "involves entity": [
+      {
+        "uri": "#involvesEntity",
+        "short": "involvesEntity",
+        "kind": "object_property",
+        "canonical_label": "involves entity"
+      }
+    ],
+    "isaliasof": [
+      {
+        "uri": "#isAliasOf",
+        "short": "isAliasOf",
+        "kind": "object_property",
+        "canonical_label": "is alias of"
+      }
+    ],
+    "is alias of": [
+      {
+        "uri": "#isAliasOf",
+        "short": "isAliasOf",
+        "kind": "object_property",
+        "canonical_label": "is alias of"
+      }
+    ],
+    "isbossof": [
+      {
+        "uri": "#isBossOf",
+        "short": "isBossOf",
+        "kind": "object_property",
+        "canonical_label": "is boss of"
+      }
+    ],
+    "is boss of": [
+      {
+        "uri": "#isBossOf",
+        "short": "isBossOf",
+        "kind": "object_property",
+        "canonical_label": "is boss of"
+      }
+    ],
+    "is friendly towards": [
+      {
+        "uri": "#isFriendlyTowards",
+        "short": "isFriendlyTowards",
+        "kind": "object_property",
+        "canonical_label": "is friendly towards"
+      }
+    ],
+    "isfriendlytowards": [
+      {
+        "uri": "#isFriendlyTowards",
+        "short": "isFriendlyTowards",
+        "kind": "object_property",
+        "canonical_label": "is friendly towards"
+      }
+    ],
+    "is hostile toward": [
+      {
+        "uri": "#isHostileToward",
+        "short": "isHostileToward",
+        "kind": "object_property",
+        "canonical_label": "is hostile toward"
+      }
+    ],
+    "ishostiletoward": [
+      {
+        "uri": "#isHostileToward",
+        "short": "isHostileToward",
+        "kind": "object_property",
+        "canonical_label": "is hostile toward"
+      }
+    ],
+    "is killed by": [
+      {
+        "uri": "#isKilledBy",
+        "short": "isKilledBy",
+        "kind": "object_property",
+        "canonical_label": "is killed by"
+      }
+    ],
+    "iskilledby": [
+      {
+        "uri": "#isKilledBy",
+        "short": "isKilledBy",
+        "kind": "object_property",
+        "canonical_label": "is killed by"
+      }
+    ],
+    "ispilotedby": [
+      {
+        "uri": "#isPilotedBy",
+        "short": "isPilotedBy",
+        "kind": "object_property",
+        "canonical_label": "is piloted by"
+      }
+    ],
+    "is piloted by": [
+      {
+        "uri": "#isPilotedBy",
+        "short": "isPilotedBy",
+        "kind": "object_property",
+        "canonical_label": "is piloted by"
+      }
+    ],
+    "is rank of": [
+      {
+        "uri": "#isRankOf",
+        "short": "isRankOf",
+        "kind": "object_property",
+        "canonical_label": "is rank of"
+      }
+    ],
+    "isrankof": [
+      {
+        "uri": "#isRankOf",
+        "short": "isRankOf",
+        "kind": "object_property",
+        "canonical_label": "is rank of"
+      }
+    ],
+    "kills": [
+      {
+        "uri": "#kills",
+        "short": "kills",
+        "kind": "object_property",
+        "canonical_label": "kills"
+      }
+    ],
+    "participates in": [
+      {
+        "uri": "#participatesIn",
+        "short": "participatesIn",
+        "kind": "object_property",
+        "canonical_label": "participates in"
+      }
+    ],
+    "participatesin": [
+      {
+        "uri": "#participatesIn",
+        "short": "participatesIn",
+        "kind": "object_property",
+        "canonical_label": "participates in"
+      }
+    ],
+    "pilots": [
+      {
+        "uri": "#pilots",
+        "short": "pilots",
+        "kind": "object_property",
+        "canonical_label": "pilots"
+      }
+    ],
+    "takes place in": [
+      {
+        "uri": "#takesPlaceIn",
+        "short": "takesPlaceIn",
+        "kind": "object_property",
+        "canonical_label": "takes place in"
+      }
+    ],
+    "takesplacein": [
+      {
+        "uri": "#takesPlaceIn",
+        "short": "takesPlaceIn",
+        "kind": "object_property",
+        "canonical_label": "takes place in"
+      }
+    ],
+    "worksfor": [
+      {
+        "uri": "#worksFor",
+        "short": "worksFor",
+        "kind": "object_property",
+        "canonical_label": "works for"
+      }
+    ],
+    "works for": [
+      {
+        "uri": "#worksFor",
+        "short": "worksFor",
+        "kind": "object_property",
+        "canonical_label": "works for"
+      }
+    ],
+    "ac name": [
+      {
+        "uri": "#acName",
+        "short": "acName",
+        "kind": "datatype_property",
+        "canonical_label": "ac name"
+      }
+    ],
+    "acname": [
+      {
+        "uri": "#acName",
+        "short": "acName",
+        "kind": "datatype_property",
+        "canonical_label": "ac name"
+      }
+    ],
+    "chronologicalorder": [
+      {
+        "uri": "#chronologicalOrder",
+        "short": "chronologicalOrder",
+        "kind": "datatype_property",
+        "canonical_label": "chronological order"
+      }
+    ],
+    "chronological order": [
+      {
+        "uri": "#chronologicalOrder",
+        "short": "chronologicalOrder",
+        "kind": "datatype_property",
+        "canonical_label": "chronological order"
+      }
+    ],
+    "is special": [
+      {
+        "uri": "#isSpecial",
+        "short": "isSpecial",
+        "kind": "datatype_property",
+        "canonical_label": "is special"
+      }
+    ],
+    "isspecial": [
+      {
+        "uri": "#isSpecial",
+        "short": "isSpecial",
+        "kind": "datatype_property",
+        "canonical_label": "is special"
+      }
+    ],
+    "name": [
+      {
+        "uri": "#name",
+        "short": "name",
+        "kind": "datatype_property",
+        "canonical_label": "name"
+      }
+    ],
+    "originatesonrubicon": [
+      {
+        "uri": "#originatesOnRubicon",
+        "short": "originatesOnRubicon",
+        "kind": "datatype_property",
+        "canonical_label": "originates on rubicon"
+      }
+    ],
+    "originates on rubicon": [
+      {
+        "uri": "#originatesOnRubicon",
+        "short": "originatesOnRubicon",
+        "kind": "datatype_property",
+        "canonical_label": "originates on rubicon"
+      }
+    ],
+    "isbuddy": [
+      {
+        "uri": "#isBuddy",
+        "short": "isBuddy",
+        "kind": "datatype_property",
+        "canonical_label": "is buddy"
+      }
+    ],
+    "is buddy": [
+      {
+        "uri": "#isBuddy",
+        "short": "isBuddy",
+        "kind": "datatype_property",
+        "canonical_label": "is buddy"
+      }
+    ],
+    "c4-621": [
+      {
+        "uri": "#C4_621",
+        "short": "C4_621",
+        "kind": "individual",
+        "canonical_label": "C4-621"
+      },
+      {
+        "uri": "#Alias_C4_621",
+        "short": "Alias_C4_621",
+        "kind": "individual",
+        "canonical_label": "C4-621"
+      }
+    ],
+    "c4 621": [
+      {
+        "uri": "#C4_621",
+        "short": "C4_621",
+        "kind": "individual",
+        "canonical_label": "C4-621"
+      }
+    ],
+    "c4_621": [
+      {
+        "uri": "#C4_621",
+        "short": "C4_621",
+        "kind": "individual",
+        "canonical_label": "C4-621"
+      }
+    ],
+    "handler walter": [
+      {
+        "uri": "#Walter",
+        "short": "Walter",
+        "kind": "individual",
+        "canonical_label": "Handler Walter"
+      },
+      {
+        "uri": "#Alias_Walter",
+        "short": "Alias_Walter",
+        "kind": "individual",
+        "canonical_label": "Handler Walter"
+      }
+    ],
+    "walter": [
+      {
+        "uri": "#Walter",
+        "short": "Walter",
+        "kind": "individual",
+        "canonical_label": "Handler Walter"
+      }
+    ],
+    "raven (original)": [
+      {
+        "uri": "#Raven",
+        "short": "Raven",
+        "kind": "individual",
+        "canonical_label": "Raven (original)"
+      }
+    ],
+    "raven": [
+      {
+        "uri": "#Raven",
+        "short": "Raven",
+        "kind": "individual",
+        "canonical_label": "Raven (original)"
+      },
+      {
+        "uri": "#Alias_Raven",
+        "short": "Alias_Raven",
+        "kind": "individual",
+        "canonical_label": "Raven"
+      }
+    ],
+    "ayre": [
+      {
+        "uri": "#Ayre",
+        "short": "Ayre",
+        "kind": "individual",
+        "canonical_label": "Ayre"
+      },
+      {
+        "uri": "#Alias_Ayre",
+        "short": "Alias_Ayre",
+        "kind": "individual",
+        "canonical_label": "Ayre"
+      }
+    ],
+    "allmind": [
+      {
+        "uri": "#ALLMIND",
+        "short": "ALLMIND",
+        "kind": "individual",
+        "canonical_label": "ALLMIND"
+      },
+      {
+        "uri": "#Alias_ALLMIND",
+        "short": "Alias_ALLMIND",
+        "kind": "individual",
+        "canonical_label": "ALLMIND"
+      }
+    ],
+    "cinder carla": [
+      {
+        "uri": "#CinderCarla",
+        "short": "CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      }
+    ],
+    "cinder\" carla": [
+      {
+        "uri": "#CinderCarla",
+        "short": "CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      },
+      {
+        "uri": "#Alias_CinderCarla",
+        "short": "Alias_CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      }
+    ],
+    "cindercarla": [
+      {
+        "uri": "#CinderCarla",
+        "short": "CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      }
+    ],
+    "\"cinder\" carla": [
+      {
+        "uri": "#CinderCarla",
+        "short": "CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      },
+      {
+        "uri": "#Alias_CinderCarla",
+        "short": "Alias_CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      }
+    ],
+    "v_iv_rusty": [
+      {
+        "uri": "#V_IV_Rusty",
+        "short": "V_IV_Rusty",
+        "kind": "individual",
+        "canonical_label": "V.IV Rusty"
+      }
+    ],
+    "v iv rusty": [
+      {
+        "uri": "#V_IV_Rusty",
+        "short": "V_IV_Rusty",
+        "kind": "individual",
+        "canonical_label": "V.IV Rusty"
+      }
+    ],
+    "v.iv rusty": [
+      {
+        "uri": "#V_IV_Rusty",
+        "short": "V_IV_Rusty",
+        "kind": "individual",
+        "canonical_label": "V.IV Rusty"
+      },
+      {
+        "uri": "#Alias_V_IV_Rusty",
+        "short": "Alias_V_IV_Rusty",
+        "kind": "individual",
+        "canonical_label": "V.IV Rusty"
+      }
+    ],
+    "g5 iguazu": [
+      {
+        "uri": "#G5_Iguazu",
+        "short": "G5_Iguazu",
+        "kind": "individual",
+        "canonical_label": "G5 Iguazu"
+      },
+      {
+        "uri": "#Alias_G5_Iguazu",
+        "short": "Alias_G5_Iguazu",
+        "kind": "individual",
+        "canonical_label": "G5 Iguazu"
+      }
+    ],
+    "g5_iguazu": [
+      {
+        "uri": "#G5_Iguazu",
+        "short": "G5_Iguazu",
+        "kind": "individual",
+        "canonical_label": "G5 Iguazu"
+      }
+    ],
+    "v.ii snail": [
+      {
+        "uri": "#V_II_Snail",
+        "short": "V_II_Snail",
+        "kind": "individual",
+        "canonical_label": "V.II Snail"
+      },
+      {
+        "uri": "#Alias_V_II_Snail",
+        "short": "Alias_V_II_Snail",
+        "kind": "individual",
+        "canonical_label": "V.II Snail"
+      }
+    ],
+    "v_ii_snail": [
+      {
+        "uri": "#V_II_Snail",
+        "short": "V_II_Snail",
+        "kind": "individual",
+        "canonical_label": "V.II Snail"
+      }
+    ],
+    "v ii snail": [
+      {
+        "uri": "#V_II_Snail",
+        "short": "V_II_Snail",
+        "kind": "individual",
+        "canonical_label": "V.II Snail"
+      }
+    ],
+    "g1_michigan": [
+      {
+        "uri": "#G1_Michigan",
+        "short": "G1_Michigan",
+        "kind": "individual",
+        "canonical_label": "G1 Michigan"
+      }
+    ],
+    "g1 michigan": [
+      {
+        "uri": "#G1_Michigan",
+        "short": "G1_Michigan",
+        "kind": "individual",
+        "canonical_label": "G1 Michigan"
+      },
+      {
+        "uri": "#Alias_G1_Michigan",
+        "short": "Alias_G1_Michigan",
+        "kind": "individual",
+        "canonical_label": "G1 Michigan"
+      }
+    ],
+    "thumb dolmayan": [
+      {
+        "uri": "#ThumbDolmayan",
+        "short": "ThumbDolmayan",
+        "kind": "individual",
+        "canonical_label": "Thumb Dolmayan"
+      },
+      {
+        "uri": "#Alias_ThumbDolmayan",
+        "short": "Alias_ThumbDolmayan",
+        "kind": "individual",
+        "canonical_label": "Thumb Dolmayan"
+      }
+    ],
+    "thumbdolmayan": [
+      {
+        "uri": "#ThumbDolmayan",
+        "short": "ThumbDolmayan",
+        "kind": "individual",
+        "canonical_label": "Thumb Dolmayan"
+      }
+    ],
+    "balteus": [
+      {
+        "uri": "#Balteus",
+        "short": "Balteus",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      }
+    ],
+    "aap07: balteus": [
+      {
+        "uri": "#Balteus",
+        "short": "Balteus",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      },
+      {
+        "uri": "#Alias_Balteus",
+        "short": "Alias_Balteus",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      },
+      {
+        "uri": "#AC_AAP07_BALTEUS",
+        "short": "AC_AAP07_BALTEUS",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      }
+    ],
+    "ib-01: cel 240": [
+      {
+        "uri": "#CEL240",
+        "short": "CEL240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      },
+      {
+        "uri": "#Alias_CEL240",
+        "short": "Alias_CEL240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      },
+      {
+        "uri": "#AC_IB_01_CEL_240",
+        "short": "AC_IB_01_CEL_240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      }
+    ],
+    "cel240": [
+      {
+        "uri": "#CEL240",
+        "short": "CEL240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      }
+    ],
+    "cataphract": [
+      {
+        "uri": "#Cataphract",
+        "short": "Cataphract",
+        "kind": "individual",
+        "canonical_label": "Cataphract (PCA SP Captain)"
+      },
+      {
+        "uri": "#Alias_Cataphract",
+        "short": "Alias_Cataphract",
+        "kind": "individual",
+        "canonical_label": "Cataphract"
+      }
+    ],
+    "cataphract (pca sp captain)": [
+      {
+        "uri": "#Cataphract",
+        "short": "Cataphract",
+        "kind": "individual",
+        "canonical_label": "Cataphract (PCA SP Captain)"
+      }
+    ],
+    "enforcer": [
+      {
+        "uri": "#Enforcer",
+        "short": "Enforcer",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      }
+    ],
+    "aap03: enforcer": [
+      {
+        "uri": "#Enforcer",
+        "short": "Enforcer",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      },
+      {
+        "uri": "#Alias_Enforcer",
+        "short": "Alias_Enforcer",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      },
+      {
+        "uri": "#AC_AAP03_ENFORCER",
+        "short": "AC_AAP03_ENFORCER",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      }
+    ],
+    "ice worm": [
+      {
+        "uri": "#IceWorm",
+        "short": "IceWorm",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      }
+    ],
+    "iceworm": [
+      {
+        "uri": "#IceWorm",
+        "short": "IceWorm",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      }
+    ],
+    "ia-02: ice worm": [
+      {
+        "uri": "#IceWorm",
+        "short": "IceWorm",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      },
+      {
+        "uri": "#Alias_IceWorm",
+        "short": "Alias_IceWorm",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      },
+      {
+        "uri": "#AC_IA_02_ICE_WORM",
+        "short": "AC_IA_02_ICE_WORM",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      }
+    ],
+    "ha-t-102 juggernaut": [
+      {
+        "uri": "#Juggernaut",
+        "short": "Juggernaut",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      },
+      {
+        "uri": "#Alias_Juggernaut",
+        "short": "Alias_Juggernaut",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      },
+      {
+        "uri": "#AC_HA_T_102_JUGGERNAUT",
+        "short": "AC_HA_T_102_JUGGERNAUT",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      }
+    ],
+    "juggernaut": [
+      {
+        "uri": "#Juggernaut",
+        "short": "Juggernaut",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      }
+    ],
+    "balam": [
+      {
+        "uri": "#Balam",
+        "short": "Balam",
+        "kind": "individual",
+        "canonical_label": "Balam"
+      }
+    ],
+    "arquebus": [
+      {
+        "uri": "#Arquebus",
+        "short": "Arquebus",
+        "kind": "individual",
+        "canonical_label": "Arquebus"
+      },
+      {
+        "uri": "#Alias_Snail_Arquebus",
+        "short": "Alias_Snail_Arquebus",
+        "kind": "individual",
+        "canonical_label": "Arquebus"
+      }
+    ],
+    "rlf": [
+      {
+        "uri": "#RLF",
+        "short": "RLF",
+        "kind": "individual",
+        "canonical_label": "Rubicon Liberation Front"
+      }
+    ],
+    "rubicon liberation front": [
+      {
+        "uri": "#RLF",
+        "short": "RLF",
+        "kind": "individual",
+        "canonical_label": "Rubicon Liberation Front"
+      }
+    ],
+    "overseer": [
+      {
+        "uri": "#Overseer",
+        "short": "Overseer",
+        "kind": "individual",
+        "canonical_label": "Overseer"
+      }
+    ],
+    "dozer": [
+      {
+        "uri": "#Dozer",
+        "short": "Dozer",
+        "kind": "individual",
+        "canonical_label": "Dozer"
+      }
+    ],
+    "pca": [
+      {
+        "uri": "#PCA",
+        "short": "PCA",
+        "kind": "individual",
+        "canonical_label": "PCA"
+      }
+    ],
+    "alias_allmind": [
+      {
+        "uri": "#Alias_ALLMIND",
+        "short": "Alias_ALLMIND",
+        "kind": "individual",
+        "canonical_label": "ALLMIND"
+      }
+    ],
+    "alias allmind": [
+      {
+        "uri": "#Alias_ALLMIND",
+        "short": "Alias_ALLMIND",
+        "kind": "individual",
+        "canonical_label": "ALLMIND"
+      }
+    ],
+    "alias afriend": [
+      {
+        "uri": "#Alias_AFriend",
+        "short": "Alias_AFriend",
+        "kind": "individual",
+        "canonical_label": "A Friend"
+      }
+    ],
+    "a friend": [
+      {
+        "uri": "#Alias_AFriend",
+        "short": "Alias_AFriend",
+        "kind": "individual",
+        "canonical_label": "A Friend"
+      }
+    ],
+    "alias_afriend": [
+      {
+        "uri": "#Alias_AFriend",
+        "short": "Alias_AFriend",
+        "kind": "individual",
+        "canonical_label": "A Friend"
+      }
+    ],
+    "alias_ayre": [
+      {
+        "uri": "#Alias_Ayre",
+        "short": "Alias_Ayre",
+        "kind": "individual",
+        "canonical_label": "Ayre"
+      }
+    ],
+    "alias ayre": [
+      {
+        "uri": "#Alias_Ayre",
+        "short": "Alias_Ayre",
+        "kind": "individual",
+        "canonical_label": "Ayre"
+      }
+    ],
+    "alias wavelength form": [
+      {
+        "uri": "#Alias_WavelengthForm",
+        "short": "Alias_WavelengthForm",
+        "kind": "individual",
+        "canonical_label": "Wavelength Form"
+      }
+    ],
+    "alias_wavelengthform": [
+      {
+        "uri": "#Alias_WavelengthForm",
+        "short": "Alias_WavelengthForm",
+        "kind": "individual",
+        "canonical_label": "Wavelength Form"
+      }
+    ],
+    "wavelength form": [
+      {
+        "uri": "#Alias_WavelengthForm",
+        "short": "Alias_WavelengthForm",
+        "kind": "individual",
+        "canonical_label": "Wavelength Form"
+      }
+    ],
+    "alias ashbringer": [
+      {
+        "uri": "#Alias_Ashbringer",
+        "short": "Alias_Ashbringer",
+        "kind": "individual",
+        "canonical_label": "Ashbringer"
+      }
+    ],
+    "alias_ashbringer": [
+      {
+        "uri": "#Alias_Ashbringer",
+        "short": "Alias_Ashbringer",
+        "kind": "individual",
+        "canonical_label": "Ashbringer"
+      }
+    ],
+    "ashbringer": [
+      {
+        "uri": "#Alias_Ashbringer",
+        "short": "Alias_Ashbringer",
+        "kind": "individual",
+        "canonical_label": "Ashbringer"
+      }
+    ],
+    "alias buddy": [
+      {
+        "uri": "#Alias_Buddy",
+        "short": "Alias_Buddy",
+        "kind": "individual",
+        "canonical_label": "Buddy"
+      }
+    ],
+    "alias_buddy": [
+      {
+        "uri": "#Alias_Buddy",
+        "short": "Alias_Buddy",
+        "kind": "individual",
+        "canonical_label": "Buddy"
+      }
+    ],
+    "buddy": [
+      {
+        "uri": "#Alias_Buddy",
+        "short": "Alias_Buddy",
+        "kind": "individual",
+        "canonical_label": "Buddy"
+      }
+    ],
+    "alias_c4_621": [
+      {
+        "uri": "#Alias_C4_621",
+        "short": "Alias_C4_621",
+        "kind": "individual",
+        "canonical_label": "C4-621"
+      }
+    ],
+    "alias c4 621": [
+      {
+        "uri": "#Alias_C4_621",
+        "short": "Alias_C4_621",
+        "kind": "individual",
+        "canonical_label": "C4-621"
+      }
+    ],
+    "freelancer": [
+      {
+        "uri": "#Alias_Freelancer",
+        "short": "Alias_Freelancer",
+        "kind": "individual",
+        "canonical_label": "Freelancer"
+      }
+    ],
+    "alias_freelancer": [
+      {
+        "uri": "#Alias_Freelancer",
+        "short": "Alias_Freelancer",
+        "kind": "individual",
+        "canonical_label": "Freelancer"
+      }
+    ],
+    "alias freelancer": [
+      {
+        "uri": "#Alias_Freelancer",
+        "short": "Alias_Freelancer",
+        "kind": "individual",
+        "canonical_label": "Freelancer"
+      }
+    ],
+    "gun13": [
+      {
+        "uri": "#Alias_Gun13",
+        "short": "Alias_Gun13",
+        "kind": "individual",
+        "canonical_label": "Gun13"
+      }
+    ],
+    "alias_gun13": [
+      {
+        "uri": "#Alias_Gun13",
+        "short": "Alias_Gun13",
+        "kind": "individual",
+        "canonical_label": "Gun13"
+      }
+    ],
+    "alias gun13": [
+      {
+        "uri": "#Alias_Gun13",
+        "short": "Alias_Gun13",
+        "kind": "individual",
+        "canonical_label": "Gun13"
+      }
+    ],
+    "alias_hound": [
+      {
+        "uri": "#Alias_Hound",
+        "short": "Alias_Hound",
+        "kind": "individual",
+        "canonical_label": "Hound"
+      }
+    ],
+    "alias hound": [
+      {
+        "uri": "#Alias_Hound",
+        "short": "Alias_Hound",
+        "kind": "individual",
+        "canonical_label": "Hound"
+      }
+    ],
+    "hound": [
+      {
+        "uri": "#Alias_Hound",
+        "short": "Alias_Hound",
+        "kind": "individual",
+        "canonical_label": "Hound"
+      }
+    ],
+    "alias raven": [
+      {
+        "uri": "#Alias_Raven",
+        "short": "Alias_Raven",
+        "kind": "individual",
+        "canonical_label": "Raven"
+      }
+    ],
+    "alias_raven": [
+      {
+        "uri": "#Alias_Raven",
+        "short": "Alias_Raven",
+        "kind": "individual",
+        "canonical_label": "Raven"
+      }
+    ],
+    "alias symbol of resolve": [
+      {
+        "uri": "#Alias_SymbolOfResolve",
+        "short": "Alias_SymbolOfResolve",
+        "kind": "individual",
+        "canonical_label": "Symbol of Resolve"
+      }
+    ],
+    "symbol of resolve": [
+      {
+        "uri": "#Alias_SymbolOfResolve",
+        "short": "Alias_SymbolOfResolve",
+        "kind": "individual",
+        "canonical_label": "Symbol of Resolve"
+      }
+    ],
+    "alias_symbolofresolve": [
+      {
+        "uri": "#Alias_SymbolOfResolve",
+        "short": "Alias_SymbolOfResolve",
+        "kind": "individual",
+        "canonical_label": "Symbol of Resolve"
+      }
+    ],
+    "alias tourist": [
+      {
+        "uri": "#Alias_Tourist",
+        "short": "Alias_Tourist",
+        "kind": "individual",
+        "canonical_label": "Tourist"
+      }
+    ],
+    "tourist": [
+      {
+        "uri": "#Alias_Tourist",
+        "short": "Alias_Tourist",
+        "kind": "individual",
+        "canonical_label": "Tourist"
+      }
+    ],
+    "alias_tourist": [
+      {
+        "uri": "#Alias_Tourist",
+        "short": "Alias_Tourist",
+        "kind": "individual",
+        "canonical_label": "Tourist"
+      }
+    ],
+    "wallclimber": [
+      {
+        "uri": "#Alias_Wallclimber",
+        "short": "Alias_Wallclimber",
+        "kind": "individual",
+        "canonical_label": "Wallclimber"
+      }
+    ],
+    "alias wallclimber": [
+      {
+        "uri": "#Alias_Wallclimber",
+        "short": "Alias_Wallclimber",
+        "kind": "individual",
+        "canonical_label": "Wallclimber"
+      }
+    ],
+    "alias_wallclimber": [
+      {
+        "uri": "#Alias_Wallclimber",
+        "short": "Alias_Wallclimber",
+        "kind": "individual",
+        "canonical_label": "Wallclimber"
+      }
+    ],
+    "alias_wormkiller": [
+      {
+        "uri": "#Alias_Wormkiller",
+        "short": "Alias_Wormkiller",
+        "kind": "individual",
+        "canonical_label": "Wormkiller"
+      }
+    ],
+    "wormkiller": [
+      {
+        "uri": "#Alias_Wormkiller",
+        "short": "Alias_Wormkiller",
+        "kind": "individual",
+        "canonical_label": "Wormkiller"
+      }
+    ],
+    "alias wormkiller": [
+      {
+        "uri": "#Alias_Wormkiller",
+        "short": "Alias_Wormkiller",
+        "kind": "individual",
+        "canonical_label": "Wormkiller"
+      }
+    ],
+    "alias cinder carla": [
+      {
+        "uri": "#Alias_CinderCarla",
+        "short": "Alias_CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      }
+    ],
+    "alias_cindercarla": [
+      {
+        "uri": "#Alias_CinderCarla",
+        "short": "Alias_CinderCarla",
+        "kind": "individual",
+        "canonical_label": "\"Cinder\" Carla"
+      }
+    ],
+    "alias_g1_michigan": [
+      {
+        "uri": "#Alias_G1_Michigan",
+        "short": "Alias_G1_Michigan",
+        "kind": "individual",
+        "canonical_label": "G1 Michigan"
+      }
+    ],
+    "alias g1 michigan": [
+      {
+        "uri": "#Alias_G1_Michigan",
+        "short": "Alias_G1_Michigan",
+        "kind": "individual",
+        "canonical_label": "G1 Michigan"
+      }
+    ],
+    "alias g5 iguazu": [
+      {
+        "uri": "#Alias_G5_Iguazu",
+        "short": "Alias_G5_Iguazu",
+        "kind": "individual",
+        "canonical_label": "G5 Iguazu"
+      }
+    ],
+    "alias_g5_iguazu": [
+      {
+        "uri": "#Alias_G5_Iguazu",
+        "short": "Alias_G5_Iguazu",
+        "kind": "individual",
+        "canonical_label": "G5 Iguazu"
+      }
+    ],
+    "alias_thumbdolmayan": [
+      {
+        "uri": "#Alias_ThumbDolmayan",
+        "short": "Alias_ThumbDolmayan",
+        "kind": "individual",
+        "canonical_label": "Thumb Dolmayan"
+      }
+    ],
+    "alias thumb dolmayan": [
+      {
+        "uri": "#Alias_ThumbDolmayan",
+        "short": "Alias_ThumbDolmayan",
+        "kind": "individual",
+        "canonical_label": "Thumb Dolmayan"
+      }
+    ],
+    "alias snail arquebus": [
+      {
+        "uri": "#Alias_Snail_Arquebus",
+        "short": "Alias_Snail_Arquebus",
+        "kind": "individual",
+        "canonical_label": "Arquebus"
+      }
+    ],
+    "alias_snail_arquebus": [
+      {
+        "uri": "#Alias_Snail_Arquebus",
+        "short": "Alias_Snail_Arquebus",
+        "kind": "individual",
+        "canonical_label": "Arquebus"
+      }
+    ],
+    "alias_v_ii_snail": [
+      {
+        "uri": "#Alias_V_II_Snail",
+        "short": "Alias_V_II_Snail",
+        "kind": "individual",
+        "canonical_label": "V.II Snail"
+      }
+    ],
+    "alias v ii snail": [
+      {
+        "uri": "#Alias_V_II_Snail",
+        "short": "Alias_V_II_Snail",
+        "kind": "individual",
+        "canonical_label": "V.II Snail"
+      }
+    ],
+    "alias_v_iv_rusty": [
+      {
+        "uri": "#Alias_V_IV_Rusty",
+        "short": "Alias_V_IV_Rusty",
+        "kind": "individual",
+        "canonical_label": "V.IV Rusty"
+      }
+    ],
+    "alias v iv rusty": [
+      {
+        "uri": "#Alias_V_IV_Rusty",
+        "short": "Alias_V_IV_Rusty",
+        "kind": "individual",
+        "canonical_label": "V.IV Rusty"
+      }
+    ],
+    "alias_walter": [
+      {
+        "uri": "#Alias_Walter",
+        "short": "Alias_Walter",
+        "kind": "individual",
+        "canonical_label": "Handler Walter"
+      }
+    ],
+    "alias walter": [
+      {
+        "uri": "#Alias_Walter",
+        "short": "Alias_Walter",
+        "kind": "individual",
+        "canonical_label": "Handler Walter"
+      }
+    ],
+    "alias_balteus": [
+      {
+        "uri": "#Alias_Balteus",
+        "short": "Alias_Balteus",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      }
+    ],
+    "alias balteus": [
+      {
+        "uri": "#Alias_Balteus",
+        "short": "Alias_Balteus",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      }
+    ],
+    "alias_cel240": [
+      {
+        "uri": "#Alias_CEL240",
+        "short": "Alias_CEL240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      }
+    ],
+    "alias cel240": [
+      {
+        "uri": "#Alias_CEL240",
+        "short": "Alias_CEL240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      }
+    ],
+    "alias cataphract": [
+      {
+        "uri": "#Alias_Cataphract",
+        "short": "Alias_Cataphract",
+        "kind": "individual",
+        "canonical_label": "Cataphract"
+      }
+    ],
+    "alias_cataphract": [
+      {
+        "uri": "#Alias_Cataphract",
+        "short": "Alias_Cataphract",
+        "kind": "individual",
+        "canonical_label": "Cataphract"
+      }
+    ],
+    "alias enforcer": [
+      {
+        "uri": "#Alias_Enforcer",
+        "short": "Alias_Enforcer",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      }
+    ],
+    "alias_enforcer": [
+      {
+        "uri": "#Alias_Enforcer",
+        "short": "Alias_Enforcer",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      }
+    ],
+    "alias ice worm": [
+      {
+        "uri": "#Alias_IceWorm",
+        "short": "Alias_IceWorm",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      }
+    ],
+    "alias_iceworm": [
+      {
+        "uri": "#Alias_IceWorm",
+        "short": "Alias_IceWorm",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      }
+    ],
+    "alias juggernaut": [
+      {
+        "uri": "#Alias_Juggernaut",
+        "short": "Alias_Juggernaut",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      }
+    ],
+    "alias_juggernaut": [
+      {
+        "uri": "#Alias_Juggernaut",
+        "short": "Alias_Juggernaut",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      }
+    ],
+    "echo": [
+      {
+        "uri": "#ECHO",
+        "short": "ECHO",
+        "kind": "individual",
+        "canonical_label": "ECHO"
+      }
+    ],
+    "ib-07: sol 644": [
+      {
+        "uri": "#IB_07_SOL_644",
+        "short": "IB_07_SOL_644",
+        "kind": "individual",
+        "canonical_label": "IB-07: SOL 644"
+      }
+    ],
+    "ib_07_sol_644": [
+      {
+        "uri": "#IB_07_SOL_644",
+        "short": "IB_07_SOL_644",
+        "kind": "individual",
+        "canonical_label": "IB-07: SOL 644"
+      }
+    ],
+    "ib 07 sol 644": [
+      {
+        "uri": "#IB_07_SOL_644",
+        "short": "IB_07_SOL_644",
+        "kind": "individual",
+        "canonical_label": "IB-07: SOL 644"
+      }
+    ],
+    "full course": [
+      {
+        "uri": "#FULL_COURSE",
+        "short": "FULL_COURSE",
+        "kind": "individual",
+        "canonical_label": "FULL COURSE"
+      }
+    ],
+    "full_course": [
+      {
+        "uri": "#FULL_COURSE",
+        "short": "FULL_COURSE",
+        "kind": "individual",
+        "canonical_label": "FULL COURSE"
+      }
+    ],
+    "steel haze": [
+      {
+        "uri": "#STEEL_HAZE",
+        "short": "STEEL_HAZE",
+        "kind": "individual",
+        "canonical_label": "STEEL HAZE"
+      }
+    ],
+    "steel_haze": [
+      {
+        "uri": "#STEEL_HAZE",
+        "short": "STEEL_HAZE",
+        "kind": "individual",
+        "canonical_label": "STEEL HAZE"
+      }
+    ],
+    "steel haze ortus": [
+      {
+        "uri": "#STEEL_HAZE_ORTUS",
+        "short": "STEEL_HAZE_ORTUS",
+        "kind": "individual",
+        "canonical_label": "STEEL HAZE ORTUS"
+      }
+    ],
+    "steel_haze_ortus": [
+      {
+        "uri": "#STEEL_HAZE_ORTUS",
+        "short": "STEEL_HAZE_ORTUS",
+        "kind": "individual",
+        "canonical_label": "STEEL HAZE ORTUS"
+      }
+    ],
+    "head bringer": [
+      {
+        "uri": "#HEAD_BRINGER",
+        "short": "HEAD_BRINGER",
+        "kind": "individual",
+        "canonical_label": "HEAD BRINGER"
+      }
+    ],
+    "head_bringer": [
+      {
+        "uri": "#HEAD_BRINGER",
+        "short": "HEAD_BRINGER",
+        "kind": "individual",
+        "canonical_label": "HEAD BRINGER"
+      }
+    ],
+    "open faith": [
+      {
+        "uri": "#OPEN_FAITH",
+        "short": "OPEN_FAITH",
+        "kind": "individual",
+        "canonical_label": "OPEN FAITH"
+      }
+    ],
+    "open_faith": [
+      {
+        "uri": "#OPEN_FAITH",
+        "short": "OPEN_FAITH",
+        "kind": "individual",
+        "canonical_label": "OPEN FAITH"
+      }
+    ],
+    "liger_tail": [
+      {
+        "uri": "#LIGER_TAIL",
+        "short": "LIGER_TAIL",
+        "kind": "individual",
+        "canonical_label": "LIGER TAIL"
+      }
+    ],
+    "liger tail": [
+      {
+        "uri": "#LIGER_TAIL",
+        "short": "LIGER_TAIL",
+        "kind": "individual",
+        "canonical_label": "LIGER TAIL"
+      }
+    ],
+    "astghik": [
+      {
+        "uri": "#ASTGHIK",
+        "short": "ASTGHIK",
+        "kind": "individual",
+        "canonical_label": "ASTGHIK"
+      }
+    ],
+    "ib c03 hal 826": [
+      {
+        "uri": "#IB_C03_HAL_826",
+        "short": "IB_C03_HAL_826",
+        "kind": "individual",
+        "canonical_label": "IB-C03: HAL 826"
+      }
+    ],
+    "ib-c03: hal 826": [
+      {
+        "uri": "#IB_C03_HAL_826",
+        "short": "IB_C03_HAL_826",
+        "kind": "individual",
+        "canonical_label": "IB-C03: HAL 826"
+      }
+    ],
+    "ib_c03_hal_826": [
+      {
+        "uri": "#IB_C03_HAL_826",
+        "short": "IB_C03_HAL_826",
+        "kind": "individual",
+        "canonical_label": "IB-C03: HAL 826"
+      }
+    ],
+    "nightfall": [
+      {
+        "uri": "#NIGHTFALL",
+        "short": "NIGHTFALL",
+        "kind": "individual",
+        "canonical_label": "NIGHTFALL"
+      }
+    ],
+    "ac aap07 balteus": [
+      {
+        "uri": "#AC_AAP07_BALTEUS",
+        "short": "AC_AAP07_BALTEUS",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      }
+    ],
+    "ac_aap07_balteus": [
+      {
+        "uri": "#AC_AAP07_BALTEUS",
+        "short": "AC_AAP07_BALTEUS",
+        "kind": "individual",
+        "canonical_label": "AAP07: BALTEUS"
+      }
+    ],
+    "ac_ib_01_cel_240": [
+      {
+        "uri": "#AC_IB_01_CEL_240",
+        "short": "AC_IB_01_CEL_240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      }
+    ],
+    "ac ib 01 cel 240": [
+      {
+        "uri": "#AC_IB_01_CEL_240",
+        "short": "AC_IB_01_CEL_240",
+        "kind": "individual",
+        "canonical_label": "IB-01: CEL 240"
+      }
+    ],
+    "ac aas02 cataphract": [
+      {
+        "uri": "#AC_AAS02_CATAPHRACT",
+        "short": "AC_AAS02_CATAPHRACT",
+        "kind": "individual",
+        "canonical_label": "AAS02: CATAPHRACT"
+      }
+    ],
+    "ac_aas02_cataphract": [
+      {
+        "uri": "#AC_AAS02_CATAPHRACT",
+        "short": "AC_AAS02_CATAPHRACT",
+        "kind": "individual",
+        "canonical_label": "AAS02: CATAPHRACT"
+      }
+    ],
+    "aas02: cataphract": [
+      {
+        "uri": "#AC_AAS02_CATAPHRACT",
+        "short": "AC_AAS02_CATAPHRACT",
+        "kind": "individual",
+        "canonical_label": "AAS02: CATAPHRACT"
+      }
+    ],
+    "ac ia 02 ice worm": [
+      {
+        "uri": "#AC_IA_02_ICE_WORM",
+        "short": "AC_IA_02_ICE_WORM",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      }
+    ],
+    "ac_ia_02_ice_worm": [
+      {
+        "uri": "#AC_IA_02_ICE_WORM",
+        "short": "AC_IA_02_ICE_WORM",
+        "kind": "individual",
+        "canonical_label": "IA-02: ICE WORM"
+      }
+    ],
+    "ac_ha_t_102_juggernaut": [
+      {
+        "uri": "#AC_HA_T_102_JUGGERNAUT",
+        "short": "AC_HA_T_102_JUGGERNAUT",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      }
+    ],
+    "ac ha t 102 juggernaut": [
+      {
+        "uri": "#AC_HA_T_102_JUGGERNAUT",
+        "short": "AC_HA_T_102_JUGGERNAUT",
+        "kind": "individual",
+        "canonical_label": "HA-T-102 JUGGERNAUT"
+      }
+    ],
+    "ac_aap03_enforcer": [
+      {
+        "uri": "#AC_AAP03_ENFORCER",
+        "short": "AC_AAP03_ENFORCER",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      }
+    ],
+    "ac aap03 enforcer": [
+      {
+        "uri": "#AC_AAP03_ENFORCER",
+        "short": "AC_AAP03_ENFORCER",
+        "kind": "individual",
+        "canonical_label": "AAP03: ENFORCER"
+      }
+    ],
+    "fires_of_ibis": [
+      {
+        "uri": "#fires_of_ibis",
+        "short": "fires_of_ibis",
+        "kind": "individual",
+        "canonical_label": "Fires of Ibis"
+      }
+    ],
+    "fires of ibis": [
+      {
+        "uri": "#fires_of_ibis",
+        "short": "fires_of_ibis",
+        "kind": "individual",
+        "canonical_label": "Fires of Ibis"
+      }
+    ],
+    "walker destruction": [
+      {
+        "uri": "#walker_destruction",
+        "short": "walker_destruction",
+        "kind": "individual",
+        "canonical_label": "Walker Destruction"
+      }
+    ],
+    "walker_destruction": [
+      {
+        "uri": "#walker_destruction",
+        "short": "walker_destruction",
+        "kind": "individual",
+        "canonical_label": "Walker Destruction"
+      }
+    ],
+    "operation wallclimber": [
+      {
+        "uri": "#operation_wallclimber",
+        "short": "operation_wallclimber",
+        "kind": "individual",
+        "canonical_label": "Operation Wallclimber"
+      }
+    ],
+    "operation_wallclimber": [
+      {
+        "uri": "#operation_wallclimber",
+        "short": "operation_wallclimber",
+        "kind": "individual",
+        "canonical_label": "Operation Wallclimber"
+      }
+    ],
+    "pca arrival": [
+      {
+        "uri": "#pca_arrival",
+        "short": "pca_arrival",
+        "kind": "individual",
+        "canonical_label": "PCA Arrival"
+      }
+    ],
+    "pca_arrival": [
+      {
+        "uri": "#pca_arrival",
+        "short": "pca_arrival",
+        "kind": "individual",
+        "canonical_label": "PCA Arrival"
+      }
+    ],
+    "cataphract_fight": [
+      {
+        "uri": "#cataphract_fight",
+        "short": "cataphract_fight",
+        "kind": "individual",
+        "canonical_label": "Cataphract Fight"
+      }
+    ],
+    "cataphract fight": [
+      {
+        "uri": "#cataphract_fight",
+        "short": "cataphract_fight",
+        "kind": "individual",
+        "canonical_label": "Cataphract Fight"
+      }
+    ],
+    "pca_siege": [
+      {
+        "uri": "#pca_siege",
+        "short": "pca_siege",
+        "kind": "individual",
+        "canonical_label": "PCA Siege"
+      }
+    ],
+    "pca siege": [
+      {
+        "uri": "#pca_siege",
+        "short": "pca_siege",
+        "kind": "individual",
+        "canonical_label": "PCA Siege"
+      }
+    ],
+    "operation_wormkiller": [
+      {
+        "uri": "#operation_wormkiller",
+        "short": "operation_wormkiller",
+        "kind": "individual",
+        "canonical_label": "Operation Wormkiller"
+      }
+    ],
+    "operation wormkiller": [
+      {
+        "uri": "#operation_wormkiller",
+        "short": "operation_wormkiller",
+        "kind": "individual",
+        "canonical_label": "Operation Wormkiller"
+      }
+    ],
+    "depth_exploration": [
+      {
+        "uri": "#depth_exploration",
+        "short": "depth_exploration",
+        "kind": "individual",
+        "canonical_label": "Depth Exploration"
+      }
+    ],
+    "depth exploration": [
+      {
+        "uri": "#depth_exploration",
+        "short": "depth_exploration",
+        "kind": "individual",
+        "canonical_label": "Depth Exploration"
+      }
+    ],
+    "vascular plant event": [
+      {
+        "uri": "#vascular_plant_event",
+        "short": "vascular_plant_event",
+        "kind": "individual",
+        "canonical_label": "Vascular Plant"
+      }
+    ],
+    "vascular_plant_event": [
+      {
+        "uri": "#vascular_plant_event",
+        "short": "vascular_plant_event",
+        "kind": "individual",
+        "canonical_label": "Vascular Plant"
+      }
+    ],
+    "vascular plant": [
+      {
+        "uri": "#vascular_plant_event",
+        "short": "vascular_plant_event",
+        "kind": "individual",
+        "canonical_label": "Vascular Plant"
+      },
+      {
+        "uri": "#vascular_plant_place",
+        "short": "vascular_plant_place",
+        "kind": "individual",
+        "canonical_label": "Vascular Plant (Arquebus-controlled deep facility)"
+      }
+    ],
+    "xylem_takeoff": [
+      {
+        "uri": "#xylem_takeoff",
+        "short": "xylem_takeoff",
+        "kind": "individual",
+        "canonical_label": "Xylem Takeoff"
+      }
+    ],
+    "xylem takeoff": [
+      {
+        "uri": "#xylem_takeoff",
+        "short": "xylem_takeoff",
+        "kind": "individual",
+        "canonical_label": "Xylem Takeoff"
+      }
+    ],
+    "karman line": [
+      {
+        "uri": "#karman_line",
+        "short": "karman_line",
+        "kind": "individual",
+        "canonical_label": "Karman Line"
+      }
+    ],
+    "karman_line": [
+      {
+        "uri": "#karman_line",
+        "short": "karman_line",
+        "kind": "individual",
+        "canonical_label": "Karman Line"
+      }
+    ],
+    "fires_of_raven": [
+      {
+        "uri": "#fires_of_raven",
+        "short": "fires_of_raven",
+        "kind": "individual",
+        "canonical_label": "Fires of Raven"
+      }
+    ],
+    "fires of raven": [
+      {
+        "uri": "#fires_of_raven",
+        "short": "fires_of_raven",
+        "kind": "individual",
+        "canonical_label": "Fires of Raven"
+      }
+    ],
+    "rubicon sky": [
+      {
+        "uri": "#rubicon_sky",
+        "short": "rubicon_sky",
+        "kind": "individual",
+        "canonical_label": "Rubicon 3 – Upper Atmosphere"
+      }
+    ],
+    "rubicon_sky": [
+      {
+        "uri": "#rubicon_sky",
+        "short": "rubicon_sky",
+        "kind": "individual",
+        "canonical_label": "Rubicon 3 – Upper Atmosphere"
+      }
+    ],
+    "rubicon 3 – upper atmosphere": [
+      {
+        "uri": "#rubicon_sky",
+        "short": "rubicon_sky",
+        "kind": "individual",
+        "canonical_label": "Rubicon 3 – Upper Atmosphere"
+      }
+    ],
+    "rubicon orbit": [
+      {
+        "uri": "#rubicon_orbit",
+        "short": "rubicon_orbit",
+        "kind": "individual",
+        "canonical_label": "Rubicon 3 – Orbit"
+      }
+    ],
+    "rubicon_orbit": [
+      {
+        "uri": "#rubicon_orbit",
+        "short": "rubicon_orbit",
+        "kind": "individual",
+        "canonical_label": "Rubicon 3 – Orbit"
+      }
+    ],
+    "rubicon 3 – orbit": [
+      {
+        "uri": "#rubicon_orbit",
+        "short": "rubicon_orbit",
+        "kind": "individual",
+        "canonical_label": "Rubicon 3 – Orbit"
+      }
+    ],
+    "bona_dea_dunes": [
+      {
+        "uri": "#bona_dea_dunes",
+        "short": "bona_dea_dunes",
+        "kind": "individual",
+        "canonical_label": "Bona Dea Dunes (Southern Belius)"
+      }
+    ],
+    "bona dea dunes (southern belius)": [
+      {
+        "uri": "#bona_dea_dunes",
+        "short": "bona_dea_dunes",
+        "kind": "individual",
+        "canonical_label": "Bona Dea Dunes (Southern Belius)"
+      }
+    ],
+    "bona dea dunes": [
+      {
+        "uri": "#bona_dea_dunes",
+        "short": "bona_dea_dunes",
+        "kind": "individual",
+        "canonical_label": "Bona Dea Dunes (Southern Belius)"
+      }
+    ],
+    "the wall, belius – rlf stronghold": [
+      {
+        "uri": "#wall",
+        "short": "wall",
+        "kind": "individual",
+        "canonical_label": "The Wall, Belius – RLF Stronghold"
+      }
+    ],
+    "wall": [
+      {
+        "uri": "#wall",
+        "short": "wall",
+        "kind": "individual",
+        "canonical_label": "The Wall, Belius – RLF Stronghold"
+      }
+    ],
+    "coral collection plant (belius)": [
+      {
+        "uri": "#cataphract_plant",
+        "short": "cataphract_plant",
+        "kind": "individual",
+        "canonical_label": "Coral Collection Plant (Belius)"
+      }
+    ],
+    "cataphract plant": [
+      {
+        "uri": "#cataphract_plant",
+        "short": "cataphract_plant",
+        "kind": "individual",
+        "canonical_label": "Coral Collection Plant (Belius)"
+      }
+    ],
+    "cataphract_plant": [
+      {
+        "uri": "#cataphract_plant",
+        "short": "cataphract_plant",
+        "kind": "individual",
+        "canonical_label": "Coral Collection Plant (Belius)"
+      }
+    ],
+    "coral collection plant": [
+      {
+        "uri": "#cataphract_plant",
+        "short": "cataphract_plant",
+        "kind": "individual",
+        "canonical_label": "Coral Collection Plant (Belius)"
+      }
+    ],
+    "pca outpost (belius frontline)": [
+      {
+        "uri": "#outpost_pca",
+        "short": "outpost_pca",
+        "kind": "individual",
+        "canonical_label": "PCA Outpost (Belius frontline)"
+      }
+    ],
+    "pca outpost": [
+      {
+        "uri": "#outpost_pca",
+        "short": "outpost_pca",
+        "kind": "individual",
+        "canonical_label": "PCA Outpost (Belius frontline)"
+      }
+    ],
+    "outpost_pca": [
+      {
+        "uri": "#outpost_pca",
+        "short": "outpost_pca",
+        "kind": "individual",
+        "canonical_label": "PCA Outpost (Belius frontline)"
+      }
+    ],
+    "outpost pca": [
+      {
+        "uri": "#outpost_pca",
+        "short": "outpost_pca",
+        "kind": "individual",
+        "canonical_label": "PCA Outpost (Belius frontline)"
+      }
+    ],
+    "underground_entrance": [
+      {
+        "uri": "#underground_entrance",
+        "short": "underground_entrance",
+        "kind": "individual",
+        "canonical_label": "Watchpoint Alpha – Underground Entrance"
+      }
+    ],
+    "watchpoint alpha – underground entrance": [
+      {
+        "uri": "#underground_entrance",
+        "short": "underground_entrance",
+        "kind": "individual",
+        "canonical_label": "Watchpoint Alpha – Underground Entrance"
+      }
+    ],
+    "underground entrance": [
+      {
+        "uri": "#underground_entrance",
+        "short": "underground_entrance",
+        "kind": "individual",
+        "canonical_label": "Watchpoint Alpha – Underground Entrance"
+      }
+    ],
+    "vascular_plant_place": [
+      {
+        "uri": "#vascular_plant_place",
+        "short": "vascular_plant_place",
+        "kind": "individual",
+        "canonical_label": "Vascular Plant (Arquebus-controlled deep facility)"
+      }
+    ],
+    "vascular plant (arquebus-controlled deep facility)": [
+      {
+        "uri": "#vascular_plant_place",
+        "short": "vascular_plant_place",
+        "kind": "individual",
+        "canonical_label": "Vascular Plant (Arquebus-controlled deep facility)"
+      }
+    ],
+    "vascular plant place": [
+      {
+        "uri": "#vascular_plant_place",
+        "short": "vascular_plant_place",
+        "kind": "individual",
+        "canonical_label": "Vascular Plant (Arquebus-controlled deep facility)"
+      }
+    ],
+    "xylem": [
+      {
+        "uri": "#xylem",
+        "short": "xylem",
+        "kind": "individual",
+        "canonical_label": "Xylem, the Floating City"
+      }
+    ],
+    "xylem, the floating city": [
+      {
+        "uri": "#xylem",
+        "short": "xylem",
+        "kind": "individual",
+        "canonical_label": "Xylem, the Floating City"
+      }
+    ],
+    "iceworm field": [
+      {
+        "uri": "#iceworm_field",
+        "short": "iceworm_field",
+        "kind": "individual",
+        "canonical_label": "Central Ice Field (Ice Worm battlefield)"
+      }
+    ],
+    "central ice field": [
+      {
+        "uri": "#iceworm_field",
+        "short": "iceworm_field",
+        "kind": "individual",
+        "canonical_label": "Central Ice Field (Ice Worm battlefield)"
+      }
+    ],
+    "central ice field (ice worm battlefield)": [
+      {
+        "uri": "#iceworm_field",
+        "short": "iceworm_field",
+        "kind": "individual",
+        "canonical_label": "Central Ice Field (Ice Worm battlefield)"
+      }
+    ],
+    "iceworm_field": [
+      {
+        "uri": "#iceworm_field",
+        "short": "iceworm_field",
+        "kind": "individual",
+        "canonical_label": "Central Ice Field (Ice Worm battlefield)"
+      }
+    ],
+    "is an ally of": [
+      {
+        "uri": "#isFriendlyTowards",
+        "short": "isFriendlyTowards",
+        "kind": "object_property",
+        "canonical_label": "is friendly towards"
+      }
+    ],
+    "fights alongside": [
+      {
+        "uri": "#isFriendlyTowards",
+        "short": "isFriendlyTowards",
+        "kind": "object_property",
+        "canonical_label": "is friendly towards"
+      }
+    ],
+    "is an enemy of": [
+      {
+        "uri": "#isHostileToward",
+        "short": "isHostileToward",
+        "kind": "object_property",
+        "canonical_label": "is hostile toward"
+      }
+    ],
+    "is opposed to": [
+      {
+        "uri": "#isHostileToward",
+        "short": "isHostileToward",
+        "kind": "object_property",
+        "canonical_label": "is hostile toward"
+      }
+    ],
+    "is also known as": [
+      {
+        "uri": "#hasAlias",
+        "short": "hasAlias",
+        "kind": "object_property",
+        "canonical_label": "has alias"
+      }
+    ],
+    "goes by the alias": [
+      {
+        "uri": "#hasAlias",
+        "short": "hasAlias",
+        "kind": "object_property",
+        "canonical_label": "has alias"
+      }
+    ],
+    "is also called": [
+      {
+        "uri": "#hasAlias",
+        "short": "hasAlias",
+        "kind": "object_property",
+        "canonical_label": "has alias"
+      }
+    ],
+    "holds the rank": [
+      {
+        "uri": "#hasRank",
+        "short": "hasRank",
+        "kind": "object_property",
+        "canonical_label": "has rank"
+      }
+    ],
+    "is ranked": [
+      {
+        "uri": "#hasRank",
+        "short": "hasRank",
+        "kind": "object_property",
+        "canonical_label": "has rank"
+      }
+    ],
+    "is rated": [
+      {
+        "uri": "#hasRank",
+        "short": "hasRank",
+        "kind": "object_property",
+        "canonical_label": "has rank"
+      }
+    ],
+    "sorties in": [
+      {
+        "uri": "#pilots",
+        "short": "pilots",
+        "kind": "object_property",
+        "canonical_label": "pilots"
+      }
+    ],
+    "goes into battle in": [
+      {
+        "uri": "#pilots",
+        "short": "pilots",
+        "kind": "object_property",
+        "canonical_label": "pilots"
+      }
+    ],
+    "is affiliated with": [
+      {
+        "uri": "#worksFor",
+        "short": "worksFor",
+        "kind": "object_property",
+        "canonical_label": "works for"
+      }
+    ],
+    "serves": [
+      {
+        "uri": "#worksFor",
+        "short": "worksFor",
+        "kind": "object_property",
+        "canonical_label": "works for"
+      }
+    ],
+    "destroys": [
+      {
+        "uri": "#kills",
+        "short": "kills",
+        "kind": "object_property",
+        "canonical_label": "kills"
+      }
+    ],
+    "eliminates": [
+      {
+        "uri": "#kills",
+        "short": "kills",
+        "kind": "object_property",
+        "canonical_label": "kills"
+      }
+    ],
+    "is the boss of": [
+      {
+        "uri": "#isBossOf",
+        "short": "isBossOf",
+        "kind": "object_property",
+        "canonical_label": "is boss of"
+      }
+    ],
+    "is fought as the boss in": [
+      {
+        "uri": "#isBossOf",
+        "short": "isBossOf",
+        "kind": "object_property",
+        "canonical_label": "is boss of"
+      }
+    ],
+    "is the boss encountered in": [
+      {
+        "uri": "#isBossOf",
+        "short": "isBossOf",
+        "kind": "object_property",
+        "canonical_label": "is boss of"
+      }
+    ],
+    "takes part in": [
+      {
+        "uri": "#participatesIn",
+        "short": "participatesIn",
+        "kind": "object_property",
+        "canonical_label": "participates in"
+      }
+    ],
+    "is involved in": [
+      {
+        "uri": "#participatesIn",
+        "short": "participatesIn",
+        "kind": "object_property",
+        "canonical_label": "participates in"
+      }
+    ],
+    "unfolds at": [
+      {
+        "uri": "#takesPlaceIn",
+        "short": "takesPlaceIn",
+        "kind": "object_property",
+        "canonical_label": "takes place in"
+      }
+    ],
+    "is set in": [
+      {
+        "uri": "#takesPlaceIn",
+        "short": "takesPlaceIn",
+        "kind": "object_property",
+        "canonical_label": "takes place in"
+      }
+    ]
+  },
+  "relation_vocabulary": [
+    {
+      "uri": "#employs",
+      "short": "employs",
+      "label": "employs",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasAlias",
+      "short": "hasAlias",
+      "label": "has alias",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasBoss",
+      "short": "hasBoss",
+      "label": "has boss",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hasRank",
+      "short": "hasRank",
+      "label": "has rank",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#hostsEvent",
+      "short": "hostsEvent",
+      "label": "hosts event",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#involvesEntity",
+      "short": "involvesEntity",
+      "label": "involves entity",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isAliasOf",
+      "short": "isAliasOf",
+      "label": "is alias of",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isBossOf",
+      "short": "isBossOf",
+      "label": "is boss of",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isFriendlyTowards",
+      "short": "isFriendlyTowards",
+      "label": "is friendly towards",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isHostileToward",
+      "short": "isHostileToward",
+      "label": "is hostile toward",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isKilledBy",
+      "short": "isKilledBy",
+      "label": "is killed by",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isPilotedBy",
+      "short": "isPilotedBy",
+      "label": "is piloted by",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#isRankOf",
+      "short": "isRankOf",
+      "label": "is rank of",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#kills",
+      "short": "kills",
+      "label": "kills",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#participatesIn",
+      "short": "participatesIn",
+      "label": "participates in",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#pilots",
+      "short": "pilots",
+      "label": "pilots",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#takesPlaceIn",
+      "short": "takesPlaceIn",
+      "label": "takes place in",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#worksFor",
+      "short": "worksFor",
+      "label": "works for",
+      "kind": "object_property"
+    },
+    {
+      "uri": "#acName",
+      "short": "acName",
+      "label": "ac name",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#chronologicalOrder",
+      "short": "chronologicalOrder",
+      "label": "chronological order",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#isBuddy",
+      "short": "isBuddy",
+      "label": "is buddy",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#isSpecial",
+      "short": "isSpecial",
+      "label": "is special",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#name",
+      "short": "name",
+      "label": "name",
+      "kind": "datatype_property"
+    },
+    {
+      "uri": "#originatesOnRubicon",
+      "short": "originatesOnRubicon",
+      "label": "originates on rubicon",
+      "kind": "datatype_property"
+    }
+  ],
+  "semantic_groups": {
+    "isFriendlyTowards": [
+      "isHostileToward"
+    ],
+    "participatesIn": [
+      "involvesEntity"
+    ],
+    "isBossOf": [
+      "hasBoss"
+    ],
+    "hasAlias": [
+      "isAliasOf"
+    ],
+    "pilots": [
+      "isPilotedBy"
+    ],
+    "worksFor": [
+      "employs"
+    ]
+  },
+  "triggers": {
+    "isFriendlyTowards": [
+      "is friendly towards",
+      "is an ally of",
+      "fights alongside"
+    ],
+    "isHostileToward": [
+      "is hostile toward",
+      "is an enemy of",
+      "is opposed to"
+    ],
+    "hasAlias": [
+      "is also known as",
+      "goes by the alias",
+      "is also called"
+    ],
+    "hasRank": [
+      "holds the rank",
+      "is ranked",
+      "is rated"
+    ],
+    "pilots": [
+      "pilots",
+      "sorties in",
+      "goes into battle in"
+    ],
+    "worksFor": [
+      "works for",
+      "is affiliated with",
+      "serves"
+    ],
+    "kills": [
+      "kills",
+      "destroys",
+      "eliminates"
+    ],
+    "isBossOf": [
+      "is the boss of",
+      "is fought as the boss in",
+      "is the boss encountered in"
+    ],
+    "participatesIn": [
+      "takes part in",
+      "participates in",
+      "is involved in"
+    ],
+    "takesPlaceIn": [
+      "takes place in",
+      "unfolds at",
+      "is set in"
+    ]
+  }
+}

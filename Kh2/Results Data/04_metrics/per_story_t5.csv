@@ -1,0 +1,255 @@
+story,sentence,TP,FP,FN,precision,recall,f1
+story_001,axel is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_002,demyx is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_003,donald appears in agrabah.,1,0,0,1.0,1.0,1.0
+story_004,donald appears in beast castle.,1,0,0,1.0,1.0,1.0
+story_005,donald appears in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_006,donald appears in destiny islands.,1,0,0,1.0,1.0,1.0
+story_007,donald appears in disney castle.,1,0,0,1.0,1.0,1.0
+story_008,donald appears in halloween town.,1,0,0,1.0,1.0,1.0
+story_009,donald appears in land of dragons.,1,0,0,1.0,1.0,1.0
+story_010,donald appears in port royal.,1,0,0,1.0,1.0,1.0
+story_011,donald appears in pride lands.,1,0,0,1.0,1.0,1.0
+story_012,donald appears in radiant garden.,1,0,0,1.0,1.0,1.0
+story_013,donald appears in timeless river.,1,0,0,1.0,1.0,1.0
+story_014,donald appears in twilight town.,1,0,0,1.0,1.0,1.0
+story_015,donald can perform scan.,1,0,0,1.0,1.0,1.0
+story_016,donald can perform thunder.,1,0,0,1.0,1.0,1.0
+story_017,donald comes from disney castle.,1,0,0,1.0,1.0,1.0
+story_018,donald has the secondary weapon donald staff.,1,0,0,1.0,1.0,1.0
+story_019,donald is friends with goofy.,1,0,0,1.0,1.0,1.0
+story_020,donald is friends with king mickey.,1,0,0,1.0,1.0,1.0
+story_021,donald is friends with sora.,1,0,0,1.0,1.0,1.0
+story_022,fight roxas vs axel is won by party roxas.,1,0,0,1.0,1.0,1.0
+story_023,fight roxas vs axel takes place in twilight town.,1,0,0,1.0,1.0,1.0
+story_024,fight roxas vs twilight thorn is won by party roxas.,1,0,0,1.0,1.0,1.0
+story_025,fight roxas vs twilight thorn takes place in twilight town.,1,0,0,1.0,1.0,1.0
+story_026,fight sora riku vs xemnas final is won by party sora riku.,1,0,0,1.0,1.0,1.0
+story_027,fight sora riku vs xemnas final takes place in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_028,fight sora vs axel is won by party sora.,1,0,0,1.0,1.0,1.0
+story_029,fight sora vs axel takes place in radiant garden.,1,0,0,1.0,1.0,1.0
+story_030,fight sora vs demyx is won by party sora.,1,0,0,1.0,1.0,1.0
+story_031,fight sora vs demyx takes place in radiant garden.,1,0,0,1.0,1.0,1.0
+story_032,fight sora vs ghost pirate is won by party sora.,1,0,0,1.0,1.0,1.0
+story_033,fight sora vs ghost pirate takes place in port royal.,1,0,0,1.0,1.0,1.0
+story_034,fight sora vs groundshaker is won by party sora.,1,0,0,1.0,1.0,1.0
+story_035,fight sora vs groundshaker takes place in pride lands.,1,0,0,1.0,1.0,1.0
+story_036,fight sora vs luxord is won by party sora.,1,0,0,1.0,1.0,1.0
+story_037,fight sora vs luxord takes place in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_038,fight sora vs mulan dragon is won by party sora.,1,0,0,1.0,1.0,1.0
+story_039,fight sora vs mulan dragon takes place in land of dragons.,1,0,0,1.0,1.0,1.0
+story_040,fight sora vs saix is won by party sora.,1,0,0,1.0,1.0,1.0
+story_041,fight sora vs saix takes place in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_042,fight sora vs sephiroth is won by party sora.,1,0,0,1.0,1.0,1.0
+story_043,fight sora vs sephiroth takes place in radiant garden.,1,0,0,1.0,1.0,1.0
+story_044,fight sora vs xaldin is won by party sora.,1,0,0,1.0,1.0,1.0
+story_045,fight sora vs xaldin takes place in beast castle.,1,0,0,1.0,1.0,1.0
+story_046,fight sora vs xemnas is won by party sora.,1,0,0,1.0,1.0,1.0
+story_047,fight sora vs xemnas takes place in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_048,fight sora vs xigbar is won by party sora.,1,0,0,1.0,1.0,1.0
+story_049,fight sora vs xigbar takes place in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_050,goofy appears in agrabah.,1,0,0,1.0,1.0,1.0
+story_051,goofy appears in beast castle.,1,0,0,1.0,1.0,1.0
+story_052,goofy appears in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_053,goofy appears in destiny islands.,1,0,0,1.0,1.0,1.0
+story_054,goofy appears in disney castle.,1,0,0,1.0,1.0,1.0
+story_055,goofy appears in halloween town.,1,0,0,1.0,1.0,1.0
+story_056,goofy appears in land of dragons.,1,0,0,1.0,1.0,1.0
+story_057,goofy appears in port royal.,1,0,0,1.0,1.0,1.0
+story_058,goofy appears in pride lands.,1,0,0,1.0,1.0,1.0
+story_059,goofy appears in radiant garden.,1,0,0,1.0,1.0,1.0
+story_060,goofy appears in timeless river.,1,0,0,1.0,1.0,1.0
+story_061,goofy appears in twilight town.,1,0,0,1.0,1.0,1.0
+story_062,goofy can perform combo plus.,1,0,0,1.0,1.0,1.0
+story_063,goofy can perform scan.,1,0,0,1.0,1.0,1.0
+story_064,goofy comes from disney castle.,1,0,0,1.0,1.0,1.0
+story_065,goofy has the secondary weapon goofy shield.,1,0,0,1.0,1.0,1.0
+story_066,goofy is friends with king mickey.,1,0,0,1.0,1.0,1.0
+story_067,goofy is friends with sora.,1,0,0,1.0,1.0,1.0
+story_068,hayner comes from twilight town.,1,0,0,1.0,1.0,1.0
+story_069,hayner is friends with olette.,1,0,0,1.0,1.0,1.0
+story_070,hayner is friends with pence.,1,0,0,1.0,1.0,1.0
+story_071,hayner is friends with roxas.,1,0,0,1.0,1.0,1.0
+story_072,kairi appears in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_073,kairi appears in destiny islands.,1,0,0,1.0,1.0,1.0
+story_074,kairi comes from destiny islands.,1,0,0,1.0,1.0,1.0
+story_075,kairi is friends with riku.,1,0,0,1.0,1.0,1.0
+story_076,kairi is friends with sora.,1,0,0,1.0,1.0,1.0
+story_077,kairi owns the keyblade kingdom chain.,1,0,0,1.0,1.0,1.0
+story_078,king mickey appears in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_079,king mickey appears in destiny islands.,1,0,0,1.0,1.0,1.0
+story_080,king mickey comes from disney castle.,1,0,0,1.0,1.0,1.0
+story_081,king mickey is friends with kairi.,1,0,0,1.0,1.0,1.0
+story_082,king mickey is friends with riku.,1,0,0,1.0,1.0,1.0
+story_083,king mickey is friends with sora.,1,0,0,1.0,1.0,1.0
+story_084,king mickey is friends with yen sid.,1,0,0,1.0,1.0,1.0
+story_085,king mickey owns the keyblade star seeker.,1,0,0,1.0,1.0,1.0
+story_086,larxene is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_087,leon is friends with merlin.,1,0,0,1.0,1.0,1.0
+story_088,leon is friends with sora.,1,0,0,1.0,1.0,1.0
+story_089,lexaeus is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_090,luxord is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_091,marluxia is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_092,merlin appears in twilight town.,1,0,0,1.0,1.0,1.0
+story_093,merlin comes from disney castle.,1,0,0,1.0,1.0,1.0
+story_094,merlin is friends with cloud.,1,0,0,1.0,1.0,1.0
+story_095,merlin is friends with sora.,1,0,0,1.0,1.0,1.0
+story_096,naminé comes from castle oblivion.,1,0,0,1.0,1.0,1.0
+story_097,naminé is friends with roxas.,1,0,0,1.0,1.0,1.0
+story_098,olette comes from twilight town.,1,0,0,1.0,1.0,1.0
+story_099,olette is friends with roxas.,1,0,0,1.0,1.0,1.0
+story_100,outlaw moon drops dark gem.,1,0,0,1.0,1.0,1.0
+story_101,party axel engages in the fight fight roxas vs axel.,1,0,0,1.0,1.0,1.0
+story_102,party axel engages in the fight fight sora vs axel.,1,0,0,1.0,1.0,1.0
+story_103,party axel has as party member axel.,1,0,0,1.0,1.0,1.0
+story_104,party demyx engages in the fight fight sora vs demyx.,1,0,0,1.0,1.0,1.0
+story_105,party demyx has as party member demyx.,1,0,0,1.0,1.0,1.0
+story_106,party ghost pirate engages in the fight fight sora vs ghost pirate.,1,0,0,1.0,1.0,1.0
+story_107,party ghost pirate has as party member ghost pirate.,1,0,0,1.0,1.0,1.0
+story_108,party groundshaker engages in the fight fight sora vs groundshaker.,1,0,0,1.0,1.0,1.0
+story_109,party groundshaker has as party member groundshaker.,1,0,0,1.0,1.0,1.0
+story_110,party luxord engages in the fight fight sora vs luxord.,1,0,0,1.0,1.0,1.0
+story_111,party luxord has as party member luxord.,1,0,0,1.0,1.0,1.0
+story_112,party mulan dragon engages in the fight fight sora vs mulan dragon.,1,0,0,1.0,1.0,1.0
+story_113,party mulan dragon has as party member mulan dragon.,1,0,0,1.0,1.0,1.0
+story_114,party roxas engages in the fight fight roxas vs axel.,1,0,0,1.0,1.0,1.0
+story_115,party roxas engages in the fight fight roxas vs twilight thorn.,1,0,0,1.0,1.0,1.0
+story_116,party roxas has as party member roxas.,1,0,0,1.0,1.0,1.0
+story_117,party saix engages in the fight fight sora vs saix.,1,0,0,1.0,1.0,1.0
+story_118,party saix has as party member saïx.,1,0,0,1.0,1.0,1.0
+story_119,party sephiroth engages in the fight fight sora vs sephiroth.,1,0,0,1.0,1.0,1.0
+story_120,party sephiroth has as party member sephiroth.,1,0,0,1.0,1.0,1.0
+story_121,party sora engages in the fight fight sora vs axel.,1,0,0,1.0,1.0,1.0
+story_122,party sora engages in the fight fight sora vs demyx.,1,0,0,1.0,1.0,1.0
+story_123,party sora engages in the fight fight sora vs ghost pirate.,1,0,0,1.0,1.0,1.0
+story_124,party sora engages in the fight fight sora vs groundshaker.,1,0,0,1.0,1.0,1.0
+story_125,party sora engages in the fight fight sora vs luxord.,1,0,0,1.0,1.0,1.0
+story_126,party sora engages in the fight fight sora vs mulan dragon.,1,0,0,1.0,1.0,1.0
+story_127,party sora engages in the fight fight sora vs saix.,1,0,0,1.0,1.0,1.0
+story_128,party sora engages in the fight fight sora vs sephiroth.,1,0,0,1.0,1.0,1.0
+story_129,party sora engages in the fight fight sora vs xaldin.,1,0,0,1.0,1.0,1.0
+story_130,party sora engages in the fight fight sora vs xemnas.,1,0,0,1.0,1.0,1.0
+story_131,party sora engages in the fight fight sora vs xigbar.,1,0,0,1.0,1.0,1.0
+story_132,party sora has as party member donald.,1,0,0,1.0,1.0,1.0
+story_133,party sora has as party member goofy.,1,0,0,1.0,1.0,1.0
+story_134,party sora has as party member sora.,1,0,0,1.0,1.0,1.0
+story_135,party sora riku engages in the fight fight sora riku vs xemnas final.,1,0,0,1.0,1.0,1.0
+story_136,party sora riku has as party member riku.,1,0,0,1.0,1.0,1.0
+story_137,party sora riku has as party member sora.,1,0,0,1.0,1.0,1.0
+story_138,party twilight thorn engages in the fight fight roxas vs twilight thorn.,1,0,0,1.0,1.0,1.0
+story_139,party twilight thorn has as party member twilight thorn.,1,0,0,1.0,1.0,1.0
+story_140,party xaldin engages in the fight fight sora vs xaldin.,1,0,0,1.0,1.0,1.0
+story_141,party xaldin has as party member xaldin.,1,0,0,1.0,1.0,1.0
+story_142,party xemnas engages in the fight fight sora vs xemnas.,1,0,0,1.0,1.0,1.0
+story_143,party xemnas final engages in the fight fight sora riku vs xemnas final.,1,0,0,1.0,1.0,1.0
+story_144,party xemnas final has as party member xemnas final form.,1,0,0,1.0,1.0,1.0
+story_145,party xemnas has as party member xemnas.,1,0,0,1.0,1.0,1.0
+story_146,party xigbar engages in the fight fight sora vs xigbar.,1,0,0,1.0,1.0,1.0
+story_147,party xigbar has as party member xigbar.,1,0,0,1.0,1.0,1.0
+story_148,pence appears in twilight town.,1,0,0,1.0,1.0,1.0
+story_149,pence comes from twilight town.,1,0,0,1.0,1.0,1.0
+story_150,pence is friends with olette.,1,0,0,1.0,1.0,1.0
+story_151,pence is friends with roxas.,1,0,0,1.0,1.0,1.0
+story_152,riku appears in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_153,riku appears in destiny islands.,1,0,0,1.0,1.0,1.0
+story_154,riku comes from destiny islands.,1,0,0,1.0,1.0,1.0
+story_155,riku is friends with sora.,1,0,0,1.0,1.0,1.0
+story_156,riku owns the keyblade way to dawn.,1,0,0,1.0,1.0,1.0
+story_157,roxas comes from twilight town.,1,0,0,1.0,1.0,1.0
+story_158,roxas defeats axel.,1,0,0,1.0,1.0,1.0
+story_159,roxas defeats basic.,1,0,0,1.0,1.0,1.0
+story_160,roxas defeats twilight thorn.,1,0,0,1.0,1.0,1.0
+story_161,roxas is friends with axel.,1,0,0,1.0,1.0,1.0
+story_162,roxas owns the keyblade kingdom chain.,1,0,0,1.0,1.0,1.0
+story_163,roxas owns the keyblade lucky charm.,1,0,0,1.0,1.0,1.0
+story_164,roxas owns the keyblade memory skyscraper.,1,0,0,1.0,1.0,1.0
+story_165,saïx is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_166,sephiroth appears in radiant garden.,1,0,0,1.0,1.0,1.0
+story_167,sephiroth comes from radiant garden.,1,0,0,1.0,1.0,1.0
+story_168,shadow drops potion.,1,0,0,1.0,1.0,1.0
+story_169,sora appears in agrabah.,1,0,0,1.0,1.0,1.0
+story_170,sora appears in beast castle.,1,0,0,1.0,1.0,1.0
+story_171,sora appears in castle oblivion.,1,0,0,1.0,1.0,1.0
+story_172,sora appears in destiny islands.,1,0,0,1.0,1.0,1.0
+story_173,sora appears in disney castle.,1,0,0,1.0,1.0,1.0
+story_174,sora appears in halloween town.,1,0,0,1.0,1.0,1.0
+story_175,sora appears in land of dragons.,1,0,0,1.0,1.0,1.0
+story_176,sora appears in port royal.,1,0,0,1.0,1.0,1.0
+story_177,sora appears in pride lands.,1,0,0,1.0,1.0,1.0
+story_178,sora appears in radiant garden.,1,0,0,1.0,1.0,1.0
+story_179,sora appears in timeless river.,1,0,0,1.0,1.0,1.0
+story_180,sora appears in twilight town.,1,0,0,1.0,1.0,1.0
+story_181,sora can perform aerial dodge.,1,0,0,1.0,1.0,1.0
+story_182,sora can perform aerial recovery.,1,0,0,1.0,1.0,1.0
+story_183,sora can perform blizzard.,1,0,0,1.0,1.0,1.0
+story_184,sora can perform combo plus.,1,0,0,1.0,1.0,1.0
+story_185,sora can perform cure.,1,0,0,1.0,1.0,1.0
+story_186,sora can perform dodge roll.,1,0,0,1.0,1.0,1.0
+story_187,sora can perform emergency.,1,0,0,1.0,1.0,1.0
+story_188,sora can perform fire.,1,0,0,1.0,1.0,1.0
+story_189,sora can perform glide.,1,0,0,1.0,1.0,1.0
+story_190,sora can perform guard break.,1,0,0,1.0,1.0,1.0
+story_191,sora can perform guard.,1,0,0,1.0,1.0,1.0
+story_192,sora can perform high jump.,1,0,0,1.0,1.0,1.0
+story_193,sora can perform magnet.,1,0,0,1.0,1.0,1.0
+story_194,sora can perform mprage.,1,0,0,1.0,1.0,1.0
+story_195,sora can perform reflect.,1,0,0,1.0,1.0,1.0
+story_196,sora can perform scan.,1,0,0,1.0,1.0,1.0
+story_197,sora can perform second chance.,1,0,0,1.0,1.0,1.0
+story_198,sora can perform thunder.,1,0,0,1.0,1.0,1.0
+story_199,sora comes from destiny islands.,1,0,0,1.0,1.0,1.0
+story_200,sora defeats armored knight.,1,0,0,1.0,1.0,1.0
+story_201,sora defeats assassin.,1,0,0,1.0,1.0,1.0
+story_202,sora defeats axel.,1,0,0,1.0,1.0,1.0
+story_203,sora defeats dancer.,1,0,0,1.0,1.0,1.0
+story_204,sora defeats demyx.,1,0,0,1.0,1.0,1.0
+story_205,sora defeats gambler.,1,0,0,1.0,1.0,1.0
+story_206,sora defeats ghost pirate.,1,0,0,1.0,1.0,1.0
+story_207,sora defeats groundshaker.,1,0,0,1.0,1.0,1.0
+story_208,sora defeats larxene.,1,0,0,1.0,1.0,1.0
+story_209,sora defeats lexaeus.,1,0,0,1.0,1.0,1.0
+story_210,sora defeats luxord.,1,0,0,1.0,1.0,1.0
+story_211,sora defeats marluxia.,1,0,0,1.0,1.0,1.0
+story_212,sora defeats mulan dragon.,1,0,0,1.0,1.0,1.0
+story_213,sora defeats neoshadow.,1,0,0,1.0,1.0,1.0
+story_214,sora defeats roxas.,1,0,0,1.0,1.0,1.0
+story_215,sora defeats sephiroth.,1,0,0,1.0,1.0,1.0
+story_216,sora defeats shadow.,1,0,0,1.0,1.0,1.0
+story_217,sora defeats sniper.,1,0,0,1.0,1.0,1.0
+story_218,sora defeats vexen.,1,0,0,1.0,1.0,1.0
+story_219,sora defeats xaldin.,1,0,0,1.0,1.0,1.0
+story_220,sora defeats xemnas final form.,1,0,0,1.0,1.0,1.0
+story_221,sora defeats xemnas.,1,0,0,1.0,1.0,1.0
+story_222,sora defeats xigbar.,1,0,0,1.0,1.0,1.0
+story_223,sora defeats zexion.,1,0,0,1.0,1.0,1.0
+story_224,sora has in the inventory bright gem.,1,0,0,1.0,1.0,1.0
+story_225,sora has in the inventory dark gem.,1,0,0,1.0,1.0,1.0
+story_226,sora has in the inventory elixir.,1,0,0,1.0,1.0,1.0
+story_227,sora has in the inventory ether.,1,0,0,1.0,1.0,1.0
+story_228,sora has in the inventory lunar gem.,1,0,0,1.0,1.0,1.0
+story_229,sora has in the inventory mega elixir.,1,0,0,1.0,1.0,1.0
+story_230,sora has in the inventory mega ether.,1,0,0,1.0,1.0,1.0
+story_231,sora has in the inventory mega potion.,1,0,0,1.0,1.0,1.0
+story_232,sora has in the inventory potion.,1,0,0,1.0,1.0,1.0
+story_233,sora has the drive form anti fusion.,1,0,0,1.0,1.0,1.0
+story_234,sora has the drive form final form.,1,0,0,1.0,1.0,1.0
+story_235,sora has the drive form limit form.,1,0,0,1.0,1.0,1.0
+story_236,sora has the drive form master form.,1,0,0,1.0,1.0,1.0
+story_237,sora has the drive form valor form.,1,0,0,1.0,1.0,1.0
+story_238,sora has the drive form wisdom form.,1,0,0,1.0,1.0,1.0
+story_239,sora owns the keyblade 2 become one.,1,0,0,1.0,1.0,1.0
+story_240,sora owns the keyblade circle of life.,1,0,0,1.0,1.0,1.0
+story_241,sora owns the keyblade fenrir.,1,0,0,1.0,1.0,1.0
+story_242,sora owns the keyblade follow the wind.,1,0,0,1.0,1.0,1.0
+story_243,sora owns the keyblade kingdom chain.,1,0,0,1.0,1.0,1.0
+story_244,sora owns the keyblade lucky charm.,1,0,0,1.0,1.0,1.0
+story_245,sora owns the keyblade photonic debugger.,1,0,0,1.0,1.0,1.0
+story_246,sora owns the keyblade seagull wing.,1,0,0,1.0,1.0,1.0
+story_247,sora owns the keyblade star seeker.,1,0,0,1.0,1.0,1.0
+story_248,sora owns the keyblade sweet memories.,1,0,0,1.0,1.0,1.0
+story_249,sora owns the keyblade ultima weapon.,1,0,0,1.0,1.0,1.0
+story_250,vexen is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_251,xaldin is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_252,xemnas is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_253,xigbar is a member of organization13.,1,0,0,1.0,1.0,1.0
+story_254,zexion is a member of organization13.,1,0,0,1.0,1.0,1.0

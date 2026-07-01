@@ -1,0 +1,9 @@
+A potion is a kind of consumable.
+Often a entity appears in another worlds.
+Every nobody is also a enemy.
+A recruitable ally has the secondary weapon a secondary weapon.
+Every recruitable ally is also a playable character.
+Every playable character is also a character.
+Every movement action is also a action.
+A keyblade has attack power value.
+Every boss is also a enemy.

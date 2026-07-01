@@ -1,0 +1,11 @@
+Every drive form is also a action.
+Typically a entity defeats a given entity.
+A gems is a kind of consumable.
+In general a entity can perform some action.
+A magic attack is a kind of combat action.
+Every non playable character is also a character.
+A heartless is a kind of enemy.
+A entity is friends with a entity.
+Typically a fight is won by a given party.
+Every org13 member is also a nobody.
+Each entity appears in a worlds.

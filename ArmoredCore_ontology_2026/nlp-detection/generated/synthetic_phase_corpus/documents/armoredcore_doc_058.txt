@@ -1,0 +1,10 @@
+Each character can be assigned a rank.
+Each society stores an origin-on-Rubicon flag as a literal value.
+Allies are entities friendly towards each other.
+In the schema, a character has an alias.
+Character is modeled as a subclass of entity.
+An armored core has a name stored as a literal value.
+A major event takes place in a place.
+The record notes when one character kills another.
+Each armored core is operated by a character.
+An armored core is piloted by a character.

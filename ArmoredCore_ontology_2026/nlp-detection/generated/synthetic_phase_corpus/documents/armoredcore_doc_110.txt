@@ -1,0 +1,10 @@
+An entity is hostile toward another entity.
+The schema records that a character pilots an armored core.
+The record notes when one character kills another.
+A character works for a society.
+A character records whether it is the player buddy as a literal value.
+Each armored core stores a special flag as a literal value.
+A character holds a rank in the Arena ranking.
+Each major event is located in a place on Rubicon 3.
+A major event has a chronological order stored as a literal value.
+A society employs a character.

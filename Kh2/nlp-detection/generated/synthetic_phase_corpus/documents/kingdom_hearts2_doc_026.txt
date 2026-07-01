@@ -1,0 +1,10 @@
+A non consumable is a kind of items.
+A entity has hit points value.
+A summon is a kind of action.
+Every keyblade is also a non consumable.
+Every common nobody is also a nobody.
+Typically a entity drops a given items.
+A combat action is a kind of action.
+A playable character is a kind of character.
+Often a entity can perform another action.
+Typically a entity comes from a given worlds.

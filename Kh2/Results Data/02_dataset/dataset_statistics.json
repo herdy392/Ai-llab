@@ -1,0 +1,50 @@
+{
+  "deliverable": "Synthetic Annotated Dataset (JSONL, tiered complexity, Train/Val/Test)",
+  "synthetic_corpus": {
+    "documents": 100,
+    "sentences": 1042,
+    "document_split": {
+      "train": 80,
+      "val": 10,
+      "test": 10
+    },
+    "document_split_percent": {
+      "train": 80.0,
+      "val": 10.0,
+      "test": 10.0
+    },
+    "sentence_split": {
+      "train": 831,
+      "val": 103,
+      "test": 108
+    },
+    "sentence_split_percent": {
+      "train": 79.8,
+      "val": 9.9,
+      "test": 10.4
+    }
+  },
+  "verifier_dataset": {
+    "examples": 11832,
+    "split": {
+      "train": 8461,
+      "val": 1660,
+      "test": 1711
+    },
+    "split_percent": {
+      "train": 71.5,
+      "val": 14.0,
+      "test": 14.5
+    },
+    "label_distribution": {
+      "INVALID": 8244,
+      "VALID": 3588
+    }
+  },
+  "target_split": {
+    "train": 70,
+    "val": 15,
+    "test": 15
+  },
+  "note": "Lo split documenti del corpus sintetico segue 70/15/15 (slide Phase 2)."
+}

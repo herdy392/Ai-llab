@@ -1,0 +1,11 @@
+An entity is friendly towards another entity.
+A major event has a chronological order stored as a literal value.
+The schema records that a boss is boss of a major event.
+The schema marks a society Rubicon origin with a literal value.
+Each character can be affiliated with a society.
+In the schema, every character is an entity.
+Every alias points back to the character it identifies.
+Every armored core is piloted by a character.
+A character can be known by one or more aliases.
+Each character can be assigned a rank.
+Each armored core stores a special flag as a literal value.

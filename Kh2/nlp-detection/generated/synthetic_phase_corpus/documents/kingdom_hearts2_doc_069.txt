@@ -1,0 +1,11 @@
+In general a recruitable ally has the secondary weapon some secondary weapon.
+Every non consumable is also a items.
+In general a entity can perform some action.
+Every secondary weapon is also a non consumable.
+Every nobody is also a enemy.
+Every character is also a entity.
+In general a protagonist has in the inventory some items.
+Every boss is also a enemy.
+In general a protagonist can summon some summon.
+Every keyblade is also a non consumable.
+Each entity records its hit points.

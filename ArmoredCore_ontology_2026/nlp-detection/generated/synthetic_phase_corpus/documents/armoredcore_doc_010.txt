@@ -1,0 +1,9 @@
+Each armored core stores a special flag as a literal value.
+Each character can be assigned a rank.
+Each character stores a buddy flag as a literal value.
+A major event has a chronological order stored as a literal value.
+Each major event lists the entities that take part in it.
+Each society stores an origin-on-Rubicon flag as a literal value.
+In the schema, a character has an alias.
+The schema records that an entity is hostile toward an entity.
+An armored core has a name stored as a literal value.

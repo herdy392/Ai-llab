@@ -1,0 +1,12 @@
+A secondary weapon is a kind of non consumable.
+A entity appears in a worlds.
+Often a fight takes place in another worlds.
+Every character is also a entity.
+Every boss is also a enemy.
+A playable character is a kind of character.
+A gems is a kind of consumable.
+In general a fight is won by some party.
+In general a entity drops some items.
+A enemy is a kind of non playable character.
+A drive form is a kind of action.
+Every party is also a entity.

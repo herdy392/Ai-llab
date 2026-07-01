@@ -1,0 +1,12 @@
+The model links an armored core to its pilot character.
+An armored core records whether it is special as a literal value.
+Each character stores a buddy flag as a literal value.
+A society is a kind of entity.
+Allies are entities friendly towards each other.
+In the schema, every character is an entity.
+Each major event is located in a place on Rubicon 3.
+A society has a name stored as a literal value.
+Each major event lists the entities that take part in it.
+Each major event can be led by a boss.
+Each character record links to the aliases they use.
+A character holds a rank in the Arena ranking.

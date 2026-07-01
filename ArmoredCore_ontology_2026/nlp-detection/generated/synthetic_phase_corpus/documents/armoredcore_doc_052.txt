@@ -1,0 +1,12 @@
+A character kills another character.
+Each character can be affiliated with a society.
+The schema records that a character pilots an armored core.
+In the schema, a character has an alias.
+The schema marks an armored core as special with a literal value.
+Allies are entities friendly towards each other.
+In the schema, every AI is a character.
+Each society stores its official name as text.
+A society is a kind of entity.
+A character records whether it is the player buddy as a literal value.
+An entity participates in a major event.
+A boss is a kind of character.

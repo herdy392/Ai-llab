@@ -1,0 +1,256 @@
+{
+  "documents": 110,
+  "sentences": 1151,
+  "document_split_distribution": {
+    "train": 88,
+    "val": 11,
+    "test": 11
+  },
+  "sentence_split_distribution": {
+    "train": 931,
+    "val": 112,
+    "test": 108
+  },
+  "supported_triples": [
+    {
+      "subject": "AI",
+      "predicate": "rdfs:subClassOf",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Alias",
+      "predicate": "isAliasOf",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "ArmoredCore",
+      "predicate": "acName",
+      "object": "LiteralValue",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "ArmoredCore",
+      "predicate": "isPilotedBy",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "ArmoredCore",
+      "predicate": "isSpecial",
+      "object": "LiteralValue",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Boss",
+      "predicate": "isBossOf",
+      "object": "MajorEvent",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "Boss",
+      "predicate": "rdfs:subClassOf",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "hasAlias",
+      "object": "Alias",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "hasRank",
+      "object": "Rank",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "isBuddy",
+      "object": "LiteralValue",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "isKilledBy",
+      "object": "Character",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "kills",
+      "object": "Character",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "pilots",
+      "object": "ArmoredCore",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "rdfs:subClassOf",
+      "object": "Entity",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Character",
+      "predicate": "worksFor",
+      "object": "Society",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Entity",
+      "predicate": "isFriendlyTowards",
+      "object": "Entity",
+      "phases": [
+        "phase3"
+      ]
+    },
+    {
+      "subject": "Entity",
+      "predicate": "isHostileToward",
+      "object": "Entity",
+      "phases": [
+        "phase3"
+      ]
+    },
+    {
+      "subject": "Entity",
+      "predicate": "participatesIn",
+      "object": "MajorEvent",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "Human",
+      "predicate": "rdfs:subClassOf",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "MajorEvent",
+      "predicate": "chronologicalOrder",
+      "object": "LiteralValue",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "MajorEvent",
+      "predicate": "hasBoss",
+      "object": "Boss",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "MajorEvent",
+      "predicate": "involvesEntity",
+      "object": "Entity",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "MajorEvent",
+      "predicate": "takesPlaceIn",
+      "object": "Place",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "Place",
+      "predicate": "hostsEvent",
+      "object": "MajorEvent",
+      "phases": [
+        "phase2"
+      ]
+    },
+    {
+      "subject": "Rank",
+      "predicate": "isRankOf",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Rubiconian",
+      "predicate": "rdfs:subClassOf",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Society",
+      "predicate": "employs",
+      "object": "Character",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Society",
+      "predicate": "name",
+      "object": "LiteralValue",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Society",
+      "predicate": "originatesOnRubicon",
+      "object": "LiteralValue",
+      "phases": [
+        "phase1"
+      ]
+    },
+    {
+      "subject": "Society",
+      "predicate": "rdfs:subClassOf",
+      "object": "Entity",
+      "phases": [
+        "phase1"
+      ]
+    }
+  ]
+}

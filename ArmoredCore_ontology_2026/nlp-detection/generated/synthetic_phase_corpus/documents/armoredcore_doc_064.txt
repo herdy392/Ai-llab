@@ -1,0 +1,10 @@
+An armored core has a name stored as a literal value.
+Each armored core is operated by a character.
+The record notes when one character kills another.
+A society has a name stored as a literal value.
+A character works for a society.
+A character holds a rank in the Arena ranking.
+An entity is friendly towards another entity.
+The model links an armored core to its pilot character.
+The schema marks an armored core as special with a literal value.
+A major event takes place in a place.

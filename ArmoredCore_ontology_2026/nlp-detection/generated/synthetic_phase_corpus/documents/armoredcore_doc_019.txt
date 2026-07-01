@@ -1,0 +1,12 @@
+Each armored core stores its AC name as text.
+Each society stores an origin-on-Rubicon flag as a literal value.
+The schema records that an entity is friendly towards an entity.
+A major event takes place in a place.
+In the schema, every human is a character.
+Each character can be affiliated with a society.
+An armored core is piloted by a character.
+Each character can be assigned a rank.
+Each major event can be led by a boss.
+A character records whether it is the player buddy as a literal value.
+The record notes when one character kills another.
+An armored core records whether it is special as a literal value.

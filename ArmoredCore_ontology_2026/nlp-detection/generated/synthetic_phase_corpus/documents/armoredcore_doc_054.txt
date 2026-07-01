@@ -1,0 +1,10 @@
+A character holds a rank in the Arena ranking.
+In the schema, a character has an alias.
+An entity is hostile toward another entity.
+A major event has a chronological order stored as a literal value.
+Each character stores a buddy flag as a literal value.
+The schema records that a boss is boss of a major event.
+Each armored core stores a special flag as a literal value.
+The schema records that a character works for a society.
+Each major event lists the entities that take part in it.
+In the schema, every AI is a character.

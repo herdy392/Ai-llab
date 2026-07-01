@@ -1,0 +1,10 @@
+Each fight takes place in a worlds.
+Each protagonist can summon a summon.
+Every character is also a entity.
+A potion is a kind of consumable.
+A org13 member is a member of a organization.
+A org13 member is a kind of nobody.
+Every non playable character is also a character.
+A non consumable is a kind of items.
+Every organization is also a entity.
+Often a entity can perform another action.

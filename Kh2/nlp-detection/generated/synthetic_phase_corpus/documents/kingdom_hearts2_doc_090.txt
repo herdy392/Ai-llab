@@ -1,0 +1,9 @@
+A enemy is a kind of non playable character.
+A organization is a kind of entity.
+A entity owns the keyblade a keyblade.
+In general a entity appears in some worlds.
+Every drive form is also a action.
+A entity can perform a action.
+Often a entity participates in another party.
+A entity is friends with a entity.
+Every munny is also a consumable.

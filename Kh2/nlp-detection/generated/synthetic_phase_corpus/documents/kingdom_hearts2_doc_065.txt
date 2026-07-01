@@ -1,0 +1,10 @@
+A gems is a kind of consumable.
+A consumable is a kind of items.
+A keyblade has attack power value.
+A organization is a kind of entity.
+Often a party has as party member another entity.
+Every boss is also a enemy.
+A item use is a kind of action.
+Each entity records its hit points.
+Every movement action is also a action.
+A npc is a kind of non playable character.

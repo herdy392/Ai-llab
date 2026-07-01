@@ -1,0 +1,11 @@
+PREFIX ac: <http://example.org/armoredcore#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Q3 - OPTIONAL + FILTER: pilots and the AC they pilot, with the events they take
+# part in (optional); keep only pilots whose name does not contain a digit.
+SELECT ?pilot ?ac ?event WHERE {
+  ?pilot ac:pilots ?ac .
+  OPTIONAL { ?pilot ac:participatesIn ?event . }
+  FILTER (!regex(str(?pilot), "[0-9]"))
+}
+ORDER BY ?pilot ?ac

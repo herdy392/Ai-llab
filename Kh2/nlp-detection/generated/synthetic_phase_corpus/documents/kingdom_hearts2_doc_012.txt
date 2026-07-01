@@ -1,0 +1,12 @@
+Every character is also a entity.
+A keyblade is a kind of non consumable.
+Every disney antagonist is also a enemy.
+Each protagonist has the drive form a drive form.
+Often a entity is friends with another entity.
+A gems is a kind of consumable.
+Every recruitable ally is also a playable character.
+Every item use is also a action.
+A party engages in the fight a fight.
+Every support is also a action.
+In general a entity drops some items.
+In general a fight takes place in some worlds.

@@ -1,0 +1,11 @@
+Each character can be assigned a rank.
+The schema records that a boss is boss of a major event.
+The schema records that an entity is friendly towards an entity.
+The schema records a society name as a literal value.
+Each society stores an origin-on-Rubicon flag as a literal value.
+An armored core has a name stored as a literal value.
+The schema records that a character pilots an armored core.
+A society employs a character.
+Each major event is located in a place on Rubicon 3.
+The schema records that a character kills a character.
+A character can be known by one or more aliases.

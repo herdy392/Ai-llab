@@ -1,0 +1,11 @@
+In general a recruitable ally has the secondary weapon some secondary weapon.
+In general a entity defeats some entity.
+Every munny is also a consumable.
+Each entity drops a items.
+Each entity appears in a worlds.
+A keyblade is a kind of non consumable.
+Every potion is also a consumable.
+A protagonist has in the inventory a items.
+A boss is a kind of enemy.
+Typically a org13 member is a member of a given organization.
+Typically a fight takes place in a given worlds.

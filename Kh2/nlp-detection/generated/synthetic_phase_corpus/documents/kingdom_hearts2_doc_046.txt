@@ -1,0 +1,11 @@
+Each recruitable ally has the secondary weapon a secondary weapon.
+Often a entity participates in another party.
+A entity has hit points value.
+Every movement action is also a action.
+Every enemy is also a non playable character.
+A gems is a kind of consumable.
+Each party engages in the fight a fight.
+Each keyblade records its attack power.
+Every summon is also a action.
+A entity comes from a worlds.
+A playable character is a kind of character.

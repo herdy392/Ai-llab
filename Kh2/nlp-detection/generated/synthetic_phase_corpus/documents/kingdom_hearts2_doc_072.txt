@@ -1,0 +1,9 @@
+Every protagonist is also a playable character.
+A summon is a kind of action.
+Every heartless is also a enemy.
+Every item use is also a action.
+Each recruitable ally has the secondary weapon a secondary weapon.
+Often a party has as party member another entity.
+Each protagonist has the drive form a drive form.
+Every nobody is also a enemy.
+Often a fight is won by another party.

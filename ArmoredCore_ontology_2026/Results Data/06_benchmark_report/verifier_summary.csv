@@ -1,0 +1,4 @@
+model,split,accuracy,precision,recall,f1
+rule,train,0.9099,0.74,1.0,0.8506
+rule,val,0.883,0.7628,1.0,0.8655
+rule,test,0.9295,0.8043,1.0,0.8916

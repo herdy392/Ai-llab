@@ -1,0 +1,10 @@
+Every munny is also a consumable.
+A party is a kind of entity.
+Every consumable is also a items.
+Typically a entity comes from a given worlds.
+Typically a org13 member is a member of a given organization.
+Each entity appears in a worlds.
+A fight takes place in a worlds.
+Each protagonist can summon a summon.
+Every org13 member is also a nobody.
+Each entity owns the keyblade a keyblade.

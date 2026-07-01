@@ -1,0 +1,10 @@
+Typically a entity appears in a given worlds.
+A potion is a kind of consumable.
+Typically a protagonist can summon a given summon.
+Every summon is also a action.
+Every party is also a entity.
+A entity comes from a worlds.
+A drive form is a kind of action.
+Every organization is also a entity.
+A recruitable ally has the secondary weapon a secondary weapon.
+A recruitable ally is a kind of playable character.

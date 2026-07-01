@@ -1,0 +1,52 @@
+{
+  "gold": 160,
+  "predicted": 160,
+  "tp": 160,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "per_relation_recall": {
+    "hasAlias": {
+      "hit": 30,
+      "total": 30
+    },
+    "hasRank": {
+      "hit": 6,
+      "total": 6
+    },
+    "isBossOf": {
+      "hit": 11,
+      "total": 11
+    },
+    "isFriendlyTowards": {
+      "hit": 10,
+      "total": 10
+    },
+    "isHostileToward": {
+      "hit": 10,
+      "total": 10
+    },
+    "kills": {
+      "hit": 5,
+      "total": 5
+    },
+    "participatesIn": {
+      "hit": 45,
+      "total": 45
+    },
+    "pilots": {
+      "hit": 17,
+      "total": 17
+    },
+    "takesPlaceIn": {
+      "hit": 12,
+      "total": 12
+    },
+    "worksFor": {
+      "hit": 14,
+      "total": 14
+    }
+  }
+}

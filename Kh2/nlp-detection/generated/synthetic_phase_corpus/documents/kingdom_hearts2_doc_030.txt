@@ -1,0 +1,10 @@
+In general a entity appears in some worlds.
+A recruitable ally is a kind of playable character.
+A potion is a kind of consumable.
+Every movement action is also a action.
+Typically a org13 member is a member of a given organization.
+Typically a entity comes from a given worlds.
+Each entity is friends with a entity.
+A organization is a kind of entity.
+Every common nobody is also a nobody.
+Typically a fight is won by a given party.

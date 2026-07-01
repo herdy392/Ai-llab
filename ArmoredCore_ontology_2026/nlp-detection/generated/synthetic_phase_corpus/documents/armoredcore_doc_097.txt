@@ -1,0 +1,12 @@
+A society has a name stored as a literal value.
+Enemies are entities hostile toward each other.
+A character records whether it is the player buddy as a literal value.
+A character can be known by one or more aliases.
+The model links an armored core to its pilot character.
+A character is killed by another character.
+The schema records that a character works for a society.
+A character holds a rank in the Arena ranking.
+An entity participates in a major event.
+Each major event is located in a place on Rubicon 3.
+The record notes when one character kills another.
+A society records whether it originates on Rubicon as a literal value.

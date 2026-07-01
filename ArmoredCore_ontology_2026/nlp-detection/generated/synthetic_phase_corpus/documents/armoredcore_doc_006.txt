@@ -1,0 +1,9 @@
+The record notes when one character kills another.
+The schema records that an entity is hostile toward an entity.
+The schema marks a society Rubicon origin with a literal value.
+The model links an armored core to its pilot character.
+The schema records that a character works for a society.
+Each society stores its official name as text.
+Each major event lists the entities that take part in it.
+A character holds a rank in the Arena ranking.
+Each character stores a buddy flag as a literal value.

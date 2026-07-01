@@ -1,0 +1,84 @@
+@prefix ex: <http://example.org/armoredcore#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+ex:AliasShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Character ;
+            sh:message "isAliasOf must point to a Character" ;
+            sh:path ex:isAliasOf ] ;
+    sh:targetClass ex:Alias .
+
+ex:ArmoredCoreShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Character ;
+            sh:message "isPilotedBy must point to a Character" ;
+            sh:path ex:isPilotedBy ] ;
+    sh:targetClass ex:ArmoredCore .
+
+ex:BossShape a sh:NodeShape ;
+    sh:property [ sh:class ex:MajorEvent ;
+            sh:message "isBossOf must point to a MajorEvent" ;
+            sh:path ex:isBossOf ] ;
+    sh:targetClass ex:Boss .
+
+ex:CharacterShape a sh:NodeShape ;
+    sh:property [ sh:class ex:ArmoredCore ;
+            sh:message "pilots must point to a ArmoredCore" ;
+            sh:path ex:pilots ],
+        [ sh:class ex:Alias ;
+            sh:message "hasAlias must point to a Alias" ;
+            sh:path ex:hasAlias ],
+        [ sh:class ex:Character ;
+            sh:message "isKilledBy must point to a Character" ;
+            sh:path ex:isKilledBy ],
+        [ sh:class ex:Character ;
+            sh:message "kills must point to a Character" ;
+            sh:path ex:kills ],
+        [ sh:class ex:Rank ;
+            sh:message "hasRank must point to a Rank" ;
+            sh:path ex:hasRank ],
+        [ sh:class ex:Society ;
+            sh:message "worksFor must point to a Society" ;
+            sh:path ex:worksFor ] ;
+    sh:targetClass ex:Character .
+
+ex:EntityShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Entity ;
+            sh:message "isFriendlyTowards must point to a Entity" ;
+            sh:path ex:isFriendlyTowards ],
+        [ sh:class ex:MajorEvent ;
+            sh:message "participatesIn must point to a MajorEvent" ;
+            sh:path ex:participatesIn ],
+        [ sh:class ex:Entity ;
+            sh:message "isHostileToward must point to a Entity" ;
+            sh:path ex:isHostileToward ] ;
+    sh:targetClass ex:Entity .
+
+ex:MajorEventShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Entity ;
+            sh:message "involvesEntity must point to a Entity" ;
+            sh:path ex:involvesEntity ],
+        [ sh:class ex:Place ;
+            sh:message "takesPlaceIn must point to a Place" ;
+            sh:path ex:takesPlaceIn ],
+        [ sh:class ex:Boss ;
+            sh:message "hasBoss must point to a Boss" ;
+            sh:path ex:hasBoss ] ;
+    sh:targetClass ex:MajorEvent .
+
+ex:PlaceShape a sh:NodeShape ;
+    sh:property [ sh:class ex:MajorEvent ;
+            sh:message "hostsEvent must point to a MajorEvent" ;
+            sh:path ex:hostsEvent ] ;
+    sh:targetClass ex:Place .
+
+ex:RankShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Character ;
+            sh:message "isRankOf must point to a Character" ;
+            sh:path ex:isRankOf ] ;
+    sh:targetClass ex:Rank .
+
+ex:SocietyShape a sh:NodeShape ;
+    sh:property [ sh:class ex:Character ;
+            sh:message "employs must point to a Character" ;
+            sh:path ex:employs ] ;
+    sh:targetClass ex:Society .
+

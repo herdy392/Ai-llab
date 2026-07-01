@@ -1,0 +1,10 @@
+An entity is hostile toward another entity.
+The schema gives a character a rank.
+The schema records a major event chronological order as a literal value.
+An armored core records whether it is special as a literal value.
+Each character record links to the aliases they use.
+The schema records that a major event takes place in a place.
+A society records whether it originates on Rubicon as a literal value.
+Each society stores its official name as text.
+An armored core has a name stored as a literal value.
+A character works for a society.

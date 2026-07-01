@@ -1,0 +1,9 @@
+A recruitable ally has the secondary weapon a secondary weapon.
+A common nobody is a kind of nobody.
+Every nobody is also a enemy.
+A protagonist has in the inventory a items.
+A keyblade is a kind of non consumable.
+A entity has hit points value.
+Every recruitable ally is also a playable character.
+Each protagonist can summon a summon.
+A gems is a kind of consumable.

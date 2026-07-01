@@ -1,0 +1,12 @@
+The model records that a character is killed by a character.
+The schema records an armored core name as a literal value.
+Each major event can be led by a boss.
+A major event has a chronological order stored as a literal value.
+Every alias points back to the character it identifies.
+An armored core records whether it is special as a literal value.
+A character records whether it is the player buddy as a literal value.
+The schema gives a character a rank.
+A major event has a boss.
+A major event takes place in a place.
+The schema records that a character pilots an armored core.
+Allies are entities friendly towards each other.

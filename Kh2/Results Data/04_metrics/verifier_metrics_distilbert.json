@@ -1,0 +1,134 @@
+{
+  "model": "distilbert-base-uncased",
+  "slug": "distilbert-base-uncased",
+  "arch": "encoder",
+  "labels": [
+    "INVALID",
+    "VALID"
+  ],
+  "best_val_acc": 0.9716867469879518,
+  "test_accuracy": 0.9555815312682642,
+  "precision": 0.9643605870020965,
+  "recall": 0.8863198458574181,
+  "f1": 0.9236947791164659,
+  "throughput_examples_per_sec": 838.4305188310465,
+  "train_seconds": 162.48075989997596,
+  "device": "GPU x1 (NVIDIA GeForce RTX 2060)",
+  "confusion_matrix": [
+    [
+      1175,
+      17
+    ],
+    [
+      59,
+      460
+    ]
+  ],
+  "per_split": {
+    "test": {
+      "accuracy": 0.9555815312682642,
+      "precision": 0.9643605870020965,
+      "recall": 0.8863198458574181,
+      "f1": 0.9236947791164659,
+      "confusion_matrix": [
+        [
+          1175,
+          17
+        ],
+        [
+          59,
+          460
+        ]
+      ]
+    },
+    "train": {
+      "accuracy": 0.9789622976007564,
+      "precision": 0.9671434093544646,
+      "recall": 0.9641618497109826,
+      "f1": 0.9656503280586646,
+      "confusion_matrix": [
+        [
+          5781,
+          85
+        ],
+        [
+          93,
+          2502
+        ]
+      ]
+    },
+    "val": {
+      "accuracy": 0.9716867469879518,
+      "precision": 0.9591397849462365,
+      "recall": 0.9409282700421941,
+      "f1": 0.9499467518636848,
+      "confusion_matrix": [
+        [
+          1167,
+          19
+        ],
+        [
+          28,
+          446
+        ]
+      ]
+    }
+  },
+  "f1_by_complexity_tier": {
+    "nested": {
+      "precision": 0.9819819819819819,
+      "recall": 1.0,
+      "f1": 0.9909090909090909,
+      "n": 387
+    },
+    "explicit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n": 430
+    },
+    "implicit": {
+      "precision": 0.851063829787234,
+      "recall": 0.5755395683453237,
+      "f1": 0.6866952789699571,
+      "n": 428
+    },
+    "long_distance": {
+      "precision": 0.9936305732484076,
+      "recall": 1.0,
+      "f1": 0.9968051118210862,
+      "n": 466
+    }
+  },
+  "reject_accuracy_by_neg_type": {
+    "type_incompatible": {
+      "reject_accuracy": 0.9879759519038076,
+      "n": 499
+    },
+    "partial_overlap": {
+      "reject_accuracy": 0.9879518072289156,
+      "n": 498
+    },
+    "type_identical": {
+      "reject_accuracy": 0.9743589743589743,
+      "n": 195
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3799740059128725,
+      "val_acc": 0.9349397590361446
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1314588771030018,
+      "val_acc": 0.9716867469879518
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.07815895367625904,
+      "val_acc": 0.9716867469879518
+    }
+  ]
+}

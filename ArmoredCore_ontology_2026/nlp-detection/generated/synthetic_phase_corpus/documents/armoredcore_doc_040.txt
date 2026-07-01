@@ -1,0 +1,11 @@
+An entity is friendly towards another entity.
+The schema marks an armored core as special with a literal value.
+Each major event lists the entities that take part in it.
+Each character can be assigned a rank.
+Each character stores a buddy flag as a literal value.
+A character works for a society.
+Each society stores its official name as text.
+The schema records a major event chronological order as a literal value.
+A major event takes place in a place.
+A society records whether it originates on Rubicon as a literal value.
+A character kills another character.

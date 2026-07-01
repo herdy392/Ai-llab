@@ -1,0 +1,9 @@
+A disney antagonist is a kind of enemy.
+Every item use is also a action.
+Every organization is also a entity.
+A non consumable is a kind of items.
+Every boss is also a enemy.
+Every gems is also a consumable.
+A fight is won by a party.
+A protagonist is a kind of playable character.
+Often a entity can perform another action.

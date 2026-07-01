@@ -1,0 +1,11 @@
+Every keyblade is also a non consumable.
+Every nobody is also a enemy.
+Typically a entity defeats a given entity.
+Typically a recruitable ally has the secondary weapon a given secondary weapon.
+Often a entity owns the keyblade another keyblade.
+Every magic attack is also a combat action.
+Often a entity drops another items.
+A heartless is a kind of enemy.
+Typically a protagonist can summon a given summon.
+Every disney antagonist is also a enemy.
+A enemy is a kind of non playable character.

@@ -1,0 +1,10 @@
+A protagonist is a kind of playable character.
+Every sword attack is also a combat action.
+Typically a entity participates in a given party.
+A protagonist has the drive form a drive form.
+A enemy is a kind of non playable character.
+Typically a entity drops a given items.
+Each protagonist can summon a summon.
+A combat action is a kind of action.
+A recruitable ally is a kind of playable character.
+Every common nobody is also a nobody.

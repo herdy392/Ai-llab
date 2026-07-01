@@ -1,0 +1,1120 @@
+@prefix ex: <http://www.semanticweb.org/andrea/ontologies/2026/4/Kingdom_hearts_2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Hayner a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:comesFrom ex:TwilightTown ;
+    ex:description "Roxas&apos;s friend in Twilight Town, always looking for adventures." ;
+    ex:hasFriend ex:Olette,
+        ex:Pence,
+        ex:Roxas ;
+    ex:name "Hayner" .
+
+ex:Leon a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:description "Leader of the Hollow Bastion Restoration Committee, from Final Fantasy VIII." ;
+    ex:hasFriend ex:Merlin,
+        ex:Sora ;
+    ex:name "Leon" .
+
+ex:Naminé a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:comesFrom ex:CastleOblivion ;
+    ex:description "A special Nobody with the power to manipulate Sora&apos;s memories." ;
+    ex:hasFriend ex:Roxas ;
+    ex:name "Naminé" .
+
+ex:OutlawMoon a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Heartless,
+        ex:NonPlayableCharacter ;
+    ex:description "A Heartless that haunts the Port Royal world." ;
+    ex:drops ex:DarkGem ;
+    ex:name "OutlawMoon" .
+
+ex:PartyAxel a ex:Entity,
+        ex:Party ;
+    ex:description "Axel, sent by Organization XIII to retrieve or destroy Roxas." ;
+    ex:engagesInFight ex:FightRoxasVsAxel,
+        ex:FightSoraVsAxel ;
+    ex:hasPartyMember ex:Axel ;
+    ex:name "PartyAxel" .
+
+ex:PartyDemyx a ex:Entity,
+        ex:Party ;
+    ex:description "Demyx confronting Sora at Hollow Bastion with his water clones." ;
+    ex:engagesInFight ex:FightSoraVsDemyx ;
+    ex:hasPartyMember ex:Demyx ;
+    ex:name "PartyDemyx" .
+
+ex:PartyGhostPirate a ex:Entity,
+        ex:Party ;
+    ex:description "The Grim Reaper Heartless at Port Royal, protected by the Aztec curse." ;
+    ex:engagesInFight ex:FightSoraVsGhostPirate ;
+    ex:hasPartyMember ex:GhostPirate ;
+    ex:name "PartyGhostPirate" .
+
+ex:PartyGroundshaker a ex:Entity,
+        ex:Party ;
+    ex:description "The colossal Heartless Groundshaker rampaging through the Pride Lands." ;
+    ex:engagesInFight ex:FightSoraVsGroundshaker ;
+    ex:hasPartyMember ex:Groundshaker ;
+    ex:name "PartyGroundshaker" .
+
+ex:PartyLuxord a ex:Entity,
+        ex:Party ;
+    ex:description "Luxord challenging Sora to a deadly card game at The World That Never Was." ;
+    ex:engagesInFight ex:FightSoraVsLuxord ;
+    ex:hasPartyMember ex:Luxord ;
+    ex:name "PartyLuxord" .
+
+ex:PartyMulanDragon a ex:Entity,
+        ex:Party ;
+    ex:description "The Storm Rider Heartless dragon attacking the Imperial City in the Land of Dragons." ;
+    ex:engagesInFight ex:FightSoraVsMulanDragon ;
+    ex:hasPartyMember ex:MulanDragon ;
+    ex:name "PartyMulanDragon" .
+
+ex:PartySaix a ex:Entity,
+        ex:Party ;
+    ex:description "Saix, the Luna Diviner, empowered by Kingdom Hearts fighting Sora." ;
+    ex:engagesInFight ex:FightSoraVsSaix ;
+    ex:hasPartyMember ex:Saïx ;
+    ex:name "PartySaix" .
+
+ex:PartySephiroth a ex:Entity,
+        ex:Party ;
+    ex:description "Sephiroth, the secret optional boss at Radiant Garden." ;
+    ex:engagesInFight ex:FightSoraVsSephiroth ;
+    ex:hasPartyMember ex:Sephiroth ;
+    ex:name "PartySephiroth" .
+
+ex:PartyTwilightThorn a ex:Entity,
+        ex:Party ;
+    ex:description "The Twilight Thorn Nobody, first boss encountered by Roxas." ;
+    ex:engagesInFight ex:FightRoxasVsTwilightThorn ;
+    ex:hasPartyMember ex:TwilightThorn ;
+    ex:name "PartyTwilightThorn" .
+
+ex:PartyXaldin a ex:Entity,
+        ex:Party ;
+    ex:description "Xaldin, the Whirlwind Lancer, ambushing the heroes at Beast&apos;s Castle." ;
+    ex:engagesInFight ex:FightSoraVsXaldin ;
+    ex:hasPartyMember ex:Xaldin ;
+    ex:name "PartyXaldin" .
+
+ex:PartyXemnas a ex:Entity,
+        ex:Party ;
+    ex:description "Xemnas, Superior of Organization XIII, leader of the final confrontation." ;
+    ex:engagesInFight ex:FightSoraVsXemnas ;
+    ex:hasPartyMember ex:Xemnas ;
+    ex:name "PartyXemnas" .
+
+ex:PartyXemnasFinal a ex:Entity,
+        ex:Party ;
+    ex:description "Xemnas in his final armored form for the ultimate battle." ;
+    ex:engagesInFight ex:FightSoraRikuVsXemnasFinal ;
+    ex:hasPartyMember ex:XemnasFinalForm ;
+    ex:name "PartyXemnasFinal" .
+
+ex:PartyXigbar a ex:Entity,
+        ex:Party ;
+    ex:description "Xigbar, the Freeshooter, ambushing Sora at The World That Never Was." ;
+    ex:engagesInFight ex:FightSoraVsXigbar ;
+    ex:hasPartyMember ex:Xigbar ;
+    ex:name "PartyXigbar" .
+
+ex:2BecomeOne a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "A unique Keyblade that represents the bond between Sora and Roxas." ;
+    ex:name "2BecomeOne" .
+
+ex:AerialDodge a ex:Action,
+        ex:MovementAction ;
+    ex:description "A growth ability that allows performing a dash mid-air." ;
+    ex:name "AerialDodge" .
+
+ex:AerialRecovery a ex:Action,
+        ex:CombatAction ;
+    ex:description "A combat ability to quickly recover after being launched into the air." ;
+    ex:name "AerialRecovery" .
+
+ex:AntiFusion a ex:Action,
+        ex:DriveForm ;
+    ex:description "A dark and uncontrollable form of Sora born from overusing the power of Darkness." ;
+    ex:name "AntiFusion" .
+
+ex:ArmoredKnight a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Heartless,
+        ex:NonPlayableCharacter ;
+    ex:description "A small pureblood Heartless protected by armor." ;
+    ex:name "ArmoredKnight" .
+
+ex:Assassin a ex:Character,
+        ex:CommonNobody,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter ;
+    ex:description "A low-ranking Nobody, fast and stealthy." ;
+    ex:name "Assassin" .
+
+ex:Basic a ex:Character,
+        ex:CommonNobody,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter ;
+    ex:description "A basic-level Nobody." ;
+    ex:name "Basic" .
+
+ex:Blizzard a ex:Action,
+        ex:CombatAction,
+        ex:MagicAttack ;
+    ex:description "An elemental magic based on ice." ;
+    ex:element "Ice" ;
+    ex:name "Blizzard" .
+
+ex:BrightGem a ex:Consumable,
+        ex:Gems,
+        ex:Items ;
+    ex:description "A material used for item synthesis in the Moogle workshop." ;
+    ex:name "BrightGem" .
+
+ex:CircleOfLife a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "The Keyblade obtained in the Pride Lands, linked to the cycle of life." ;
+    ex:name "CircleOfLife" .
+
+ex:Cloud a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:description "A taciturn warrior searching for Sephiroth, from the Final Fantasy saga." ;
+    ex:name "Cloud" .
+
+ex:Cure a ex:Action,
+        ex:CombatAction,
+        ex:MagicAttack ;
+    ex:description "A healing magic capable of restoring health points." ;
+    ex:element "Light" ;
+    ex:name "Cure" .
+
+ex:Dancer a ex:Character,
+        ex:CommonNobody,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter ;
+    ex:description "A Nobody capable of performing agile and lethal movements, similar to a dancer." ;
+    ex:name "Dancer" .
+
+ex:DodgeRoll a ex:Action,
+        ex:MovementAction ;
+    ex:description "A fundamental growth ability for dodging attacks by rolling on the ground." ;
+    ex:name "DodgeRoll" .
+
+ex:Donald a ex:Character,
+        ex:Entity,
+        ex:PlayableCharacter,
+        ex:RecruitableAlly ;
+    ex:appearsIn ex:Agrabah,
+        ex:BeastCastle,
+        ex:CastleOblivion,
+        ex:DestinyIslands,
+        ex:DisneyCastle,
+        ex:HalloweenTown,
+        ex:LandOfDragons,
+        ex:PortRoyal,
+        ex:PrideLands,
+        ex:RadiantGarden,
+        ex:TimelessRiver,
+        ex:TwilightTown ;
+    ex:comesFrom ex:DisneyCastle ;
+    ex:description "Donald is the court mage and the most impulsive member of the group. In KH2 he is energetic, straightforward and often comically irritable, but deeply fond of his companions. Specialized in offensive and healing magic, he is the main magical support of the team. Despite his explosive temper, he shows enormous courage and unwavering dedication to the mission." ;
+    ex:hasAction ex:Scan,
+        ex:Thunder ;
+    ex:hasFriend ex:Goofy,
+        ex:KingMickey,
+        ex:Sora ;
+    ex:hasSecondaryWeapon ex:DonaldStaff ;
+    ex:name "Donald" .
+
+ex:DonaldStaff a ex:Items,
+        ex:NonConsumable,
+        ex:SecondaryWeapon ;
+    ex:description "The magical secondary weapon used by Donald." ;
+    ex:name "DonaldStaff" .
+
+ex:Elixir a ex:Consumable,
+        ex:Items ;
+    ex:description "A consumable item that fully restores a character&apos;s HP and MP." ;
+    ex:name "Elixir" .
+
+ex:Emergency a ex:Action,
+        ex:Support ;
+    ex:description "A support ability useful in critical situations." ;
+    ex:name "Emergency" .
+
+ex:Ether a ex:Consumable,
+        ex:Items ;
+    ex:description "A consumable item for recovering some MP." ;
+    ex:name "Ether" .
+
+ex:Fenrir a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "The powerful Keyblade gifted by Cloud after defeating Sephiroth." ;
+    ex:name "Fenrir" .
+
+ex:FinalForm a ex:Action,
+        ex:DriveForm ;
+    ex:description "Sora&apos;s ultimate Drive Form that unleashes the maximum power of light." ;
+    ex:name "FinalForm" .
+
+ex:Fire a ex:Action,
+        ex:CombatAction,
+        ex:MagicAttack ;
+    ex:description "An elemental magic based on fire." ;
+    ex:element "Fire" ;
+    ex:name "Fire" .
+
+ex:FollowTheWind a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "A fast and light Keyblade obtained after exploring Port Royal." ;
+    ex:name "FollowTheWind" .
+
+ex:Gambler a ex:Character,
+        ex:CommonNobody,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter ;
+    ex:description "A Nobody specializing in gambling and illusions." ;
+    ex:name "Gambler" .
+
+ex:Glide a ex:Action,
+        ex:MovementAction ;
+    ex:description "A growth ability that allows gliding for long distances." ;
+    ex:name "Glide" .
+
+ex:GoofyShield a ex:Items,
+        ex:NonConsumable,
+        ex:SecondaryWeapon ;
+    ex:description "The secondary weapon used by Goofy, excellent for both defense and attack." ;
+    ex:name "GoofyShield" .
+
+ex:Guard a ex:Action,
+        ex:CombatAction ;
+    ex:description "A fundamental combat ability for parrying frontal attacks." ;
+    ex:name "Guard" .
+
+ex:GuardBreak a ex:Action,
+        ex:CombatAction ;
+    ex:description "An ability to break the guard of blocking enemies." ;
+    ex:name "GuardBreak" .
+
+ex:HighJump a ex:Action,
+        ex:MovementAction ;
+    ex:description "A growth ability for jumping to great heights." ;
+    ex:name "HighJump" .
+
+ex:Kairi a ex:Character,
+        ex:Entity,
+        ex:PlayableCharacter,
+        ex:RecruitableAlly ;
+    ex:appearsIn ex:CastleOblivion,
+        ex:DestinyIslands ;
+    ex:comesFrom ex:DestinyIslands ;
+    ex:description "She lives on the Destiny Islands together with Sora and Riku, to whom she is deeply connected." ;
+    ex:hasFriend ex:Riku,
+        ex:Sora ;
+    ex:name "Kairi" ;
+    ex:ownsKeyblade ex:KingdomChain .
+
+ex:Larxene a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The ruthless &apos;Savage Nymph&apos;, member of Organization XIII who commands lightning." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Larxene" .
+
+ex:Lexaeus a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The Silent Hero of Organization XIII, a warrior of overwhelming strength." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Lexaeus" .
+
+ex:LimitForm a ex:Action,
+        ex:DriveForm ;
+    ex:description "Sora&apos;s Drive Form that allows him to use the iconic moves from the first Kingdom Hearts." ;
+    ex:name "LimitForm" .
+
+ex:LunarGem a ex:Consumable,
+        ex:Gems,
+        ex:Items ;
+    ex:description "A rare synthesis material infused with magical power." ;
+    ex:name "LunarGem" .
+
+ex:MPRage a ex:Action,
+        ex:Support ;
+    ex:description "A support ability that regenerates MP when taking damage." ;
+    ex:name "MPRage" .
+
+ex:Magnet a ex:Action,
+        ex:CombatAction,
+        ex:MagicAttack ;
+    ex:description "An elemental magic capable of pulling nearby enemies together." ;
+    ex:element "Neutral" ;
+    ex:name "Magnet" .
+
+ex:Marluxia a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The Graceful Assassin of Organization XIII, armed with a lethal scythe and floral illusions." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Marluxia" .
+
+ex:MasterForm a ex:Action,
+        ex:DriveForm ;
+    ex:description "Drive Form (Master Form) that masters two Keyblades with strong aerial magical and physical attacks." ;
+    ex:name "MasterForm" .
+
+ex:MegaElixir a ex:Consumable,
+        ex:Items ;
+    ex:description "A powerful consumable item that fully restores the entire party&apos;s HP and MP." ;
+    ex:name "MegaElixir" .
+
+ex:MegaEther a ex:Consumable,
+        ex:Items ;
+    ex:description "A consumable item that restores a large amount of MP." ;
+    ex:name "MegaEther" .
+
+ex:MegaPotion a ex:Consumable,
+        ex:Items ;
+    ex:description "A consumable item that restores a large amount of HP." ;
+    ex:name "MegaPotion" .
+
+ex:MemorySkyscraper a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:attackPower 6 ;
+    ex:description "A dark Keyblade symbolizing the memories linked to Riku." ;
+    ex:name "MemorySkyscraper" .
+
+ex:Merlin a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:appearsIn ex:TwilightTown ;
+    ex:comesFrom ex:DisneyCastle ;
+    ex:description "The powerful wizard who provides Sora with magical support and access to the Hundred Acre Wood." ;
+    ex:hasFriend ex:Cloud,
+        ex:Sora ;
+    ex:name "Merlin" .
+
+ex:Neoshadow a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Heartless,
+        ex:NonPlayableCharacter ;
+    ex:description "An advanced pureblood Heartless that moves in the shadows." ;
+    ex:name "Neoshadow" .
+
+ex:Organization rdfs:subClassOf ex:Entity .
+
+ex:PartySoraRiku a ex:Entity,
+        ex:Party ;
+    ex:description "Sora and Riku reunited for the final confrontation against Xemnas." ;
+    ex:engagesInFight ex:FightSoraRikuVsXemnasFinal ;
+    ex:hasPartyMember ex:Riku,
+        ex:Sora ;
+    ex:name "PartySoraRiku" .
+
+ex:Pence a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:appearsIn ex:TwilightTown ;
+    ex:comesFrom ex:TwilightTown ;
+    ex:description "Roxas&apos;s friend, a computer expert always searching for the city&apos;s mysteries." ;
+    ex:hasFriend ex:Olette,
+        ex:Roxas ;
+    ex:name "Pence" .
+
+ex:PhotonicDebugger a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "The Keyblade obtained in the world of Tron (Space Paranoids)." ;
+    ex:name "PhotonicDebugger" .
+
+ex:Reflect a ex:Action,
+        ex:CombatAction,
+        ex:MagicAttack ;
+    ex:description "Magic that allows reflecting incoming attacks." ;
+    ex:element "Neutral" ;
+    ex:name "Reflect" .
+
+ex:Saïx a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The seventh member of Organization XIII, uses a claymore and is empowered by the moon." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Saïx" .
+
+ex:SeagullWing a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "A Keyblade gifted by the three fairies (Yuna, Rikku and Paine) in Kingdom Hearts II." ;
+    ex:name "SeagullWing" .
+
+ex:SecondChance a ex:Action,
+        ex:Support ;
+    ex:description "An essential support ability that allows surviving a fatal blow with 1 HP remaining." ;
+    ex:name "SecondChance" .
+
+ex:Shadow a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Heartless,
+        ex:NonPlayableCharacter ;
+    ex:description "The most common and basic pureblood Heartless." ;
+    ex:drops ex:Potion ;
+    ex:name "Shadow" .
+
+ex:Sniper a ex:Character,
+        ex:CommonNobody,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter ;
+    ex:description "A Nobody capable of attacking at range by warping space, under Xigbar&apos;s orders." ;
+    ex:name "Sniper" .
+
+ex:SweetMemories a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "An optional Keyblade obtainable by exploring the Hundred Acre Wood." ;
+    ex:name "SweetMemories" .
+
+ex:UltimaWeapon a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:attackPower 10 ;
+    ex:description "The most powerful Keyblade in the entire game, forgeable in the workshop." ;
+    ex:name "UltimaWeapon" .
+
+ex:ValorForm a ex:Action,
+        ex:DriveForm ;
+    ex:description "Sora&apos;s first Drive Form, specializing in fast running and physical attacks." ;
+    ex:name "ValorForm" .
+
+ex:Vexen a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "Member of Organization XIII devoted to scientific research and master of ice." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Vexen" .
+
+ex:WayToDawn a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "Riku&apos;s Keyblade, born from the balance between Light and Darkness." ;
+    ex:name "WayToDawn" .
+
+ex:WisdomForm a ex:Action,
+        ex:DriveForm ;
+    ex:description "Sora&apos;s Drive Form specializing in long-range magical attacks." ;
+    ex:name "WisdomForm" .
+
+ex:YenSid a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:description "King Mickey&apos;s master, a powerful sorcerer who guides Sora on his journey." ;
+    ex:name "YenSid" .
+
+ex:Zexion a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The Cloaked Schemer of Organization XIII, master of illusions wielding his Lexicon." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Zexion" .
+
+ex:ComboPlus a ex:Action,
+        ex:CombatAction ;
+    ex:description "A combat ability that adds an extra hit to the combo." ;
+    ex:name "ComboPlus" .
+
+ex:DarkGem a ex:Consumable,
+        ex:Gems,
+        ex:Items ;
+    ex:description "A synthesis material linked to the forces of Darkness." ;
+    ex:name "DarkGem" .
+
+ex:Demyx a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "Member of Organization XIII who fights with a sitar and commands the element of water." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Demyx" .
+
+ex:FightRoxasVsAxel a ex:Fight ;
+    ex:description "Roxas dual-wielding Oathkeeper and Oblivion against Axel in the virtual Twilight Town. Roxas wins, ending the prologue." ;
+    ex:name "FightRoxasVsAxel" ;
+    ex:takesPlaceIn ex:TwilightTown ;
+    ex:winner ex:PartyRoxas .
+
+ex:FightRoxasVsTwilightThorn a ex:Fight ;
+    ex:description "Roxas&apos;s first battle against the giant Nobody Twilight Thorn in Twilight Town&apos;s Station of Serenity." ;
+    ex:name "FightRoxasVsTwilightThorn" ;
+    ex:takesPlaceIn ex:TwilightTown ;
+    ex:winner ex:PartyRoxas .
+
+ex:FightSoraRikuVsXemnasFinal a ex:Fight ;
+    ex:description "The epic final battle: Sora and Riku together defeat Xemnas in his ultimate armored form above the ruins of The World That Never Was, ending the threat of Organization XIII." ;
+    ex:name "FightSoraRikuVsXemnasFinal" ;
+    ex:takesPlaceIn ex:CastleOblivion ;
+    ex:winner ex:PartySoraRiku .
+
+ex:FightSoraVsAxel a ex:Fight ;
+    ex:description "Sora vs Axel at Hollow Bastion. Axel sacrifices himself to destroy the surrounding Nobodies, helping Sora survive." ;
+    ex:name "FightSoraVsAxel" ;
+    ex:takesPlaceIn ex:RadiantGarden ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsDemyx a ex:Fight ;
+    ex:description "Sora vs Demyx at Hollow Bastion. Sora must destroy Demyx&apos;s water clones within a time limit and wins." ;
+    ex:name "FightSoraVsDemyx" ;
+    ex:takesPlaceIn ex:RadiantGarden ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsGhostPirate a ex:Fight ;
+    ex:description "Sora and Jack Sparrow battle the cursed Grim Reaper Heartless at Port Royal harbour. Sora wins." ;
+    ex:name "FightSoraVsGhostPirate" ;
+    ex:takesPlaceIn ex:PortRoyal ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsGroundshaker a ex:Fight ;
+    ex:description "Sora and Simba defeat the colossal Heartless Groundshaker across the Pride Lands savanna." ;
+    ex:name "FightSoraVsGroundshaker" ;
+    ex:takesPlaceIn ex:PrideLands ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsLuxord a ex:Fight ;
+    ex:description "Sora vs Luxord&apos;s deadly time-limit card game at The World That Never Was. Sora wins." ;
+    ex:name "FightSoraVsLuxord" ;
+    ex:takesPlaceIn ex:CastleOblivion ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsMulanDragon a ex:Fight ;
+    ex:description "Sora and Mulan fight the Storm Rider dragon Heartless atop the Imperial City in the Land of Dragons." ;
+    ex:name "FightSoraVsMulanDragon" ;
+    ex:takesPlaceIn ex:LandOfDragons ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsSaix a ex:Fight ;
+    ex:description "Sora confronts Saix the Luna Diviner, empowered by Kingdom Hearts light, at The World That Never Was. Sora wins." ;
+    ex:name "FightSoraVsSaix" ;
+    ex:takesPlaceIn ex:CastleOblivion ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsSephiroth a ex:Fight ;
+    ex:description "Optional secret battle: Sora faces the legendary Sephiroth at Radiant Garden. An extremely difficult fight; Sora wins if the player is skilled enough." ;
+    ex:name "FightSoraVsSephiroth" ;
+    ex:takesPlaceIn ex:RadiantGarden ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsXaldin a ex:Fight ;
+    ex:description "Sora and Beast face Xaldin, the Whirlwind Lancer, at the gates of Beast&apos;s Castle. Sora wins." ;
+    ex:name "FightSoraVsXaldin" ;
+    ex:takesPlaceIn ex:BeastCastle ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsXemnas a ex:Fight ;
+    ex:description "Sora&apos;s first encounter with Xemnas at the top of Memory&apos;s Skyscraper. Sora wins with the help of Riku." ;
+    ex:name "FightSoraVsXemnas" ;
+    ex:takesPlaceIn ex:CastleOblivion ;
+    ex:winner ex:PartySora .
+
+ex:FightSoraVsXigbar a ex:Fight ;
+    ex:description "Sora vs Xigbar the Freeshooter in a warped-gravity arena at The World That Never Was. Sora wins." ;
+    ex:name "FightSoraVsXigbar" ;
+    ex:takesPlaceIn ex:CastleOblivion ;
+    ex:winner ex:PartySora .
+
+ex:GhostPirate a ex:Boss,
+        ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Heartless,
+        ex:NonPlayableCharacter ;
+    ex:description "A Port Royal boss trapped by the curse of the Aztec treasure." ;
+    ex:name "GhostPirate" .
+
+ex:Goofy a ex:Character,
+        ex:Entity,
+        ex:PlayableCharacter,
+        ex:RecruitableAlly ;
+    ex:appearsIn ex:Agrabah,
+        ex:BeastCastle,
+        ex:CastleOblivion,
+        ex:DestinyIslands,
+        ex:DisneyCastle,
+        ex:HalloweenTown,
+        ex:LandOfDragons,
+        ex:PortRoyal,
+        ex:PrideLands,
+        ex:RadiantGarden,
+        ex:TimelessRiver,
+        ex:TwilightTown ;
+    ex:comesFrom ex:DisneyCastle ;
+    ex:description "Goofy is the captain of the royal guard of Disney Castle and one of Sora&apos;s most faithful companions. In Kingdom Hearts II he retains his gentle, peaceful and surprisingly wise character, often more reflective than the others. He fights with a shield, which he uses both to protect his friends and to strike enemies. His absolute loyalty and pure heart make him a cornerstone of the trio." ;
+    ex:hasAction ex:ComboPlus,
+        ex:Scan ;
+    ex:hasFriend ex:KingMickey,
+        ex:Sora ;
+    ex:hasSecondaryWeapon ex:GoofyShield ;
+    ex:name "Goofy" .
+
+ex:Groundshaker a ex:Boss,
+        ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Heartless,
+        ex:NonPlayableCharacter ;
+    ex:description "A huge Heartless boss encountered in the Pride Lands." ;
+    ex:name "Groundshaker" .
+
+ex:KingMickey a ex:Character,
+        ex:Entity,
+        ex:PlayableCharacter,
+        ex:RecruitableAlly ;
+    ex:appearsIn ex:CastleOblivion,
+        ex:DestinyIslands ;
+    ex:comesFrom ex:DisneyCastle ;
+    ex:description "King Mickey, ruler of Disney Castle, will help Sora liberate the various worlds from darkness." ;
+    ex:hasFriend ex:Kairi,
+        ex:Riku,
+        ex:Sora,
+        ex:YenSid ;
+    ex:name "KingMickey" ;
+    ex:ownsKeyblade ex:StarSeeker .
+
+ex:LuckyCharm a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "A balanced-power Keyblade associated with Kairi&apos;s memories." ;
+    ex:name "LuckyCharm" .
+
+ex:Luxord a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "Member of Organization XIII, a strategist who fights using cards and time." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Luxord" .
+
+ex:MulanDragon a ex:Boss,
+        ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Heartless,
+        ex:NonPlayableCharacter ;
+    ex:description "The powerful dragon faced in the Land of Dragons world." ;
+    ex:name "MulanDragon" .
+
+ex:Olette a ex:Character,
+        ex:Entity,
+        ex:NPC,
+        ex:NonPlayableCharacter ;
+    ex:comesFrom ex:TwilightTown ;
+    ex:description "Roxas&apos;s friend in Twilight Town, considered the maternal figure of the group." ;
+    ex:hasFriend ex:Roxas ;
+    ex:name "Olette" .
+
+ex:PartyRoxas a ex:Entity,
+        ex:Party ;
+    ex:description "Roxas acting alone during the Twilight Town prologue." ;
+    ex:engagesInFight ex:FightRoxasVsAxel,
+        ex:FightRoxasVsTwilightThorn ;
+    ex:hasPartyMember ex:Roxas ;
+    ex:name "PartyRoxas" .
+
+ex:Potion a ex:Consumable,
+        ex:Items ;
+    ex:description "The basic consumable item for restoring some HP." ;
+    ex:name "Potion" .
+
+ex:Protagonist rdfs:subClassOf ex:PlayableCharacter .
+
+ex:SecondaryWeapon rdfs:subClassOf ex:NonConsumable .
+
+ex:Sephiroth a ex:Boss,
+        ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:NonPlayableCharacter ;
+    ex:appearsIn ex:RadiantGarden ;
+    ex:comesFrom ex:RadiantGarden ;
+    ex:description "An extremely powerful optional enemy originating from Final Fantasy VII." ;
+    ex:name "Sephiroth" .
+
+ex:StarSeeker a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:description "King Mickey&apos;s Keyblade, capable of making light shine." ;
+    ex:name "StarSeeker" .
+
+ex:Thunder a ex:Action,
+        ex:CombatAction,
+        ex:MagicAttack ;
+    ex:description "A powerful elemental magic that strikes from above with lightning." ;
+    ex:element "Lightning" ;
+    ex:name "Thunder" .
+
+ex:TwilightThorn a ex:Boss,
+        ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter ;
+    ex:description "A gigantic Nobody faced by Roxas as a rite of passage." ;
+    ex:name "TwilightThorn" .
+
+ex:Xaldin a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The third member of Organization XIII, master of wind armed with six lances." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Xaldin" .
+
+ex:Xemnas a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The Superior of Organization XIII, manipulator of nothingness and the final boss of the game." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Xemnas" .
+
+ex:XemnasFinalForm a ex:Boss,
+        ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The ultimate and all-powerful form of Xemnas before the final confrontation." ;
+    ex:name "XemnasFinalForm" .
+
+ex:Xigbar a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "The Freeshooter of Organization XIII, who warps space with his arrowguns." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Xigbar" .
+
+ex:Agrabah a ex:Worlds ;
+    ex:description "A desert city full of merchants, mysteries and magic." ;
+    ex:name "Agrabah" .
+
+ex:Gems rdfs:subClassOf ex:Consumable .
+
+ex:HalloweenTown a ex:Worlds ;
+    ex:description "Jack Skellington&apos;s world, full of gothic atmosphere and macabre creativity. Sora faces disguised Heartless and helps Jack with his eccentric plans, between Halloween and Christmas." ;
+    ex:name "HalloweenTown" .
+
+ex:KingdomChain a ex:Items,
+        ex:Keyblade,
+        ex:NonConsumable ;
+    ex:attackPower 3 ;
+    ex:description "Sora&apos;s default and most iconic Keyblade." ;
+    ex:name "KingdomChain" .
+
+ex:Riku a ex:Character,
+        ex:Entity,
+        ex:PlayableCharacter,
+        ex:RecruitableAlly ;
+    ex:appearsIn ex:CastleOblivion,
+        ex:DestinyIslands ;
+    ex:comesFrom ex:DestinyIslands ;
+    ex:description "Riku in KH2 is a character marked by his past: more mature, tormented and determined. After struggling against Darkness, he accepts the weight of his choices and fights in the shadows to protect Sora." ;
+    ex:hasFriend ex:Sora ;
+    ex:name "Riku" ;
+    ex:ownsKeyblade ex:WayToDawn .
+
+ex:Scan a ex:Action,
+        ex:CombatAction ;
+    ex:description "A fundamental ability that allows seeing the enemy&apos;s remaining HP." ;
+    ex:name "Scan" .
+
+ex:Support rdfs:subClassOf ex:Action .
+
+ex:TimelessRiver a ex:Worlds ;
+    ex:description "An ancient black-and-white version of Disney Castle. Sora discovers the castle&apos;s origins and faces threats trying to alter the past." ;
+    ex:name "TimelessRiver" .
+
+ex:Axel a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:Org13Member ;
+    ex:description "A member of Organization XIII linked to the element of fire and a great friend of Roxas." ;
+    ex:isMemberOf ex:Organization13 ;
+    ex:name "Axel" .
+
+ex:BeastCastle a ex:Worlds ;
+    ex:description "The dark and cursed castle where the Beast lives. Sora supports Belle and tries to free the castle from the influence of the Heartless and Organization XIII, while the Beast struggles with his own rage." ;
+    ex:name "BeastCastle" .
+
+ex:LandOfDragons a ex:Worlds ;
+    ex:description "Inspired by Mulan&apos;s China. Sora joins the imperial army to stop the Unversed and Heartless, helping Mulan prove her worth and protect the Emperor." ;
+    ex:name "LandOfDragons" .
+
+ex:MovementAction rdfs:subClassOf ex:Action .
+
+ex:PortRoyal a ex:Worlds ;
+    ex:description "A realistic world based on Pirates of the Caribbean. Sora collaborates with Jack Sparrow to fight cursed pirates and Heartless, in a darker and more adult setting." ;
+    ex:name "PortRoyal" .
+
+ex:PrideLands a ex:Worlds ;
+    ex:description "The Lion King world. Sora takes lion form and helps Simba reclaim the throne, facing Scar and the Heartless across vast plains and canyons." ;
+    ex:name "PrideLands" .
+
+ex:CommonNobody rdfs:subClassOf ex:Nobody .
+
+ex:RecruitableAlly rdfs:subClassOf ex:PlayableCharacter .
+
+ex:Boss rdfs:subClassOf ex:Enemy .
+
+ex:DriveForm rdfs:subClassOf ex:Action .
+
+ex:MagicAttack rdfs:subClassOf ex:CombatAction .
+
+ex:Roxas a ex:Character,
+        ex:Enemy,
+        ex:Entity,
+        ex:Nobody,
+        ex:NonPlayableCharacter,
+        ex:PlayableCharacter,
+        ex:Protagonist ;
+    ex:comesFrom ex:TwilightTown ;
+    ex:defeats ex:Axel,
+        ex:Basic,
+        ex:TwilightThorn ;
+    ex:description """Roxas is characterized by a calm, introverted and reflective temperament, very different from Sora&apos;s. Despite his nature as a Nobody, he shows a strong will and a genuine desire to understand who he truly is.
+
+Throughout the story, Roxas confronts his own identity, his bond with Sora and the fate that awaits him, becoming one of the most beloved and tragic characters in the saga.""" ;
+    ex:hasFriend ex:Axel ;
+    ex:hitPoints 50 ;
+    ex:name "Roxas" ;
+    ex:ownsKeyblade ex:KingdomChain,
+        ex:LuckyCharm,
+        ex:MemorySkyscraper .
+
+ex:DisneyCastle a ex:Worlds ;
+    ex:description "The royal home of Mickey, Donald and Goofy. Threatened by the Heartless, it becomes a key point to protect the Light and maintain balance between worlds." ;
+    ex:name "DisneyCastle" .
+
+ex:Heartless rdfs:subClassOf ex:Enemy .
+
+ex:NPC rdfs:subClassOf ex:NonPlayableCharacter .
+
+ex:RadiantGarden a ex:Worlds ;
+    ex:description "Once a stronghold of Darkness, now under reconstruction. It is the operational center of Sora&apos;s old friends and the stage for crucial battles against Heartless, Nobodies and Organization XIII." ;
+    ex:name "RadiantGarden" .
+
+ex:DestinyIslands a ex:Worlds ;
+    ex:description "The home world of Sora, Riku and Kairi. In KH2 it appears briefly as a memory and symbol of their bond, representing peace, childhood and the desire to return home." ;
+    ex:name "DestinyIslands" .
+
+ex:PlayableCharacter rdfs:subClassOf ex:Character .
+
+ex:Sora a ex:Character,
+        ex:Entity,
+        ex:PlayableCharacter,
+        ex:Protagonist ;
+    ex:appearsIn ex:Agrabah,
+        ex:BeastCastle,
+        ex:CastleOblivion,
+        ex:DestinyIslands,
+        ex:DisneyCastle,
+        ex:HalloweenTown,
+        ex:LandOfDragons,
+        ex:PortRoyal,
+        ex:PrideLands,
+        ex:RadiantGarden,
+        ex:TimelessRiver,
+        ex:TwilightTown ;
+    ex:comesFrom ex:DestinyIslands ;
+    ex:defeats ex:ArmoredKnight,
+        ex:Assassin,
+        ex:Axel,
+        ex:Dancer,
+        ex:Demyx,
+        ex:Gambler,
+        ex:GhostPirate,
+        ex:Groundshaker,
+        ex:Larxene,
+        ex:Lexaeus,
+        ex:Luxord,
+        ex:Marluxia,
+        ex:MulanDragon,
+        ex:Neoshadow,
+        ex:Roxas,
+        ex:Sephiroth,
+        ex:Shadow,
+        ex:Sniper,
+        ex:Vexen,
+        ex:Xaldin,
+        ex:Xemnas,
+        ex:XemnasFinalForm,
+        ex:Xigbar,
+        ex:Zexion ;
+    ex:description """Sora is the main protagonist of the Kingdom Hearts series. In Kingdom Hearts II he returns after sleeping in the pod created by Naminé.
+Sora is an optimistic, courageous boy deeply connected to his friends, qualities that guide every choice he makes.""" ;
+    ex:hasAction ex:AerialDodge,
+        ex:AerialRecovery,
+        ex:Blizzard,
+        ex:ComboPlus,
+        ex:Cure,
+        ex:DodgeRoll,
+        ex:Emergency,
+        ex:Fire,
+        ex:Glide,
+        ex:Guard,
+        ex:GuardBreak,
+        ex:HighJump,
+        ex:MPRage,
+        ex:Magnet,
+        ex:Reflect,
+        ex:Scan,
+        ex:SecondChance,
+        ex:Thunder ;
+    ex:hasDriveForm ex:AntiFusion,
+        ex:FinalForm,
+        ex:LimitForm,
+        ex:MasterForm,
+        ex:ValorForm,
+        ex:WisdomForm ;
+    ex:hasInInventory ex:BrightGem,
+        ex:DarkGem,
+        ex:Elixir,
+        ex:Ether,
+        ex:LunarGem,
+        ex:MegaElixir,
+        ex:MegaEther,
+        ex:MegaPotion,
+        ex:Potion ;
+    ex:hitPoints 150 ;
+    ex:name "Sora" ;
+    ex:ownsKeyblade ex:2BecomeOne,
+        ex:CircleOfLife,
+        ex:Fenrir,
+        ex:FollowTheWind,
+        ex:KingdomChain,
+        ex:LuckyCharm,
+        ex:PhotonicDebugger,
+        ex:SeagullWing,
+        ex:StarSeeker,
+        ex:SweetMemories,
+        ex:UltimaWeapon .
+
+ex:Consumable rdfs:subClassOf ex:Items .
+
+ex:PartySora a ex:Entity,
+        ex:Party ;
+    ex:description "The main party: Sora, Donald and Goofy, travelling together across all worlds." ;
+    ex:engagesInFight ex:FightSoraVsAxel,
+        ex:FightSoraVsDemyx,
+        ex:FightSoraVsGhostPirate,
+        ex:FightSoraVsGroundshaker,
+        ex:FightSoraVsLuxord,
+        ex:FightSoraVsMulanDragon,
+        ex:FightSoraVsSaix,
+        ex:FightSoraVsSephiroth,
+        ex:FightSoraVsXaldin,
+        ex:FightSoraVsXemnas,
+        ex:FightSoraVsXigbar ;
+    ex:hasPartyMember ex:Donald,
+        ex:Goofy,
+        ex:Sora ;
+    ex:name "PartySora" .
+
+ex:TwilightTown a ex:Worlds ;
+    ex:description "A city suspended between light and shadow. It is the place tied to Roxas, the Nobodies and the mysteries of Organization XIII. It serves as a fundamental narrative crossroads for KH2." ;
+    ex:name "TwilightTown" .
+
+ex:CastleOblivion a ex:Worlds ;
+    ex:description "A mysterious place where memories are manipulated. In KH2 it appears as an echo of past events, linked to Naminé, the Nobodies and the past of Sora and Roxas." ;
+    ex:name "CastleOblivion" .
+
+ex:CombatAction rdfs:subClassOf ex:Action .
+
+ex:Organization13 a ex:Entity,
+        ex:Organization ;
+    ex:description "A secret group composed of powerful Nobodies led by Xemnas." ;
+    ex:name "Organization13" .
+
+ex:Keyblade rdfs:subClassOf ex:NonConsumable .
+
+ex:Org13Member rdfs:subClassOf ex:Nobody .
+
+ex:Party rdfs:subClassOf ex:Entity .
+
+ex:NonConsumable rdfs:subClassOf ex:Items .
+
+ex:Nobody rdfs:subClassOf ex:Enemy .
+
+ex:Enemy rdfs:subClassOf ex:NonPlayableCharacter .
+
+ex:NonPlayableCharacter rdfs:subClassOf ex:Character .
+
+ex:Character rdfs:subClassOf ex:Entity .
+

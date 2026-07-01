@@ -1,0 +1,12 @@
+Each character can be affiliated with a society.
+Each character record links to the aliases they use.
+The model states that a major event involves an entity.
+The schema records a major event chronological order as a literal value.
+The schema records that an entity participates in a major event.
+Each major event can be led by a boss.
+In the schema, every character is an entity.
+Each armored core stores a special flag as a literal value.
+Allies are entities friendly towards each other.
+The schema records a society name as a literal value.
+A society records whether it originates on Rubicon as a literal value.
+Each armored core is operated by a character.

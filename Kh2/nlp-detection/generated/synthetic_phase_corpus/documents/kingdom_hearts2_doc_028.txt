@@ -1,0 +1,9 @@
+A non playable character is a kind of character.
+Every item use is also a action.
+Every consumable is also a items.
+A nobody is a kind of enemy.
+A sword attack is a kind of combat action.
+A keyblade is a kind of non consumable.
+A playable character is a kind of character.
+Typically a protagonist has in the inventory a given items.
+A secondary weapon is a kind of non consumable.

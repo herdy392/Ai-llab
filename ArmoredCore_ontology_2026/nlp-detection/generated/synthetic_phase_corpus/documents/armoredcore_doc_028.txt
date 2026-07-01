@@ -1,0 +1,9 @@
+The schema records that a major event takes place in a place.
+Every major event involves one or more entities.
+Each character can be assigned a rank.
+An entity is hostile toward another entity.
+The schema marks an armored core as special with a literal value.
+The schema marks a society Rubicon origin with a literal value.
+A character can be known by one or more aliases.
+The schema records that a character pilots an armored core.
+The schema records that a character kills a character.

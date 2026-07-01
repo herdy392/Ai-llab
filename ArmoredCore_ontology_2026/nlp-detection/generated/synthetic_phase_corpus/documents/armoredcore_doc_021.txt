@@ -1,0 +1,12 @@
+An alias is an alias of a character.
+Each society stores an origin-on-Rubicon flag as a literal value.
+The schema records that an entity is friendly towards an entity.
+Each character can be assigned a rank.
+Every society can employ characters.
+The schema records that an entity participates in a major event.
+In the schema, every Rubiconian is a character.
+The schema records a society name as a literal value.
+In the schema, a character has an alias.
+A character records whether it is the player buddy as a literal value.
+The schema records that a boss is boss of a major event.
+Each character can be affiliated with a society.

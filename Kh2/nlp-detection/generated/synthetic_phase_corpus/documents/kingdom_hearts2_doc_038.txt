@@ -1,0 +1,12 @@
+Every sword attack is also a combat action.
+A party is a kind of entity.
+Often a entity is friends with another entity.
+Every character is also a entity.
+Every secondary weapon is also a non consumable.
+A enemy is a kind of non playable character.
+Every npc is also a non playable character.
+A entity has hit points value.
+Each keyblade records its attack power.
+Every disney antagonist is also a enemy.
+A organization is a kind of entity.
+Typically a org13 member is a member of a given organization.

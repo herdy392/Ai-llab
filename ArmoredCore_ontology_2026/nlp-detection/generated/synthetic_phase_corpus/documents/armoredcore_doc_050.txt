@@ -1,0 +1,9 @@
+An entity is hostile toward another entity.
+The model states that a place hosts a major event.
+The schema records that a major event takes place in a place.
+Each character can be affiliated with a society.
+Each society stores its official name as text.
+Each character record links to the aliases they use.
+Each character stores a buddy flag as a literal value.
+The schema marks an armored core as special with a literal value.
+The record notes when one character kills another.

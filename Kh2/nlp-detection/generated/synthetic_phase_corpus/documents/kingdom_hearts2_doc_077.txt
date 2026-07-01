@@ -1,0 +1,12 @@
+A common nobody is a kind of nobody.
+Often a entity can perform another action.
+A protagonist is a kind of playable character.
+Every party is also a entity.
+Often a entity comes from another worlds.
+Every drive form is also a action.
+Each protagonist has in the inventory a items.
+Every recruitable ally is also a playable character.
+A potion is a kind of consumable.
+A org13 member is a kind of nobody.
+A keyblade is a kind of non consumable.
+A keyblade has attack power value.

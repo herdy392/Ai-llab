@@ -1,0 +1,11 @@
+A playable character is a kind of character.
+Every munny is also a consumable.
+Every combat action is also a action.
+In general a fight is won by some party.
+Every gems is also a consumable.
+A consumable is a kind of items.
+In general a entity is friends with some entity.
+In general a protagonist has in the inventory some items.
+A entity drops a items.
+Every organization is also a entity.
+A movement action is a kind of action.

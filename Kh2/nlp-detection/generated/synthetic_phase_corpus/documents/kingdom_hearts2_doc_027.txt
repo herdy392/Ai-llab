@@ -1,0 +1,11 @@
+Every consumable is also a items.
+Every playable character is also a character.
+A entity appears in a worlds.
+A entity owns the keyblade a keyblade.
+A keyblade has attack power value.
+A party engages in the fight a fight.
+A potion is a kind of consumable.
+A combat action is a kind of action.
+Every movement action is also a action.
+In general a entity participates in some party.
+Often a entity defeats another entity.

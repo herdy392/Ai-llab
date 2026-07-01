@@ -1,0 +1,10 @@
+Often a entity comes from another worlds.
+A party engages in the fight a fight.
+Every nobody is also a enemy.
+Every common nobody is also a nobody.
+A entity owns the keyblade a keyblade.
+A recruitable ally is a kind of playable character.
+A combat action is a kind of action.
+Each fight takes place in a worlds.
+A consumable is a kind of items.
+A non consumable is a kind of items.

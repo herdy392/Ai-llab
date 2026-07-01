@@ -1,0 +1,134 @@
+{
+  "model": "roberta-base",
+  "slug": "roberta-base",
+  "arch": "encoder",
+  "labels": [
+    "INVALID",
+    "VALID"
+  ],
+  "best_val_acc": 0.9241534988713318,
+  "test_accuracy": 0.9269183922046285,
+  "precision": 0.979498861047836,
+  "recall": 0.7948243992606284,
+  "f1": 0.8775510204081632,
+  "throughput_examples_per_sec": 344.1661119212409,
+  "train_seconds": 365.1680700999859,
+  "device": "GPU x1 (NVIDIA GeForce RTX 2060)",
+  "confusion_matrix": [
+    [
+      1092,
+      9
+    ],
+    [
+      111,
+      430
+    ]
+  ],
+  "per_split": {
+    "test": {
+      "accuracy": 0.9269183922046285,
+      "precision": 0.979498861047836,
+      "recall": 0.7948243992606284,
+      "f1": 0.8775510204081632,
+      "confusion_matrix": [
+        [
+          1092,
+          9
+        ],
+        [
+          111,
+          430
+        ]
+      ]
+    },
+    "train": {
+      "accuracy": 0.9955357142857143,
+      "precision": 0.9980687524140595,
+      "recall": 0.9881453154875717,
+      "f1": 0.9930822444273636,
+      "confusion_matrix": [
+        [
+          5444,
+          5
+        ],
+        [
+          31,
+          2584
+        ]
+      ]
+    },
+    "val": {
+      "accuracy": 0.9033860045146727,
+      "precision": 0.9825436408977556,
+      "recall": 0.7975708502024291,
+      "f1": 0.8804469273743016,
+      "confusion_matrix": [
+        [
+          1213,
+          14
+        ],
+        [
+          200,
+          788
+        ]
+      ]
+    }
+  },
+  "f1_by_complexity_tier": {
+    "long_distance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n": 474
+    },
+    "nested": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n": 442
+    },
+    "explicit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n": 403
+    },
+    "implicit": {
+      "precision": 0.75,
+      "recall": 0.1956521739130435,
+      "f1": 0.3103448275862069,
+      "n": 323
+    }
+  },
+  "reject_accuracy_by_neg_type": {
+    "type_incompatible": {
+      "reject_accuracy": 0.9931153184165232,
+      "n": 581
+    },
+    "partial_overlap": {
+      "reject_accuracy": 0.9886363636363636,
+      "n": 440
+    },
+    "type_identical": {
+      "reject_accuracy": 1.0,
+      "n": 80
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2829766433320141,
+      "val_acc": 0.9241534988713318
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.05745762475184858,
+      "val_acc": 0.909706546275395
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.023486838511604536,
+      "val_acc": 0.9033860045146727
+    }
+  ]
+}

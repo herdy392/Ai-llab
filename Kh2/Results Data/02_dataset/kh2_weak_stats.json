@@ -1,0 +1,61 @@
+{
+  "sentences": 574,
+  "sentences_with_mentions": 305,
+  "sentences_with_candidate_relations": 254,
+  "relation_candidate_rows": 254,
+  "ner_rows": 574,
+  "split_distribution": {
+    "train": 412,
+    "test": 81,
+    "val": 81
+  },
+  "mention_kind_distribution": {
+    "class": 44,
+    "object_property": 266,
+    "individual": 506
+  },
+  "weak_signal_distribution": {
+    "property_with_grounded_domain_and_range": 254
+  },
+  "candidate_relation_distribution": {
+    "engagesInFight": 28,
+    "hasAction": 22,
+    "hasInInventory": 9,
+    "hasPartyMember": 19,
+    "isMemberOf": 12,
+    "appearsIn": 45,
+    "comesFrom": 13,
+    "winner": 14,
+    "takesPlaceIn": 14,
+    "hasFriend": 24,
+    "ownsKeyblade": 17,
+    "defeats": 27,
+    "drops": 2,
+    "hasSecondaryWeapon": 2,
+    "hasDriveForm": 6
+  },
+  "ner_labels": [
+    "B-Action",
+    "B-Character",
+    "B-DriveForm",
+    "B-Enemy",
+    "B-Fight",
+    "B-Items",
+    "B-Keyblade",
+    "B-Organization",
+    "B-Party",
+    "B-SecondaryWeapon",
+    "B-Worlds",
+    "I-Action",
+    "I-Character",
+    "I-DriveForm",
+    "I-Enemy",
+    "I-Fight",
+    "I-Items",
+    "I-Keyblade",
+    "I-Party",
+    "I-SecondaryWeapon",
+    "I-Worlds",
+    "O"
+  ]
+}

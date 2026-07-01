@@ -1,0 +1,9 @@
+PREFIX kh: <http://www.semanticweb.org/andrea/ontologies/2026/4/Kingdom_hearts_2#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Q1 - FILTER: pairs of entities that are friends, dropping self-loops
+SELECT ?a ?b WHERE {
+  ?a kh:hasFriend ?b .
+  FILTER (?a != ?b)
+}
+ORDER BY ?a ?b

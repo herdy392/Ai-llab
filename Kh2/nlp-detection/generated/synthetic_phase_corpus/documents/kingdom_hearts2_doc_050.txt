@@ -1,0 +1,10 @@
+Every playable character is also a character.
+Each keyblade records its attack power.
+Every secondary weapon is also a non consumable.
+Each entity owns the keyblade a keyblade.
+Every keyblade is also a non consumable.
+Typically a entity defeats a given entity.
+Every organization is also a entity.
+In general a entity participates in some party.
+Every org13 member is also a nobody.
+A summon is a kind of action.

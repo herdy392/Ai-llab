@@ -1,0 +1,12 @@
+A protagonist is a kind of playable character.
+Every magic attack is also a combat action.
+A item use is a kind of action.
+A entity comes from a worlds.
+Every organization is also a entity.
+Often a party has as party member another entity.
+A org13 member is a kind of nobody.
+Each party engages in the fight a fight.
+Every support is also a action.
+Every munny is also a consumable.
+Every combat action is also a action.
+A party is a kind of entity.

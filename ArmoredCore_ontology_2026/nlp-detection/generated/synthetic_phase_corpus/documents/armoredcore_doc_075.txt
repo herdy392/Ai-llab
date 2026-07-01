@@ -1,0 +1,9 @@
+A character can be known by one or more aliases.
+The schema records that an entity is friendly towards an entity.
+A character records whether it is the player buddy as a literal value.
+Each major event can be led by a boss.
+A society has a name stored as a literal value.
+An armored core records whether it is special as a literal value.
+The schema gives a character a rank.
+The schema records that a character works for a society.
+Each major event is located in a place on Rubicon 3.

@@ -1,0 +1,9 @@
+An armored core records whether it is special as a literal value.
+Each character can be affiliated with a society.
+The schema records a major event chronological order as a literal value.
+An armored core has a name stored as a literal value.
+An entity is friendly towards another entity.
+A character pilots an armored core.
+An armored core is piloted by a character.
+A character records whether it is the player buddy as a literal value.
+Each major event is located in a place on Rubicon 3.

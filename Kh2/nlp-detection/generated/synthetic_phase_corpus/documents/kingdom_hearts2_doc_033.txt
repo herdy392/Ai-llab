@@ -1,0 +1,11 @@
+Every item use is also a action.
+A gems is a kind of consumable.
+Often a protagonist can summon another summon.
+A protagonist is a kind of playable character.
+A party engages in the fight a fight.
+Typically a fight takes place in a given worlds.
+Every potion is also a consumable.
+A enemy is a kind of non playable character.
+A entity comes from a worlds.
+Every boss is also a enemy.
+Every consumable is also a items.

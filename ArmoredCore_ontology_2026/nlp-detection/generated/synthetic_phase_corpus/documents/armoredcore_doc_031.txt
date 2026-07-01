@@ -1,0 +1,11 @@
+A major event takes place in a place.
+An entity is hostile toward another entity.
+A society records whether it originates on Rubicon as a literal value.
+A character pilots an armored core.
+Each character stores a buddy flag as a literal value.
+Every society can employ characters.
+Each society stores its official name as text.
+Each major event can be led by a boss.
+A character is killed by another character.
+An armored core records whether it is special as a literal value.
+The model records that an alias belongs to a character.
